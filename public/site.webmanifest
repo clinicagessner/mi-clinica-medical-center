@@ -1,0 +1,21 @@
+{
+  "name": "Clínica Hispana Nueva Salud Gessner",
+  "short_name": "Nueva Salud",
+  "description": "Clínica hispana en Houston TX. Atención médica 100% en español.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16A34A",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

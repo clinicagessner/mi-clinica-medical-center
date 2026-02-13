@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "title": "Clínica Hispana Cerca de Ti en Houston | Ginecología en Español",
+    "titleTemplate": "%s | Clínica Hispana Houston",
+    "description": "Clínica hispana cerca de ti en Houston. Ginecólogos que hablan español, exámenes médicos de inmigración, ultrasonidos de embarazo. Clínica familiar hispana. Llama: +1 (346) 226-5820",
+    "ogDescription": "Clínica hispana cerca de ti en Houston. Ginecólogos que hablan español, exámenes médicos de inmigración, ultrasonidos de embarazo. Clínica familiar hispana con opciones gratuitas. Abierto domingos."
+  },
+  "common": {
+    "callNow": "Llamar Ahora",
+    "location": "Ubicación",
+    "call": "Llamar",
+    "schedule": "Agendar Cita",
+    "viewServices": "Ver Servicios",
+    "viewAllServices": "Ver Todos los Servicios",
+    "learnMore": "Saber Más",
+    "close": "Cerrar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "nav": {
+    "services": "Servicios",
+    "greenCard": "Green Card",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge1": "Sin Cita Previa",
+    "badge2": "Abierto 7 Días",
+    "badge3": "USCIS Autorizado",
+    "title": "Clínica Hispana",
+    "titleHighlight": "Cerca de Ti",
+    "titleEnd": "en Houston",
+    "description": "Atención médica de calidad 100% en español. Exámenes de inmigración I-693, ginecología, ultrasonidos y más. Doctores que hablan tu idioma."
+  },
+  "services": {
+    "title": "Servicios Destacados en Nuestra",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Atención médica de calidad 100% en español. Exámenes de inmigración, ultrasonidos y control de enfermedades crónicas con doctores que hablan tu idioma.",
+    "uscisAuthorized": "USCIS Autorizado",
+    "featured": "Destacado",
+    "seoText": "La clínica hispana Clínica Hispana Nueva Salud Gessner ofrece una amplia variedad de servicios médicos en español. Ultrasonidos, laboratorio clínico, y opciones económicas para familias sin seguro. Abiertos los domingos."
+  },
+  "servicesPage": {
+    "title": "Servicios Médicos",
+    "titleHighlight": "en Español",
+    "description": "Ofrecemos una amplia gama de servicios médicos con atención 100% en español. Encuentra el servicio que necesitas.",
+    "badge": "18+ Servicios",
+    "allServices": "Todos los Servicios",
+    "filterAll": "Todos",
+    "searchPlaceholder": "Buscar servicio...",
+    "noResults": "No se encontraron servicios",
+    "tryAgain": "Intenta con otra búsqueda",
+    "ctaTitle": "¿Necesitas Atención Médica?",
+    "ctaDescription": "Estamos aquí para ayudarte. Llámanos o visítanos hoy mismo.",
+    "seoText": "Clínica Hispana Nueva Salud Gessner ofrece servicios médicos completos en español en Houston, TX. Desde exámenes de inmigración hasta atención de enfermedades crónicas, nuestro equipo está listo para atenderte."
+  },
+  "serviceDetail": {
+    "aboutService": "Sobre este servicio",
+    "includes": "¿Qué incluye?",
+    "additionalInfo": "Atención 100% en español • Sin cita previa • Abierto 7 días"
+  },
+  "greenCard": {
+    "badge": "Autorizado por USCIS",
+    "title": "Exámenes Médicos de",
+    "titleHighlight": "Inmigración I-693",
+    "description": "Somos una clínica hispana autorizada por USCIS con Civil Surgeons certificados. Completa tu examen médico de inmigración para tu Green Card de manera rápida, confiable y 100% en español.",
+    "step1Title": "Agenda tu Cita",
+    "step1Desc": "Llámanos o visítanos sin cita previa",
+    "step2Title": "Examen Médico",
+    "step2Desc": "Evaluación completa con Civil Surgeon certificado",
+    "step3Title": "Vacunas Requeridas",
+    "step3Desc": "Verificamos y aplicamos vacunas necesarias",
+    "step4Title": "Pruebas de Laboratorio",
+    "step4Desc": "Análisis de sangre y pruebas requeridas",
+    "step5Title": "Formulario I-693",
+    "step5Desc": "Recibe tu formulario sellado y firmado",
+    "feature1": "Civil Surgeon Certificado",
+    "feature2": "Resultados Rápidos",
+    "feature3": "100% en Español",
+    "feature4": "Precios Accesibles",
+    "seoText": "Clínica Hispana Nueva Salud Gessner es tu clínica hispana autorizada por USCIS para exámenes médicos de inmigración I-693 en Houston. Nuestros Civil Surgeons certificados te ayudan con tu proceso de Green Card de manera rápida y en español."
+  },
+  "promotions": {
+    "title": "Promociones de la",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Aprovecha nuestros precios especiales en servicios médicos. Atención de calidad a precios accesibles para toda la familia.",
+    "seoText": "La clínica hispana Clínica Hispana Nueva Salud Gessner tiene promociones especiales en servicios médicos para la comunidad hispana de Houston. Precios accesibles en ultrasonidos, exámenes y consultas."
+  },
+  "contact": {
+    "title": "Agenda tu Cita en Nuestra",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Completa el formulario y te contactaremos pronto. También puedes llamarnos directamente o visitarnos sin cita previa.",
+    "infoTitle": "¿Por qué elegir nuestra clínica hispana?",
+    "benefit1": "Atención 100% en español",
+    "benefit2": "Aceptamos pacientes sin cita",
+    "benefit3": "Precios accesibles",
+    "benefit4": "Abiertos 7 días a la semana",
+    "hoursLabel": "Horario",
+    "addressLabel": "Dirección",
+    "seoText": "Contacta a la clínica hispana Clínica Hispana Nueva Salud Gessner en Houston para agendar tu cita médica. Atención en español, sin cita previa y precios accesibles para toda la familia."
+  },
+  "contactForm": {
+    "title": "Solicita tu Cita",
+    "nameLabel": "Nombre Completo",
+    "namePlaceholder": "Tu nombre",
+    "phoneLabel": "Teléfono",
+    "phonePlaceholder": "(123) 456-7890",
+    "emailLabel": "Correo Electrónico (opcional)",
+    "emailPlaceholder": "tu@email.com",
+    "serviceLabel": "Servicio de Interés",
+    "servicePlaceholder": "Selecciona un servicio",
+    "messageLabel": "Mensaje (opcional)",
+    "messagePlaceholder": "¿En qué podemos ayudarte?",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "successTitle": "¡Solicitud Enviada!",
+    "successMessage": "Nos pondremos en contacto contigo pronto.",
+    "errorTitle": "Error",
+    "errorMessage": "Hubo un problema al enviar tu solicitud. Intenta de nuevo."
+  },
+  "location": {
+    "title": "Clínica Hispana Cerca de Ti en",
+    "titleHighlight": "Houston",
+    "description": "Visita nuestra clínica hispana Clínica Hispana Nueva Salud Gessner en Houston, TX. Estamos ubicados en un lugar conveniente con fácil acceso y estacionamiento gratuito.",
+    "addressTitle": "Dirección",
+    "phoneTitle": "Teléfono",
+    "hoursTitle": "Horario",
+    "openNow": "Abierto ahora - 7 días a la semana",
+    "viewOnMaps": "Ver en Google Maps",
+    "callClinic": "Llama ahora a la clínica hispana",
+    "facilitiesTitle": "Facilidades de la Clínica Hispana",
+    "howToGet": "Cómo Llegar a la Clínica Hispana",
+    "seoText": "La clínica hispana Clínica Hispana Nueva Salud Gessner está ubicada en 1914 Gessner Rd B, Houston, TX 77080. Nuestra clínica hispana es fácil de encontrar y cuenta con amplio estacionamiento gratuito para todos nuestros pacientes de la comunidad hispana de Houston."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes sobre la",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Encuentra respuestas a las preguntas más comunes sobre nuestra clínica hispana Clínica Hispana Nueva Salud Gessner en Houston, TX.",
+    "moreQuestions": "¿Tienes más preguntas sobre nuestra clínica hispana? Contáctanos ahora.",
+    "callButton": "Llamar a la Clínica Hispana",
+    "seoText": "Clínica Hispana Nueva Salud Gessner es la clínica hispana que responde todas tus preguntas en español. Nuestra clínica hispana en Houston está comprometida con brindar información clara y transparente a la comunidad latina."
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros",
+    "titleHighlight": "Pacientes",
+    "description": "Conoce las experiencias de quienes han confiado en nuestra clínica hispana para su atención médica.",
+    "reviewsOn": "reseñas en",
+    "basedOn": "Basado en",
+    "seoText": "Lee las reseñas de pacientes satisfechos de la clínica hispana Clínica Hispana Nueva Salud Gessner en Houston. Nuestra comunidad hispana confía en nosotros para su atención médica."
+  },
+  "trustBadges": {
+    "seoText": "Clínica Hispana Nueva Salud Gessner es la clínica hispana de confianza para la comunidad latina en Houston. Nuestra clínica hispana ofrece atención médica completa con personal que habla español."
+  },
+  "footer": {
+    "description": "Clínica Hispana Nueva Salud Gessner es tu clínica hispana de confianza en Houston, TX. Ofrecemos atención médica profesional 100% en español para toda la comunidad hispana.",
+    "contactTitle": "Contacto",
+    "quickLinksTitle": "Enlaces Rápidos",
+    "followUsTitle": "Síguenos",
+    "copyright": "Todos los derechos reservados.",
+    "tagline": "Clínica Hispana en Houston, TX | Atención Médica en Español",
+    "createdBy": "Creado por",
+    "seoText": "Visita nuestra clínica hispana en Houston para recibir atención médica de calidad. Somos la clínica hispana autorizada por USCIS para exámenes de Green Card I-693."
+  },
+  "errors": {
+    "notFoundTitle": "Página No Encontrada",
+    "notFoundDescription": "Lo sentimos, la página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al Inicio",
+    "errorTitle": "Algo salió mal",
+    "errorDescription": "Lo sentimos, ha ocurrido un error inesperado.",
+    "tryAgain": "Intentar de nuevo"
+  },
+  "validation": {
+    "nameRequired": "El nombre es requerido",
+    "nameMin": "El nombre debe tener al menos 2 caracteres",
+    "phoneRequired": "El teléfono es requerido",
+    "phoneInvalid": "Ingresa un número de teléfono válido",
+    "emailInvalid": "Ingresa un correo electrónico válido",
+    "serviceRequired": "Selecciona un servicio",
+    "messageMax": "El mensaje no puede exceder 500 caracteres"
+  },
+  "categories": {
+    "especialidad": "Enfermedades Crónicas",
+    "diagnostico": "Diagnóstico",
+    "mujer": "Salud de la Mujer",
+    "especial": "Servicios Especiales",
+    "otro": "Tratamientos"
+  },
+  "accessibility": {
+    "callClinic": "Llamar a la clínica",
+    "viewLocation": "Ver ubicación en Google Maps",
+    "followInstagram": "Seguir a Clínica Hispana Nueva Salud Gessner en Instagram",
+    "followFacebook": "Seguir a Clínica Hispana Nueva Salud Gessner en Facebook",
+    "openServiceDetails": "Ver detalles del servicio"
+  },
+  "blog": {
+    "title": "Noticias de Nuestra",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Mantente informado sobre las últimas novedades, consejos de salud y eventos de la Clínica Hispana Nueva Salud Gessner.",
+    "badge": "Blog",
+    "readMore": "Leer Más",
+    "publishedOn": "Publicado el",
+    "by": "Por",
+    "backToBlog": "Volver al Blog",
+    "sharePost": "Compartir artículo",
+    "relatedPosts": "Artículos Relacionados",
+    "noPostsFound": "No hay artículos disponibles",
+    "seoText": "Blog de la Clínica Hispana Nueva Salud Gessner. Noticias, consejos de salud y actualizaciones para la comunidad hispana de Houston."
+  },
+  "blogPosts": {
+    "bienvenidos-nueva-pagina-web": {
+      "title": "¡Bienvenidos a Nuestra Nueva Página Web!",
+      "excerpt": "Estamos emocionados de presentar nuestra nueva página web, diseñada para brindarte una mejor experiencia y acceso más fácil a nuestros servicios médicos.",
+      "content": "## ¡Bienvenidos a la Nueva Página Web de Clínica Hispana Nueva Salud Gessner!\n\nEstamos muy emocionados de presentar nuestra nueva página web a toda la comunidad hispana de Houston. Este sitio ha sido diseñado pensando en ti y en tu familia, para que encuentres toda la información que necesitas sobre nuestros servicios médicos de manera fácil y rápida.\n\n### ¿Qué Encontrarás en Nuestra Nueva Página?\n\n- **Información detallada de todos nuestros servicios**: Desde exámenes médicos de inmigración (I-693) hasta ginecología, ultrasonidos, laboratorio clínico y mucho más.\n- **Formulario de contacto fácil de usar**: Ahora puedes solicitar tu cita directamente desde la página web.\n- **Información de horarios y ubicación**: Estamos abiertos los 7 días de la semana, de 9:00 AM a 9:00 PM.\n- **Contenido 100% en español**: Porque sabemos que es importante comunicarte en tu idioma.\n\n### Te Invitamos a Visitarnos\n\nEstamos ubicados en **1914 Gessner Rd B, Houston, TX 77080**. Nuestro equipo de profesionales de la salud está listo para atenderte con la calidez y profesionalismo que nos caracteriza.\n\nNo necesitas cita previa - aceptamos pacientes walk-in todos los días.\n\n### Nuestro Compromiso\n\nEn Clínica Hispana Nueva Salud Gessner, nuestro compromiso es brindarte atención médica de calidad, accesible y 100% en español. Esta nueva página web es solo una muestra más de cómo trabajamos constantemente para mejorar tu experiencia.\n\n**¡Te esperamos!**\n\n📞 Llámanos: +1 (346) 226-5820\n\n📍 Visítanos: 1914 Gessner Rd B, Houston, TX 77080"
+    }
+  },
+  "serviceData": {
+    "medicina-familiar": {
+      "title": "Medicina Familiar Cerca de Mi",
+      "shortTitle": "Medicina Familiar",
+      "description": "Medicina familiar en nuestra clínica hispana de Houston. Atención médica integral para toda la familia en español.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos medicina familiar completa para pacientes de todas las edades. Nuestros médicos hispanos brindan atención preventiva, diagnóstico y tratamiento de enfermedades comunes, todo 100% en español.",
+      "features": ["Atención para toda la familia", "Consultas en español", "Medicina preventiva", "Diagnóstico y tratamiento", "Seguimiento personalizado", "Sin cita previa"]
+    },
+    "examenes-inmigracion": {
+      "title": "Exámenes Médicos de Inmigración",
+      "shortTitle": "Inmigración",
+      "description": "Clínica hispana autorizada por USCIS para exámenes I-693 en Houston. Médico Civil Surgeon certificado. Todo el proceso en español.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos de inmigración autorizados por USCIS. Nuestro médico Civil Surgeon certificado completa el formulario I-693 100% en español. Más de 500 familias han completado su proceso con nosotros.",
+      "features": ["Médico Civil Surgeon certificado", "Formulario I-693 sellado", "100% en español", "Resultados en 3-5 días", "Análisis de sangre incluidos", "Revisión de vacunas"]
+    },
+    "enfermedades-transmision-sexual": {
+      "title": "Enfermedades de Transmisión Sexual (STD)",
+      "shortTitle": "ETS/STD",
+      "description": "Pruebas y tratamiento de ETS/STD en la clínica hispana de Houston. Diagnóstico confidencial y tratamiento efectivo.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos pruebas confidenciales de enfermedades de transmisión sexual. Diagnóstico y tratamiento en un ambiente de respeto y privacidad total.",
+      "features": ["Pruebas confidenciales", "VIH y Sífilis", "Clamidia y Gonorrea", "Herpes", "Resultados rápidos", "Tratamiento disponible"]
+    },
+    "servicios-urologia": {
+      "title": "Servicios de Urología",
+      "shortTitle": "Urología",
+      "description": "Servicios de urología en la clínica hispana de Houston. Atención especializada para hombres en español.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos servicios de urología para el cuidado de la salud masculina. Diagnóstico y tratamiento de condiciones urinarias y reproductivas.",
+      "features": ["Examen de próstata", "Infecciones urinarias", "Problemas de vejiga", "Salud reproductiva masculina", "Atención en español", "Consulta confidencial"]
+    },
+    "condiciones-cronicas": {
+      "title": "Manejo de Condiciones Crónicas",
+      "shortTitle": "Crónicas",
+      "description": "Control de enfermedades crónicas en la clínica hispana. Diabetes, hipertensión, colesterol y más.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos manejo integral de condiciones crónicas como diabetes, hipertensión, colesterol alto y tiroides. Seguimiento personalizado en español.",
+      "features": ["Control de diabetes", "Manejo de hipertensión", "Control de colesterol", "Problemas de tiroides", "Monitoreo regular", "Orientación nutricional"]
+    },
+    "laboratorio": {
+      "title": "Chequeo y Análisis de Laboratorio",
+      "shortTitle": "Laboratorio",
+      "description": "Análisis de laboratorio en la clínica hispana de Houston. Resultados rápidos y precisos.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner contamos con laboratorio clínico completo. Análisis de sangre, orina, perfil lipídico y más con resultados rápidos.",
+      "features": ["Análisis de sangre completo", "Perfil lipídico", "Glucosa y A1C", "Análisis de orina", "Resultados rápidos", "Interpretación en español"]
+    },
+    "ultrasonido": {
+      "title": "Ultrasonido",
+      "shortTitle": "Ultrasonido",
+      "description": "Ultrasonidos en la clínica hispana de Houston. Embarazo, abdominal, pélvico y más con resultados inmediatos.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos ultrasonidos con tecnología moderna. Ultrasonidos de embarazo, abdominales, pélvicos y renales con interpretación en español.",
+      "features": ["Ultrasonido de embarazo", "Ultrasonido abdominal", "Ultrasonido pélvico", "Resultados inmediatos", "Tecnología moderna", "Interpretación en español"]
+    },
+    "servicios-ginecologia": {
+      "title": "Servicios de Ginecología",
+      "shortTitle": "Ginecología",
+      "description": "Ginecología en la clínica hispana de Houston. Atención integral para la salud de la mujer en español.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos servicios ginecológicos completos. Papanicolaou, exámenes de mama, salud reproductiva y más con ginecólogos que hablan español.",
+      "features": ["Papanicolaou", "Examen de mama", "Salud reproductiva", "Consulta ginecológica", "Ginecólogos en español", "Ambiente confidencial"]
+    },
+    "planificacion-familiar": {
+      "title": "Planificación Familiar",
+      "shortTitle": "Planificación",
+      "description": "Planificación familiar en la clínica hispana de Houston. Asesoría sobre métodos anticonceptivos.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos asesoría completa sobre métodos anticonceptivos. Nuestros especialistas te orientan sobre las mejores opciones para tu estilo de vida.",
+      "features": ["Asesoría personalizada", "Anticonceptivos orales", "Inyecciones anticonceptivas", "DIU", "Implantes hormonales", "Seguimiento médico"]
+    },
+    "vacunas-anticonceptivas": {
+      "title": "Vacunas Anticonceptivas",
+      "shortTitle": "Anticonceptivas",
+      "description": "Inyecciones anticonceptivas en la clínica hispana de Houston. Método seguro y efectivo.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner aplicamos inyecciones anticonceptivas como Depo-Provera. Método seguro, efectivo y discreto para el control de la natalidad.",
+      "features": ["Inyección Depo-Provera", "Protección por 3 meses", "Método discreto", "Alta efectividad", "Aplicación rápida", "Seguimiento médico"]
+    },
+    "extraccion-implantes": {
+      "title": "Extracción de Implantes",
+      "shortTitle": "Implantes",
+      "description": "Extracción de implantes anticonceptivos en la clínica hispana de Houston. Procedimiento rápido y seguro.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos extracción de implantes hormonales anticonceptivos como Nexplanon de forma segura y profesional.",
+      "features": ["Procedimiento seguro", "Personal capacitado", "Mínimas molestias", "Anestesia local", "Cuidados post-extracción", "Opciones anticonceptivas"]
+    },
+    "electrocardiograma": {
+      "title": "Electrocardiograma",
+      "shortTitle": "EKG",
+      "description": "Electrocardiograma (EKG) en la clínica hispana de Houston. Evaluación del ritmo cardíaco.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos electrocardiogramas para evaluar la salud de tu corazón. Diagnóstico rápido de arritmias y otras condiciones cardíacas.",
+      "features": ["EKG de 12 derivaciones", "Resultados inmediatos", "Detección de arritmias", "Evaluación cardíaca", "Interpretación médica", "Referido si es necesario"]
+    },
+    "enfermedades-respiratorias": {
+      "title": "Enfermedades Respiratorias",
+      "shortTitle": "Respiratorias",
+      "description": "Tratamiento de enfermedades respiratorias en la clínica hispana de Houston. Gripa, bronquitis, sinusitis y más.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner tratamos enfermedades respiratorias como gripa, bronquitis, sinusitis, neumonía y asma. Diagnóstico rápido y tratamiento efectivo.",
+      "features": ["Diagnóstico rápido", "Tratamiento de gripa", "Bronquitis y sinusitis", "Neumonía", "Control de asma", "Medicamentos recetados"]
+    },
+    "infecciones-urinarias": {
+      "title": "Infecciones Urinarias",
+      "shortTitle": "Urinarias",
+      "description": "Tratamiento de infecciones urinarias en la clínica hispana de Houston. Diagnóstico preciso y alivio rápido.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner diagnosticamos y tratamos infecciones del tracto urinario con análisis de orina y tratamiento antibiótico efectivo.",
+      "features": ["Análisis de orina", "Diagnóstico rápido", "Tratamiento antibiótico", "Alivio de síntomas", "Prevención de recurrencia", "Seguimiento médico"]
+    },
+    "infecciones-vaginales": {
+      "title": "Infecciones Vaginales",
+      "shortTitle": "Vaginales",
+      "description": "Tratamiento de infecciones vaginales en la clínica hispana de Houston. Atención confidencial y efectiva.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos diagnóstico y tratamiento de infecciones vaginales en un ambiente de confianza y privacidad.",
+      "features": ["Diagnóstico preciso", "Tratamiento efectivo", "Candidiasis", "Vaginosis bacteriana", "Atención confidencial", "Seguimiento médico"]
+    },
+    "examen-dot": {
+      "title": "Examen Médico DOT",
+      "shortTitle": "DOT",
+      "description": "Examen médico DOT en la clínica hispana de Houston. Certificación para conductores comerciales.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos DOT para conductores comerciales. Certificación requerida para licencias CDL.",
+      "features": ["Examen DOT completo", "Certificación médica", "Evaluación de vista", "Evaluación de audición", "Análisis de orina", "Tarjeta médica DOT"]
+    },
+    "examenes-generales": {
+      "title": "Exámenes Generales",
+      "shortTitle": "Generales",
+      "description": "Exámenes médicos generales en la clínica hispana de Houston. Chequeos de salud completos.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos generales y chequeos de salud completos. Físicos escolares, deportivos y de empleo.",
+      "features": ["Examen físico completo", "Físicos escolares", "Físicos deportivos", "Exámenes de empleo", "Análisis de sangre", "Resultados el mismo día"]
+    },
+    "dolores-musculares": {
+      "title": "Dolores Musculares",
+      "shortTitle": "Musculares",
+      "description": "Tratamiento de dolores musculares en la clínica hispana de Houston. Alivio rápido y efectivo.",
+      "longDescription": "En Clínica Hispana Nueva Salud Gessner tratamos dolores musculares, esguinces y lesiones menores. Diagnóstico preciso y tratamiento para tu pronta recuperación.",
+      "features": ["Evaluación del dolor", "Tratamiento antiinflamatorio", "Inyecciones para el dolor", "Relajantes musculares", "Terapia de calor/frío", "Recomendaciones de ejercicio"]
+    }
+  }
+}
