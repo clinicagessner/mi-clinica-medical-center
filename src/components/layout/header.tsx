@@ -194,7 +194,6 @@ export function Header() {
                 alt="logo clinica hispana nueva salud gessner houston"
                 fill
                 className="object-contain p-1 transition-all duration-500 group-hover:scale-105"
-                priority
                 sizes="(max-width: 1024px) 48px, (max-width: 1280px) 56px, 64px"
               />
             </div>
