@@ -1,32 +1,37 @@
-import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./i18n/routing";
 
-const handleI18nRouting = createMiddleware(routing);
-
 export default function proxy(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+  const { pathname } = request.nextUrl;
+
+  // Check if path already has a locale prefix
   const hasLocalePrefix = routing.locales.some(
-    (locale) =>
-      pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   );
 
-  // For unprefixed paths, rewrite to the default locale directly.
-  // This prevents Accept-Language based redirects (next-intl 4.x bug
-  // where localeDetection: false is ignored) while maintaining the
-  // intended behavior of localePrefix: "as-needed".
+  // Unprefixed paths → rewrite to default locale (es)
+  // e.g. "/" → "/es", "/services" → "/es/services"
   if (!hasLocalePrefix) {
-    const response = NextResponse.rewrite(
-      new URL(`/${routing.defaultLocale}${pathname}${request.nextUrl.search}`, request.url)
+    return NextResponse.rewrite(
+      new URL(
+        `/${routing.defaultLocale}${pathname}${request.nextUrl.search}`,
+        request.url
+      )
     );
-    response.headers.set("x-proxy-debug", "rewrite-to-default");
-    return response;
   }
 
-  // For prefixed paths (/en/..., /es/...), delegate to next-intl
-  const response = handleI18nRouting(request);
-  response.headers.set("x-proxy-debug", "next-intl");
-  return response;
+  // /es paths → redirect to unprefixed (default locale doesn't need prefix)
+  // e.g. "/es/services" → "/services"
+  if (pathname.startsWith(`/${routing.defaultLocale}`)) {
+    const unprefixed =
+      pathname.slice(`/${routing.defaultLocale}`.length) || "/";
+    return NextResponse.redirect(
+      new URL(unprefixed + request.nextUrl.search, request.url)
+    );
+  }
+
+  // Other locale prefixes (/en/...) → pass through
+  return NextResponse.next();
 }
 
 export const config = {
