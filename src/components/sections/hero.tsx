@@ -32,17 +32,17 @@ const trustBadgeIconMap = {
 };
 
 const fadeInUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
 };
 
 const staggerContainer = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 1 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
+      staggerChildren: 0.08,
+      delayChildren: 0,
     },
   },
 };
@@ -137,23 +137,21 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
             animate="visible"
             className="space-y-3 sm:space-y-4 md:space-y-5"
           >
-            {/* Title - SEO optimizado */}
-            <motion.h1
-              variants={fadeInUp}
-              className="text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.15]"
+            {/* Title - CSS animation (no bloquea LCP como Framer Motion) */}
+            <h1
+              className="animate-hero-title text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.15]"
             >
               <span className="text-primary">{t("hero.title")}</span>
               <br />
               <span className="text-primary">{t("hero.titleHighlight")}</span> {t("hero.titleEnd")}
-            </motion.h1>
+            </h1>
 
-            {/* Subtitle - SEO optimizado */}
-            <motion.p
-              variants={fadeInUp}
-              className="text-[15px] sm:text-lg md:text-xl lg:text-2xl text-white/90 font-medium max-w-xl leading-snug"
+            {/* Subtitle - CSS animation (elemento LCP principal) */}
+            <p
+              className="animate-hero-subtitle text-[15px] sm:text-lg md:text-xl lg:text-2xl text-white/90 font-medium max-w-xl leading-snug"
             >
               {t("hero.description")}
-            </motion.p>
+            </p>
 
             {/* Features - 3 diferenciadores */}
             <motion.div

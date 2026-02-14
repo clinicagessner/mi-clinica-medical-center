@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 import {
   CheckCircle,
   Shield,
@@ -14,35 +16,19 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GREEN_CARD_FEATURES, CONTACT_INFO } from "@/lib/constants";
 
-const processSteps = [
-  {
-    step: 1,
-    title: "Agende su cita",
-    description: "Llame o visite nuestra clínica hispana sin cita previa",
-  },
-  {
-    step: 2,
-    title: "Examen físico",
-    description: "Complete el examen con nuestro médico en español",
-  },
-  {
-    step: 3,
-    title: "Análisis de sangre",
-    description: "Realizamos todos los análisis requeridos por USCIS",
-  },
-  {
-    step: 4,
-    title: "Revisión de vacunas",
-    description: "Verificamos y actualizamos su historial de vacunas",
-  },
-  {
-    step: 5,
-    title: "Reciba su I-693",
-    description: "Formulario sellado listo en 3-5 días hábiles",
-  },
-];
-
 export function GreenCard() {
+  const t = useTranslations("greenCard");
+  const locale = useLocale();
+  const homeHref = locale === "es" ? "/" : `/${locale}`;
+
+  const processSteps = [
+    { step: 1, title: t("step1Title"), description: t("step1Desc") },
+    { step: 2, title: t("step2Title"), description: t("step2Desc") },
+    { step: 3, title: t("step3Title"), description: t("step3Desc") },
+    { step: 4, title: t("step4Title"), description: t("step4Desc") },
+    { step: 5, title: t("step5Title"), description: t("step5Desc") },
+  ];
+
   return (
     <section
       id="green-card"
@@ -72,18 +58,16 @@ export function GreenCard() {
         >
           <Badge className="bg-white/15 text-white border border-white/30 hover:bg-white/20 mb-4">
             <Shield className="size-4 mr-2" weight="fill" />
-            Autorizado por USCIS
+            {t("badge")}
           </Badge>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Exámenes Médicos de{" "}
+            {t("title")}{" "}
             <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] [text-shadow:0_0_30px_rgba(34,197,94,0.5)]">
-              Inmigración
+              {t("titleHighlight")}
             </span>
           </h2>
           <p className="text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Nuestra clínica hispana está autorizada para realizar el formulario
-            I-693 con médico Civil Surgeon certificado. Todo el proceso en
-            español.
+            {t("description")}
           </p>
         </motion.div>
 
@@ -101,7 +85,7 @@ export function GreenCard() {
                     <div className="size-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/30">
                       <FileText className="size-5 text-white" weight="fill" />
                     </div>
-                    <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] [text-shadow:0_0_20px_rgba(34,197,94,0.4)]">Proceso en la Clínica Hispana</span>
+                    <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] [text-shadow:0_0_20px_rgba(34,197,94,0.4)]">{t("processTitle")}</span>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -156,8 +140,8 @@ export function GreenCard() {
                       weight="fill"
                     />
                   </div>
-                  <p className="font-bold text-3xl text-white">3-5</p>
-                  <p className="text-sm text-white/90">Días para resultados</p>
+                  <p className="font-bold text-3xl text-white">{t("statsResults")}</p>
+                  <p className="text-sm text-white/90">{t("statsResultsLabel")}</p>
                 </CardContent>
               </Card>
               <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all duration-300 group">
@@ -168,8 +152,8 @@ export function GreenCard() {
                       weight="fill"
                     />
                   </div>
-                  <p className="font-bold text-3xl text-white">100%</p>
-                  <p className="text-sm text-white/90">En español</p>
+                  <p className="font-bold text-3xl text-white">{t("statsSpanish")}</p>
+                  <p className="text-sm text-white/90">{t("statsSpanishLabel")}</p>
                 </CardContent>
               </Card>
             </div>
@@ -178,7 +162,7 @@ export function GreenCard() {
             <Card className="bg-white/10 backdrop-blur-sm border-white/20">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-white mb-4">
-                  ¿Qué incluye el examen I-693?
+                  {t("featuresTitle")}
                 </h3>
                 <div className="grid sm:grid-cols-2 gap-3">
                   {GREEN_CARD_FEATURES.map((feature, index) => (
@@ -212,10 +196,10 @@ export function GreenCard() {
                 size="lg"
                 className="flex-1 bg-primary text-white hover:bg-primary/90 shadow-xl shadow-primary/30 hover:shadow-primary/40 transition-all duration-300 hover:scale-[1.02] h-14 text-base font-semibold"
               >
-                <a href="/#contacto">
+                <Link href={`${homeHref}#contacto`}>
                   <FileText className="size-5 mr-2" weight="fill" />
-                  Agendar Examen I-693
-                </a>
+                  {t("ctaSchedule")}
+                </Link>
               </Button>
               <Button
                 asChild
@@ -225,7 +209,7 @@ export function GreenCard() {
               >
                 <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
                   <Phone className="size-5 mr-2" weight="fill" />
-                  Llamar Ahora
+                  {t("ctaCall")}
                 </a>
               </Button>
             </div>
@@ -239,10 +223,7 @@ export function GreenCard() {
           viewport={{ once: true }}
           className="text-center text-sm text-white/70 mt-16 max-w-3xl mx-auto leading-relaxed"
         >
-          Clínica Hispana Nueva Salud Gessner es la clínica hispana de preferencia en
-          Houston para exámenes de Green Card I-693. Nuestra clínica hispana
-          cuenta con médicos Civil Surgeon certificados por USCIS que completan
-          todo el proceso en español.
+          {t("seoText")}
         </motion.p>
       </div>
     </section>

@@ -41,13 +41,12 @@ export function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Resetear sección activa cuando se navega fuera del homepage
+  const isHomepage = pathname === "/" || pathname === `/${locale}`;
+
   // Intersection Observer para detectar sección activa (solo en homepage)
   useEffect(() => {
-    const isHomepage = pathname === "/" || pathname === `/${locale}`;
-    if (!isHomepage) {
-      setActiveSection("");
-      return;
-    }
+    if (!isHomepage) return;
 
     const navSections = ["servicios", "green-card", "contacto"];
     const allSections = ["inicio", ...navSections];
@@ -85,8 +84,11 @@ export function Header() {
       }
     });
 
-    return () => observer.disconnect();
-  }, [pathname, locale]);
+    return () => {
+      observer.disconnect();
+      setActiveSection("");
+    };
+  }, [isHomepage]);
 
   const handleNavClick = (href: string) => {
     if (href.includes("#")) {

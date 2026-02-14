@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { Question, Phone } from "@phosphor-icons/react/dist/ssr";
 import {
   Accordion,
@@ -12,6 +13,8 @@ import { Button } from "@/components/ui/button";
 import { FAQS, CONTACT_INFO } from "@/lib/constants";
 
 export function FAQ() {
+  const t = useTranslations("faq");
+
   return (
     <section id="faq" className="py-16 bg-green-bg">
       <div className="container mx-auto px-4">
@@ -26,12 +29,11 @@ export function FAQ() {
             <Question className="size-8 text-primary" weight="duotone" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Preguntas Frecuentes sobre la{" "}
-            <span className="text-primary">Clínica Hispana</span>
+            {t("title")}{" "}
+            <span className="text-primary">{t("titleHighlight")}</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Encuentra respuestas a las preguntas más comunes sobre nuestra
-            clínica hispana Clínica Hispana Nueva Salud Gessner en Houston, TX.
+            {t("description")}
           </p>
         </motion.div>
 
@@ -68,14 +70,13 @@ export function FAQ() {
           className="mt-12 text-center"
         >
           <p className="text-muted-foreground mb-6">
-            ¿Tienes más preguntas sobre nuestra clínica hispana? Contáctanos
-            ahora.
+            {t("moreQuestions")}
           </p>
           <div className="flex justify-center">
             <Button asChild size="lg" className="shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30">
               <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
                 <Phone className="size-5 mr-2" weight="fill" />
-                Llamar a la Clínica Hispana
+                {t("callButton")}
               </a>
             </Button>
           </div>
@@ -83,10 +84,7 @@ export function FAQ() {
 
         {/* SEO Text */}
         <p className="text-center text-sm text-muted-foreground mt-10 max-w-3xl mx-auto">
-          Clínica Hispana Nueva Salud Gessner es la clínica hispana que responde todas tus
-          preguntas en español. Nuestra clínica hispana en Houston está
-          comprometida con brindar información clara y transparente a la
-          comunidad latina.
+          {t("seoText")}
         </p>
       </div>
     </section>

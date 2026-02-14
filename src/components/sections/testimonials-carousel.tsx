@@ -131,7 +131,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                     <div className="flex items-center gap-3 pt-4 mt-auto border-t border-gray-100">
                       {review.profile_photo_url ? (
                         <Image
-                          src={review.profile_photo_url}
+                          src={review.profile_photo_url.replace(/=s\d+-/, "=s72-")}
                           alt={`Foto de ${review.author_name}`}
                           width={36}
                           height={36}

@@ -78,6 +78,14 @@
     "feature2": "Resultados Rápidos",
     "feature3": "100% en Español",
     "feature4": "Precios Accesibles",
+    "processTitle": "Proceso en la Clínica Hispana",
+    "statsResults": "3-5",
+    "statsResultsLabel": "Días para resultados",
+    "statsSpanish": "100%",
+    "statsSpanishLabel": "En español",
+    "featuresTitle": "¿Qué incluye el examen I-693?",
+    "ctaSchedule": "Agendar Examen I-693",
+    "ctaCall": "Llamar Ahora",
     "seoText": "Clínica Hispana Nueva Salud Gessner es tu clínica hispana autorizada por USCIS para exámenes médicos de inmigración I-693 en Houston. Nuestros Civil Surgeons certificados te ayudan con tu proceso de Green Card de manera rápida y en español."
   },
   "promotions": {
@@ -95,6 +103,8 @@
     "benefit2": "Aceptamos pacientes sin cita",
     "benefit3": "Precios accesibles",
     "benefit4": "Abiertos 7 días a la semana",
+    "callLabel": "Llamar",
+    "viewOnMaps": "Ver en Maps",
     "hoursLabel": "Horario",
     "addressLabel": "Dirección",
     "seoText": "Contacta a la clínica hispana Clínica Hispana Nueva Salud Gessner en Houston para agendar tu cita médica. Atención en español, sin cita previa y precios accesibles para toda la familia."

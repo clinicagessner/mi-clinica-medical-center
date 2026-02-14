@@ -48,7 +48,7 @@ export async function generateMetadata({
   const t = messages.metadata;
 
   const isSpanish = locale === "es";
-  const baseUrl = "https://clinicagessner.com";
+  const baseUrl = "https://www.clinicagessner.com";
   const canonicalUrl = isSpanish ? baseUrl : `${baseUrl}/en`;
 
   return {

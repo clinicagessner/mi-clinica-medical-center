@@ -2,11 +2,21 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Phone, Clock, MapPin, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 import { ContactForm } from "@/components/forms/contact-form";
 import { CONTACT_INFO } from "@/lib/constants";
 
 export function Contact() {
+  const t = useTranslations("contact");
+
+  const benefits = [
+    t("benefit1"),
+    t("benefit2"),
+    t("benefit3"),
+    t("benefit4"),
+  ];
+
   return (
     <section id="contacto" className="relative py-16 lg:py-20 overflow-hidden">
       {/* Background Image */}
@@ -33,11 +43,11 @@ export function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Agenda tu Cita en la{" "}
-            <span className="text-primary-foreground">Clínica Hispana</span>
+            {t("title")}{" "}
+            <span className="text-primary-foreground">{t("titleHighlight")}</span>
           </h2>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
-            Contáctanos hoy mismo. Estamos listos para atenderte en español.
+            {t("description")}
           </p>
         </motion.div>
 
@@ -60,7 +70,7 @@ export function Contact() {
                   <Phone className="size-7 text-white" weight="fill" />
                 </div>
                 <div>
-                  <p className="font-bold text-foreground text-lg">Llamar</p>
+                  <p className="font-bold text-foreground text-lg">{t("callLabel")}</p>
                   <p className="text-primary font-semibold">
                     {CONTACT_INFO.phone}
                   </p>
@@ -78,8 +88,8 @@ export function Contact() {
                   <MapPin className="size-7 text-white" weight="fill" />
                 </div>
                 <div>
-                  <p className="font-bold text-foreground text-lg">Ubicación</p>
-                  <p className="text-secondary font-semibold">Ver en Maps</p>
+                  <p className="font-bold text-foreground text-lg">{t("addressLabel")}</p>
+                  <p className="text-secondary font-semibold">{t("viewOnMaps")}</p>
                 </div>
               </a>
             </div>
@@ -93,7 +103,7 @@ export function Contact() {
                     <Clock className="size-6 text-white" weight="fill" />
                   </div>
                   <div>
-                    <p className="font-semibold text-white">Horario</p>
+                    <p className="font-semibold text-white">{t("hoursLabel")}</p>
                     <p className="text-white/80 text-sm">{CONTACT_INFO.hours}</p>
                   </div>
                 </div>
@@ -104,7 +114,7 @@ export function Contact() {
                     <MapPin className="size-6 text-white" weight="fill" />
                   </div>
                   <div>
-                    <p className="font-semibold text-white">Dirección</p>
+                    <p className="font-semibold text-white">{t("addressLabel")}</p>
                     <p className="text-white/80 text-sm">{CONTACT_INFO.address}</p>
                   </div>
                 </div>
@@ -114,15 +124,10 @@ export function Contact() {
             {/* Why Choose Us */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <h3 className="font-bold text-white text-lg mb-4">
-                ¿Por qué elegir nuestra clínica hispana?
+                {t("infoTitle")}
               </h3>
               <ul className="space-y-3">
-                {[
-                  "Atención 100% en español",
-                  "Aceptamos pacientes sin cita",
-                  "Precios accesibles para la comunidad",
-                  "Autorizados por USCIS para I-693",
-                ].map((item) => (
+                {benefits.map((item) => (
                   <li key={item} className="flex items-center gap-3 text-white/90">
                     <div className="size-6 bg-primary rounded-full flex items-center justify-center shrink-0">
                       <CheckCircle className="size-4 text-white" weight="bold" />
@@ -151,9 +156,7 @@ export function Contact() {
           viewport={{ once: true }}
           className="text-center text-sm text-white/80 mt-12 max-w-3xl mx-auto"
         >
-          Contacta la clínica hispana Clínica Hispana Nueva Salud Gessner hoy mismo.
-          Nuestra clínica hispana en Houston te espera con atención profesional
-          en español para ti y toda tu familia.
+          {t("seoText")}
         </motion.p>
       </div>
     </section>

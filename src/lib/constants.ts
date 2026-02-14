@@ -13,7 +13,7 @@ export const SITE_CONFIG = {
   tagline: "Clínica Hispana en Houston, TX",
   description:
     "Clínica Hispana Nueva Salud Gessner es la clínica hispana de confianza en Houston. Atención médica profesional en español para toda la familia. Exámenes médicos para Green Card (I-693) autorizados por USCIS.",
-  baseUrl: "https://clinicagessner.com",
+  baseUrl: "https://www.clinicagessner.com",
   locale: "es-MX",
 } as const;
 
