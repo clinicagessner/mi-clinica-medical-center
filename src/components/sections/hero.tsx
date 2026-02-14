@@ -102,7 +102,9 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
           className="object-cover object-center"
           priority
           quality={75}
-          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 100vw"
+          sizes="100vw"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAIAAAB1kpiRAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACqADAAQAAAABAAAABgAAAAD+iFX0AAAAxUlEQVQIHQG6AEX/AbChhSEjJxAWHPHezhAYJRYrPgcEBurq5tja2SklJQTH3evZ7fkEAs0N8OgABd5ZJDfw6+zz9vX9/wQHCg0CurG/nJimCAgPIzdUBAILAwEArJiRsJuRGRQMCQoLAyYjHRIPBzExKyosOwoSEQX/7/bu7PDg3ezs5tjd4AF7YUseHRgTGR72/QXj3NgPFhrl4+705NruAf8OEBAE/fjyBfkK2dHMvMrVIyEc/enyssXd/frwRjkm7u/xCAJXa9ZnCqsAAAAASUVORK5CYII="
         />
       </div>
 
