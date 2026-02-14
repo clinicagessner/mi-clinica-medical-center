@@ -5,22 +5,29 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { Inter, Poppins } from "next/font/google";
 import { locales, type Locale } from "@/i18n/config";
+import dynamic from "next/dynamic";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { FloatingButtons } from "@/components/layout/floating-buttons";
-import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import {
   JsonLdMedicalClinic,
   JsonLdFAQ,
   JsonLdBreadcrumb,
 } from "@/components/seo/json-ld";
 
+const FloatingButtons = dynamic(() =>
+  import("@/components/layout/floating-buttons").then((mod) => mod.FloatingButtons)
+);
+
+const ScrollToTop = dynamic(() =>
+  import("@/components/layout/scroll-to-top").then((mod) => mod.ScrollToTop)
+);
+
 const GTM_ID = "GTM-K5R8SDQV";
 
 // Fuente para títulos - Poppins: moderna, profesional, geométrica
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["600", "700"],
   variable: "--font-poppins",
   display: "swap",
 });

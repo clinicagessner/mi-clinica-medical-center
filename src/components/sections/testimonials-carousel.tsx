@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Star, Quotes, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Card, CardContent } from "@/components/ui/card";
@@ -70,12 +69,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
   return (
     <div className="space-y-6">
       {/* Rating Summary */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="flex justify-center"
-      >
+      <div className="flex justify-center">
         <a
           href="https://g.page/r/CdydIBQAJwdtEBM/review"
           target="_blank"
@@ -91,7 +85,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
             ({reviews.user_ratings_total} {t("reviews")})
           </span>
         </a>
-      </motion.div>
+      </div>
 
       {/* Carousel Container with padding for arrows */}
       <div className="relative px-4 md:px-14">

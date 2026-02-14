@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/hero";
-import { Testimonials } from "@/components/sections/testimonials";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 
 // Dynamic imports para secciones below-the-fold (mejor performance)
@@ -26,6 +25,10 @@ const FAQ = dynamic(() =>
 
 const Contact = dynamic(() =>
   import("@/components/sections/contact").then((mod) => mod.Contact)
+);
+
+const Testimonials = dynamic(() =>
+  import("@/components/sections/testimonials").then((mod) => mod.Testimonials)
 );
 
 export default async function Home() {

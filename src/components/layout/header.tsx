@@ -32,13 +32,22 @@ export function Header() {
     { label: t("nav.contact"), href: `${localePrefix}/#contacto` },
   ];
 
+  // Use IntersectionObserver instead of scroll event for isScrolled
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const sentinel = document.createElement("div");
+    sentinel.style.cssText = "position:absolute;top:50px;width:1px;height:1px;pointer-events:none";
+    document.body.prepend(sentinel);
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsScrolled(!entry.isIntersecting),
+      { threshold: 1 }
+    );
+    observer.observe(sentinel);
+
+    return () => {
+      observer.disconnect();
+      sentinel.remove();
+    };
   }, []);
 
   // Resetear sección activa cuando se navega fuera del homepage
@@ -73,7 +82,7 @@ export function Header() {
       },
       {
         rootMargin: "-20% 0px -50% 0px",
-        threshold: [0, 0.25, 0.5, 0.75, 1],
+        threshold: [0, 0.5],
       }
     );
 
