@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { TestimonialsCarousel } from "./testimonials-carousel";
 import { JsonLdAggregateRating } from "@/components/seo/json-ld-reviews";
 import type { GooglePlaceDetails } from "@/lib/google-reviews";
@@ -6,7 +7,8 @@ interface TestimonialsProps {
   reviewsData: GooglePlaceDetails;
 }
 
-export function Testimonials({ reviewsData }: TestimonialsProps) {
+export async function Testimonials({ reviewsData }: TestimonialsProps) {
+  const t = await getTranslations("testimonials");
 
   return (
     <>
@@ -18,12 +20,11 @@ export function Testimonials({ reviewsData }: TestimonialsProps) {
           {/* Header */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Reseñas de Google de Nuestra{" "}
-              <span className="text-primary">Clínica Hispana</span>
+              {t("title")}{" "}
+              <span className="text-primary">{t("titleHighlight")}</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Lo que dicen nuestros pacientes en Google sobre la atención en Mi
-              Clínica Hispana Nueva Salud Gessner.
+              {t("description")}
             </p>
           </div>
 
@@ -32,10 +33,7 @@ export function Testimonials({ reviewsData }: TestimonialsProps) {
 
           {/* SEO Text */}
           <p className="text-center text-sm text-muted-foreground mt-10 max-w-3xl mx-auto">
-            Miles de pacientes confían en nuestra clínica hispana en Houston. Mi
-            Clínica Hispana Nueva Salud Gessner es la clínica hispana preferida por la
-            comunidad latina gracias a nuestra atención 100% en español y precios
-            accesibles.
+            {t("seoText")}
           </p>
         </div>
       </section>

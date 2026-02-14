@@ -10,7 +10,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { FAQS, CONTACT_INFO } from "@/lib/constants";
+import { CONTACT_INFO } from "@/lib/constants";
+
+const FAQ_KEYS = [1, 2, 3, 4, 5, 6, 7, 8] as const;
 
 export function FAQ() {
   const t = useTranslations("faq");
@@ -45,17 +47,17 @@ export function FAQ() {
           className="max-w-3xl mx-auto"
         >
           <Accordion type="single" collapsible className="space-y-4">
-            {FAQS.map((faq, index) => (
+            {FAQ_KEYS.map((num) => (
               <AccordionItem
-                key={index}
-                value={`item-${index}`}
+                key={num}
+                value={`item-${num}`}
                 className="bg-white rounded-xl px-6 shadow-sm border border-border hover:shadow-md hover:border-primary/20 transition-all duration-300"
               >
                 <AccordionTrigger className="text-left font-semibold text-foreground hover:text-primary py-5">
-                  {faq.question}
+                  {t(`q${num}`)}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground pb-5">
-                  {faq.answer}
+                  {t(`a${num}`)}
                 </AccordionContent>
               </AccordionItem>
             ))}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { WarningCircle, ArrowCounterClockwise } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 
@@ -11,6 +12,8 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const t = useTranslations("errors");
+
   useEffect(() => {
     console.error(error);
   }, [error]);
@@ -22,14 +25,14 @@ export default function Error({
           <WarningCircle className="size-10 text-red-600" weight="fill" />
         </div>
         <h2 className="text-2xl font-bold text-foreground mb-3">
-          Algo salió mal
+          {t("errorTitle")}
         </h2>
         <p className="text-muted-foreground mb-6">
-          Lo sentimos, ocurrió un error inesperado. Por favor intenta de nuevo.
+          {t("errorDescription")}
         </p>
         <Button onClick={reset} size="lg">
           <ArrowCounterClockwise className="size-5 mr-2" />
-          Intentar de nuevo
+          {t("tryAgain")}
         </Button>
       </div>
     </div>

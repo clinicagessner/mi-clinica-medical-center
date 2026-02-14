@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { Star, Quotes, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -22,11 +23,11 @@ interface TestimonialsCarouselProps {
 }
 
 // Componente de estrellas parciales
-function PartialStars({ rating, size = "md" }: { rating: number; size?: "sm" | "md" }) {
+function PartialStars({ rating, size = "md", label }: { rating: number; size?: "sm" | "md"; label: string }) {
   const starSize = size === "sm" ? "size-4" : "size-5";
 
   return (
-    <div className="flex gap-0.5" role="img" aria-label={`${rating} de 5 estrellas`}>
+    <div className="flex gap-0.5" role="img" aria-label={label}>
       {[1, 2, 3, 4, 5].map((star) => {
         const fill = Math.min(Math.max(rating - (star - 1), 0), 1);
         return (
@@ -49,6 +50,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
+  const t = useTranslations("testimonials");
 
   useEffect(() => {
     if (!api) return;
@@ -81,12 +83,12 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           className="inline-flex items-center gap-3 bg-white rounded-full px-5 py-2.5 shadow-md border border-gray-100 hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
         >
           <GoogleLogo className="size-5 text-[#4285F4]" weight="bold" />
-          <PartialStars rating={reviews.rating} />
+          <PartialStars rating={reviews.rating} label={t("starsLabel", { rating: reviews.rating })} />
           <span className="text-xl font-bold text-foreground">
             {reviews.rating.toFixed(1)}
           </span>
           <span className="text-muted-foreground text-sm hidden sm:inline">
-            ({reviews.user_ratings_total} reseñas)
+            ({reviews.user_ratings_total} {t("reviews")})
           </span>
         </a>
       </motion.div>
@@ -118,7 +120,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                   <CardContent className="p-5 flex flex-col h-full min-h-[220px]">
                     {/* Header: Stars + Quote */}
                     <div className="flex items-start justify-between mb-3">
-                      <PartialStars rating={review.rating} size="sm" />
+                      <PartialStars rating={review.rating} size="sm" label={t("starsLabel", { rating: review.rating })} />
                       <Quotes className="size-6 text-primary/20" weight="fill" />
                     </div>
 
@@ -132,7 +134,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                       {review.profile_photo_url ? (
                         <Image
                           src={review.profile_photo_url.replace(/=s\d+-/, "=s72-")}
-                          alt={`Foto de ${review.author_name}`}
+                          alt={t("photoOf", { name: review.author_name })}
                           width={36}
                           height={36}
                           className="size-9 rounded-full object-cover"
@@ -179,7 +181,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                   ? "bg-primary/20"
                   : "bg-transparent hover:bg-gray-100"
               }`}
-              aria-label={`Ir a grupo ${index + 1}`}
+              aria-label={t("goToGroup", { index: index + 1 })}
             >
               <span
                 className={`rounded-full transition-all duration-300 ${
@@ -202,10 +204,10 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-medium px-6 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
         >
           <GoogleLogo className="size-5" weight="bold" />
-          Deja tu reseña en Google
+          {t("leaveReview")}
         </a>
         <p className="text-xs text-muted-foreground">
-          Tu opinión nos ayuda a mejorar
+          {t("opinionHelps")}
         </p>
       </div>
     </div>

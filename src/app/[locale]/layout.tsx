@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -13,6 +14,8 @@ import {
   JsonLdFAQ,
   JsonLdBreadcrumb,
 } from "@/components/seo/json-ld";
+
+const GTM_ID = "GTM-K5R8SDQV";
 
 // Fuente para títulos - Poppins: moderna, profesional, geométrica
 const poppins = Poppins({
@@ -148,6 +151,17 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`,
+          }}
+        />
         <meta name="theme-color" content="#F7FDF9" />
         <meta name="msapplication-TileColor" content="#16A34A" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -158,6 +172,14 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className="antialiased">
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <NextIntlClientProvider messages={messages}>
           <JsonLdMedicalClinic />
           <JsonLdFAQ />

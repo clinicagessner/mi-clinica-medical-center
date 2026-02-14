@@ -1,4 +1,4 @@
-import { SITE_CONFIG, CONTACT_INFO, FAQS, SERVICES, SOCIAL_LINKS } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS } from "@/lib/constants";
 
 // Schema principal unificado con @graph para la homepage
 export function JsonLdMedicalClinic() {
@@ -143,16 +143,20 @@ export function JsonLdMedicalClinic() {
   );
 }
 
-export function JsonLdFAQ() {
+export async function JsonLdFAQ() {
+  const { getTranslations } = await import("next-intl/server");
+  const t = await getTranslations("faq");
+
+  const faqKeys = [1, 2, 3, 4, 5, 6, 7, 8];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: FAQS.map((faq) => ({
+    mainEntity: faqKeys.map((num) => ({
       "@type": "Question",
-      name: faq.question,
+      name: t(`q${num}`),
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: t(`a${num}`),
       },
     })),
   };

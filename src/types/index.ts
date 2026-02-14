@@ -33,11 +33,6 @@ export interface Testimonial {
   quote: string;
 }
 
-export interface FAQ {
-  question: string;
-  answer: string;
-}
-
 export interface ContactInfo {
   address: string;
   phone: string;

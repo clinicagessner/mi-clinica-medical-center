@@ -140,6 +140,11 @@
     "callClinic": "Call the Hispanic clinic now",
     "facilitiesTitle": "Hispanic Clinic Facilities",
     "howToGet": "How to Get to the Hispanic Clinic",
+    "mapTitle": "Location of Clínica Hispana Nueva Salud Gessner - Hispanic Clinic in Houston TX",
+    "feature1": "Free parking",
+    "feature2": "Wheelchair accessible",
+    "feature3": "Near public transit",
+    "feature4": "Safe and well-lit area",
     "seoText": "Clínica Hispana Nueva Salud Gessner is located at 1914 Gessner Rd B, Houston, TX 77080. Our Hispanic clinic is easy to find and has ample free parking for all our patients from Houston's Hispanic community."
   },
   "faq": {
@@ -148,7 +153,23 @@
     "description": "Find answers to the most common questions about our Hispanic clinic Clínica Hispana Nueva Salud Gessner in Houston, TX.",
     "moreQuestions": "Have more questions about our Hispanic clinic? Contact us now.",
     "callButton": "Call the Hispanic Clinic",
-    "seoText": "Clínica Hispana Nueva Salud Gessner is the Hispanic clinic that answers all your questions in Spanish. Our Hispanic clinic in Houston is committed to providing clear and transparent information to the Latino community."
+    "seoText": "Clínica Hispana Nueva Salud Gessner is the Hispanic clinic that answers all your questions in Spanish. Our Hispanic clinic in Houston is committed to providing clear and transparent information to the Latino community.",
+    "q1": "Is Clínica Hispana Nueva Salud Gessner a Hispanic clinic with Spanish-speaking care?",
+    "a1": "Yes, Clínica Hispana Nueva Salud Gessner is a Hispanic clinic located in Houston, TX. All our staff speaks Spanish and we offer medical care completely in your language so you feel comfortable and understood during your visit.",
+    "q2": "What services does this Hispanic clinic in Houston offer?",
+    "a2": "Our Hispanic clinic offers general medicine, gynecology, pediatrics, clinical laboratory, ultrasound, Green Card I-693 exams, minor emergencies and chronic disease management. All services are available in Spanish.",
+    "q3": "Do I need an appointment to visit Clínica Hispana Nueva Salud Gessner?",
+    "a3": "We accept patients with and without appointments at our Hispanic clinic. However, we recommend scheduling an appointment to reduce wait time. You can call +1 (346) 226-5820.",
+    "q4": "What are the Hispanic clinic's hours of operation?",
+    "a4": "Our Hispanic clinic in Houston is open Monday through Sunday from 9:00 AM to 9:00 PM. We offer extended hours so you can visit us after work or on weekends.",
+    "q5": "Is the Hispanic clinic authorized for Green Card I-693 exams?",
+    "a5": "Yes, Clínica Hispana Nueva Salud Gessner is a USCIS authorized Hispanic clinic for I-693 immigration medical exams. We have a certified Civil Surgeon who completes and seals the official form.",
+    "q6": "How much does a medical consultation cost at Clínica Hispana Nueva Salud Gessner?",
+    "a6": "General medical consultations at our Hispanic clinic start from $50. We offer affordable prices and payment plans so the entire Hispanic community in Houston has access to quality medical care.",
+    "q7": "Does the Hispanic clinic accept medical insurance?",
+    "a7": "Our Hispanic clinic works with various medical insurance plans. We recommend calling us at +1 (346) 226-5820 to verify if we accept your insurance. We also offer special prices for uninsured patients.",
+    "q8": "Where is Clínica Hispana Nueva Salud Gessner located?",
+    "a8": "Our Hispanic clinic is located at 1914 Gessner Rd B, Houston, TX 77080. We are in a convenient location with ample free parking for our patients."
   },
   "testimonials": {
     "title": "What Our",
@@ -156,6 +177,12 @@
     "description": "Learn about the experiences of those who have trusted our Hispanic clinic for their medical care.",
     "reviewsOn": "reviews on",
     "basedOn": "Based on",
+    "reviews": "reviews",
+    "leaveReview": "Leave a review on Google",
+    "opinionHelps": "Your feedback helps us improve",
+    "photoOf": "Photo of {name}",
+    "starsLabel": "{rating} out of 5 stars",
+    "goToGroup": "Go to group {index}",
     "seoText": "Read reviews from satisfied patients of Clínica Hispana Nueva Salud Gessner in Houston. Our Hispanic community trusts us for their medical care."
   },
   "trustBadges": {
@@ -200,7 +227,8 @@
     "viewLocation": "View location on Google Maps",
     "followInstagram": "Follow Clínica Hispana Nueva Salud Gessner on Instagram",
     "followFacebook": "Follow Clínica Hispana Nueva Salud Gessner on Facebook",
-    "openServiceDetails": "View service details"
+    "openServiceDetails": "View service details",
+    "scrollToTop": "Scroll to top"
   },
   "blog": {
     "title": "News from Our",

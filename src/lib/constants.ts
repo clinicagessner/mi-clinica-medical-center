@@ -1,7 +1,6 @@
 import type {
   Service,
   Promotion,
-  FAQ,
   ContactInfo,
   GreenCardFeature,
   BlogPost,
@@ -532,60 +531,6 @@ export const GREEN_CARD_FEATURES: GreenCardFeature[] = [
   { id: "6", text: "Resultados en 3-5 días hábiles", included: true },
   { id: "7", text: "Atención 100% en español", included: true },
   { id: "8", text: "Sin cita previa necesaria", included: true },
-];
-
-export const FAQS: FAQ[] = [
-  {
-    question:
-      "¿Clínica Hispana Nueva Salud Gessner es una clínica hispana con atención en español?",
-    answer:
-      "Sí, Clínica Hispana Nueva Salud Gessner es una clínica hispana ubicada en Houston, TX. Todo nuestro personal habla español y ofrecemos atención médica completamente en tu idioma para que te sientas cómodo y comprendido durante tu visita.",
-  },
-  {
-    question: "¿Qué servicios ofrece esta clínica hispana en Houston?",
-    answer:
-      "Nuestra clínica hispana ofrece medicina general, ginecología, pediatría, laboratorio clínico, ultrasonido, exámenes de Green Card I-693, urgencias menores y control de enfermedades crónicas. Todos los servicios están disponibles en español.",
-  },
-  {
-    question:
-      "¿Necesito cita para visitar la clínica hispana Clínica Hispana Nueva Salud Gessner?",
-    answer:
-      "Aceptamos pacientes con y sin cita en nuestra clínica hispana. Sin embargo, recomendamos agendar una cita para reducir el tiempo de espera. Puede llamar al +1 (346) 226-5820.",
-  },
-  {
-    question: "¿Cuál es el horario de atención de la clínica hispana?",
-    answer:
-      "Nuestra clínica hispana en Houston está abierta de Lunes a Domingo de 9:00 AM a 9:00 PM. Ofrecemos horarios extendidos para que pueda visitarnos después del trabajo o los fines de semana.",
-  },
-  {
-    question:
-      "¿La clínica hispana está autorizada para exámenes de Green Card I-693?",
-    answer:
-      "Sí, Clínica Hispana Nueva Salud Gessner es una clínica hispana autorizada por USCIS para realizar exámenes médicos de inmigración I-693. Contamos con un médico Civil Surgeon certificado que completa y sella el formulario oficial.",
-  },
-  {
-    question:
-      "¿Cuánto cuesta una consulta médica en la clínica hispana Clínica Hispana Nueva Salud Gessner?",
-    answer:
-      "Las consultas médicas generales en nuestra clínica hispana comienzan desde $50. Ofrecemos precios accesibles y planes de pago para que toda la comunidad hispana de Houston tenga acceso a atención médica de calidad.",
-  },
-  {
-    question: "¿La clínica hispana acepta seguro médico?",
-    answer:
-      "Nuestra clínica hispana trabaja con varios seguros médicos. Le recomendamos llamarnos al +1 (346) 226-5820 para verificar si aceptamos su seguro. También ofrecemos precios especiales para pacientes sin seguro.",
-  },
-  {
-    question: "¿Dónde está ubicada la clínica hispana Clínica Hispana Nueva Salud Gessner?",
-    answer:
-      "Nuestra clínica hispana está ubicada en 1914 Gessner Rd B, Houston, TX 77080. Estamos en una ubicación conveniente con amplio estacionamiento gratuito para nuestros pacientes.",
-  },
-];
-
-export const LOCATION_FEATURES = [
-  "Estacionamiento gratuito",
-  "Accesible para sillas de ruedas",
-  "Cerca de transporte público",
-  "Área segura y bien iluminada",
 ];
 
 // BLOG POSTS

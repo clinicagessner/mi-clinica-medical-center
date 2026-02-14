@@ -1,14 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { MapPin, Phone, Clock, Car, Wheelchair, Bus, Shield } from "@phosphor-icons/react/dist/ssr";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CONTACT_INFO, LOCATION_FEATURES } from "@/lib/constants";
+import { CONTACT_INFO } from "@/lib/constants";
 
 const featureIcons = [Car, Wheelchair, Bus, Shield];
+const featureKeys = ["feature1", "feature2", "feature3", "feature4"] as const;
 
 export function Location() {
+  const t = useTranslations("location");
+
   return (
     <section id="ubicacion" className="py-16 bg-green-warm">
       <div className="container mx-auto px-4">
@@ -20,13 +24,11 @@ export function Location() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Clínica Hispana Cerca de Ti en{" "}
-            <span className="text-primary">Houston</span>
+            {t("title")}{" "}
+            <span className="text-primary">{t("titleHighlight")}</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Visita nuestra clínica hispana Clínica Hispana Nueva Salud Gessner en Houston,
-            TX. Estamos ubicados en un lugar conveniente con fácil acceso y
-            estacionamiento gratuito.
+            {t("description")}
           </p>
         </motion.div>
 
@@ -46,7 +48,7 @@ export function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de Clínica Hispana Nueva Salud Gessner - Clínica Hispana en Houston TX"
+              title={t("mapTitle")}
               className="absolute inset-0 w-full h-full"
             />
           </motion.div>
@@ -67,7 +69,7 @@ export function Location() {
                     <MapPin className="size-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Dirección</h3>
+                    <h3 className="font-bold text-foreground mb-1">{t("addressTitle")}</h3>
                     <p className="text-muted-foreground">{CONTACT_INFO.address}</p>
                     <Button asChild variant="link" className="p-0 h-auto mt-1">
                       <a
@@ -75,7 +77,7 @@ export function Location() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Ver en Google Maps
+                        {t("viewOnMaps")}
                       </a>
                     </Button>
                   </div>
@@ -87,7 +89,7 @@ export function Location() {
                     <Phone className="size-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Teléfono</h3>
+                    <h3 className="font-bold text-foreground mb-1">{t("phoneTitle")}</h3>
                     <a
                       href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}
                       className="text-primary font-semibold hover:underline"
@@ -95,7 +97,7 @@ export function Location() {
                       {CONTACT_INFO.phone}
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
-                      Llama ahora a la clínica hispana
+                      {t("callClinic")}
                     </p>
                   </div>
                 </div>
@@ -106,10 +108,10 @@ export function Location() {
                     <Clock className="size-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Horario</h3>
+                    <h3 className="font-bold text-foreground mb-1">{t("hoursTitle")}</h3>
                     <p className="text-muted-foreground">{CONTACT_INFO.hours}</p>
                     <p className="text-sm text-success font-medium mt-1">
-                      Abierto ahora - 7 días a la semana
+                      {t("openNow")}
                     </p>
                   </div>
                 </div>
@@ -120,16 +122,16 @@ export function Location() {
             <Card>
               <CardContent className="pt-6">
                 <h3 className="font-bold text-foreground mb-4">
-                  Facilidades de la Clínica Hispana
+                  {t("facilitiesTitle")}
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
-                  {LOCATION_FEATURES.map((feature, index) => {
+                  {featureKeys.map((key, index) => {
                     const Icon = featureIcons[index];
                     return (
-                      <div key={index} className="flex items-center gap-2">
+                      <div key={key} className="flex items-center gap-2">
                         <Icon className="size-5 text-success" />
                         <span className="text-sm text-muted-foreground">
-                          {feature}
+                          {t(key)}
                         </span>
                       </div>
                     );
@@ -146,7 +148,7 @@ export function Location() {
                 rel="noopener noreferrer"
               >
                 <MapPin className="size-5 mr-2" />
-                Cómo Llegar a la Clínica Hispana
+                {t("howToGet")}
               </a>
             </Button>
           </motion.div>
@@ -159,10 +161,7 @@ export function Location() {
           viewport={{ once: true }}
           className="text-center text-sm text-muted-foreground mt-10 max-w-3xl mx-auto"
         >
-          La clínica hispana Clínica Hispana Nueva Salud Gessner está ubicada en 1914
-          Gessner Rd B, Houston, TX 77080. Nuestra clínica hispana es fácil de
-          encontrar y cuenta con amplio estacionamiento gratuito para todos
-          nuestros pacientes de la comunidad hispana de Houston.
+          {t("seoText")}
         </motion.p>
       </div>
     </section>

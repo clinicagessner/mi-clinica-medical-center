@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion, useReducedMotion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { PaperPlaneTilt, CheckCircle, WarningCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -29,6 +30,7 @@ export function ContactForm() {
     null
   );
   const shouldReduceMotion = useReducedMotion();
+  const t = useTranslations("contactForm");
 
   const {
     register,
@@ -59,7 +61,6 @@ export function ContactForm() {
         setSubmitStatus("success");
         reset();
       } else {
-        // Set root error for server-side validation failures
         setError("root", {
           type: "server",
           message: response.message,
@@ -69,7 +70,7 @@ export function ContactForm() {
     } catch {
       setError("root", {
         type: "server",
-        message: "Error de conexión. Por favor intenta de nuevo.",
+        message: t("errorMessage"),
       });
       setSubmitStatus("error");
     } finally {
@@ -82,10 +83,10 @@ export function ContactForm() {
       {/* Header */}
       <div className="bg-linear-to-r from-primary to-primary/80 p-6 text-center">
         <h3 className="text-xl md:text-2xl font-bold text-white">
-          Solicita tu Cita
+          {t("title")}
         </h3>
         <p className="text-white/80 text-sm mt-1">
-          Completa el formulario y te contactaremos pronto
+          {t("successMessage")}
         </p>
       </div>
 
@@ -95,11 +96,11 @@ export function ContactForm() {
           {/* Name */}
           <div className="space-y-2">
             <Label htmlFor="nombre" className="text-foreground font-medium">
-              Nombre Completo *
+              {t("nameLabel")} *
             </Label>
             <Input
               id="nombre"
-              placeholder="Tu nombre"
+              placeholder={t("namePlaceholder")}
               className="h-12 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary"
               {...register("nombre")}
               aria-invalid={!!errors.nombre}
@@ -115,12 +116,12 @@ export function ContactForm() {
           {/* Phone */}
           <div className="space-y-2">
             <Label htmlFor="telefono" className="text-foreground font-medium">
-              Teléfono *
+              {t("phoneLabel")} *
             </Label>
             <Input
               id="telefono"
               type="tel"
-              placeholder="(123) 456-7890"
+              placeholder={t("phonePlaceholder")}
               className="h-12 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary"
               {...register("telefono")}
               aria-invalid={!!errors.telefono}
@@ -136,12 +137,12 @@ export function ContactForm() {
           {/* Email */}
           <div className="space-y-2">
             <Label htmlFor="email" className="text-foreground font-medium">
-              Correo Electrónico (opcional)
+              {t("emailLabel")}
             </Label>
             <Input
               id="email"
               type="email"
-              placeholder="tu@email.com"
+              placeholder={t("emailPlaceholder")}
               className="h-12 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary"
               {...register("email")}
               aria-invalid={!!errors.email}
@@ -157,7 +158,7 @@ export function ContactForm() {
           {/* Service */}
           <div className="space-y-2">
             <Label htmlFor="servicio" className="text-foreground font-medium">
-              Servicio de Interés *
+              {t("serviceLabel")} *
             </Label>
             <Select onValueChange={(value) => setValue("servicio", value)}>
               <SelectTrigger
@@ -166,7 +167,7 @@ export function ContactForm() {
                 aria-invalid={!!errors.servicio}
                 aria-describedby={errors.servicio ? "servicio-error" : undefined}
               >
-                <SelectValue placeholder="Selecciona un servicio" />
+                <SelectValue placeholder={t("servicePlaceholder")} />
               </SelectTrigger>
               <SelectContent>
                 {serviceOptions.map((option) => (
@@ -186,11 +187,11 @@ export function ContactForm() {
           {/* Message */}
           <div className="space-y-2">
             <Label htmlFor="mensaje" className="text-foreground font-medium">
-              Mensaje (opcional)
+              {t("messageLabel")}
             </Label>
             <Textarea
               id="mensaje"
-              placeholder="Cuéntanos más sobre tu consulta..."
+              placeholder={t("messagePlaceholder")}
               rows={3}
               className="bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary resize-none"
               {...register("mensaje")}
@@ -225,12 +226,12 @@ export function ContactForm() {
                     <PaperPlaneTilt className="size-5" />
                   </motion.div>
                 )}
-                Enviando...
+                {t("submitting")}
               </>
             ) : (
               <>
                 <PaperPlaneTilt className="size-5 mr-2" aria-hidden="true" />
-                Enviar Mensaje
+                {t("submit")}
               </>
             )}
           </Button>
@@ -246,7 +247,7 @@ export function ContactForm() {
             >
               <CheckCircle className="size-5 shrink-0" weight="fill" aria-hidden="true" />
               <span className="text-sm">
-                ¡Mensaje enviado! Te contactaremos pronto.
+                {t("successTitle")} {t("successMessage")}
               </span>
             </motion.div>
           )}
@@ -261,7 +262,7 @@ export function ContactForm() {
             >
               <WarningCircle className="size-5 shrink-0" weight="fill" aria-hidden="true" />
               <span className="text-sm">
-                {errors.root?.message || "Hubo un error. Por favor intenta de nuevo o llámanos."}
+                {errors.root?.message || t("errorMessage")}
               </span>
             </motion.div>
           )}
