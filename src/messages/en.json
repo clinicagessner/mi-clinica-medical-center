@@ -378,5 +378,28 @@
       "longDescription": "At Clínica Hispana Nueva Salud Gessner we treat muscle pain, sprains and minor injuries. Accurate diagnosis and treatment for your quick recovery.",
       "features": ["Pain evaluation", "Anti-inflammatory treatment", "Pain injections", "Muscle relaxants", "Heat/cold therapy", "Exercise recommendations"]
     }
+  },
+  "privacy": {
+    "title": "HIPAA Privacy Policy",
+    "backHome": "Back to Home",
+    "intro": "This document provides a formal summary of the manner in which Clínica Hispana Nueva Salud Gessner complies with the Health Insurance Portability and Accountability Act of 1996 (HIPAA) as it relates to information collected, transmitted, or stored through its official website. The Clinic is committed to maintaining the privacy, confidentiality, and security of Protected Health Information (PHI) in accordance with federal regulations and applicable state laws.",
+    "collectionTitle": "Information We Collect",
+    "collectionText": "The website may collect personal and identifying information voluntarily submitted by users, including but not limited to name, email address, telephone number, appointment requests, and limited health-related information provided through secure electronic forms.",
+    "protectionTitle": "Data Protection",
+    "protectionText": "Any Protected Health Information submitted electronically is protected through appropriate administrative, technical, and physical safeguards, including Secure Socket Layer (SSL) encryption, restricted system access, and secure data storage protocols.",
+    "useTitle": "Use of Information",
+    "useText": "Information obtained through the website is used exclusively for legitimate healthcare operations, including scheduling appointments, responding to inquiries, facilitating billing processes, and coordinating patient care. Under no circumstances is Protected Health Information sold, leased, or disclosed for unauthorized marketing purposes.",
+    "thirdPartyTitle": "Third-Party Service Providers",
+    "thirdPartyText": "When third-party service providers are engaged in functions that involve access to PHI, the Clinic ensures that a valid Business Associate Agreement (BAA) is executed in compliance with HIPAA requirements.",
+    "rightsTitle": "Patient Rights",
+    "rightsText": "Patients retain all rights afforded under HIPAA, including the right to access their health records, request amendments to inaccurate information, request restrictions on certain disclosures, and receive an accounting of disclosures when applicable.",
+    "complaintsTitle": "Privacy Complaints",
+    "complaintsText": "Individuals may file privacy-related complaints without fear of retaliation by contacting the Clinic's designated Privacy Officer or the U.S. Department of Health and Human Services.",
+    "disclaimerTitle": "Legal Disclaimer",
+    "disclaimerText": "The information presented on the Clinic's website is intended for general informational purposes only and does not constitute medical advice, diagnosis, or treatment. Users are encouraged to consult directly with a qualified healthcare provider regarding any medical concerns. In the event of a medical emergency, individuals should immediately call 911 or seek appropriate emergency medical services.",
+    "contactTitle": "Contact",
+    "phoneLabel": "Phone",
+    "notice": "This summary is provided for informational purposes and does not replace the Clinic's full Notice of Privacy Practices, which is available upon request.",
+    "linkText": "Privacy Policy"
   }
 }

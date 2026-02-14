@@ -101,18 +101,6 @@ export function Promotions() {
                 </CardHeader>
 
                 <CardContent className="space-y-4 relative z-10">
-                  {/* Price */}
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-4xl font-bold text-white drop-shadow-lg">
-                      {promo.price}
-                    </span>
-                    {promo.originalPrice && (
-                      <span className="text-lg text-white/75 line-through">
-                        {promo.originalPrice}
-                      </span>
-                    )}
-                  </div>
-
                   {/* Includes */}
                   <ul className="space-y-2">
                     {promo.includes.map((item, i) => (
@@ -155,10 +143,9 @@ export function Promotions() {
           ))}
         </div>
 
-        {/* Bottom text */}
+        {/* SEO text */}
         <p className="text-center text-sm text-muted-foreground mt-8">
-          * Precios válidos en nuestra clínica hispana Clínica Hispana Nueva Salud Gessner
-          en Houston, TX. Sujetos a cambio sin previo aviso.
+          {t("promotions.seoText")}
         </p>
       </div>
     </section>

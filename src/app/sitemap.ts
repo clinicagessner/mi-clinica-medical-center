@@ -55,6 +55,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     });
 
+    // Privacy policy
+    routes.push({
+      url: `${baseUrl}${prefix}/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/privacy`,
+          en: `${baseUrl}/en/privacy`,
+        },
+      },
+    });
+
     // Blog page
     routes.push({
       url: `${baseUrl}${prefix}/blog`,

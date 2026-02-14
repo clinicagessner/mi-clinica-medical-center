@@ -378,5 +378,28 @@
       "longDescription": "En Clínica Hispana Nueva Salud Gessner tratamos dolores musculares, esguinces y lesiones menores. Diagnóstico preciso y tratamiento para tu pronta recuperación.",
       "features": ["Evaluación del dolor", "Tratamiento antiinflamatorio", "Inyecciones para el dolor", "Relajantes musculares", "Terapia de calor/frío", "Recomendaciones de ejercicio"]
     }
+  },
+  "privacy": {
+    "title": "Política de Privacidad HIPAA",
+    "backHome": "Volver al Inicio",
+    "intro": "Este documento proporciona un resumen formal de la manera en que Clínica Hispana Nueva Salud Gessner cumple con la Ley de Portabilidad y Responsabilidad del Seguro de Salud de 1996 (HIPAA) en relación con la información recopilada, transmitida o almacenada a través de su sitio web oficial. La Clínica está comprometida con mantener la privacidad, confidencialidad y seguridad de la Información de Salud Protegida (PHI) de acuerdo con las regulaciones federales y las leyes estatales aplicables.",
+    "collectionTitle": "Información que Recopilamos",
+    "collectionText": "El sitio web puede recopilar información personal e identificable proporcionada voluntariamente por los usuarios, incluyendo pero no limitada a nombre, dirección de correo electrónico, número de teléfono, solicitudes de citas e información limitada relacionada con la salud proporcionada a través de formularios electrónicos seguros.",
+    "protectionTitle": "Protección de Datos",
+    "protectionText": "Cualquier Información de Salud Protegida enviada electrónicamente está protegida mediante salvaguardas administrativas, técnicas y físicas apropiadas, incluyendo encriptación SSL (Secure Socket Layer), acceso restringido al sistema y protocolos de almacenamiento seguro de datos.",
+    "useTitle": "Uso de la Información",
+    "useText": "La información obtenida a través del sitio web se utiliza exclusivamente para operaciones legítimas de atención médica, incluyendo la programación de citas, respuesta a consultas, facilitación de procesos de facturación y coordinación de la atención al paciente. Bajo ninguna circunstancia se vende, arrienda o divulga la Información de Salud Protegida para fines de marketing no autorizados.",
+    "thirdPartyTitle": "Proveedores de Servicios Terceros",
+    "thirdPartyText": "Cuando se contratan proveedores de servicios terceros en funciones que implican acceso a PHI, la Clínica asegura que se ejecute un Acuerdo de Asociado de Negocios (BAA) válido en cumplimiento con los requisitos de HIPAA.",
+    "rightsTitle": "Derechos del Paciente",
+    "rightsText": "Los pacientes conservan todos los derechos otorgados bajo HIPAA, incluyendo el derecho a acceder a sus registros de salud, solicitar enmiendas a información inexacta, solicitar restricciones en ciertas divulgaciones y recibir un informe de divulgaciones cuando sea aplicable.",
+    "complaintsTitle": "Quejas de Privacidad",
+    "complaintsText": "Las personas pueden presentar quejas relacionadas con la privacidad sin temor a represalias contactando al Oficial de Privacidad designado de la Clínica o al Departamento de Salud y Servicios Humanos de EE.UU.",
+    "disclaimerTitle": "Aviso Legal",
+    "disclaimerText": "La información presentada en el sitio web de la Clínica tiene fines informativos generales únicamente y no constituye consejo médico, diagnóstico o tratamiento. Se recomienda a los usuarios consultar directamente con un proveedor de atención médica calificado sobre cualquier preocupación médica. En caso de una emergencia médica, las personas deben llamar inmediatamente al 911 o buscar los servicios médicos de emergencia apropiados.",
+    "contactTitle": "Contacto",
+    "phoneLabel": "Teléfono",
+    "notice": "Este resumen se proporciona con fines informativos y no reemplaza el Aviso Completo de Prácticas de Privacidad de la Clínica, el cual está disponible a solicitud.",
+    "linkText": "Política de Privacidad"
   }
 }

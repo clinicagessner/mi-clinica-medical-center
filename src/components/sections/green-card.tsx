@@ -62,7 +62,7 @@ export function GreenCard() {
           </Badge>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             {t("title")}{" "}
-            <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] [text-shadow:0_0_30px_rgba(34,197,94,0.5)]">
+            <span className="text-green-light drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
               {t("titleHighlight")}
             </span>
           </h2>
@@ -85,7 +85,7 @@ export function GreenCard() {
                     <div className="size-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/30">
                       <FileText className="size-5 text-white" weight="fill" />
                     </div>
-                    <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] [text-shadow:0_0_20px_rgba(34,197,94,0.4)]">{t("processTitle")}</span>
+                    <span className="text-green-light">{t("processTitle")}</span>
                   </h3>
                 </div>
                 <div className="p-6">

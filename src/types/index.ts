@@ -19,8 +19,6 @@ export interface Promotion {
   title: string;
   badge: string;
   description: string;
-  price?: string;
-  originalPrice?: string;
   includes: string[];
 }
 

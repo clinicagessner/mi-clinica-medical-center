@@ -85,7 +85,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="inline-flex items-center text-white/90 hover:text-primary transition-all duration-300 hover:translate-x-1"
+                    className="inline-flex items-center text-white/90 hover:text-white transition-all duration-300 hover:translate-x-1"
                   >
                     {link.label}
                   </Link>
@@ -159,13 +159,21 @@ export function Footer() {
           <p className="mt-2 text-white/80">
             {t("footer.tagline")}
           </p>
+          <p className="mt-2">
+            <Link
+              href={`${localePrefix}/privacy`}
+              className="text-white/70 hover:text-white transition-colors duration-300"
+            >
+              {t("privacy.linkText")}
+            </Link>
+          </p>
           <p className="mt-3 text-white/70">
             {t("footer.createdBy")}{" "}
             <a
               href="https://rcweb.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-primary transition-colors duration-300 font-semibold"
+              className="text-white hover:text-green-light transition-colors duration-300 font-semibold"
             >
               RC Web Solutions LLC
             </a>
