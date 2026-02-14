@@ -1,35 +1,32 @@
 import createMiddleware from "next-intl/middleware";
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./i18n/routing";
 
 const handleI18nRouting = createMiddleware(routing);
 
 export default function proxy(request: NextRequest) {
-  // For unprefixed paths without a locale cookie, inject the cookie
-  // into the request headers so next-intl serves the default locale (es)
-  // instead of redirecting based on Accept-Language
-  const hasLocalePrefix = routing.locales.some(
-    (locale) =>
-      request.nextUrl.pathname === `/${locale}` ||
-      request.nextUrl.pathname.startsWith(`/${locale}/`)
-  );
-  const localeCookie = request.cookies.get("NEXT_LOCALE")?.value;
+  const response = handleI18nRouting(request);
 
-  if (!hasLocalePrefix && !localeCookie) {
-    const headers = new Headers(request.headers);
-    const existingCookies = headers.get("cookie") || "";
-    headers.set(
-      "cookie",
-      existingCookies
-        ? `${existingCookies}; NEXT_LOCALE=${routing.defaultLocale}`
-        : `NEXT_LOCALE=${routing.defaultLocale}`
+  // localeDetection: false in defineRouting doesn't prevent Accept-Language
+  // redirects in next-intl 4.x. When the middleware redirects an unprefixed
+  // path (e.g. "/" → "/en") based on Accept-Language, convert the redirect
+  // into a rewrite so the default locale (es) is served at the original URL.
+  // This is the intended behavior of localePrefix: "as-needed".
+  if (response.status === 307) {
+    const pathname = request.nextUrl.pathname;
+    const hasLocalePrefix = routing.locales.some(
+      (locale) =>
+        pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
     );
-    return handleI18nRouting(
-      new NextRequest(request.url, { headers })
-    );
+
+    if (!hasLocalePrefix) {
+      return NextResponse.rewrite(
+        new URL(`/${routing.defaultLocale}${pathname}`, request.url)
+      );
+    }
   }
 
-  return handleI18nRouting(request);
+  return response;
 }
 
 export const config = {
