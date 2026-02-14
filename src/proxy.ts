@@ -16,13 +16,17 @@ export default function proxy(request: NextRequest) {
   // where localeDetection: false is ignored) while maintaining the
   // intended behavior of localePrefix: "as-needed".
   if (!hasLocalePrefix) {
-    return NextResponse.rewrite(
+    const response = NextResponse.rewrite(
       new URL(`/${routing.defaultLocale}${pathname}${request.nextUrl.search}`, request.url)
     );
+    response.headers.set("x-proxy-debug", "rewrite-to-default");
+    return response;
   }
 
   // For prefixed paths (/en/..., /es/...), delegate to next-intl
-  return handleI18nRouting(request);
+  const response = handleI18nRouting(request);
+  response.headers.set("x-proxy-debug", "next-intl");
+  return response;
 }
 
 export const config = {
