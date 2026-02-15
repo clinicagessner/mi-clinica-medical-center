@@ -42,3 +42,7 @@ next-env.d.ts
 
 # lighthouse reports
 /lighthouse-reports
+
+# claude code (skills/agents tooling)
+.agents/
+.claude/skills/
