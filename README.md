@@ -1,6 +1,8 @@
 # Clínica Hispana Nueva Salud Gessner
 
-Landing page for a Hispanic medical clinic in Houston, TX. Optimized for local SEO, conversions, and accessibility.
+Website for a Hispanic medical clinic in Houston, TX. Bilingual (ES/EN), optimized for local SEO, conversions, and accessibility.
+
+**Production:** [www.clinicagessner.com](https://www.clinicagessner.com)
 
 ## Tech Stack
 
@@ -10,13 +12,13 @@ Landing page for a Hispanic medical clinic in Houston, TX. Optimized for local S
 | [Next.js](https://nextjs.org/) | 16.1.6 | React framework with App Router |
 | [React](https://react.dev/) | 19.2.3 | UI library |
 | [TypeScript](https://www.typescriptlang.org/) | ^5 | Type safety |
-| [Tailwind CSS](https://tailwindcss.com/) | ^4 | Utility-first CSS |
+| [Tailwind CSS](https://tailwindcss.com/) | ^4 | Utility-first CSS (CSS-first config) |
+| [next-intl](https://next-intl.dev/) | 4.8.2 | Internationalization (ES/EN) |
 
 ### UI Components
 | Technology | Version | Description |
 |------------|---------|-------------|
 | [shadcn/ui](https://ui.shadcn.com/) | - | Accessible components (Radix UI) |
-| [Radix UI](https://www.radix-ui.com/) | 1.4.3 | UI primitives |
 | [Framer Motion](https://www.framer.com/motion/) | 12.31.0 | Animations |
 | [Embla Carousel](https://www.embla-carousel.com/) | 8.6.0 | Testimonials carousel |
 
@@ -37,13 +39,12 @@ Landing page for a Hispanic medical clinic in Houston, TX. Optimized for local S
 ### Backend & Email
 | Technology | Version | Description |
 |------------|---------|-------------|
-| [Resend](https://resend.com/) | 6.9.2 | Email sending |
+| [Resend](https://resend.com/) | 6.9.2 | Email delivery |
 | [@react-email](https://react.email/) | 1.0.7 | Email templates |
 
 ### Utilities
 | Technology | Version | Description |
 |------------|---------|-------------|
-| [Zustand](https://zustand-demo.pmnd.rs/) | 5.0.11 | Global state |
 | [clsx](https://github.com/lukeed/clsx) | 2.1.1 | Class utility |
 | [tailwind-merge](https://github.com/dcastil/tailwind-merge) | 3.4.0 | Tailwind class merge |
 | [class-variance-authority](https://cva.style/) | 0.7.1 | Component variants |
@@ -51,25 +52,26 @@ Landing page for a Hispanic medical clinic in Houston, TX. Optimized for local S
 
 ## Features
 
-- **SEO Optimized**: Meta tags, Open Graph, JSON-LD schemas, sitemap
-- **Performance**: Next.js Image optimization, lazy loading, code splitting
-- **Accessibility**: WCAG compliant, keyboard navigation, ARIA labels
+- **Bilingual (ES/EN)**: Full internationalization with next-intl, Spanish as default
+- **SEO Optimized**: Meta tags, Open Graph, JSON-LD schemas (MedicalClinic, FAQPage, Service, BlogPosting), sitemap
+- **Performance**: Next.js Image optimization, lazy loading, dynamic imports, code splitting
+- **Accessibility**: WCAG 2.1 AA compliant, keyboard navigation, ARIA labels, reduced motion support
 - **Responsive**: Mobile-first design
-- **PWA Ready**: Web manifest, optimized icons
-- **Contact Form**: Client/server validation, email sending
-- **Google Reviews**: Google Places API integration
-- **Animations**: Scroll animations with Framer Motion
+- **Contact Form**: Client + server validation with Zod, email delivery via Resend
+- **Google Reviews**: Live Google Places API integration with 24h cache
+- **Blog**: Static blog with bilingual articles
+- **Analytics**: Google Tag Manager integration
 
 ## Requirements
 
 - Node.js 18.17+
-- npm or yarn
+- npm
 
 ## Installation
 
 ```bash
 # Clone repository
-git clone https://github.com/caballerorandy6/mi-clinica-medical-center.git
+git clone https://github.com/clinicagessner/mi-clinica-medical-center.git
 
 # Enter directory
 cd mi-clinica-medical-center
@@ -88,14 +90,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Environment Variables
 
-Create a `.env.local` file with the following variables:
+Create a `.env.local` file:
 
 ```env
 # Google Places API (for reviews)
 GOOGLE_PLACES_API_KEY=your_api_key
 GOOGLE_PLACE_ID=your_place_id
 
-# Resend (for email sending)
+# Resend (for email delivery)
 RESEND_API_KEY=your_resend_api_key
 ```
 
@@ -113,29 +115,45 @@ npm run lint     # Run ESLint
 ```
 src/
 ├── app/
-│   ├── layout.tsx         # Main layout + metadata
-│   ├── page.tsx           # Home page
-│   ├── servicios/         # Services page
-│   ├── error.tsx          # Error page
-│   ├── not-found.tsx      # 404 page
-│   ├── robots.ts          # robots.txt configuration
-│   ├── sitemap.ts         # Dynamic sitemap
-│   └── actions/           # Server actions
+│   ├── layout.tsx              # Root layout
+│   ├── globals.css             # Tailwind + CSS theme variables
+│   ├── sitemap.ts              # Dynamic sitemap
+│   ├── robots.ts               # robots.txt
+│   ├── actions/                # Server actions (email)
+│   └── [locale]/               # Dynamic locale routing (ES/EN)
+│       ├── layout.tsx          # Locale layout (fonts, i18n provider, GTM)
+│       ├── page.tsx            # Homepage
+│       ├── privacy/            # HIPAA privacy policy
+│       ├── services/           # Services list + detail pages
+│       └── blog/               # Blog list + article pages
 ├── components/
-│   ├── ui/                # shadcn/ui components
-│   ├── layout/            # Header, Footer, FloatingButtons
-│   ├── sections/          # Hero, Services, Contact, FAQ, etc.
-│   ├── forms/             # Contact form
-│   ├── services/          # Service components
-│   └── seo/               # JSON-LD schemas
-├── lib/
-│   ├── constants.ts       # Static data (services, FAQs, etc.)
-│   ├── validations.ts     # Zod schemas
-│   └── utils.ts           # Utilities
-├── emails/                # Email templates
-├── hooks/                 # Custom hooks
-└── types/                 # TypeScript types
+│   ├── ui/                     # shadcn/ui components
+│   ├── layout/                 # Header, Footer, FloatingButtons, LanguageSwitcher
+│   ├── sections/               # Hero, Services, Promotions, Testimonials, Contact, FAQ, etc.
+│   ├── forms/                  # Contact form (RHF + Zod)
+│   ├── services/               # Service page components
+│   └── seo/                    # JSON-LD schemas
+├── i18n/                       # Internationalization config
+├── lib/                        # Constants, validations, utilities, Google Reviews
+├── messages/                   # Translation files (es.json, en.json)
+├── emails/                     # React Email templates
+├── types/                      # TypeScript types
+└── proxy.ts                    # next-intl middleware
 ```
+
+## Routes
+
+| Path | Description |
+|------|-------------|
+| `/` | Homepage (Spanish) |
+| `/en` | Homepage (English) |
+| `/services` | Services list |
+| `/services/[slug]` | Service detail |
+| `/blog` | Blog listing |
+| `/blog/[slug]` | Blog article |
+| `/privacy` | HIPAA privacy policy |
+
+All routes support `/en` prefix for English.
 
 ## Medical Services
 
@@ -145,25 +163,17 @@ The clinic offers 18+ medical services including:
 - Gynecology
 - Ultrasounds
 - Clinical Laboratory
-- Diabetes Management
+- Family Medicine
 - Pediatrics
 - And more...
 
 ## Deployment
 
-The project is optimized for deployment on [Vercel](https://vercel.com/):
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
+Deployed on [Vercel](https://vercel.com/) via GitHub integration.
 
 ### Environment Variables on Vercel
 
-Configure the following variables in the Vercel dashboard:
+Configure in the Vercel dashboard:
 - `GOOGLE_PLACES_API_KEY`
 - `GOOGLE_PLACE_ID`
 - `RESEND_API_KEY`
@@ -174,4 +184,4 @@ Private project - All rights reserved.
 
 ---
 
-Developed for **Clínica Hispana Nueva Salud Gessner** - Houston, TX
+Developed for **RC Web Solutions LLCes** - Houston, TX

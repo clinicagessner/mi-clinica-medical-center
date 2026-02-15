@@ -457,23 +457,6 @@ export const SERVICES: Service[] = [
   },
 ];
 
-// Helper function to get service by slug
-export function getServiceBySlug(slug: string): Service | undefined {
-  return SERVICES.find((service) => service.slug === slug);
-}
-
-// Helper function to get highlighted services
-export function getHighlightedServices(): Service[] {
-  return SERVICES.filter((service) => service.highlighted);
-}
-
-// Helper function to get services by category
-export function getServicesByCategory(
-  category: Service["category"]
-): Service[] {
-  return SERVICES.filter((service) => service.category === category);
-}
-
 export const PROMOTIONS: Promotion[] = [
   {
     id: "ginecologia",
@@ -552,8 +535,4 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((post) => post.slug === slug);
 }
 
-// Helper function to get featured blog posts
-export function getFeaturedBlogPosts(): BlogPost[] {
-  return BLOG_POSTS.filter((post) => post.featured);
-}
 
