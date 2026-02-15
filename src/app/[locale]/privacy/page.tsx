@@ -44,7 +44,7 @@ export default async function PrivacyPage({ params }: Props) {
   const homeHref = locale === "es" ? "/" : `/${locale}`;
 
   return (
-    <section className="py-24 sm:py-28 bg-background min-h-screen">
+    <section className="pt-32 sm:pt-36 pb-16 sm:pb-20 bg-background min-h-screen">
       <div className="container mx-auto px-4 max-w-3xl">
         {/* Back link */}
         <Link
