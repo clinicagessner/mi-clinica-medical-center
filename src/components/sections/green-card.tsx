@@ -196,7 +196,7 @@ export function GreenCard() {
                 size="lg"
                 className="flex-1 bg-primary text-white hover:bg-primary/90 shadow-xl shadow-primary/30 hover:shadow-primary/40 transition-all duration-300 hover:scale-[1.02] h-14 text-base font-semibold"
               >
-                <Link href={`${homeHref}#contacto`}>
+                <Link href={`${homeHref}#contact`}>
                   <FileText className="size-5 mr-2" weight="fill" />
                   {t("ctaSchedule")}
                 </Link>

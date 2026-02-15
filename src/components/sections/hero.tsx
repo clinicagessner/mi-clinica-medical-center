@@ -88,7 +88,7 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
 
   return (
     <section
-      id="inicio"
+      id="home"
       className="relative min-h-svh flex flex-col pt-16 sm:pt-20 md:pt-28 lg:pt-32 pb-4 overflow-hidden"
     >
       {/* Background Image */}
@@ -179,7 +179,7 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
 
       {/* Scroll Indicator */}
       <a
-        href="#servicios"
+        href="#services"
         className="animate-hero-scroll group flex flex-col items-center gap-1.5 py-3 sm:py-4 cursor-pointer"
       >
         <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/80 group-hover:bg-white/20 group-hover:text-white transition-all">

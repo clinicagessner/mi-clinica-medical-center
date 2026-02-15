@@ -16,10 +16,10 @@ export function Footer() {
 
   // Navigation links with translations
   const navigationLinks = [
-    { label: t("nav.services"), href: `${localePrefix}/#servicios` },
+    { label: t("nav.services"), href: `${localePrefix}/#services` },
     { label: t("nav.greenCard"), href: `${localePrefix}/#green-card` },
     { label: t("nav.blog"), href: `${localePrefix}/blog` },
-    { label: t("nav.contact"), href: `${localePrefix}/#contacto` },
+    { label: t("nav.contact"), href: `${localePrefix}/#contact` },
   ];
 
   return (

@@ -15,7 +15,7 @@ export async function Testimonials({ reviewsData }: TestimonialsProps) {
       {/* Schema markup for SEO */}
       <JsonLdAggregateRating reviews={reviewsData} />
 
-      <section id="testimonios" className="py-16 bg-green-bg scroll-mt-20">
+      <section id="testimonials" className="py-16 bg-green-bg scroll-mt-20">
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-12">

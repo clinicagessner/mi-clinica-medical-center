@@ -402,7 +402,7 @@ export function ServicesPageContent() {
                 size="lg"
                 className="border-2 border-white/50 text-white hover:bg-white hover:text-secondary backdrop-blur-sm transition-all duration-300 hover:scale-105 h-14 px-8 text-base font-semibold"
               >
-                <Link href={locale === "es" ? "/#contacto" : `/${locale}/#contacto`}>
+                <Link href={locale === "es" ? "/#contact" : `/${locale}/#contact`}>
                   <Chat className="size-5 mr-2" />
                   {locale === "es" ? "Enviar Mensaje" : "Send Message"}
                 </Link>

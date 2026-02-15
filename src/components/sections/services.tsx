@@ -116,7 +116,7 @@ export function Services() {
   const servicesHref = locale === "es" ? "/services" : `/${locale}/services`;
 
   return (
-    <section id="servicios" className="py-16 bg-green-bg-alt">
+    <section id="services" className="py-16 bg-green-bg-alt">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div

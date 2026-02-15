@@ -26,10 +26,10 @@ export function Header() {
 
   // Navigation links with translations
   const navigationLinks = [
-    { label: t("nav.services"), href: `${localePrefix}/#servicios` },
+    { label: t("nav.services"), href: `${localePrefix}/#services` },
     { label: t("nav.greenCard"), href: `${localePrefix}/#green-card` },
     { label: t("nav.blog"), href: `${localePrefix}/blog` },
-    { label: t("nav.contact"), href: `${localePrefix}/#contacto` },
+    { label: t("nav.contact"), href: `${localePrefix}/#contact` },
   ];
 
   // Use IntersectionObserver instead of scroll event for isScrolled
@@ -57,8 +57,8 @@ export function Header() {
   useEffect(() => {
     if (!isHomepage) return;
 
-    const navSections = ["servicios", "green-card", "contacto"];
-    const allSections = ["inicio", ...navSections];
+    const navSections = ["services", "green-card", "contact"];
+    const allSections = ["home", ...navSections];
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -71,7 +71,7 @@ export function Header() {
           )[0];
           const sectionId = mostVisible.target.id;
 
-          if (sectionId === "inicio") {
+          if (sectionId === "home") {
             setActiveSection("");
             window.history.replaceState(null, "", window.location.pathname);
           } else {
@@ -282,7 +282,7 @@ export function Header() {
                   : "bg-white text-secondary hover:bg-white/95 shadow-lg shadow-black/10 hover:scale-105"
               )}
             >
-              <Link href={`${homeHref}#contacto`}>{t("common.schedule")}</Link>
+              <Link href={`${homeHref}#contact`}>{t("common.schedule")}</Link>
             </Button>
           </div>
 
@@ -397,7 +397,7 @@ export function Header() {
                       </a>
                     </div>
                     <Button asChild className="w-full h-12 text-sm font-semibold" size="lg">
-                      <Link href={`${homeHref}#contacto`} onClick={() => setIsOpen(false)}>
+                      <Link href={`${homeHref}#contact`} onClick={() => setIsOpen(false)}>
                         {t("common.schedule")}
                       </Link>
                     </Button>

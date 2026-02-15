@@ -310,7 +310,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                     variant="outline"
                     className="h-14 px-8 text-base font-semibold"
                   >
-                    <Link href={`${locale === "es" ? "" : `/${locale}`}/#contacto`}>
+                    <Link href={`${locale === "es" ? "" : `/${locale}`}/#contact`}>
                       {locale === "es" ? "Enviar Mensaje" : "Send Message"}
                     </Link>
                   </Button>

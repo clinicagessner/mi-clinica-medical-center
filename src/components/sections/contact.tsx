@@ -18,7 +18,7 @@ export function Contact() {
   ];
 
   return (
-    <section id="contacto" className="relative py-16 lg:py-20 overflow-hidden">
+    <section id="contact" className="relative py-16 lg:py-20 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 -z-20">
         <Image

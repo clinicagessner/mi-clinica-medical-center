@@ -14,7 +14,7 @@ export function Location() {
   const t = useTranslations("location");
 
   return (
-    <section id="ubicacion" className="py-16 bg-green-warm">
+    <section id="location" className="py-16 bg-green-warm">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
