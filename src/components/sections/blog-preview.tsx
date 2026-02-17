@@ -5,10 +5,7 @@ import { CalendarBlank, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { BLOG_POSTS } from "@/lib/constants";
-
-// Get the latest 3 blog posts
-const LATEST_POSTS = BLOG_POSTS.slice(0, 3);
+import { getAllPosts, formatDate } from "@/lib/blog";
 
 type Props = {
   locale: string;
@@ -19,17 +16,10 @@ export async function BlogPreview({ locale }: Props) {
   const blogHref = locale === "es" ? "/blog" : `/${locale}/blog`;
   const homeHref = locale === "es" ? "" : `/${locale}`;
 
-  // Format date based on locale
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString(locale === "es" ? "es-MX" : "en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
-  };
+  // Get latest 3 posts from markdown files
+  const posts = getAllPosts().slice(0, 3);
 
-  if (LATEST_POSTS.length === 0) return null;
+  if (posts.length === 0) return null;
 
   return (
     <section id="blog" className="py-16 bg-background">
@@ -53,11 +43,11 @@ export async function BlogPreview({ locale }: Props) {
 
         {/* Blog Cards Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {LATEST_POSTS.map((post) => (
+          {posts.map((post) => (
             <article
               key={post.slug}
               className={
-                LATEST_POSTS.length === 1
+                posts.length === 1
                   ? "md:col-span-2 lg:col-span-3 max-w-md mx-auto"
                   : ""
               }
@@ -69,7 +59,7 @@ export async function BlogPreview({ locale }: Props) {
                     {post.image ? (
                       <Image
                         src={post.image}
-                        alt={t(`blogPosts.${post.slug}.title`)}
+                        alt={post.title}
                         fill
                         className="object-contain p-6 transition-transform duration-300 group-hover:scale-105"
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -90,19 +80,19 @@ export async function BlogPreview({ locale }: Props) {
                     {/* Date */}
                     <div className="flex items-center gap-2 text-muted-foreground text-sm mb-3">
                       <CalendarBlank className="size-4" aria-hidden="true" />
-                      <time dateTime={post.publishedAt}>
-                        {formatDate(post.publishedAt)}
+                      <time dateTime={post.date}>
+                        {formatDate(post.date, locale)}
                       </time>
                     </div>
 
                     {/* Title */}
                     <h3 className="text-lg font-bold text-foreground mb-2 line-clamp-2 group-hover:text-primary transition-colors duration-300">
-                      {t(`blogPosts.${post.slug}.title`)}
+                      {post.title}
                     </h3>
 
                     {/* Excerpt */}
                     <p className="text-muted-foreground text-sm line-clamp-2 mb-4">
-                      {t(`blogPosts.${post.slug}.excerpt`)}
+                      {post.description}
                     </p>
 
                     {/* Read More */}

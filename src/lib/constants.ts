@@ -3,7 +3,6 @@ import type {
   Promotion,
   ContactInfo,
   GreenCardFeature,
-  BlogPost,
 } from "@/types";
 
 export const SITE_CONFIG = {
@@ -510,29 +509,5 @@ export const GREEN_CARD_FEATURES: GreenCardFeature[] = [
   { id: "8", text: "Sin cita previa necesaria", included: true },
 ];
 
-// BLOG POSTS
-export const BLOG_POSTS: BlogPost[] = [
-  {
-    slug: "bienvenidos-nueva-pagina-web",
-    publishedAt: "2026-02-07",
-    image: "/images/logo.webp",
-    author: {
-      name: "Equipo Nueva Salud Gessner",
-      role: "Administración",
-    },
-    keywords: [
-      "clínica hispana Houston",
-      "nueva página web",
-      "Nueva Salud Gessner",
-      "atención médica español Houston",
-    ],
-    featured: true,
-  },
-];
-
-// Helper function to get blog post by slug
-export function getBlogPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((post) => post.slug === slug);
-}
 
 

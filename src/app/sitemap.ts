@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next";
-import { SITE_CONFIG, SERVICES, BLOG_POSTS } from "@/lib/constants";
+import { SITE_CONFIG, SERVICES } from "@/lib/constants";
+import { getAllPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
+  const blogPosts = getAllPosts();
 
   const routes: MetadataRoute.Sitemap = [];
 
@@ -84,10 +86,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
     // Individual blog posts
-    BLOG_POSTS.forEach((post) => {
+    blogPosts.forEach((post) => {
       routes.push({
         url: `${baseUrl}${prefix}/blog/${post.slug}`,
-        lastModified: new Date(post.publishedAt),
+        lastModified: new Date(post.date),
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: {

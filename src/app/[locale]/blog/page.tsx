@@ -4,7 +4,8 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { CalendarBlank, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
-import { SITE_CONFIG, BLOG_POSTS } from "@/lib/constants";
+import { SITE_CONFIG } from "@/lib/constants";
+import { getAllPosts, formatDate } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 
 type Props = {
@@ -78,19 +79,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "blog" });
-  const tPosts = await getTranslations({ locale, namespace: "blogPosts" });
   const blogUrl = locale === "es" ? `${SITE_CONFIG.baseUrl}/blog` : `${SITE_CONFIG.baseUrl}/${locale}/blog`;
   const homeHref = locale === "es" ? "" : `/${locale}`;
 
-  // Format date based on locale
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString(locale === "es" ? "es-MX" : "en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  };
+  // Get all posts from markdown files
+  const posts = getAllPosts();
 
   return (
     <>
@@ -127,13 +120,13 @@ export default async function BlogPage({ params }: Props) {
         {/* Blog Posts Grid */}
         <section className="py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4">
-            {BLOG_POSTS.length === 0 ? (
+            {posts.length === 0 ? (
               <div className="text-center py-12">
                 <p className="text-muted-foreground text-lg">{t("noPostsFound")}</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {BLOG_POSTS.map((post) => (
+                {posts.map((post) => (
                   <article
                     key={post.slug}
                     className="group bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-border"
@@ -144,7 +137,7 @@ export default async function BlogPage({ params }: Props) {
                         {post.image ? (
                           <Image
                             src={post.image}
-                            alt={tPosts(`${post.slug}.title`)}
+                            alt={post.title}
                             fill
                             className="object-contain p-8 transition-transform duration-500 group-hover:scale-105"
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -166,19 +159,19 @@ export default async function BlogPage({ params }: Props) {
                         {/* Date */}
                         <div className="flex items-center gap-2 text-muted-foreground text-sm mb-3">
                           <CalendarBlank className="size-4" aria-hidden="true" />
-                          <time dateTime={post.publishedAt}>
-                            {formatDate(post.publishedAt)}
+                          <time dateTime={post.date}>
+                            {formatDate(post.date, locale)}
                           </time>
                         </div>
 
                         {/* Title */}
                         <h2 className="text-xl font-bold text-foreground mb-3 line-clamp-2 group-hover:text-primary transition-colors">
-                          {tPosts(`${post.slug}.title`)}
+                          {post.title}
                         </h2>
 
                         {/* Excerpt */}
                         <p className="text-muted-foreground text-sm line-clamp-3 mb-4">
-                          {tPosts(`${post.slug}.excerpt`)}
+                          {post.description}
                         </p>
 
                         {/* Read More */}
