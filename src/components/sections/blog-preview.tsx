@@ -16,8 +16,8 @@ export async function BlogPreview({ locale }: Props) {
   const blogHref = locale === "es" ? "/blog" : `/${locale}/blog`;
   const homeHref = locale === "es" ? "" : `/${locale}`;
 
-  // Get latest 3 posts from markdown files
-  const posts = getAllPosts().slice(0, 3);
+  // Get latest 2 posts from markdown files
+  const posts = getAllPosts().slice(0, 2);
 
   if (posts.length === 0) return null;
 
