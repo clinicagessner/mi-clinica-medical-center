@@ -244,6 +244,16 @@
     "noPostsFound": "No hay artículos disponibles",
     "seoText": "Blog de la Clínica Hispana Nueva Salud Gessner. Noticias, consejos de salud y actualizaciones para la comunidad hispana de Houston."
   },
+  "blogPreview": {
+    "badge": "Noticias",
+    "title": "Últimas Noticias de la",
+    "titleHighlight": "Clínica Hispana",
+    "description": "Mantente informado con consejos de salud, novedades y actualizaciones de nuestra clínica hispana en Houston.",
+    "featured": "Destacado",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todos los Artículos",
+    "seoText": "Lee las últimas noticias y consejos de salud de la Clínica Hispana Nueva Salud Gessner. Información médica en español para la comunidad hispana de Houston."
+  },
   "blogPosts": {
     "bienvenidos-nueva-pagina-web": {
       "title": "¡Bienvenidos a Nuestra Nueva Página Web!",

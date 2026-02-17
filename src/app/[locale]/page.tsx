@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/hero";
+import { BlogPreview } from "@/components/sections/blog-preview";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 
 // Dynamic imports para secciones below-the-fold (mejor performance)
@@ -31,7 +32,12 @@ const Testimonials = dynamic(() =>
   import("@/components/sections/testimonials").then((mod) => mod.Testimonials)
 );
 
-export default async function Home() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function Home({ params }: Props) {
+  const { locale } = await params;
   // Single fetch de Google reviews - se pasa a Hero y Testimonials (elimina waterfall)
   const reviews = await getGoogleReviews();
   const reviewsData = reviews || FALLBACK_REVIEWS;
@@ -51,6 +57,7 @@ export default async function Home() {
       <GreenCard />
       <Location />
       <FAQ />
+      <BlogPreview locale={locale} />
       <Contact />
     </>
   );

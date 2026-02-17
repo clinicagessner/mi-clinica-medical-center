@@ -244,6 +244,16 @@
     "noPostsFound": "No articles available",
     "seoText": "Blog of Clínica Hispana Nueva Salud Gessner. News, health tips and updates for Houston's Hispanic community."
   },
+  "blogPreview": {
+    "badge": "News",
+    "title": "Latest News from the",
+    "titleHighlight": "Hispanic Clinic",
+    "description": "Stay informed with health tips, updates and news from our Hispanic clinic in Houston.",
+    "featured": "Featured",
+    "readMore": "Read More",
+    "viewAll": "View All Articles",
+    "seoText": "Read the latest news and health tips from Clínica Hispana Nueva Salud Gessner. Medical information in Spanish for Houston's Hispanic community."
+  },
   "blogPosts": {
     "bienvenidos-nueva-pagina-web": {
       "title": "Welcome to Our New Website!",
