@@ -248,7 +248,7 @@ export function ServicesPageContent() {
                     <Link href={getServiceUrl(service.slug)} className="block h-full">
                       <Card
                         aria-label={t("accessibility.openServiceDetails")}
-                        className={`h-full cursor-pointer group relative overflow-hidden transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 ${
+                        className={`h-full cursor-pointer group relative overflow-hidden transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 flex flex-col ${
                           service.highlighted
                             ? "border-2 border-primary shadow-lg shadow-primary/10 bg-linear-to-br from-white via-white to-green-50"
                             : "border border-gray-100 hover:border-primary/30 hover:shadow-xl hover:shadow-gray-200/50 bg-white"
@@ -297,7 +297,7 @@ export function ServicesPageContent() {
                           </CardTitle>
                         </CardHeader>
 
-                        <CardContent className="pt-0 relative z-10">
+                        <CardContent className="pt-0 relative z-10 flex-1 flex flex-col">
                           <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2 mb-4">
                             {service.description}
                           </p>
@@ -322,7 +322,7 @@ export function ServicesPageContent() {
                           <Button
                             variant={service.highlighted ? "default" : "outline"}
                             size="sm"
-                            className={`w-full transition-all ${
+                            className={`w-full transition-all mt-auto ${
                               service.highlighted
                                 ? "shadow-md shadow-primary/25"
                                 : "group-hover:bg-primary group-hover:text-white group-hover:border-primary"

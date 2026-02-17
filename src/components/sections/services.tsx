@@ -154,9 +154,9 @@ export function Services() {
                 }
               >
                 <Card
-                  className={`h-full relative overflow-hidden border-0 ${
+                  className={`h-full relative overflow-hidden border-0 flex flex-col ${
                     index === 0
-                      ? "ring-2 ring-primary shadow-2xl md:scale-105"
+                      ? "ring-2 ring-primary shadow-2xl"
                       : "hover:shadow-xl transition-shadow"
                   }`}
                 >
@@ -194,7 +194,7 @@ export function Services() {
                     </p>
                   </CardHeader>
 
-                  <CardContent className="relative z-10 space-y-4">
+                  <CardContent className="relative z-10 flex-1 flex flex-col">
                     {/* Features - mostrar solo 4 */}
                     <ul className="space-y-2">
                       {serviceData.features.map((feature, i) => (
@@ -205,7 +205,7 @@ export function Services() {
                       ))}
                     </ul>
 
-                    <div className="flex gap-2 mt-4">
+                    <div className="flex gap-2 mt-auto pt-4">
                       <Button
                         asChild
                         className="flex-1 bg-white text-secondary hover:bg-white/90 font-semibold"

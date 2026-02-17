@@ -59,9 +59,9 @@ export function Promotions() {
               }
             >
               <Card
-                className={`h-full relative overflow-hidden border-0 ${
+                className={`h-full relative overflow-hidden border-0 flex flex-col ${
                   index === 0
-                    ? "ring-2 ring-primary shadow-2xl md:scale-105"
+                    ? "ring-2 ring-primary shadow-2xl"
                     : "hover:shadow-xl transition-shadow"
                 }`}
               >
@@ -100,7 +100,7 @@ export function Promotions() {
                   </p>
                 </CardHeader>
 
-                <CardContent className="space-y-4 relative z-10">
+                <CardContent className="space-y-4 relative z-10 flex-1 flex flex-col">
                   {/* Includes */}
                   <ul className="space-y-2">
                     {promo.includes.map((item, i) => (
@@ -112,7 +112,7 @@ export function Promotions() {
                   </ul>
 
                   {/* CTA Buttons */}
-                  <div className="flex gap-2 mt-4">
+                  <div className="flex gap-2 mt-auto pt-4">
                     <Button
                       asChild
                       className="flex-1 bg-white text-secondary hover:bg-white/90 font-semibold"
