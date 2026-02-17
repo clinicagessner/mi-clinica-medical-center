@@ -459,10 +459,10 @@ export const SERVICES: Service[] = [
 export const PROMOTIONS: Promotion[] = [
   {
     id: "ginecologia",
-    title: "Consulta con Ginecólogo que Habla Español",
+    title: "Servicio de Ginecología en Español",
     badge: "¡Más Popular!",
     description:
-      "En nuestra clínica hispana, ginecólogos certificados que hablan español te atienden con profesionalismo y calidez. Más de 500 pacientes atendidas.",
+      "En nuestra clínica hispana, te atienden con profesionalismo y calidez. Más de 500 pacientes atendidas.",
     includes: [
       "Consulta ginecológica completa",
       "Evaluación de salud femenina",
