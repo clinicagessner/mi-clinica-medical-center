@@ -109,17 +109,20 @@ export function Header() {
   const scrollToSection = (e: React.MouseEvent, sectionId: string) => {
     e.preventDefault();
 
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const headerOffset = 80;
-      const top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
-      window.scrollTo({ top, behavior: "smooth" });
-      setActiveSection(sectionId);
-      window.history.replaceState(null, "", `#${sectionId}`);
-    }
-
-    // Close menu AFTER scroll starts
+    // Close menu FIRST to unlock body scroll (iOS Safari fix)
     setIsOpen(false);
+
+    // Wait for Sheet animation to complete and body scroll to unlock
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const headerOffset = 80;
+        const top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
+        window.scrollTo({ top, behavior: "smooth" });
+        setActiveSection(sectionId);
+        window.history.replaceState(null, "", `#${sectionId}`);
+      }
+    }, 350);
   };
 
   // Handle navigation click
