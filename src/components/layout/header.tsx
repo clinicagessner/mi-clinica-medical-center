@@ -53,6 +53,21 @@ export function Header() {
   // Resetear sección activa cuando se navega fuera del homepage
   const isHomepage = pathname === "/" || pathname === `/${locale}`;
 
+  // Detectar si llegamos al homepage con un hash (navegación cross-page)
+  useEffect(() => {
+    if (!isHomepage) return;
+
+    const hash = window.location.hash;
+    if (hash) {
+      // Bloquear el observer temporalmente para que no sobreescriba el hash
+      isNavigating.current = true;
+      setActiveSection(hash);
+      setTimeout(() => {
+        isNavigating.current = false;
+      }, 2000);
+    }
+  }, [isHomepage]);
+
   // Intersection Observer para detectar sección activa (solo en homepage)
   useEffect(() => {
     if (!isHomepage) return;
