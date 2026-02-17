@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,12 +17,21 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<string>("");
   const pathname = usePathname();
+  const router = useRouter();
   const isNavigating = useRef(false);
   const t = useTranslations();
   const locale = useLocale();
 
   const homeHref = locale === "es" ? "/" : `/${locale}`;
   const localePrefix = locale === "es" ? "" : `/${locale}`;
+  const isHomepage = pathname === "/" || pathname === `/${locale}`;
+
+  // Reset active section when leaving homepage
+  useEffect(() => {
+    if (!isHomepage) {
+      setActiveSection("");
+    }
+  }, [isHomepage]);
 
   // Navigation links with translations
   const navigationLinks = [
@@ -31,6 +40,56 @@ export function Header() {
     { label: t("nav.blog"), href: `${localePrefix}/blog` },
     { label: t("nav.contact"), href: `${localePrefix}/#contact` },
   ];
+
+  // Scroll to section with offset for fixed header
+  const scrollToSection = useCallback((sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      isNavigating.current = true;
+      setActiveSection(`#${sectionId}`);
+
+      // Scroll with offset for fixed header (80px)
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+
+      // Update URL without triggering navigation
+      window.history.pushState(null, "", `#${sectionId}`);
+
+      setTimeout(() => {
+        isNavigating.current = false;
+      }, 1000);
+    }
+  }, []);
+
+  // Handle navigation click for hash links
+  const handleHashNavigation = useCallback((e: React.MouseEvent, href: string) => {
+    if (!href.includes("#")) return; // Not a hash link, let Link handle it
+
+    const hash = href.split("#")[1];
+
+    if (isHomepage) {
+      // Same page - just scroll
+      e.preventDefault();
+      scrollToSection(hash);
+    } else {
+      // Different page - navigate to homepage then scroll
+      e.preventDefault();
+
+      // Navigate to homepage
+      router.push(homeHref);
+
+      // Wait for navigation then scroll
+      setTimeout(() => {
+        scrollToSection(hash);
+      }, 100);
+    }
+  }, [isHomepage, homeHref, router, scrollToSection]);
 
   // Use IntersectionObserver instead of scroll event for isScrolled
   useEffect(() => {
@@ -49,24 +108,6 @@ export function Header() {
       sentinel.remove();
     };
   }, []);
-
-  // Resetear sección activa cuando se navega fuera del homepage
-  const isHomepage = pathname === "/" || pathname === `/${locale}`;
-
-  // Detectar si llegamos al homepage con un hash (navegación cross-page)
-  useEffect(() => {
-    if (!isHomepage) return;
-
-    const hash = window.location.hash;
-    if (hash) {
-      // Bloquear el observer temporalmente para que no sobreescriba el hash
-      isNavigating.current = true;
-      setActiveSection(hash);
-      setTimeout(() => {
-        isNavigating.current = false;
-      }, 2000);
-    }
-  }, [isHomepage]);
 
   // Intersection Observer para detectar sección activa (solo en homepage)
   useEffect(() => {
@@ -108,25 +149,10 @@ export function Header() {
       }
     });
 
-    return () => {
-      observer.disconnect();
-      setActiveSection("");
-    };
+    return () => observer.disconnect();
   }, [isHomepage]);
 
-  const handleNavClick = (href: string) => {
-    if (href.includes("#")) {
-      const hash = `#${href.split("#")[1]}`;
-      setActiveSection(hash);
-      isNavigating.current = true;
-      setTimeout(() => {
-        isNavigating.current = false;
-      }, 1500);
-    }
-  };
-
   const isActiveLink = (href: string) => {
-    const isHomepage = pathname === "/" || pathname === `/${locale}`;
     if (href === "/" || href === `/${locale}`) return isHomepage && !activeSection;
     if (href.includes("#")) {
       const hash = `#${href.split("#")[1]}`;
@@ -236,11 +262,12 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-1">
             {navigationLinks.map((link) => {
               const isActive = isActiveLink(link.href);
+              const isHashLink = link.href.includes("#");
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  onClick={() => handleNavClick(link.href)}
+                  onClick={isHashLink ? (e) => handleHashNavigation(e, link.href) : undefined}
                   className={cn(
                     "relative px-4 xl:px-5 py-2.5 text-sm xl:text-base font-medium transition-all duration-300 rounded-xl whitespace-nowrap",
                     isScrolled
@@ -297,7 +324,12 @@ export function Header() {
                   : "bg-white text-secondary hover:bg-white/95 shadow-lg shadow-black/10 hover:scale-105"
               )}
             >
-              <Link href={`${homeHref}#contact`}>{t("common.schedule")}</Link>
+              <Link
+                href={`${homeHref}#contact`}
+                onClick={(e) => handleHashNavigation(e, `${homeHref}#contact`)}
+              >
+                {t("common.schedule")}
+              </Link>
             </Button>
           </div>
 
@@ -363,6 +395,7 @@ export function Header() {
                     <div className="flex flex-col gap-1">
                       {navigationLinks.map((link) => {
                         const isActive = isActiveLink(link.href);
+                        const isHashLink = link.href.includes("#");
                         return (
                           <Link
                             key={link.href}
@@ -373,9 +406,11 @@ export function Header() {
                                 ? "bg-primary/10 text-primary border-l-4 border-primary"
                                 : "text-foreground hover:bg-muted hover:text-primary hover:translate-x-1"
                             )}
-                            onClick={() => {
-                              handleNavClick(link.href);
+                            onClick={(e) => {
                               setIsOpen(false);
+                              if (isHashLink) {
+                                handleHashNavigation(e, link.href);
+                              }
                             }}
                           >
                             {link.label}
@@ -412,7 +447,13 @@ export function Header() {
                       </a>
                     </div>
                     <Button asChild className="w-full h-12 text-sm font-semibold" size="lg">
-                      <Link href={`${homeHref}#contact`} onClick={() => setIsOpen(false)}>
+                      <Link
+                        href={`${homeHref}#contact`}
+                        onClick={(e) => {
+                          setIsOpen(false);
+                          handleHashNavigation(e, `${homeHref}#contact`);
+                        }}
+                      >
                         {t("common.schedule")}
                       </Link>
                     </Button>
