@@ -85,12 +85,16 @@ export function Header() {
     return () => observer.disconnect();
   }, [isHomepage]);
 
-  // Handle hash on page load
+  // Handle hash on page load (including cross-page navigation)
   useEffect(() => {
     if (!isHomepage) return;
 
     const hash = window.location.hash.slice(1);
     if (!hash) return;
+
+    // Retry mechanism for cross-page navigation
+    let attempts = 0;
+    const maxAttempts = 10;
 
     const scrollToHash = () => {
       const element = document.getElementById(hash);
@@ -99,10 +103,15 @@ export function Header() {
         const top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
         window.scrollTo({ top, behavior: "smooth" });
         setActiveSection(hash);
+      } else if (attempts < maxAttempts) {
+        // Element not ready yet, retry
+        attempts++;
+        setTimeout(scrollToHash, 100);
       }
     };
 
-    setTimeout(scrollToHash, 100);
+    // Initial delay for page render
+    setTimeout(scrollToHash, 150);
   }, [isHomepage, pathname]);
 
   // Scroll to section
