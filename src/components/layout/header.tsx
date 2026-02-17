@@ -33,6 +33,48 @@ export function Header() {
     }
   }, [isHomepage]);
 
+  // Handle hash navigation when arriving at homepage from another page
+  useEffect(() => {
+    if (!isHomepage) return;
+
+    const hash = window.location.hash.slice(1); // Remove the #
+    if (!hash) return;
+
+    // Wait for the section to be available and scroll to it
+    let attempts = 0;
+    const maxAttempts = 30; // ~500ms max wait
+
+    const tryScroll = () => {
+      const element = document.getElementById(hash);
+      if (element) {
+        // Small delay to ensure layout is complete
+        setTimeout(() => {
+          isNavigating.current = true;
+          setActiveSection(`#${hash}`);
+
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+
+          setTimeout(() => {
+            isNavigating.current = false;
+          }, 1000);
+        }, 100);
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        requestAnimationFrame(tryScroll);
+      }
+    };
+
+    // Start checking after initial render
+    requestAnimationFrame(tryScroll);
+  }, [isHomepage, pathname]);
+
   // Navigation links with translations
   const navigationLinks = [
     { label: t("nav.services"), href: `${localePrefix}/#services` },
@@ -67,6 +109,24 @@ export function Header() {
     }
   }, []);
 
+  // Wait for element to exist in DOM then scroll
+  const waitForElementAndScroll = useCallback((sectionId: string, maxAttempts = 20) => {
+    let attempts = 0;
+
+    const tryScroll = () => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        scrollToSection(sectionId);
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        requestAnimationFrame(tryScroll);
+      }
+    };
+
+    // Start after a small delay to let navigation begin
+    setTimeout(tryScroll, 50);
+  }, [scrollToSection]);
+
   // Handle navigation click for hash links
   const handleHashNavigation = useCallback((e: React.MouseEvent, href: string) => {
     if (!href.includes("#")) return; // Not a hash link, let Link handle it
@@ -81,15 +141,13 @@ export function Header() {
       // Different page - navigate to homepage then scroll
       e.preventDefault();
 
-      // Navigate to homepage
-      router.push(homeHref);
+      // Navigate to homepage with hash for proper URL
+      router.push(`${homeHref}#${hash}`);
 
-      // Wait for navigation then scroll
-      setTimeout(() => {
-        scrollToSection(hash);
-      }, 100);
+      // Wait for page to load and element to exist, then scroll
+      waitForElementAndScroll(hash);
     }
-  }, [isHomepage, homeHref, router, scrollToSection]);
+  }, [isHomepage, homeHref, router, scrollToSection, waitForElementAndScroll]);
 
   // Use IntersectionObserver instead of scroll event for isScrolled
   useEffect(() => {
