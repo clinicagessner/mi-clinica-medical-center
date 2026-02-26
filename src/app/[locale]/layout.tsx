@@ -23,6 +23,7 @@ const ScrollToTop = dynamic(() =>
 );
 
 const GTM_ID = "GTM-K5R8SDQV";
+const CALLRAIL_SCRIPT = "//cdn.callrail.com/companies/483686736/2d24d58dab6b24257f83/12/swap.js";
 
 // Fuente para títulos - Poppins: moderna, profesional, geométrica
 const poppins = Poppins({
@@ -171,6 +172,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://cdn.callrail.com" />
+        <link rel="preconnect" href="https://cdn.callrail.com" crossOrigin="anonymous" />
         <meta name="theme-color" content="#F7FDF9" />
         <meta name="msapplication-TileColor" content="#16A34A" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -199,6 +202,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <FloatingButtons />
           <ScrollToTop />
         </NextIntlClientProvider>
+        <Script
+          id="callrail-swap"
+          src={CALLRAIL_SCRIPT}
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
