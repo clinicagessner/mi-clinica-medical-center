@@ -23,6 +23,7 @@ const ScrollToTop = dynamic(() =>
 );
 
 const GTM_ID = "GTM-K5R8SDQV";
+const GA_ID = "G-B79QJ132DF";
 const CALLRAIL_SCRIPT = "//cdn.callrail.com/companies/483686736/2d24d58dab6b24257f83/12/swap.js";
 
 // Fuente para títulos - Poppins: moderna, profesional, geométrica
@@ -159,6 +160,21 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
+        <Script
+          id="ga4-src"
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        />
+        <Script
+          id="ga4-init"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`,
+          }}
+        />
         <Script
           id="gtm-script"
           strategy="lazyOnload"
