@@ -19,7 +19,7 @@
   },
   "nav": {
     "services": "Servicios",
-    "greenCard": "Green Card",
+    "chronicCare": "Enfermedades Crónicas",
     "blog": "Blog",
     "contact": "Contacto"
   },
@@ -59,34 +59,41 @@
     "includes": "¿Qué incluye?",
     "additionalInfo": "Atención 100% en español • Sin cita previa • Abierto 7 días"
   },
-  "greenCard": {
-    "badge": "Autorizado por USCIS",
-    "title": "Exámenes Médicos de",
-    "titleHighlight": "Inmigración I-693",
-    "description": "Somos una clínica hispana autorizada por USCIS con Civil Surgeons certificados. Completa tu examen médico de inmigración para tu Green Card de manera rápida, confiable y 100% en español.",
-    "step1Title": "Agenda tu Cita",
-    "step1Desc": "Llámanos o visítanos sin cita previa",
-    "step2Title": "Examen Médico",
-    "step2Desc": "Evaluación completa con Civil Surgeon certificado",
-    "step3Title": "Vacunas Requeridas",
-    "step3Desc": "Verificamos y aplicamos vacunas necesarias",
-    "step4Title": "Pruebas de Laboratorio",
-    "step4Desc": "Análisis de sangre y pruebas requeridas",
-    "step5Title": "Formulario I-693",
-    "step5Desc": "Recibe tu formulario sellado y firmado",
-    "feature1": "Civil Surgeon Certificado",
-    "feature2": "Resultados Rápidos",
-    "feature3": "100% en Español",
-    "feature4": "Precios Accesibles",
-    "processTitle": "Proceso en la Clínica Hispana",
-    "statsResults": "3-5",
-    "statsResultsLabel": "Días para resultados",
-    "statsSpanish": "100%",
-    "statsSpanishLabel": "En español",
-    "featuresTitle": "¿Qué incluye el examen I-693?",
-    "ctaSchedule": "Agendar Examen I-693",
+  "chronicCare": {
+    "badge": "Cuidado Continuo",
+    "title": "Control de",
+    "titleHighlight": "Enfermedades Crónicas",
+    "description": "Programa integral de monitoreo y tratamiento para diabetes, hipertensión, colesterol alto y tiroides. Seguimiento personalizado y educación en español.",
+    "conditionsTitle": "Condiciones que tratamos",
+    "conditions": {
+      "diabetes": {
+        "title": "Diabetes",
+        "description": "Control de glucosa, ajuste de medicamentos y educación nutricional."
+      },
+      "hypertension": {
+        "title": "Hipertensión",
+        "description": "Monitoreo de presión arterial y manejo integral del tratamiento."
+      },
+      "cholesterol": {
+        "title": "Colesterol Alto",
+        "description": "Pruebas de laboratorio y seguimiento de niveles lipídicos."
+      },
+      "thyroid": {
+        "title": "Tiroides",
+        "description": "Diagnóstico y manejo de hipotiroidismo e hipertiroidismo."
+      }
+    },
+    "featuresTitle": "¿Qué incluye el programa?",
+    "feature1": "Consultas de seguimiento",
+    "feature2": "Pruebas de laboratorio",
+    "feature3": "Ajuste de medicamentos",
+    "feature4": "Orientación nutricional",
+    "feature5": "Educación del paciente",
+    "feature6": "Atención 100% en español",
+    "learnMore": "Más información sobre este servicio",
+    "ctaSchedule": "Agendar Consulta",
     "ctaCall": "Llamar Ahora",
-    "seoText": "Clínica Hispana Nueva Salud Gessner es tu clínica hispana autorizada por USCIS para exámenes médicos de inmigración I-693 en Houston. Nuestros Civil Surgeons certificados te ayudan con tu proceso de Green Card de manera rápida y en español."
+    "seoText": "Clínica Hispana Nueva Salud Gessner ofrece manejo integral de enfermedades crónicas en Houston. Diabetes, hipertensión, colesterol y tiroides con seguimiento personalizado y atención 100% en español."
   },
   "promotions": {
     "title": "Promociones de la",
@@ -323,7 +330,7 @@
       "shortTitle": "Planificación",
       "description": "Planificación familiar en la clínica hispana de Houston. Asesoría sobre métodos anticonceptivos.",
       "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos asesoría completa sobre métodos anticonceptivos. Nuestros especialistas te orientan sobre las mejores opciones para tu estilo de vida.",
-      "features": ["Asesoría personalizada", "Anticonceptivos orales", "Inyecciones anticonceptivas", "DIU", "Implantes hormonales", "Seguimiento médico"]
+      "features": ["Asesoría personalizada", "Anticonceptivos orales", "Inyecciones anticonceptivas", "Implantes hormonales", "Seguimiento médico"]
     },
     "vacunas-anticonceptivas": {
       "title": "Vacunas Anticonceptivas",

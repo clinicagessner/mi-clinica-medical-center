@@ -27,7 +27,7 @@ export function Header() {
   // Navigation links
   const navigationLinks = [
     { label: t("nav.services"), href: `${localePrefix}/#services`, id: "services" },
-    { label: t("nav.greenCard"), href: `${localePrefix}/#green-card`, id: "green-card" },
+    { label: t("nav.chronicCare"), href: `${localePrefix}/#chronic-care`, id: "chronic-care" },
     { label: t("nav.blog"), href: `${localePrefix}/#blog`, id: "blog" },
     { label: t("nav.contact"), href: `${localePrefix}/#contact`, id: "contact" },
   ];
@@ -57,7 +57,7 @@ export function Header() {
       return;
     }
 
-    const sectionIds = ["home", "services", "green-card", "blog", "contact"];
+    const sectionIds = ["home", "services", "chronic-care", "blog", "contact"];
     const sections = sectionIds
       .map(id => document.getElementById(id))
       .filter((el): el is HTMLElement => el !== null);

@@ -12,8 +12,8 @@ const Services = dynamic(() =>
   import("@/components/sections/services").then((mod) => mod.Services)
 );
 
-const GreenCard = dynamic(() =>
-  import("@/components/sections/green-card").then((mod) => mod.GreenCard)
+const ChronicCare = dynamic(() =>
+  import("@/components/sections/chronic-care").then((mod) => mod.ChronicCare)
 );
 
 const Location = dynamic(() =>
@@ -54,7 +54,7 @@ export default async function Home({ params }: Props) {
       <Promotions />
       <Testimonials reviewsData={reviewsData} />
       <Services />
-      <GreenCard />
+      <ChronicCare />
       <Location />
       <FAQ />
       <BlogPreview locale={locale} />

@@ -241,7 +241,6 @@ export const SERVICES: Service[] = [
       "Asesoría personalizada",
       "Anticonceptivos orales",
       "Inyecciones anticonceptivas",
-      "DIU",
       "Implantes hormonales",
       "Seguimiento médico",
     ],

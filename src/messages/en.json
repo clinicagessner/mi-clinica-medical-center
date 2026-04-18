@@ -19,7 +19,7 @@
   },
   "nav": {
     "services": "Services",
-    "greenCard": "Green Card",
+    "chronicCare": "Chronic Care",
     "blog": "Blog",
     "contact": "Contact"
   },
@@ -59,34 +59,41 @@
     "includes": "What's included?",
     "additionalInfo": "100% Spanish care • Walk-ins welcome • Open 7 days"
   },
-  "greenCard": {
-    "badge": "USCIS Authorized",
-    "title": "Immigration Medical",
-    "titleHighlight": "Exams I-693",
-    "description": "We are a USCIS authorized Hispanic clinic with certified Civil Surgeons. Complete your immigration medical exam for your Green Card quickly, reliably and 100% in Spanish.",
-    "step1Title": "Schedule Your Appointment",
-    "step1Desc": "Call us or visit us - walk-ins welcome",
-    "step2Title": "Medical Exam",
-    "step2Desc": "Complete evaluation with certified Civil Surgeon",
-    "step3Title": "Required Vaccines",
-    "step3Desc": "We verify and administer necessary vaccines",
-    "step4Title": "Lab Tests",
-    "step4Desc": "Blood tests and required screenings",
-    "step5Title": "Form I-693",
-    "step5Desc": "Receive your sealed and signed form",
-    "feature1": "Certified Civil Surgeon",
-    "feature2": "Fast Results",
-    "feature3": "100% in Spanish",
-    "feature4": "Affordable Prices",
-    "processTitle": "Process at the Hispanic Clinic",
-    "statsResults": "3-5",
-    "statsResultsLabel": "Days for results",
-    "statsSpanish": "100%",
-    "statsSpanishLabel": "In Spanish",
-    "featuresTitle": "What does the I-693 exam include?",
-    "ctaSchedule": "Schedule I-693 Exam",
+  "chronicCare": {
+    "badge": "Ongoing Care",
+    "title": "Chronic Disease",
+    "titleHighlight": "Management",
+    "description": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. Personalized follow-up and patient education in Spanish.",
+    "conditionsTitle": "Conditions we manage",
+    "conditions": {
+      "diabetes": {
+        "title": "Diabetes",
+        "description": "Glucose control, medication adjustments, and nutritional education."
+      },
+      "hypertension": {
+        "title": "Hypertension",
+        "description": "Blood pressure monitoring and comprehensive treatment management."
+      },
+      "cholesterol": {
+        "title": "High Cholesterol",
+        "description": "Lab tests and tracking of lipid levels."
+      },
+      "thyroid": {
+        "title": "Thyroid",
+        "description": "Diagnosis and management of hypothyroidism and hyperthyroidism."
+      }
+    },
+    "featuresTitle": "What does the program include?",
+    "feature1": "Follow-up appointments",
+    "feature2": "Lab tests",
+    "feature3": "Medication adjustments",
+    "feature4": "Nutritional counseling",
+    "feature5": "Patient education",
+    "feature6": "100% Spanish care",
+    "learnMore": "Learn more about this service",
+    "ctaSchedule": "Schedule Appointment",
     "ctaCall": "Call Now",
-    "seoText": "Clínica Hispana Nueva Salud Gessner is your USCIS authorized Hispanic clinic for I-693 immigration medical exams in Houston. Our certified Civil Surgeons help you with your Green Card process quickly and in Spanish."
+    "seoText": "Clínica Hispana Nueva Salud Gessner offers comprehensive chronic disease management in Houston. Diabetes, hypertension, cholesterol, and thyroid conditions with personalized follow-up and 100% Spanish care."
   },
   "promotions": {
     "title": "Promotions at the",
@@ -323,7 +330,7 @@
       "shortTitle": "Planning",
       "description": "Family planning at our Hispanic clinic in Houston. Counseling on contraceptive methods.",
       "longDescription": "At Clínica Hispana Nueva Salud Gessner we offer complete counseling on contraceptive methods. Our specialists guide you on the best options for your lifestyle.",
-      "features": ["Personalized counseling", "Oral contraceptives", "Contraceptive injections", "IUD", "Hormonal implants", "Medical follow-up"]
+      "features": ["Personalized counseling", "Oral contraceptives", "Contraceptive injections", "Hormonal implants", "Medical follow-up"]
     },
     "vacunas-anticonceptivas": {
       "title": "Contraceptive Injections",
