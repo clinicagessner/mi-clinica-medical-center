@@ -22,9 +22,15 @@ const ScrollToTop = dynamic(() =>
   import("@/components/layout/scroll-to-top").then((mod) => mod.ScrollToTop)
 );
 
-const GTM_ID = "GTM-K5R8SDQV";
-const GA_ID = "G-B79QJ132DF";
-const CALLRAIL_SCRIPT = "//cdn.callrail.com/companies/483686736/2d24d58dab6b24257f83/12/swap.js";
+// IDs de tracking — se leen de variables de entorno (con fallback al valor actual
+// para no romper si la env aún no está configurada en algún entorno).
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-K5R8SDQV";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-B79QJ132DF";
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? "AW-17854586021";
+const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID ?? "1470050858204955";
+const CALLRAIL_SCRIPT =
+  process.env.NEXT_PUBLIC_CALLRAIL_SCRIPT_URL ??
+  "//cdn.callrail.com/companies/483686736/2d24d58dab6b24257f83/12/swap.js";
 
 // Fuente para títulos - Poppins: moderna, profesional, geométrica
 const poppins = Poppins({
@@ -158,7 +164,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang={locale} data-scroll-behavior="smooth" className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <Script
           id="ga4-src"
@@ -172,9 +178,27 @@ export default async function LocaleLayout({ children, params }: Props) {
             __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${GA_ID}');`,
+gtag('config', '${GA_ID}');
+gtag('config', '${GOOGLE_ADS_ID}');`,
           }}
         />
+        <Script
+          id="meta-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '${META_PIXEL_ID}');
+fbq('track', 'PageView');`,
+          }}
+        />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <Script
           id="gtm-script"
           strategy="lazyOnload"
@@ -208,6 +232,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+        <noscript>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
+            alt=""
+          />
+        </noscript>
         <NextIntlClientProvider messages={messages}>
           <JsonLdMedicalClinic />
           <JsonLdFAQ />
@@ -218,11 +252,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <FloatingButtons />
           <ScrollToTop />
         </NextIntlClientProvider>
-        <Script
-          id="callrail-swap"
-          src={CALLRAIL_SCRIPT}
-          strategy="lazyOnload"
-        />
+        {CALLRAIL_SCRIPT && (
+          <Script
+            id="callrail-swap"
+            src={CALLRAIL_SCRIPT}
+            strategy="lazyOnload"
+          />
+        )}
       </body>
     </html>
   );
