@@ -133,6 +133,14 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                           height={36}
                           className="size-9 rounded-full object-cover"
                           unoptimized
+                          referrerPolicy="no-referrer"
+                          onError={(e) => {
+                            const img = e.currentTarget;
+                            img.onerror = null;
+                            img.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
+                              review.author_name,
+                            )}&background=15803d&color=fff&size=72`;
+                          }}
                         />
                       ) : (
                         <div className="size-9 bg-primary/10 rounded-full flex items-center justify-center">
