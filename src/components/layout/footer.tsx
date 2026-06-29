@@ -17,6 +17,7 @@ export function Footer() {
   // Navigation links with translations
   const navigationLinks = [
     { label: t("nav.services"), href: `${localePrefix}/#services` },
+    { label: t("nav.promotions"), href: `${localePrefix}/#promociones` },
     { label: t("nav.chronicCare"), href: `${localePrefix}/#chronic-care` },
     { label: t("nav.blog"), href: `${localePrefix}/blog` },
     { label: t("nav.contact"), href: `${localePrefix}/#contact` },

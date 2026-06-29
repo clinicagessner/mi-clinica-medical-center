@@ -37,77 +37,121 @@
 
 ## Medical Services Offered
 
-### Immigration Medical Exams (I-693)
-USCIS authorized clinic with certified Civil Surgeon for Green Card immigration medical exams. Complete I-693 form processing in Spanish. Includes physical examination, required blood tests, vaccine verification, and sealed documentation. Results delivered in 3-5 business days. Walk-ins accepted.
-URL: https://www.clinicagessner.com/services/examenes-inmigracion
-
-### Family Medicine
-Comprehensive primary care for patients of all ages. Preventive medicine, diagnosis and treatment of common illnesses, health screenings, and ongoing care management. All consultations conducted in Spanish.
-URL: https://www.clinicagessner.com/services/medicina-familiar
-
-### Gynecology Services
-Complete women's health services including Pap smears, breast examinations, reproductive health consultations, and gynecological evaluations. Female patients receive compassionate care in Spanish from experienced providers.
-URL: https://www.clinicagessner.com/services/servicios-ginecologia
-
-### Ultrasound Services
-Modern ultrasound imaging including pregnancy/obstetric ultrasounds, abdominal ultrasounds, and pelvic ultrasounds. Images provided to patients, immediate medical interpretation available.
-URL: https://www.clinicagessner.com/services/ultrasonido
-
-### Chronic Disease Management
-Ongoing management of diabetes, hypertension, high cholesterol, and thyroid conditions. Regular monitoring, medication management, and lifestyle counseling in Spanish.
+### Diabetes, Hypertension & Cholesterol Care
+Diabetes, hypertension and dyslipidemia management in Houston, TX. Lab work and follow-up in Spanish, with affordable pricing.
 URL: https://www.clinicagessner.com/services/condiciones-cronicas
 
-### Laboratory Services
-On-site clinical laboratory offering complete blood panels, lipid profiles, glucose testing, A1C testing, urinalysis, and other diagnostic tests. Fast, accurate results.
-URL: https://www.clinicagessner.com/services/laboratorio
+### Thyroid Testing & Treatment
+Thyroid testing and treatment in Houston, TX. Lab tests and follow-up in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/tiroides
 
-### STD/STI Testing
-Confidential testing for sexually transmitted diseases including HIV, syphilis, chlamydia, gonorrhea, and herpes. Discreet, professional service with treatment options available.
-URL: https://www.clinicagessner.com/services/enfermedades-transmision-sexual
+### Allergy Testing & Treatment
+Allergy testing and treatment in Houston, TX. Diagnosis and management in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/alergias
 
-### Urology Services
-Men's health services including prostate examinations, urinary infection treatment, and bladder problem evaluation. Professional care in a comfortable Spanish-speaking environment.
-URL: https://www.clinicagessner.com/services/servicios-urologia
-
-### Family Planning
-Contraceptive counseling and options including oral contraceptives, hormonal injections, and other birth control methods. Personalized guidance in Spanish.
-URL: https://www.clinicagessner.com/services/planificacion-familiar
-
-### Contraceptive Injections
-Depo-Provera and other hormonal contraceptive injections providing 3 months of protection. Quick, discreet administration by trained staff.
-URL: https://www.clinicagessner.com/services/vacunas-anticonceptivas
-
-### Implant Removal
-Safe removal of contraceptive implants such as Nexplanon. Performed by trained medical professionals with minimal discomfort.
-URL: https://www.clinicagessner.com/services/extraccion-implantes
-
-### Vaginal Infection Treatment
-Diagnosis and treatment of candidiasis, bacterial vaginosis, and other vaginal infections. Confidential, effective care.
-URL: https://www.clinicagessner.com/services/infecciones-vaginales
-
-### Electrocardiogram (EKG)
-12-lead electrocardiogram testing for cardiac evaluation. Detection of arrhythmias and heart conditions with immediate results.
-URL: https://www.clinicagessner.com/services/electrocardiograma
-
-### Respiratory Illness Treatment
-Treatment for flu, bronchitis, sinusitis, pneumonia, asthma, and other respiratory conditions. Rapid diagnosis and effective treatment plans.
+### Flu & COVID Testing and Respiratory Illness Care
+Flu and COVID testing and respiratory illness treatment in Houston, TX. Walk-ins welcome, in Spanish.
 URL: https://www.clinicagessner.com/services/enfermedades-respiratorias
 
-### Urinary Infection Treatment
-UTI diagnosis through urinalysis with antibiotic treatment. Quick relief from urinary tract infections.
+### School & Sports Physical Exams
+School and sports physical exams in Houston, TX. Fast, in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/examen-fisico-escolar
+
+### Gynecology Care: Pap Smear & Cultures
+Gynecology care in Houston, TX: Pap smear, vaginal cultures and infection treatment. In Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/ginecologia
+
+### Pregnancy Testing & Confirmation
+Pregnancy testing and confirmation in Houston, TX. Reliable tests and guidance in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/prueba-embarazo
+
+### Contraceptive Methods
+Contraceptive methods in Houston, TX: guidance, pills and injection. In Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/anticonceptivos
+
+### Subdermal Implant Removal
+Subdermal implant removal in Houston, TX, a safe procedure in Spanish. With affordable pricing.
+URL: https://www.clinicagessner.com/services/extraccion-implantes
+
+### Men's Health Exams: PSA & Testosterone
+Men's health exams in Houston, TX: PSA and testosterone. Lab work and care in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/salud-hombre
+
+### Blood Tests | Lab
+Blood tests in Houston, TX: CBC, chemistry, glucose, cholesterol and more. Results in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/examenes-sangre
+
+### Urinalysis & Urinary Infection Treatment
+Urinalysis and urinary infection treatment in Houston, TX, same day. In Spanish, with affordable pricing.
 URL: https://www.clinicagessner.com/services/infecciones-urinarias
 
-### Muscle Pain Treatment
-Evaluation and treatment of sprains, muscle strains, and musculoskeletal pain. Anti-inflammatory treatments and pain management injections available.
-URL: https://www.clinicagessner.com/services/dolores-musculares
+### Stool Tests
+Stool tests in Houston, TX. Detection of parasites and infections, in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/examen-heces
 
-### DOT Medical Exam
-Department of Transportation physical examinations for commercial driver's license (CDL) certification. Complete DOT-required evaluation.
+### Strep Test
+Strep test in Houston, TX. Fast result and treatment in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/prueba-strep
+
+### Tuberculosis (TB) Test
+Tuberculosis (TB/PPD) test in Houston, TX. For work and school, in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/prueba-tuberculosis
+
+### Sexually Transmitted Disease (STD) Testing
+Confidential STD testing in Houston, TX. Results and treatment in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/enfermedades-transmision-sexual
+
+### Alcohol & Drug Testing
+Alcohol and drug testing in Houston, TX. For employment and paperwork, in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/examen-alcohol-drogas
+
+### Electrocardiogram (EKG)
+Electrocardiogram EKG in Houston, TX, fast and painless. Results and care in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/electrocardiograma
+
+### Ultrasound & Sonography
+Ultrasound and sonography in Houston, TX: abdominal, pelvic and pregnancy. In Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/ultrasonido
+
+### DOT Physical Exam - CDL License
+DOT physical exam in Houston, TX for CDL license, same-day certificate, in Spanish. With affordable pricing.
 URL: https://www.clinicagessner.com/services/examen-dot
 
-### General Physical Exams
-School physicals, sports physicals, employment physicals, and comprehensive health checkups for all ages.
-URL: https://www.clinicagessner.com/services/examenes-generales
+### Immigration Medical Exam I-693
+I-693 immigration medical exam in Houston, TX with a USCIS-authorized physician. Vaccines and sealed form.
+URL: https://www.clinicagessner.com/services/examenes-inmigracion
+
+### Flu and Tetanus (Tdap) Vaccines
+Flu and tetanus vaccines in Houston, TX. Administered by medical staff in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/vacunas
+
+### Vitamin IV Therapy
+Vitamin IV therapy in Houston, TX. Hydration and vitamins in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/sueros-vitaminados
+
+### Wound Suturing
+Wound suturing in Houston, TX. Closing cuts and wounds in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/suturas-heridas
+
+### Wound Care
+Wound care in Houston, TX. Cleaning and dressings in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/curacion-heridas
+
+### Minor Surgery
+Minor surgery in Houston, TX: moles, cysts and lipomas. Outpatient procedure in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/cirugias-menores
+
+### Abscess Drainage
+Abscess drainage in Houston, TX. Treatment of skin infections in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/drenaje-abscesos
+
+### Ingrown Toenail Removal
+Ingrown toenail removal in Houston, TX. Procedure with local anesthesia in Spanish, with affordable pricing.
+URL: https://www.clinicagessner.com/services/unas-encarnadas
+
+### Pharmacy
+Pharmacy in Houston, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.
+URL: https://www.clinicagessner.com/services/farmacia
 
 ## Immigration Exam I-693 Process
 
@@ -139,8 +183,8 @@ A: Yes, we are USCIS authorized with a certified Civil Surgeon on staff. We comp
 Q: How much does a consultation cost?
 A: General medical consultations start at $50. We offer affordable pricing and payment plans for patients who qualify. Call for specific service pricing.
 
-Q: Does the clinic accept medical insurance?
-A: Yes, we work with multiple insurance plans. Please call to verify your specific coverage. We also offer special pricing for uninsured patients.
+Q: Do I need medical insurance?
+A: No. You don't need health insurance — Clinica Hispana Nueva Salud Gessner is a self-pay clinic with affordable, transparent pricing. We accept cash and cards, and uninsured patients are always welcome.
 
 Q: Where is the clinic located?
 A: We are located at 1914 Gessner Rd B, Houston, TX 77080. The facility has free parking and is wheelchair accessible.

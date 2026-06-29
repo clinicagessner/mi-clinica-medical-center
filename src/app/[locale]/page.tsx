@@ -52,8 +52,8 @@ export default async function Home({ params }: Props) {
 
       {/* Secciones below-the-fold - Carga diferida */}
       <Promotions />
-      <Testimonials reviewsData={reviewsData} />
       <Services />
+      <Testimonials reviewsData={reviewsData} />
       <ChronicCare />
       <Location />
       <FAQ />

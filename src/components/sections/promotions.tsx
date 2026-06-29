@@ -1,31 +1,38 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
 import Image from "next/image";
+import Autoplay from "embla-carousel-autoplay";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { CheckCircle, Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Link } from "@/i18n/navigation";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import { Button } from "@/components/ui/button";
-import { PROMOTIONS, CONTACT_INFO } from "@/lib/constants";
-
-const promoImages: Record<string, string> = {
-  ginecologia: "/images/promotions/gynecology-promo.webp",
-  inmigracion: "/images/promotions/immigration-promo.webp",
-  "ultrasonido-embarazo": "/images/promotions/ultrasound-promo.webp",
-};
-
-const promoAltText: Record<string, string> = {
-  ginecologia: "consulta ginecologia clinica hispana houston",
-  inmigracion: "examen inmigracion green card clinica hispana houston",
-  "ultrasonido-embarazo": "ultrasonido embarazo clinica hispana houston",
-};
+import {
+  PromotionDialog,
+  type PromoView,
+} from "@/components/promotions/promotion-dialog";
+import { usePromotionsView } from "@/components/promotions/use-promotions-view";
+import { CONTACT_INFO } from "@/lib/constants";
 
 export function Promotions() {
-  const t = useTranslations();
+  const t = useTranslations("promotions");
+  const { promos, labels } = usePromotionsView();
+  const [active, setActive] = useState<PromoView | null>(null);
+
+  const phoneHref = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
 
   return (
-    <section className="py-16 bg-linear-to-b from-green-bg to-green-bg-alt">
+    <section
+      id="promociones"
+      className="scroll-mt-24 py-16 bg-linear-to-b from-green-bg to-green-bg-alt"
+    >
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
@@ -34,120 +41,83 @@ export function Promotions() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
+          <p className="text-sm font-semibold uppercase tracking-wide text-secondary mb-2">
+            {t("eyebrow")}
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            {t("promotions.title")}{" "}
-            <span className="text-primary">{t("promotions.titleHighlight")}</span>
+            {t("title")}{" "}
+            <span className="text-primary">{t("titleHighlight")}</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            {t("promotions.description")}
+            {t("subtitle")}
           </p>
         </motion.div>
 
-        {/* Promotion Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {PROMOTIONS.map((promo, index) => (
-            <motion.div
-              key={promo.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.15 }}
-              className={
-                index === PROMOTIONS.length - 1
-                  ? "md:col-span-2 md:justify-self-center md:w-[calc(50%-0.75rem)] lg:col-span-1 lg:w-full"
-                  : ""
-              }
-            >
-              <Card
-                className={`h-full relative overflow-hidden border-0 flex flex-col ${
-                  index === 0
-                    ? "ring-2 ring-primary shadow-2xl"
-                    : "hover:shadow-xl transition-shadow"
-                }`}
+        {/* Carousel */}
+        <Carousel
+          opts={{ loop: true, align: "start" }}
+          plugins={[Autoplay({ delay: 5000, stopOnInteraction: false })]}
+          className="max-w-6xl mx-auto"
+        >
+          <CarouselContent>
+            {promos.map((promo) => (
+              <CarouselItem
+                key={promo.slug}
+                className="basis-4/5 sm:basis-1/2 lg:basis-1/3"
               >
-                {/* Background Image */}
-                {promoImages[promo.id] && (
-                  <>
+                <button
+                  type="button"
+                  onClick={() => setActive(promo)}
+                  aria-label={`${t("openAria")}: ${promo.title}`}
+                  className="group relative block w-full overflow-hidden rounded-2xl shadow-lg transition-transform duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                >
+                  <div className="relative aspect-[4/5] w-full">
                     <Image
-                      src={promoImages[promo.id]}
-                      alt={promoAltText[promo.id] || promo.title}
+                      src={`/images/promotions/${promo.slug}.webp`}
+                      alt={promo.alt}
                       fill
-                      className="object-cover object-[center_20%] md:object-[center_30%] xl:object-center"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-linear-to-r from-black/85 via-black/70 to-black/40" />
-                  </>
-                )}
-
-                <CardHeader className="pb-2 relative z-10">
-                  <CardTitle className="text-xl text-white drop-shadow-md">
-                    {promo.title}
-                  </CardTitle>
-                  {/* Badge debajo del título */}
-                  <Badge
-                    className={`w-fit mt-2 ${
-                      index === 0
-                        ? "bg-primary text-white"
-                        : index === 2
-                          ? "bg-success text-white"
-                          : "bg-white/90 text-secondary"
-                    }`}
-                  >
-                    {promo.badge}
-                  </Badge>
-                  <p className="text-sm text-white/80 mt-2">
-                    {promo.description}
-                  </p>
-                </CardHeader>
-
-                <CardContent className="space-y-4 relative z-10 flex-1 flex flex-col">
-                  {/* Includes */}
-                  <ul className="space-y-2">
-                    {promo.includes.map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm">
-                        <CheckCircle className="size-4 text-green-400 shrink-0 mt-0.5" />
-                        <span className="text-white/90">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  {/* CTA Buttons */}
-                  <div className="flex gap-2 mt-auto pt-4">
-                    <Button
-                      asChild
-                      className="flex-1 bg-white text-secondary hover:bg-white/90 font-semibold"
-                    >
-                      <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
-                        <Phone className="size-4 mr-1.5" weight="fill" />
-                        {t("common.call")}
-                      </a>
-                    </Button>
-                    <Button
-                      asChild
-                      variant="outline"
-                      className="flex-1 bg-transparent border-white text-white hover:bg-white/20 font-semibold"
-                    >
-                      <a
-                        href={CONTACT_INFO.googleMapsUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <MapPin className="size-4 mr-1.5" weight="fill" />
-                        {t("common.location")}
-                      </a>
-                    </Button>
+                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    <span className="absolute inset-x-0 bottom-0 p-4 text-center font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      {t("viewDetail")}
+                    </span>
                   </div>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
+                </button>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
+        </Carousel>
+
+        <p className="text-center text-sm text-muted-foreground mt-4 md:hidden">
+          {t("swipeHint")}
+        </p>
+
+        {/* View all */}
+        <div className="text-center mt-10">
+          <Button asChild size="lg" variant="outline">
+            <Link href="/promociones">{t("viewAll")} →</Link>
+          </Button>
         </div>
 
         {/* SEO text */}
-        <p className="text-center text-sm text-muted-foreground mt-8">
-          {t("promotions.seoText")}
+        <p className="text-center text-sm text-muted-foreground mt-8 max-w-3xl mx-auto">
+          {t("seoText")}
         </p>
       </div>
+
+      <PromotionDialog
+        promo={active}
+        labels={labels}
+        phone={CONTACT_INFO.phone}
+        phoneHref={phoneHref}
+        mapsUrl={CONTACT_INFO.googleMapsUrl}
+        formHref="#contact"
+        onClose={() => setActive(null)}
+      />
     </section>
   );
 }

@@ -4,44 +4,21 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { Phone, MapPin, CheckCircle, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
-import {
-  Gynecology,
-  Stethoscope,
-  ChildProgram,
-  BiochemistryLaboratory,
-  UltrasoundScanner,
-  Diabetes,
-  BlisterPillsOvalX1,
-  Bladder,
-  SkinCancer,
-  Nutrition,
-  Heart,
-  HealthWorker,
-  MedicalRecords,
-  Alert,
-} from "healthicons-react/outline";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { JsonLdBreadcrumb, JsonLdService } from "@/components/seo/json-ld";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { ServiceIcon } from "@/components/services/service-icon";
+import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ } from "@/components/seo/json-ld";
 import { SERVICES, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
+import { getServiceFaqs } from "@/lib/service-faqs";
 import { locales } from "@/i18n/config";
-
-const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Heart: Gynecology,
-  Stethoscope: Stethoscope,
-  Baby: ChildProgram,
-  TestTube: BiochemistryLaboratory,
-  Monitor: UltrasoundScanner,
-  Activity: Diabetes,
-  Pill: BlisterPillsOvalX1,
-  User: Bladder,
-  Sparkles: SkinCancer,
-  Apple: Nutrition,
-  FileCheck: MedicalRecords,
-  AlertCircle: Alert,
-  Cardiologia: Heart,
-  General: HealthWorker,
-};
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -130,7 +107,12 @@ export default async function ServiceDetailPage({ params }: Props) {
   const longDescription = t(`${slug}.longDescription`);
   const features = t.raw(`${slug}.features`) as string[];
 
-  const Icon = iconMap[service.icon] || iconMap["Stethoscope"];
+  const isEn = locale === "en";
+  const faqs = getServiceFaqs(slug).map((f) => ({
+    question: isEn ? f.questionEn : f.question,
+    answer: isEn ? f.answerEn : f.answer,
+  }));
+
   const servicesHref = locale === "es" ? "/services" : `/${locale}/services`;
   const phoneUrl = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
 
@@ -150,6 +132,7 @@ export default async function ServiceDetailPage({ params }: Props) {
           url: SITE_CONFIG.baseUrl,
         }}
       />
+      {faqs.length > 0 && <JsonLdServiceFAQ faqs={faqs} />}
 
       <main className="min-h-screen">
         {/* Hero Section with Background Image */}
@@ -199,7 +182,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
               {/* Icon */}
               <div className="size-16 rounded-2xl bg-primary flex items-center justify-center mb-6 shadow-lg shadow-primary/30">
-                <Icon className="size-8 text-white" />
+                <ServiceIcon name={service.icon} className="size-8 text-white" />
               </div>
 
               {/* Title */}
@@ -253,9 +236,11 @@ export default async function ServiceDetailPage({ params }: Props) {
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
                   {tDetail("aboutService")}
                 </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  {longDescription}
-                </p>
+                <div className="space-y-4 text-lg text-muted-foreground leading-relaxed [&_h2]:mt-8 [&_h2]:mb-3 [&_h2]:text-xl [&_h2]:md:text-2xl [&_h2]:font-bold [&_h2]:text-foreground [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1.5 [&_li]:marker:text-primary [&_p]:leading-relaxed">
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    {longDescription}
+                  </ReactMarkdown>
+                </div>
               </div>
 
               {/* Features Section */}
@@ -278,6 +263,31 @@ export default async function ServiceDetailPage({ params }: Props) {
                   ))}
                 </div>
               </div>
+
+              {/* FAQ Section */}
+              {faqs.length > 0 && (
+                <div className="mb-12">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                    {locale === "es" ? "Preguntas frecuentes" : "Frequently asked questions"}
+                  </h2>
+                  <Accordion type="single" collapsible className="space-y-4">
+                    {faqs.map((faq, index) => (
+                      <AccordionItem
+                        key={index}
+                        value={`faq-${index}`}
+                        className="bg-muted/50 rounded-xl border border-border/50 px-5"
+                      >
+                        <AccordionTrigger className="text-left font-semibold text-foreground hover:text-primary py-5">
+                          {faq.question}
+                        </AccordionTrigger>
+                        <AccordionContent className="text-muted-foreground pb-5">
+                          {faq.answer}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
+              )}
 
               {/* Additional Info */}
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 text-center">

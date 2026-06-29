@@ -21,7 +21,8 @@
     "services": "Servicios",
     "chronicCare": "Enfermedades Crónicas",
     "blog": "Blog",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "promotions": "Promociones"
   },
   "hero": {
     "badge1": "Sin Cita Previa",
@@ -44,7 +45,7 @@
     "title": "Servicios Médicos",
     "titleHighlight": "en Español",
     "description": "Ofrecemos una amplia gama de servicios médicos con atención 100% en español. Encuentra el servicio que necesitas.",
-    "badge": "18+ Servicios",
+    "badge": "{count} Servicios",
     "allServices": "Todos los Servicios",
     "filterAll": "Todos",
     "searchPlaceholder": "Buscar servicio...",
@@ -99,7 +100,33 @@
     "title": "Promociones de la",
     "titleHighlight": "Clínica Hispana",
     "description": "Aprovecha nuestros precios especiales en servicios médicos. Atención de calidad a precios accesibles para toda la familia.",
-    "seoText": "La clínica hispana Clínica Hispana Nueva Salud Gessner tiene promociones especiales en servicios médicos para la comunidad hispana de Houston. Precios accesibles en ultrasonidos, exámenes y consultas."
+    "seoText": "La clínica hispana Clínica Hispana Nueva Salud Gessner tiene promociones especiales en servicios médicos para la comunidad hispana de Houston. Precios accesibles en ultrasonidos, exámenes y consultas.",
+    "eyebrow": "Ofertas especiales",
+    "subtitle": "Aprovecha nuestros precios especiales en servicios médicos. Atención en español, sin cita previa y sin necesidad de seguro médico.",
+    "viewDetail": "Ver promoción",
+    "viewAll": "Ver todas las promociones",
+    "openAria": "Abrir promoción",
+    "swipeHint": "Desliza para ver más →",
+    "limitedTime": "Tiempo limitado",
+    "includesLabel": "Incluye:",
+    "ctaCall": "Llamar ahora",
+    "ctaDirections": "Cómo llegar",
+    "ctaForm": "Agendar cita",
+    "close": "Cerrar",
+    "detailsBtn": "Ver detalles",
+    "backToHome": "Volver al inicio",
+    "reviewsSuffix": "reseñas",
+    "pageTitle": "Promociones",
+    "pageSubtitle": "Precios especiales en servicios médicos para la comunidad hispana de Houston. Atención 100% en español, sin cita y sin necesidad de seguro médico.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq1Q": "¿Hasta cuándo están vigentes las promociones?",
+    "faq1A": "Son promociones por tiempo limitado. Llámanos para confirmar la disponibilidad y el precio vigente antes de tu visita.",
+    "faq2Q": "¿Necesito cita o seguro médico?",
+    "faq2A": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM y no necesitas seguro médico; manejamos precios accesibles de pago directo.",
+    "faq3Q": "¿Cómo reservo una promoción?",
+    "faq3A": "Llámanos al (346) 226-5820 o llena el formulario y te confirmamos los detalles de tu promoción.",
+    "formTitle": "Solicita tu promoción",
+    "formSubtitle": "Déjanos tus datos y te contactamos para agendar tu cita."
   },
   "contact": {
     "title": "Agenda tu Cita en Nuestra",
@@ -223,11 +250,11 @@
     "messageMax": "El mensaje no puede exceder 500 caracteres"
   },
   "categories": {
-    "especialidad": "Enfermedades Crónicas",
-    "diagnostico": "Diagnóstico",
-    "mujer": "Salud de la Mujer",
-    "especial": "Servicios Especiales",
-    "otro": "Tratamientos"
+    "medicina-general": "Medicina General",
+    "salud-mujer": "Salud de la Mujer",
+    "examenes": "Exámenes y Certificados",
+    "laboratorio": "Laboratorio y Pruebas",
+    "tratamientos": "Tratamientos"
   },
   "accessibility": {
     "callClinic": "Llamar a la clínica",
@@ -269,131 +296,353 @@
     }
   },
   "serviceData": {
-    "medicina-familiar": {
-      "title": "Medicina Familiar Cerca de Mi",
-      "shortTitle": "Medicina Familiar",
-      "description": "Medicina familiar en nuestra clínica hispana de Houston. Atención médica integral para toda la familia en español.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos medicina familiar completa para pacientes de todas las edades. Nuestros médicos hispanos brindan atención preventiva, diagnóstico y tratamiento de enfermedades comunes, todo 100% en español.",
-      "features": ["Atención para toda la familia", "Consultas en español", "Medicina preventiva", "Diagnóstico y tratamiento", "Seguimiento personalizado", "Sin cita previa"]
-    },
-    "examenes-inmigracion": {
-      "title": "Exámenes Médicos de Inmigración",
-      "shortTitle": "Inmigración",
-      "description": "Clínica hispana autorizada por USCIS para exámenes I-693 en Houston. Médico Civil Surgeon certificado. Todo el proceso en español.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos de inmigración autorizados por USCIS. Nuestro médico Civil Surgeon certificado completa el formulario I-693 100% en español. Más de 500 familias han completado su proceso con nosotros.",
-      "features": ["Médico Civil Surgeon certificado", "Formulario I-693 sellado", "100% en español", "Resultados en 3-5 días", "Análisis de sangre incluidos", "Revisión de vacunas"]
-    },
-    "enfermedades-transmision-sexual": {
-      "title": "Enfermedades de Transmisión Sexual (STD)",
-      "shortTitle": "ETS/STD",
-      "description": "Pruebas y tratamiento de ETS/STD en la clínica hispana de Houston. Diagnóstico confidencial y tratamiento efectivo.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos pruebas confidenciales de enfermedades de transmisión sexual. Diagnóstico y tratamiento en un ambiente de respeto y privacidad total.",
-      "features": ["Pruebas confidenciales", "VIH y Sífilis", "Clamidia y Gonorrea", "Herpes", "Resultados rápidos", "Tratamiento disponible"]
-    },
-    "servicios-urologia": {
-      "title": "Servicios de Urología",
-      "shortTitle": "Urología",
-      "description": "Servicios de urología en la clínica hispana de Houston. Atención especializada para hombres en español.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos servicios de urología para el cuidado de la salud masculina. Diagnóstico y tratamiento de condiciones urinarias y reproductivas.",
-      "features": ["Examen de próstata", "Infecciones urinarias", "Problemas de vejiga", "Salud reproductiva masculina", "Atención en español", "Consulta confidencial"]
-    },
     "condiciones-cronicas": {
-      "title": "Manejo de Condiciones Crónicas",
+      "title": "Control de Diabetes, Hipertensión y Colesterol",
       "shortTitle": "Crónicas",
-      "description": "Control de enfermedades crónicas en la clínica hispana. Diabetes, hipertensión, colesterol y más.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos manejo integral de condiciones crónicas como diabetes, hipertensión, colesterol alto y tiroides. Seguimiento personalizado en español.",
-      "features": ["Control de diabetes", "Manejo de hipertensión", "Control de colesterol", "Problemas de tiroides", "Monitoreo regular", "Orientación nutricional"]
+      "description": "Control de diabetes, hipertensión y dislipidemias en Houston, TX. Laboratorio y seguimiento en español, con precios accesibles.",
+      "longDescription": "Las enfermedades crónicas como la diabetes, la hipertensión y las dislipidemias (colesterol y triglicéridos altos) se controlan mejor con seguimiento constante. En Clínica Hispana Nueva Salud Gessner diseñamos un plan claro y te acompañamos paso a paso, en español.\n\n## ¿Qué incluye?\n\n- Evaluación inicial y exámenes de laboratorio\n- Monitoreo de glucosa, presión arterial, colesterol y triglicéridos\n- Ajuste de medicamentos según tu evolución\n- Plan de alimentación y actividad física\n- Educación sobre tu condición en tu idioma\n\n## Por qué es importante el control\n\nUna diabetes, presión o colesterol mal controlados dañan con el tiempo el corazón, los riñones, los ojos y los nervios. Un buen seguimiento previene complicaciones y mejora tu calidad de vida.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Diagnóstico y monitoreo de laboratorio",
+        "Control de glucosa, presión y colesterol",
+        "Ajuste de medicamentos",
+        "Plan de alimentación y hábitos"
+      ]
     },
-    "laboratorio": {
-      "title": "Chequeo y Análisis de Laboratorio",
-      "shortTitle": "Laboratorio",
-      "description": "Análisis de laboratorio en la clínica hispana de Houston. Resultados rápidos y precisos.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner contamos con laboratorio clínico completo. Análisis de sangre, orina, perfil lipídico y más con resultados rápidos.",
-      "features": ["Análisis de sangre completo", "Perfil lipídico", "Glucosa y A1C", "Análisis de orina", "Resultados rápidos", "Interpretación en español"]
+    "tiroides": {
+      "title": "Exámenes y Tratamiento de la Tiroides",
+      "shortTitle": "Tiroides",
+      "description": "Exámenes y tratamiento de la tiroides en Houston, TX. Pruebas de laboratorio y control en español, con precios accesibles.",
+      "longDescription": "La tiroides regula tu energía, tu peso y tu ánimo. Cuando funciona de más o de menos aparecen síntomas que afectan tu día a día. En Clínica Hispana Nueva Salud Gessner evaluamos tu tiroides con análisis de laboratorio y te damos el tratamiento adecuado.\n\n## ¿Qué incluye?\n\n- Evaluación de síntomas\n- Pruebas de función tiroidea (TSH, T3, T4)\n- Diagnóstico de hipotiroidismo o hipertiroidismo\n- Inicio y ajuste del tratamiento\n- Seguimiento periódico\n\n## Síntomas frecuentes\n\nCansancio, cambios de peso sin explicación, caída del cabello, frío o calor excesivo, nerviosismo o tristeza. Si los notas, una prueba sencilla puede dar la respuesta.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Pruebas de función tiroidea (TSH, T3, T4)",
+        "Diagnóstico de hipo e hipertiroidismo",
+        "Tratamiento y ajuste de medicamentos",
+        "Seguimiento en español"
+      ]
     },
-    "ultrasonido": {
-      "title": "Ultrasonido",
-      "shortTitle": "Ultrasonido",
-      "description": "Ultrasonidos en la clínica hispana de Houston. Embarazo, abdominal, pélvico y más con resultados inmediatos.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos ultrasonidos con tecnología moderna. Ultrasonidos de embarazo, abdominales, pélvicos y renales con interpretación en español.",
-      "features": ["Ultrasonido de embarazo", "Ultrasonido abdominal", "Ultrasonido pélvico", "Resultados inmediatos", "Tecnología moderna", "Interpretación en español"]
-    },
-    "servicios-ginecologia": {
-      "title": "Servicios de Ginecología",
-      "shortTitle": "Ginecología",
-      "description": "Ginecología en la clínica hispana de Houston. Atención integral para la salud de la mujer en español.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos servicios ginecológicos completos. Papanicolaou, exámenes de mama, salud reproductiva y más con ginecólogos que hablan español.",
-      "features": ["Papanicolaou", "Examen de mama", "Salud reproductiva", "Consulta ginecológica", "Ginecólogos en español", "Ambiente confidencial"]
-    },
-    "planificacion-familiar": {
-      "title": "Planificación Familiar",
-      "shortTitle": "Planificación",
-      "description": "Planificación familiar en la clínica hispana de Houston. Asesoría sobre métodos anticonceptivos.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos asesoría completa sobre métodos anticonceptivos. Nuestros especialistas te orientan sobre las mejores opciones para tu estilo de vida.",
-      "features": ["Asesoría personalizada", "Anticonceptivos orales", "Inyecciones anticonceptivas", "Implantes hormonales", "Seguimiento médico"]
-    },
-    "vacunas-anticonceptivas": {
-      "title": "Vacunas Anticonceptivas",
-      "shortTitle": "Anticonceptivas",
-      "description": "Inyecciones anticonceptivas en la clínica hispana de Houston. Método seguro y efectivo.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner aplicamos inyecciones anticonceptivas como Depo-Provera. Método seguro, efectivo y discreto para el control de la natalidad.",
-      "features": ["Inyección Depo-Provera", "Protección por 3 meses", "Método discreto", "Alta efectividad", "Aplicación rápida", "Seguimiento médico"]
-    },
-    "extraccion-implantes": {
-      "title": "Extracción de Implantes",
-      "shortTitle": "Implantes",
-      "description": "Extracción de implantes anticonceptivos en la clínica hispana de Houston. Procedimiento rápido y seguro.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos extracción de implantes hormonales anticonceptivos como Nexplanon de forma segura y profesional.",
-      "features": ["Procedimiento seguro", "Personal capacitado", "Mínimas molestias", "Anestesia local", "Cuidados post-extracción", "Opciones anticonceptivas"]
-    },
-    "electrocardiograma": {
-      "title": "Electrocardiograma",
-      "shortTitle": "EKG",
-      "description": "Electrocardiograma (EKG) en la clínica hispana de Houston. Evaluación del ritmo cardíaco.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos electrocardiogramas para evaluar la salud de tu corazón. Diagnóstico rápido de arritmias y otras condiciones cardíacas.",
-      "features": ["EKG de 12 derivaciones", "Resultados inmediatos", "Detección de arritmias", "Evaluación cardíaca", "Interpretación médica", "Referido si es necesario"]
+    "alergias": {
+      "title": "Exámenes y Tratamiento de Alergias",
+      "shortTitle": "Alergias",
+      "description": "Exámenes y tratamiento de alergias en Houston, TX. Diagnóstico y manejo en español, con precios accesibles.",
+      "longDescription": "Las alergias pueden afectar tu respiración, tu piel y tu descanso. En Clínica Hispana Nueva Salud Gessner identificamos qué las provoca y te ayudamos a controlarlas para que recuperes tu bienestar.\n\n## ¿Qué incluye?\n\n- Evaluación de síntomas y posibles desencadenantes\n- Tratamiento de alergias estacionales y respiratorias\n- Manejo de rinitis, estornudos y congestión\n- Atención de alergias en la piel (ronchas, comezón)\n- Recomendaciones para evitar las crisis\n\n## Cuándo consultar\n\nEstornudos frecuentes, ojos llorosos, comezón, ronchas o congestión que no mejora son señales de alergia. Un tratamiento adecuado marca la diferencia.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Evaluación de síntomas y desencadenantes",
+        "Tratamiento de alergias respiratorias y de piel",
+        "Manejo de rinitis y congestión",
+        "Atención en español"
+      ]
     },
     "enfermedades-respiratorias": {
-      "title": "Enfermedades Respiratorias",
+      "title": "Pruebas de Flu y COVID y Enfermedades Respiratorias",
       "shortTitle": "Respiratorias",
-      "description": "Tratamiento de enfermedades respiratorias en la clínica hispana de Houston. Gripa, bronquitis, sinusitis y más.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner tratamos enfermedades respiratorias como gripa, bronquitis, sinusitis, neumonía y asma. Diagnóstico rápido y tratamiento efectivo.",
-      "features": ["Diagnóstico rápido", "Tratamiento de gripa", "Bronquitis y sinusitis", "Neumonía", "Control de asma", "Medicamentos recetados"]
+      "description": "Pruebas de flu y COVID y tratamiento de enfermedades respiratorias en Houston, TX. Sin cita previa, en español.",
+      "longDescription": "Cuando empiezan la fiebre, la tos o el malestar, saber si es flu o COVID ayuda a tratarte a tiempo. En Clínica Hispana Nueva Salud Gessner hacemos pruebas rápidas y te damos tratamiento el mismo día, sin cita.\n\n## ¿Qué incluye?\n\n- Prueba rápida de influenza (flu)\n- Prueba de COVID-19\n- Evaluación de síntomas respiratorios\n- Tratamiento de gripe, tos, bronquitis e infecciones de garganta\n- Indicaciones de recuperación y cuidado\n\n## No dejes que avance\n\nSi la fiebre es alta, la tos no mejora o cuesta respirar, es mejor evaluarte. Un diagnóstico oportuno acorta la enfermedad y evita complicaciones.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Prueba rápida de flu y COVID",
+        "Diagnóstico el mismo día",
+        "Tratamiento de gripe, tos y bronquitis",
+        "Atención sin cita en español"
+      ]
+    },
+    "examen-fisico-escolar": {
+      "title": "Chequeos Físicos Escolares y Deportivos",
+      "shortTitle": "Físico Escolar",
+      "description": "Chequeos físicos escolares y deportivos en Houston, TX. Rápidos, en español y con precios accesibles.",
+      "longDescription": "Antes de inscribirse en la escuela o practicar un deporte, los niños y jóvenes necesitan un chequeo físico. En Clínica Hispana Nueva Salud Gessner lo hacemos de forma rápida y completa, con todos los formularios listos.\n\n## ¿Qué incluye?\n\n- Examen físico general\n- Revisión de signos vitales (peso, talla, presión)\n- Evaluación de visión y audición\n- Llenado de los formularios requeridos\n- Recomendaciones de salud\n\n## Para la escuela y el deporte\n\nCumple los requisitos de inscripción escolar y la evaluación para practicar deportes con seguridad. Trae el formulario de tu escuela o equipo y lo completamos.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Examen físico completo",
+        "Revisión de signos vitales",
+        "Formularios escolares y deportivos llenados",
+        "Atención en español"
+      ]
+    },
+    "ginecologia": {
+      "title": "Atención Ginecológica: Papanicolaou y Cultivos",
+      "shortTitle": "Ginecología",
+      "description": "Atención ginecológica en Houston, TX: papanicolaou, cultivos vaginales y tratamiento de infecciones. En español, con precios accesibles.",
+      "longDescription": "Tu salud como mujer merece un espacio de confianza. En Clínica Hispana Nueva Salud Gessner ofrecemos atención ginecológica en español, con la privacidad y el respeto que mereces.\n\n## ¿Qué incluye?\n\n- Papanicolaou y chequeo ginecológico\n- Cultivos vaginales para identificar infecciones\n- Tratamiento de infecciones vaginales (hongos, bacterias)\n- Evaluación de molestias y flujo anormal\n- Referencias cuando se necesita un especialista\n\n## No te quedes con la duda\n\nComezón, ardor, flujo diferente o mal olor son señales de que algo necesita atención. Un cultivo permite un diagnóstico correcto y un tratamiento que sí resuelve.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Papanicolaou y chequeo ginecológico",
+        "Cultivos vaginales",
+        "Tratamiento de infecciones vaginales",
+        "Atención privada en español"
+      ]
+    },
+    "prueba-embarazo": {
+      "title": "Examen y Diagnóstico de Embarazo",
+      "shortTitle": "Embarazo",
+      "description": "Examen y diagnóstico de embarazo en Houston, TX. Pruebas confiables y orientación en español, con precios accesibles.",
+      "longDescription": "Si crees que podrías estar embarazada, una prueba confiable te da tranquilidad y claridad. En Clínica Hispana Nueva Salud Gessner realizamos pruebas de embarazo y te orientamos sobre lo que sigue, en español y sin juicios.\n\n## ¿Qué incluye?\n\n- Prueba de embarazo (orina o sangre)\n- Confirmación médica del resultado\n- Orientación sobre tus siguientes pasos\n- Información sobre control prenatal y referencias\n\n## Con confianza y respeto\n\nTe explicamos el resultado con claridad y te acompañamos en la decisión que tomes, siempre con respeto y privacidad.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Prueba de embarazo confiable",
+        "Confirmación médica",
+        "Orientación sobre próximos pasos",
+        "Atención en español"
+      ]
+    },
+    "anticonceptivos": {
+      "title": "Tratamientos Anticonceptivos",
+      "shortTitle": "Anticonceptivos",
+      "description": "Tratamientos anticonceptivos en Houston, TX: orientación, pastillas e inyección. En español, con precios accesibles.",
+      "longDescription": "Decidir cuándo y cómo formar tu familia es tu derecho. En Clínica Hispana Nueva Salud Gessner te damos información clara y sin juicios para que elijas el método anticonceptivo que mejor se adapta a ti.\n\n## ¿Qué incluye?\n\n- Consulta de orientación personalizada\n- Información sobre los distintos métodos\n- Pastillas anticonceptivas e inyección\n- Inicio y seguimiento del método elegido\n- Resolución de dudas y efectos secundarios\n\n## Una decisión informada\n\nCada cuerpo y cada vida es distinta. Te ayudamos a comparar opciones según tu salud, tus planes y tu comodidad para que tomes la mejor decisión.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Orientación personalizada",
+        "Pastillas e inyección anticonceptiva",
+        "Inicio y seguimiento del método",
+        "Atención en español"
+      ]
+    },
+    "extraccion-implantes": {
+      "title": "Extracción de Implantes Subdérmicos",
+      "shortTitle": "Implantes",
+      "description": "Extracción de implantes subdérmicos en Houston, TX, procedimiento seguro y en español. Con precios accesibles.",
+      "longDescription": "Si llegó el momento de retirar tu implante subdérmico —porque caducó o porque deseas cambiar de método— en Clínica Hispana Nueva Salud Gessner lo hacemos de forma segura, rápida y con cuidado.\n\n## ¿Qué incluye?\n\n- Evaluación y localización del implante\n- Extracción ambulatoria con anestesia local\n- Indicaciones claras de cuidado posterior\n- Orientación sobre tus próximos pasos de planificación\n\n## Un procedimiento sencillo\n\nEl retiro suele tomar pocos minutos y se realiza con una pequeña incisión. Te explicamos cada paso en español para que estés tranquila.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Procedimiento ambulatorio",
+        "Anestesia local",
+        "Personal capacitado",
+        "Cuidado posterior explicado"
+      ]
+    },
+    "salud-hombre": {
+      "title": "Exámenes del Hombre: PSA y Testosterona",
+      "shortTitle": "Salud Hombre",
+      "description": "Exámenes del hombre en Houston, TX: PSA y testosterona. Laboratorio y atención en español, con precios accesibles.",
+      "longDescription": "La salud del hombre muchas veces se posterga. En Clínica Hispana Nueva Salud Gessner facilitamos los exámenes que ayudan a detectar a tiempo cambios importantes, con resultados explicados en español.\n\n## ¿Qué incluye?\n\n- Examen de antígeno prostático (PSA)\n- Medición del nivel de testosterona\n- Chequeo general y de signos vitales\n- Evaluación de síntomas urinarios o de energía\n- Referencia a especialista si se requiere\n\n## Por qué es importante\n\nEl PSA ayuda a vigilar la salud de la próstata y la testosterona influye en la energía, el ánimo y la salud general. Un control sencillo te da tranquilidad.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Antígeno prostático (PSA)",
+        "Nivel de testosterona",
+        "Chequeo general del hombre",
+        "Resultados explicados en español"
+      ]
+    },
+    "examenes-sangre": {
+      "title": "Exámenes de Sangre | Laboratorio",
+      "shortTitle": "Sangre",
+      "description": "Exámenes de sangre en Houston, TX: biometría, química, glucosa, colesterol y más. Resultados en español, con precios accesibles.",
+      "longDescription": "Un buen diagnóstico empieza con un buen laboratorio. En Clínica Hispana Nueva Salud Gessner tomamos tus muestras en el momento y te explicamos los resultados en español, sin tecnicismos.\n\n## ¿Qué incluye?\n\n- Biometría hemática completa (conteo de células)\n- Química sanguínea (glucosa, colesterol, triglicéridos)\n- Pruebas de tiroides, hígado y riñón\n- Paneles para chequeo general o seguimiento\n- Resultados rápidos en la mayoría de los casos\n\n## Para qué sirven\n\nLos análisis ayudan a detectar problemas antes de que den síntomas, dar seguimiento a una condición crónica o completar un examen de trabajo o escuela.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Biometría y química sanguínea",
+        "Glucosa, colesterol y triglicéridos",
+        "Pruebas de tiroides, hígado y riñón",
+        "Resultados explicados en español"
+      ]
     },
     "infecciones-urinarias": {
-      "title": "Infecciones Urinarias",
+      "title": "Examen de Orina y Tratamiento de Infecciones Urinarias",
       "shortTitle": "Urinarias",
-      "description": "Tratamiento de infecciones urinarias en la clínica hispana de Houston. Diagnóstico preciso y alivio rápido.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner diagnosticamos y tratamos infecciones del tracto urinario con análisis de orina y tratamiento antibiótico efectivo.",
-      "features": ["Análisis de orina", "Diagnóstico rápido", "Tratamiento antibiótico", "Alivio de síntomas", "Prevención de recurrencia", "Seguimiento médico"]
+      "description": "Examen de orina y tratamiento de infecciones urinarias en Houston, TX, el mismo día. En español, con precios accesibles.",
+      "longDescription": "El examen de orina ayuda a detectar infecciones urinarias y otras condiciones. En Clínica Hispana Nueva Salud Gessner te hacemos la prueba y, si hay infección, empezamos el tratamiento el mismo día.\n\n## ¿Qué incluye?\n\n- Examen general de orina (urianálisis)\n- Evaluación de síntomas\n- Diagnóstico de infección urinaria\n- Tratamiento adecuado el mismo día\n- Indicaciones para evitar que regrese\n\n## Síntomas frecuentes\n\nArdor al orinar, ganas constantes de ir al baño, orina turbia o con mal olor y dolor en la parte baja del abdomen. No esperes: una infección sin tratar puede llegar a los riñones.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Examen de orina en la clínica",
+        "Diagnóstico de infección urinaria",
+        "Tratamiento el mismo día",
+        "Atención sin cita en español"
+      ]
     },
-    "infecciones-vaginales": {
-      "title": "Infecciones Vaginales",
-      "shortTitle": "Vaginales",
-      "description": "Tratamiento de infecciones vaginales en la clínica hispana de Houston. Atención confidencial y efectiva.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner ofrecemos diagnóstico y tratamiento de infecciones vaginales en un ambiente de confianza y privacidad.",
-      "features": ["Diagnóstico preciso", "Tratamiento efectivo", "Candidiasis", "Vaginosis bacteriana", "Atención confidencial", "Seguimiento médico"]
+    "examen-heces": {
+      "title": "Exámenes de Heces Fecales",
+      "shortTitle": "Heces",
+      "description": "Exámenes de heces fecales en Houston, TX. Detección de parásitos e infecciones, en español, con precios accesibles.",
+      "longDescription": "Los problemas digestivos a veces tienen una causa que solo un análisis de heces puede revelar. En Clínica Hispana Nueva Salud Gessner realizamos exámenes de heces fecales para encontrar el origen y darte el tratamiento correcto.\n\n## ¿Qué incluye?\n\n- Análisis general de heces fecales\n- Detección de parásitos\n- Identificación de infecciones intestinales\n- Evaluación de sangre oculta cuando se requiere\n- Resultados explicados en español\n\n## Cuándo es útil\n\nDiarrea persistente, dolor abdominal, gases, cambios en las evacuaciones o pérdida de peso sin explicación. El examen ayuda a un diagnóstico preciso.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Análisis de heces fecales",
+        "Detección de parásitos e infecciones",
+        "Evaluación de síntomas digestivos",
+        "Resultados explicados en español"
+      ]
+    },
+    "prueba-strep": {
+      "title": "Prueba de Estreptococo (Strep Test)",
+      "shortTitle": "Strep",
+      "description": "Prueba de estreptococo (strep test) en Houston, TX. Resultado rápido y tratamiento en español, con precios accesibles.",
+      "longDescription": "No todo dolor de garganta es igual: la faringitis por estreptococo necesita tratamiento específico. En Clínica Hispana Nueva Salud Gessner hacemos la prueba rápida de strep y te damos el resultado y el tratamiento el mismo día.\n\n## ¿Qué incluye?\n\n- Prueba rápida de estreptococo (hisopado de garganta)\n- Resultado en pocos minutos\n- Evaluación del dolor de garganta\n- Tratamiento adecuado si el resultado es positivo\n- Indicaciones de recuperación\n\n## Cuándo hacerla\n\nDolor de garganta fuerte, fiebre, dificultad para tragar o placas blancas en las amígdalas, sobre todo en niños. La prueba evita tratamientos innecesarios.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Prueba rápida de estreptococo",
+        "Resultado el mismo día",
+        "Tratamiento si es positivo",
+        "Atención sin cita en español"
+      ]
+    },
+    "prueba-tuberculosis": {
+      "title": "Examen de Tuberculosis (TB)",
+      "shortTitle": "Tuberculosis",
+      "description": "Examen de tuberculosis (TB/PPD) en Houston, TX. Para trabajo y escuela, en español, con precios accesibles.",
+      "longDescription": "Muchos trabajos y escuelas piden una prueba de tuberculosis al día. En Clínica Hispana Nueva Salud Gessner la aplicamos y leemos el resultado, con todo explicado en español.\n\n## ¿Qué incluye?\n\n- Prueba cutánea de tuberculosis (PPD)\n- Cita de lectura del resultado (48–72 horas después)\n- Documentación del resultado para tu trámite\n- Orientación si el resultado requiere seguimiento\n\n## Para qué la piden\n\nEmpleos de salud, escuelas, trámites y voluntariado suelen requerir una prueba de TB vigente. Te ayudamos a cumplir el requisito sin complicaciones.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Prueba cutánea de tuberculosis (PPD)",
+        "Lectura del resultado",
+        "Útil para trabajo y escuela",
+        "Atención en español"
+      ]
+    },
+    "enfermedades-transmision-sexual": {
+      "title": "Pruebas de Enfermedades de Transmisión Sexual (STD)",
+      "shortTitle": "ETS/STD",
+      "description": "Pruebas de ETS/STD confidenciales en Houston, TX. Resultados y tratamiento en español, con precios accesibles.",
+      "longDescription": "Cuidar tu salud sexual es un acto de responsabilidad. En Clínica Hispana Nueva Salud Gessner ofrecemos pruebas de enfermedades de transmisión sexual de forma confidencial y respetuosa, con tratamiento cuando es necesario.\n\n## ¿Qué incluye?\n\n- Evaluación de síntomas y factores de riesgo\n- Pruebas de las infecciones más comunes\n- Análisis de laboratorio\n- Tratamiento y orientación si el resultado es positivo\n- Total confidencialidad\n\n## Cuándo hacerte la prueba\n\nSi tuviste contacto de riesgo, tienes síntomas o simplemente quieres estar tranquilo, hacerte la prueba es la mejor decisión. La detección temprana facilita el tratamiento.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Pruebas confidenciales y sin juicios",
+        "Evaluación de síntomas y riesgo",
+        "Tratamiento disponible",
+        "Atención en español"
+      ]
+    },
+    "examen-alcohol-drogas": {
+      "title": "Exámenes de Alcohol y Drogas",
+      "shortTitle": "Alcohol y Drogas",
+      "description": "Exámenes de alcohol y drogas en Houston, TX. Para empleo y trámites, en español, con precios accesibles.",
+      "longDescription": "Muchos empleos y trámites requieren una prueba de alcohol y drogas. En Clínica Hispana Nueva Salud Gessner la realizamos de forma rápida y te entregamos la documentación que necesitas.\n\n## ¿Qué incluye?\n\n- Prueba de detección de drogas\n- Prueba de alcohol\n- Proceso ágil y discreto\n- Documentación del resultado para tu empleador o trámite\n\n## Para trabajo y trámites\n\nAtendemos solicitudes de empleo, requisitos laborales y trámites personales. Te explicamos el proceso en español para que llegues tranquilo.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Prueba de drogas para empleo",
+        "Prueba de alcohol",
+        "Proceso rápido",
+        "Documentación del resultado"
+      ]
+    },
+    "electrocardiograma": {
+      "title": "Electrocardiograma (EKG)",
+      "shortTitle": "Electro (EKG)",
+      "description": "Electrocardiograma EKG en Houston, TX, rápido y sin dolor. Resultados y atención en español, con precios accesibles.",
+      "longDescription": "El electrocardiograma (EKG) registra la actividad eléctrica de tu corazón en pocos minutos y sin ninguna molestia. En Clínica Hispana Nueva Salud Gessner lo realizamos como parte de chequeos y exámenes médicos.\n\n## ¿Qué incluye?\n\n- Estudio del ritmo y la actividad del corazón\n- Interpretación por personal médico\n- Útil para exámenes de trabajo, deporte o cirugía\n- Resultados explicados en español\n\n## Cuándo se recomienda\n\nSi tienes palpitaciones, presión alta, dolor en el pecho o necesitas un examen médico completo, el EKG aporta información valiosa sobre tu corazón.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Estudio rápido y sin dolor",
+        "Evaluación del ritmo cardiaco",
+        "Útil para exámenes médicos",
+        "Resultados en español"
+      ]
+    },
+    "ultrasonido": {
+      "title": "Ultrasonido y Ecografía",
+      "shortTitle": "Ultrasonido",
+      "description": "Ultrasonido y ecografía en Houston, TX: abdominal, pélvico y de embarazo. En español, con precios accesibles.",
+      "longDescription": "El ultrasonido es una herramienta segura y sin dolor que nos permite ver el interior de tu cuerpo para diagnosticar con precisión. En Clínica Hispana Nueva Salud Gessner contamos con equipo moderno y personal que te explica todo en español.\n\n## ¿Qué incluye?\n\n- Ultrasonido abdominal (hígado, vesícula, riñones)\n- Ultrasonido pélvico\n- Ultrasonido de embarazo (control y seguimiento)\n- Evaluación de tiroides y tejidos blandos\n\n## Sin radiación y sin dolor\n\nA diferencia de los rayos X, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo. El estudio es rápido y no requiere preparación complicada.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Ultrasonido abdominal y pélvico",
+        "Ultrasonido de embarazo",
+        "Equipo moderno",
+        "Atención en español"
+      ]
     },
     "examen-dot": {
-      "title": "Examen Médico DOT",
-      "shortTitle": "DOT",
-      "description": "Examen médico DOT en la clínica hispana de Houston. Certificación para conductores comerciales.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos DOT para conductores comerciales. Certificación requerida para licencias CDL.",
-      "features": ["Examen DOT completo", "Certificación médica", "Evaluación de vista", "Evaluación de audición", "Análisis de orina", "Tarjeta médica DOT"]
+      "title": "Examen Físico DOT - Licencia CDL",
+      "shortTitle": "Examen DOT",
+      "description": "Examen físico DOT en Houston, TX para licencia CDL, certificado el mismo día y en español. Con precios accesibles.",
+      "longDescription": "Si manejas vehículos comerciales necesitas tu examen físico DOT vigente. En Clínica Hispana Nueva Salud Gessner lo realizamos de forma rápida y te entregamos tu certificado el mismo día.\n\n## ¿Qué incluye?\n\n- Revisión de visión y audición\n- Toma de presión arterial\n- Examen físico requerido por el DOT\n- Revisión de historial médico\n- Certificado médico DOT el mismo día\n\n## Para conductores comerciales\n\nEl examen es obligatorio para obtener o renovar tu licencia CDL. Te explicamos cada paso en español y agilizamos el proceso para que vuelvas pronto a la carretera.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Certificado DOT el mismo día",
+        "Para licencia CDL",
+        "Proceso rápido",
+        "Atención en español"
+      ]
     },
-    "examenes-generales": {
-      "title": "Exámenes Generales",
-      "shortTitle": "Generales",
-      "description": "Exámenes médicos generales en la clínica hispana de Houston. Chequeos de salud completos.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner realizamos exámenes médicos generales y chequeos de salud completos. Físicos escolares, deportivos y de empleo.",
-      "features": ["Examen físico completo", "Físicos escolares", "Físicos deportivos", "Exámenes de empleo", "Análisis de sangre", "Resultados el mismo día"]
+    "examenes-inmigracion": {
+      "title": "Examen Médico de Inmigración I-693",
+      "shortTitle": "Inmigración",
+      "description": "Examen médico de inmigración I-693 en Houston, TX con médico autorizado por USCIS. Vacunas y formulario sellado.",
+      "longDescription": "El examen médico de inmigración (Formulario I-693) es un requisito para el ajuste de estatus. En Clínica Hispana Nueva Salud Gessner lo realizamos con un médico autorizado por USCIS (civil surgeon) y te entregamos el formulario sellado listo para enviar.\n\n## ¿Qué incluye?\n\n- Revisión de historial médico y de vacunas\n- Examen físico completo\n- Pruebas requeridas por USCIS (incluida la de tuberculosis)\n- Aplicación de las vacunas que te falten\n- Formulario I-693 completado y sellado en sobre oficial\n\n## Qué traer a tu cita\n\nIdentificación con foto, registro de vacunas si lo tienes y cualquier documento médico relevante. Te explicamos todo el proceso en español para que llegues tranquilo.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Médico autorizado (civil surgeon)",
+        "Formulario I-693 sellado",
+        "Vacunas requeridas disponibles",
+        "Proceso explicado en español"
+      ]
     },
-    "dolores-musculares": {
-      "title": "Dolores Musculares",
-      "shortTitle": "Musculares",
-      "description": "Tratamiento de dolores musculares en la clínica hispana de Houston. Alivio rápido y efectivo.",
-      "longDescription": "En Clínica Hispana Nueva Salud Gessner tratamos dolores musculares, esguinces y lesiones menores. Diagnóstico preciso y tratamiento para tu pronta recuperación.",
-      "features": ["Evaluación del dolor", "Tratamiento antiinflamatorio", "Inyecciones para el dolor", "Relajantes musculares", "Terapia de calor/frío", "Recomendaciones de ejercicio"]
+    "vacunas": {
+      "title": "Vacunas contra la Influenza y Toxoide Tetánico",
+      "shortTitle": "Vacunas",
+      "description": "Vacunas de flu y toxoide tetánico en Houston, TX. Aplicación por personal médico en español, con precios accesibles.",
+      "longDescription": "Las vacunas son una de las formas más sencillas de cuidar tu salud. En Clínica Hispana Nueva Salud Gessner aplicamos la vacuna contra la influenza y el toxoide tetánico de forma segura y rápida.\n\n## ¿Qué incluye?\n\n- Vacuna anual contra la influenza (flu)\n- Toxoide tetánico (refuerzo del tétanos)\n- Aplicación por personal médico\n- Orientación sobre cuándo aplicar refuerzos\n- Atención en español\n\n## Por qué vacunarte\n\nLa vacuna de la flu reduce el riesgo de enfermarte de gravedad en temporada de gripe, y el toxoide tetánico te protege ante cortes y heridas. Pregúntanos cuál te conviene.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Vacuna contra la influenza (flu)",
+        "Toxoide tetánico",
+        "Aplicación por personal médico",
+        "Atención en español"
+      ]
+    },
+    "sueros-vitaminados": {
+      "title": "Sueros Vitaminados (Terapia IV)",
+      "shortTitle": "Sueros",
+      "description": "Sueros vitaminados (terapia IV) en Houston, TX. Hidratación y vitaminas en español, con precios accesibles.",
+      "longDescription": "Los sueros vitaminados aportan hidratación, vitaminas y minerales directamente a tu organismo. En Clínica Hispana Nueva Salud Gessner los aplicamos con personal médico y en un ambiente cómodo y seguro.\n\n## ¿Qué incluye?\n\n- Evaluación breve para elegir el suero adecuado\n- Hidratación intravenosa\n- Vitaminas y minerales\n- Aplicación y monitoreo por personal médico\n- Atención en español\n\n## Cuándo pueden ayudar\n\nDespués de un periodo de cansancio, deshidratación o malestar, un suero vitaminado puede ayudarte a recuperar energía. Te orientamos sobre si es adecuado para ti.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Hidratación intravenosa",
+        "Vitaminas y minerales",
+        "Aplicación por personal médico",
+        "Atención en español"
+      ]
+    },
+    "suturas-heridas": {
+      "title": "Suturas de Heridas",
+      "shortTitle": "Suturas",
+      "description": "Suturas de heridas en Houston, TX. Cierre de cortes y heridas en español, con precios accesibles.",
+      "longDescription": "Una herida que no cierra bien puede infectarse o dejar cicatriz. En Clínica Hispana Nueva Salud Gessner cerramos cortes y heridas con suturas de forma segura, sin cita y con atención en español.\n\n## ¿Qué incluye?\n\n- Evaluación y limpieza de la herida\n- Cierre con suturas (puntos)\n- Aplicación de anestesia local\n- Indicaciones de cuidado y signos de alarma\n- Retiro de puntos cuando corresponde\n\n## Cuándo acudir\n\nCortes profundos, heridas que sangran o no cierran solas, o que tienen bordes abiertos. Atender pronto reduce el riesgo de infección y mejora la cicatrización.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Cierre de heridas con suturas",
+        "Limpieza y desinfección",
+        "Atención sin cita previa",
+        "Indicaciones de cuidado posterior"
+      ]
+    },
+    "curacion-heridas": {
+      "title": "Cura y Curación de Heridas",
+      "shortTitle": "Curación",
+      "description": "Cura y curación de heridas en Houston, TX. Limpieza y vendajes en español, con precios accesibles.",
+      "longDescription": "Una buena curación evita infecciones y ayuda a que la herida sane más rápido. En Clínica Hispana Nueva Salud Gessner limpiamos, curamos y vendamos tus heridas, y te seguimos hasta que cicatricen.\n\n## ¿Qué incluye?\n\n- Limpieza y desinfección de la herida\n- Aplicación de apósitos y vendajes\n- Cambio periódico de vendajes\n- Vigilancia de signos de infección\n- Indicaciones de cuidado en casa\n\n## Para todo tipo de heridas\n\nHeridas postoperatorias, úlceras, quemaduras leves o heridas que tardan en sanar. Te ayudamos con curaciones regulares para una mejor recuperación.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Limpieza y desinfección",
+        "Cambio de vendajes",
+        "Seguimiento de la cicatrización",
+        "Atención en español"
+      ]
+    },
+    "cirugias-menores": {
+      "title": "Cirugías Menores",
+      "shortTitle": "Cirugías Menores",
+      "description": "Cirugías menores en Houston, TX: lunares, quistes y lipomas. Procedimiento ambulatorio en español, con precios accesibles.",
+      "longDescription": "Muchos problemas de piel y tejidos blandos se resuelven con un procedimiento sencillo. En Clínica Hispana Nueva Salud Gessner realizamos cirugías menores ambulatorias con anestesia local, en un mismo día.\n\n## ¿Qué incluye?\n\n- Evaluación del lunar, quiste o lesión\n- Procedimiento ambulatorio con anestesia local\n- Extracción de lunares, quistes y lipomas\n- Indicaciones claras de cuidado posterior\n- Retiro de puntos cuando corresponde\n\n## Rápido y seguro\n\nLa mayoría de estos procedimientos toman poco tiempo y no requieren hospitalización. Te explicamos cada paso en español para que estés tranquilo.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Procedimientos ambulatorios",
+        "Anestesia local",
+        "Extracción de lunares, quistes y lipomas",
+        "Cuidado posterior explicado"
+      ]
+    },
+    "drenaje-abscesos": {
+      "title": "Drenaje de Abscesos",
+      "shortTitle": "Abscesos",
+      "description": "Drenaje de abscesos en Houston, TX. Tratamiento de infecciones de piel en español, con precios accesibles.",
+      "longDescription": "Un absceso es una acumulación de pus que causa dolor e hinchazón y necesita drenarse. En Clínica Hispana Nueva Salud Gessner lo tratamos de forma segura para aliviar la molestia y prevenir que la infección avance.\n\n## ¿Qué incluye?\n\n- Evaluación del absceso o infección de piel\n- Drenaje con anestesia local\n- Limpieza y desinfección de la zona\n- Tratamiento de la infección cuando se requiere\n- Indicaciones de cuidado y seguimiento\n\n## No lo dejes pasar\n\nUn bulto rojo, caliente y doloroso, a veces con fiebre, necesita atención. Drenarlo a tiempo evita complicaciones y alivia el dolor rápidamente.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Drenaje del absceso",
+        "Limpieza y desinfección",
+        "Anestesia local",
+        "Indicaciones de cuidado posterior"
+      ]
+    },
+    "unas-encarnadas": {
+      "title": "Extracción de Uñas Encarnadas",
+      "shortTitle": "Uñas Encarnadas",
+      "description": "Extracción de uñas encarnadas en Houston, TX. Procedimiento con anestesia local en español, con precios accesibles.",
+      "longDescription": "Una uña encarnada puede doler mucho e infectarse si no se trata. En Clínica Hispana Nueva Salud Gessner la atendemos con un procedimiento sencillo y anestesia local para aliviarte el mismo día.\n\n## ¿Qué incluye?\n\n- Evaluación de la uña y el dedo\n- Procedimiento con anestesia local\n- Extracción de la porción encarnada de la uña\n- Tratamiento de la infección si la hay\n- Indicaciones de cuidado para evitar que regrese\n\n## Cuándo acudir\n\nDolor, enrojecimiento, hinchazón o pus alrededor de la uña, sobre todo del dedo gordo del pie. Atenderla pronto evita una infección mayor.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Tratamiento de la uña encarnada",
+        "Anestesia local",
+        "Alivio del dolor",
+        "Indicaciones de cuidado posterior"
+      ]
+    },
+    "farmacia": {
+      "title": "Farmacia",
+      "shortTitle": "Farmacia",
+      "description": "Farmacia en Houston, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
+      "longDescription": "Al terminar tu consulta en Clínica Hispana Nueva Salud Gessner puedes recoger tus medicamentos en nuestra propia farmacia, sin tener que ir a otro lugar. Es la comodidad de resolver todo en una sola visita, con atención en español.\n\n## ¿Qué incluye?\n\n- Surtido de tu receta justo al terminar la consulta\n- Medicamentos de marca y genéricos\n- Medicamentos de venta libre (OTC) para gripe, dolor, alergias y más\n- Asesoría del personal sobre cómo tomar tus medicamentos\n- Resurtido de recetas\n\n## ¿Por qué usar nuestra farmacia?\n\nTe ahorras una segunda parada: el médico te atiende, te receta y recoges tu medicamento en el mismo lugar. Te explicamos en español la dosis, los horarios y los cuidados.\n\n## ¿Por qué elegir Clínica Hispana Nueva Salud Gessner?\n\nEn Clínica Hispana Nueva Salud Gessner te atendemos 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Estamos en 1914 Gessner Rd B, Houston, TX 77080, con horario de lunes a domingo de 9 AM a 9 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n## Formas de pago\n\nNo es necesario tener seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n## Áreas que servimos\n\nAtendemos a pacientes de Houston, TX y todo el oeste y noroeste de la ciudad: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale y Fairbanks, además de comunidades cercanas.",
+      "features": [
+        "Surtido de tu receta al instante",
+        "Medicamentos de marca y genéricos",
+        "Medicamentos de venta libre (OTC)",
+        "Asesoría sobre tus medicamentos en español"
+      ]
     }
   },
   "privacy": {

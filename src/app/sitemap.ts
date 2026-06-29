@@ -57,6 +57,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     });
 
+    // Promotions page
+    routes.push({
+      url: `${baseUrl}${prefix}/promociones`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+      alternates: {
+        languages: {
+          es: `${baseUrl}/promociones`,
+          en: `${baseUrl}/en/promociones`,
+        },
+      },
+    });
+
     // Privacy policy
     routes.push({
       url: `${baseUrl}${prefix}/privacy`,

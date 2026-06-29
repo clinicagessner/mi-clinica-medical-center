@@ -7,19 +7,38 @@ export interface Service {
   longDescription: string;
   icon: string;
   image?: string;
-  category: "especialidad" | "diagnostico" | "mujer" | "especial" | "otro";
+  category: ServiceCategory;
   keywords: string[];
   features: string[];
   highlighted?: boolean;
   order: number;
 }
 
+export type ServiceCategory =
+  | "medicina-general"
+  | "salud-mujer"
+  | "examenes"
+  | "laboratorio"
+  | "tratamientos";
+
+export interface ServiceFaq {
+  question: string;
+  answer: string;
+  questionEn: string;
+  answerEn: string;
+}
+
 export interface Promotion {
-  id: string;
+  slug: string;
   title: string;
-  badge: string;
-  description: string;
+  titleEn: string;
+  price: string | null;
+  blurb: string;
+  blurbEn: string;
   includes: string[];
+  includesEn: string[];
+  alt: string;
+  altEn: string;
 }
 
 export interface Testimonial {

@@ -9,78 +9,38 @@ import {
   Phone,
   Chat,
 } from "@phosphor-icons/react/dist/ssr";
-import {
-  Gynecology,
-  Stethoscope,
-  ChildProgram,
-  BiochemistryLaboratory,
-  UltrasoundScanner,
-  Diabetes,
-  BlisterPillsOvalX1,
-  Bladder,
-  SkinCancer,
-  Nutrition,
-  Heart,
-  HealthWorker,
-  MedicalRecords,
-  Alert,
-} from "healthicons-react/outline";
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { SERVICES } from "@/lib/constants";
+import { ServiceIcon } from "@/components/services/service-icon";
+import { SERVICES, CONTACT_INFO } from "@/lib/constants";
 import type { Service } from "@/types";
 
-const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Heart: Gynecology,
-  Stethoscope: Stethoscope,
-  Baby: ChildProgram,
-  TestTube: BiochemistryLaboratory,
-  Monitor: UltrasoundScanner,
-  Activity: Diabetes,
-  Pill: BlisterPillsOvalX1,
-  User: Bladder,
-  Sparkles: SkinCancer,
-  Apple: Nutrition,
-  FileCheck: MedicalRecords,
-  AlertCircle: Alert,
-  Cardiologia: Heart,
-  General: HealthWorker,
-};
-
-// Category labels are now handled via translations
-
-const categoryColors: Record<Service["category"], string> = {
-  especialidad: "bg-teal-50 text-teal-700 border-teal-200",
-  diagnostico: "bg-emerald-50 text-emerald-700 border-emerald-200",
-  mujer: "bg-pink-50 text-pink-700 border-pink-200",
-  especial: "bg-amber-50 text-amber-700 border-amber-200",
-  otro: "bg-sky-50 text-sky-700 border-sky-200",
-};
-
-// Alt text SEO - descripcion natural + clinica hispana houston
-const serviceAltText: Record<string, string> = {
-  "medicina-familiar": "medicina familiar clinica hispana houston",
-  "examenes-inmigracion": "examen inmigracion i-693 clinica hispana houston",
-  "enfermedades-transmision-sexual": "pruebas std clinica hispana houston",
-  "servicios-urologia": "urologia clinica hispana houston",
-  "condiciones-cronicas": "manejo diabetes clinica hispana houston",
-  "laboratorio": "laboratorio clinico clinica hispana houston",
-  "ultrasonido": "ultrasonido embarazo clinica hispana houston",
-  "servicios-ginecologia": "ginecologia clinica hispana houston",
-  "planificacion-familiar": "planificacion familiar clinica hispana houston",
-  "vacunas-anticonceptivas": "anticonceptivos clinica hispana houston",
-  "extraccion-implantes": "extraccion implantes clinica hispana houston",
-  "electrocardiograma": "electrocardiograma clinica hispana houston",
-  "enfermedades-respiratorias": "enfermedades respiratorias clinica hispana houston",
-  "infecciones-urinarias": "infecciones urinarias clinica hispana houston",
-  "infecciones-vaginales": "infecciones vaginales clinica hispana houston",
-  "examen-dot": "examen dot clinica hispana houston",
-  "examenes-generales": "examenes generales clinica hispana houston",
-  "dolores-musculares": "dolores musculares clinica hispana houston",
+// Esquema de color por categoría: badge + contenedor del icono (con hover vívido).
+const categoryStyles: Record<Service["category"], { badge: string; icon: string }> = {
+  "medicina-general": {
+    badge: "bg-emerald-50 text-emerald-700 border-emerald-200",
+    icon: "bg-emerald-100 text-emerald-700 group-hover:bg-emerald-600 group-hover:text-white",
+  },
+  "salud-mujer": {
+    badge: "bg-pink-50 text-pink-700 border-pink-200",
+    icon: "bg-pink-100 text-pink-700 group-hover:bg-pink-600 group-hover:text-white",
+  },
+  examenes: {
+    badge: "bg-amber-50 text-amber-700 border-amber-200",
+    icon: "bg-amber-100 text-amber-700 group-hover:bg-amber-500 group-hover:text-white",
+  },
+  laboratorio: {
+    badge: "bg-teal-50 text-teal-700 border-teal-200",
+    icon: "bg-teal-100 text-teal-700 group-hover:bg-teal-600 group-hover:text-white",
+  },
+  tratamientos: {
+    badge: "bg-sky-50 text-sky-700 border-sky-200",
+    icon: "bg-sky-100 text-sky-700 group-hover:bg-sky-600 group-hover:text-white",
+  },
 };
 
 export function ServicesPageContent() {
@@ -111,11 +71,11 @@ export function ServicesPageContent() {
 
   const categories: Array<Service["category"] | "all"> = [
     "all",
-    "especialidad",
-    "mujer",
-    "diagnostico",
-    "especial",
-    "otro",
+    "medicina-general",
+    "salud-mujer",
+    "examenes",
+    "laboratorio",
+    "tratamientos",
   ];
 
   return (
@@ -127,7 +87,7 @@ export function ServicesPageContent() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 md:p-6"
+            className="bg-card rounded-2xl shadow-sm border border-border p-4 md:p-6"
           >
             <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
               {/* Search */}
@@ -176,7 +136,7 @@ export function ServicesPageContent() {
             </div>
 
             {/* Results count */}
-            <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+            <div className="flex items-center justify-between mt-4 pt-4 border-t border-border">
               <p className="text-sm text-muted-foreground">
                 {filteredServices.length === SERVICES.length ? (
                   locale === "es" ? "Mostrando todos los servicios" : "Showing all services"
@@ -212,7 +172,7 @@ export function ServicesPageContent() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="text-center py-16 bg-white rounded-2xl shadow-sm"
+              className="text-center py-16 bg-card rounded-2xl shadow-sm"
             >
               <div className="size-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MagnifyingGlass className="size-8 text-gray-400" />
@@ -236,7 +196,6 @@ export function ServicesPageContent() {
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredServices.map((service, index) => {
-                const Icon = iconMap[service.icon] || iconMap["Stethoscope"];
                 return (
                   <motion.div
                     key={service.id}
@@ -251,14 +210,14 @@ export function ServicesPageContent() {
                         className={`h-full cursor-pointer group relative overflow-hidden transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 flex flex-col ${
                           service.highlighted
                             ? "border-2 border-primary shadow-lg shadow-primary/10 bg-linear-to-br from-white via-white to-green-50"
-                            : "border border-gray-100 hover:border-primary/30 hover:shadow-xl hover:shadow-gray-200/50 bg-white"
+                            : "border border-border hover:border-primary/30 hover:shadow-xl bg-card"
                         }`}
                       >
                         {service.image && (
                           <>
                             <Image
                               src={service.image}
-                              alt={serviceAltText[service.id] || `${service.title} clinica hispana houston`}
+                              alt={`${service.title} - Clínica Hispana Nueva Salud Gessner, Houston TX`}
                               fill
                               className="object-cover object-center z-0"
                               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
@@ -271,7 +230,7 @@ export function ServicesPageContent() {
                           <div className="flex items-center justify-between mb-3">
                             <Badge
                               variant="outline"
-                              className={`text-xs font-medium ${categoryColors[service.category]}`}
+                              className={`text-xs font-medium ${categoryStyles[service.category].badge}`}
                             >
                               {tCategories(service.category)}
                             </Badge>
@@ -284,13 +243,13 @@ export function ServicesPageContent() {
 
                           {/* Icon */}
                           <div
-                            className={`w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 ${
+                            className={`w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg ${
                               service.highlighted
                                 ? "bg-primary text-white shadow-lg shadow-primary/30"
-                                : "bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-white group-hover:shadow-lg group-hover:shadow-secondary/20 group-hover:scale-110"
+                                : categoryStyles[service.category].icon
                             }`}
                           >
-                            <Icon className="size-7" />
+                            <ServiceIcon name={service.icon} className="size-7" />
                           </div>
                           <CardTitle className="text-lg mt-4 group-hover:text-primary transition-colors leading-snug">
                             {service.title}
@@ -307,7 +266,7 @@ export function ServicesPageContent() {
                             {service.features.slice(0, 3).map((feature) => (
                               <span
                                 key={feature}
-                                className="text-xs bg-gray-50 text-gray-600 px-2.5 py-1 rounded-full border border-gray-100"
+                                className="text-xs bg-muted text-muted-foreground px-2.5 py-1 rounded-full border border-border"
                               >
                                 {feature}
                               </span>
@@ -391,7 +350,7 @@ export function ServicesPageContent() {
                 size="lg"
                 className="bg-primary text-white hover:bg-primary/90 shadow-xl shadow-primary/30 hover:shadow-primary/40 transition-all duration-300 hover:scale-105 h-14 px-8 text-base font-semibold"
               >
-                <a href="tel:+13462265820">
+                <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
                   <Phone className="size-5 mr-2" weight="fill" />
                   {t("common.callNow")}
                 </a>

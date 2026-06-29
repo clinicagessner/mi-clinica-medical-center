@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { SERVICES, CONTACT_INFO } from "@/lib/constants";
 
 // IDs de los 3 servicios destacados para el landing
-const FEATURED_SERVICE_IDS = ["examenes-inmigracion", "servicios-ginecologia", "ultrasonido"];
+const FEATURED_SERVICE_IDS = ["examenes-inmigracion", "ginecologia", "ultrasonido"];
 
 // Obtener los servicios destacados del array SERVICES
 const FEATURED_SERVICES = SERVICES.filter((service) =>
@@ -23,21 +23,21 @@ const FEATURED_SERVICES = SERVICES.filter((service) =>
 
 // Imágenes de fondo para los servicios destacados
 const serviceImages: Record<string, string> = {
-  "examenes-inmigracion": "/images/services/immigration-exam.webp",
-  "servicios-ginecologia": "/images/services/gynecology.webp",
-  "ultrasonido": "/images/services/ultrasound.webp",
+  "examenes-inmigracion": "/images/services/examenes-inmigracion.webp",
+  "ginecologia": "/images/services/ginecologia.webp",
+  "ultrasonido": "/images/services/ultrasonido.webp",
 };
 
 // Alt text para SEO
 const serviceAltText: Record<string, Record<string, string>> = {
   es: {
     "examenes-inmigracion": "examen inmigracion i-693 clinica hispana houston",
-    "servicios-ginecologia": "consulta ginecologia clinica hispana houston",
+    "ginecologia": "consulta ginecologia clinica hispana houston",
     "ultrasonido": "ultrasonido embarazo clinica hispana houston",
   },
   en: {
     "examenes-inmigracion": "immigration exam i-693 hispanic clinic houston",
-    "servicios-ginecologia": "gynecology consultation hispanic clinic houston",
+    "ginecologia": "gynecology consultation hispanic clinic houston",
     "ultrasonido": "pregnancy ultrasound hispanic clinic houston",
   },
 };
@@ -55,7 +55,7 @@ const serviceTranslations: Record<string, Record<string, { title: string; descri
         "Resultados en 3-5 días",
       ],
     },
-    "servicios-ginecologia": {
+    "ginecologia": {
       title: "Servicios de Ginecología",
       description: "Ginecología en la clínica hispana de Houston. Atención integral para la salud de la mujer en español.",
       features: [
@@ -87,7 +87,7 @@ const serviceTranslations: Record<string, Record<string, { title: string; descri
         "Results in 3-5 days",
       ],
     },
-    "servicios-ginecologia": {
+    "ginecologia": {
       title: "Gynecology Services",
       description: "Gynecology at our Hispanic clinic in Houston. Comprehensive women's health care in Spanish.",
       features: [

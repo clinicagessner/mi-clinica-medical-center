@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { List, Phone, MapPin, Clock } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -26,9 +26,10 @@ export function Header() {
 
   // Navigation links
   const navigationLinks = [
-    { label: t("nav.services"), href: `${localePrefix}/#services`, id: "services" },
+    { label: t("nav.services"), href: `${localePrefix}/services`, id: "services", isPage: true },
+    { label: t("nav.promotions"), href: `${localePrefix}/promociones`, id: "promociones", isPage: true },
     { label: t("nav.chronicCare"), href: `${localePrefix}/#chronic-care`, id: "chronic-care" },
-    { label: t("nav.blog"), href: `${localePrefix}/#blog`, id: "blog" },
+    { label: t("nav.blog"), href: `${localePrefix}/blog`, id: "blog", isPage: true },
     { label: t("nav.contact"), href: `${localePrefix}/#contact`, id: "contact" },
   ];
 
@@ -135,7 +136,16 @@ export function Header() {
   };
 
   // Handle navigation click
-  const handleNavClick = (e: React.MouseEvent, sectionId: string) => {
+  const handleNavClick = (
+    e: React.MouseEvent,
+    sectionId: string,
+    isPage = false,
+  ) => {
+    // Page links (Promociones, Blog) navigate normally — no scroll hijack.
+    if (isPage) {
+      setIsOpen(false);
+      return;
+    }
     if (isHomepage) {
       scrollToSection(e, sectionId);
     } else {
@@ -233,7 +243,7 @@ export function Header() {
               <Link
                 key={link.id}
                 href={link.href}
-                onClick={(e) => handleNavClick(e, link.id)}
+                onClick={(e) => handleNavClick(e, link.id, link.isPage)}
                 className={cn(
                   "px-4 xl:px-5 py-2.5 text-sm xl:text-base font-medium rounded-xl transition-all duration-300",
                   isScrolled
@@ -330,6 +340,9 @@ export function Header() {
                       <div>
                         <SheetTitle className="text-lg font-bold text-white text-left">Nueva Salud</SheetTitle>
                         <p className="text-[10px] text-white/80 font-semibold tracking-widest">GESSNER</p>
+                        <SheetDescription className="sr-only">
+                          {locale === "es" ? "Menú de navegación" : "Navigation menu"}
+                        </SheetDescription>
                       </div>
                     </Link>
                   </div>
@@ -341,7 +354,7 @@ export function Header() {
                         <Link
                           key={link.id}
                           href={link.href}
-                          onClick={(e) => handleNavClick(e, link.id)}
+                          onClick={(e) => handleNavClick(e, link.id, link.isPage)}
                           className={cn(
                             "flex items-center px-4 py-3 font-medium rounded-xl transition-all",
                             activeSection === link.id

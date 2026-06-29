@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "@/i18n/navigation";
 import { ServicesPageContent } from "@/components/services/services-page-content";
 import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
-import { SITE_CONFIG } from "@/lib/constants";
+import { SITE_CONFIG, SERVICES } from "@/lib/constants";
 import { locales } from "@/i18n/config";
 
 type Props = {
@@ -24,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? "Servicios Médicos en Español | Clínica Hispana Nueva Salud Gessner Houston"
       : "Medical Services in Spanish | Hispanic Clinic Nueva Salud Gessner Houston",
     description: locale === "es"
-      ? "18+ servicios médicos en español en Houston TX. Exámenes I-693 inmigración, ginecología, ultrasonido, laboratorio. Abiertos 7 días. Sin cita previa. +1 (346) 226-5820"
-      : "18+ medical services in Spanish in Houston TX. I-693 immigration exams, gynecology, ultrasound, laboratory. Open 7 days. Walk-ins welcome. +1 (346) 226-5820",
+      ? "29 servicios médicos en español en Houston TX. Exámenes I-693 inmigración, ginecología, ultrasonido, laboratorio. Abiertos 7 días. Sin cita previa. +1 (346) 226-5820"
+      : "29 medical services in Spanish in Houston TX. I-693 immigration exams, gynecology, ultrasound, laboratory. Open 7 days. Walk-ins welcome. +1 (346) 226-5820",
     keywords: [
       "servicios medicos houston",
       "clinica hispana servicios",
@@ -39,8 +41,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? "Servicios Médicos | Clínica Hispana Nueva Salud Gessner"
         : "Medical Services | Hispanic Clinic Nueva Salud Gessner",
       description: locale === "es"
-        ? "18+ servicios médicos en español. Exámenes I-693, ginecología, ultrasonido, laboratorio. Abiertos 7 días."
-        : "18+ medical services in Spanish. I-693 exams, gynecology, ultrasound, laboratory. Open 7 days.",
+        ? "29 servicios médicos en español. Exámenes I-693, ginecología, ultrasonido, laboratorio. Abiertos 7 días."
+        : "29 medical services in Spanish. I-693 exams, gynecology, ultrasound, laboratory. Open 7 days.",
       url: canonicalUrl,
       siteName: "Clínica Hispana Nueva Salud Gessner",
       locale: locale === "es" ? "es_MX" : "en_US",
@@ -62,8 +64,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? "Servicios Médicos | Clínica Hispana Nueva Salud Gessner"
         : "Medical Services | Hispanic Clinic Nueva Salud Gessner",
       description: locale === "es"
-        ? "18+ servicios médicos en español en Houston. Exámenes I-693, ginecología, ultrasonido, laboratorio."
-        : "18+ medical services in Spanish in Houston. I-693 exams, gynecology, ultrasound, laboratory.",
+        ? "29 servicios médicos en español en Houston. Exámenes I-693, ginecología, ultrasonido, laboratorio."
+        : "29 medical services in Spanish in Houston. I-693 exams, gynecology, ultrasound, laboratory.",
       images: [`${baseUrl}/images/og-image.jpg`],
     },
     alternates: {
@@ -103,17 +105,25 @@ export default async function ServiciosPage({ params }: Props) {
           <div className="absolute inset-0 bg-black/60 -z-10" />
 
           <div className="container mx-auto px-4">
+            <Link
+              href="/"
+              className="group mb-8 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+            >
+              <ArrowLeft className="size-5 transition-transform group-hover:-translate-x-1" />
+              <span>{locale === "es" ? "Volver al inicio" : "Back to home"}</span>
+            </Link>
+
             <div className="text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
                 <span className="size-2 bg-primary rounded-full animate-pulse" />
                 <span className="text-sm font-medium text-white/90">
-                  {t("badge")}
+                  {t("badge", { count: SERVICES.length })}
                 </span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 {t("title")}{" "}
-                <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] [text-shadow:0_0_30px_rgba(34,197,94,0.5)]">
+                <span className="text-green-400 drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
                   {t("titleHighlight")}
                 </span>
               </h1>
