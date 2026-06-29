@@ -94,7 +94,20 @@ export default async function BlogPage({ params }: Props) {
       />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden bg-linear-to-br from-secondary to-teal-dark">
+        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
+          {/* Background Image */}
+          <Image
+            src="/images/services/services-hero.webp"
+            alt={locale === "es"
+              ? "clinica hispana nueva salud gessner houston"
+              : "hispanic clinic nueva salud gessner houston"}
+            fill
+            priority
+            quality={85}
+            sizes="100vw"
+            className="object-cover object-center -z-20"
+          />
+          <div className="absolute inset-0 bg-black/60 -z-10" />
           <div className="container mx-auto px-4 relative">
             <div className="text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
@@ -106,7 +119,7 @@ export default async function BlogPage({ params }: Props) {
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 {t("title")}{" "}
-                <span className="text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] [text-shadow:0_0_30px_rgba(34,197,94,0.5)]">
+                <span className="text-green-400 drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
                   {t("titleHighlight")}
                 </span>
               </h1>

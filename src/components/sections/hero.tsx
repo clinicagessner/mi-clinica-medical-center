@@ -5,13 +5,10 @@ import { useTranslations, useLocale } from "next-intl";
 import {
   Phone,
   MapPin,
-  CheckCircle,
-  Shield,
-  ChatCircle,
-  Users,
   Clock,
   Star,
-  CaretDown,
+  CheckCircle,
+  ArrowRight,
 } from "@phosphor-icons/react/dist/ssr";
 
 import { Button } from "@/components/ui/button";
@@ -22,29 +19,31 @@ interface HeroProps {
   googleReviewsCount: number;
 }
 
-const trustBadgeIconMap = {
-  Shield,
-  MessageCircle: ChatCircle,
-  Users,
-  Clock,
-  Star,
-};
-
-// Componente de estrellas parciales para Hero
-function PartialStarsHero({ rating, locale }: { rating: number; locale: string }) {
-  const label = locale === "es" ? `${rating} de 5 estrellas` : `${rating} out of 5 stars`;
+// Estrellas parciales: relleno fraccionario según el rating real (dinámico).
+function PartialStarsHero({
+  rating,
+  locale,
+}: {
+  rating: number;
+  locale: string;
+}) {
+  const label =
+    locale === "es" ? `${rating} de 5 estrellas` : `${rating} out of 5 stars`;
   return (
     <div className="flex gap-0.5" role="img" aria-label={label}>
       {[1, 2, 3, 4, 5].map((star) => {
         const fill = Math.min(Math.max(rating - (star - 1), 0), 1);
         return (
-          <div key={star} className="relative size-3 sm:size-3.5 lg:size-4">
-            <Star className="absolute inset-0 size-3 sm:size-3.5 lg:size-4 text-white/30" weight="fill" />
+          <div key={star} className="relative size-4">
+            <Star
+              className="absolute inset-0 size-4 text-white/30"
+              weight="fill"
+            />
             <div
               className="absolute inset-0 overflow-hidden"
               style={{ width: `${fill * 100}%` }}
             >
-              <Star className="size-3 sm:size-3.5 lg:size-4 text-yellow-400" weight="fill" />
+              <Star className="size-4 text-yellow-400" weight="fill" />
             </div>
           </div>
         );
@@ -57,186 +56,159 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
   const t = useTranslations();
   const locale = useLocale();
 
-  const trustBadges = [
-    {
-      id: "sin-seguro",
-      title: locale === "es" ? "Sin Seguro Bienvenidos" : "Uninsured Welcome",
-      description: locale === "es" ? "Atención para todos sin importar seguro" : "Care for everyone regardless of insurance",
-      icon: "Users",
-    },
-    {
-      id: "precios",
-      title: locale === "es" ? "Precios Accesibles" : "Affordable Prices",
-      description: locale === "es" ? "Opciones económicas para la comunidad" : "Economic options for the community",
-      icon: "Shield",
-    },
-    {
-      id: "rating",
-      title: "Google Reviews",
-      description: locale === "es" ? "Reseñas verificadas de pacientes" : "Verified patient reviews",
-      icon: "Star",
-    },
-    {
-      id: "mismo-dia",
-      title: locale === "es" ? "Citas Mismo Día" : "Same Day Appointments",
-      description: locale === "es" ? "Agenda hoy, te atendemos hoy" : "Book today, we see you today",
-      icon: "Clock",
-    },
-  ];
-
+  const phoneHref = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
   const reviewsLabel = locale === "es" ? "reseñas" : "reviews";
+  const features = [t("hero.badge1"), t("hero.badge2"), t("hero.badge3")];
 
   return (
     <section
       id="home"
-      className="relative min-h-svh flex flex-col pt-16 sm:pt-20 md:pt-28 lg:pt-32 pb-4 overflow-hidden"
+      className="relative flex min-h-svh items-center overflow-hidden"
     >
       {/* Background Image */}
-      <div className="absolute inset-0 -z-20">
-        <Image
-          src="/images/hero.webp"
-          alt={locale === "es"
+      <Image
+        src="/images/hero.webp"
+        alt={
+          locale === "es"
             ? "doctora atendiendo paciente clinica hispana houston"
-            : "doctor attending patient hispanic clinic houston"}
-          fill
-          className="object-cover object-center"
-          priority
-          quality={75}
-          sizes="100vw"
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAIAAAB1kpiRAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACqADAAQAAAABAAAABgAAAAD+iFX0AAAAxUlEQVQIHQG6AEX/AbChhSEjJxAWHPHezhAYJRYrPgcEBurq5tja2SklJQTH3evZ7fkEAs0N8OgABd5ZJDfw6+zz9vX9/wQHCg0CurG/nJimCAgPIzdUBAILAwEArJiRsJuRGRQMCQoLAyYjHRIPBzExKyosOwoSEQX/7/bu7PDg3ezs5tjd4AF7YUseHRgTGR72/QXj3NgPFhrl4+705NruAf8OEBAE/fjyBfkK2dHMvMrVIyEc/enyssXd/frwRjkm7u/xCAJXa9ZnCqsAAAAASUVORK5CYII="
-        />
-      </div>
+            : "doctor attending patient hispanic clinic houston"
+        }
+        fill
+        priority
+        fetchPriority="high"
+        quality={75}
+        sizes="100vw"
+        className="absolute inset-0 object-cover object-center"
+      />
 
-      {/* Overlay con gradiente elegante */}
-      <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/40 -z-10" />
-      <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent -z-10" />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-slate-900/70" />
 
-      {/* Main Content - Flex grow para ocupar espacio disponible */}
-      <div className="flex-1 flex flex-col justify-center container mx-auto px-4 py-4">
-        <div className="max-w-3xl">
-          <div className="space-y-3 sm:space-y-4 md:space-y-5">
-            {/* Title - CSS animation */}
-            <h1
-              className="animate-hero-title text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.15]"
+      {/* Content */}
+      <div className="container relative z-10 mx-auto px-4 pt-28 pb-40 md:pt-32 md:pb-36">
+        <div className="mx-auto max-w-4xl text-center">
+          {/* Google Rating Badge — dinámico, estrellas fraccionarias */}
+          <div className="animate-hero-title mb-6 inline-flex items-center gap-3 rounded-full border border-white/30 bg-white/15 px-5 py-2.5 backdrop-blur-sm">
+            <PartialStarsHero rating={googleRating} locale={locale} />
+            <span className="text-sm font-semibold text-white">
+              {googleRating.toFixed(1)}
+            </span>
+            <span className="text-sm text-white/80">
+              · {googleReviewsCount} {reviewsLabel}
+            </span>
+          </div>
+
+          {/* Title */}
+          <h1 className="animate-hero-subtitle mb-4 text-3xl font-bold leading-tight text-white drop-shadow-lg sm:text-4xl md:mb-6 md:text-5xl lg:text-6xl">
+            {t("hero.title")}{" "}
+            <span className="text-green-400 drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
+              {t("hero.titleHighlight")}
+            </span>{" "}
+            {t("hero.titleEnd")}
+          </h1>
+
+          {/* Subtitle */}
+          <p className="animate-hero-features mx-auto mb-8 max-w-2xl text-lg text-white/90 drop-shadow-md md:text-xl">
+            {t("hero.description")}
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="animate-hero-cta mb-4 flex flex-col justify-center gap-3 sm:flex-row">
+            <Button
+              asChild
+              size="lg"
+              className="gap-2 bg-primary px-8 py-6 text-base shadow-lg shadow-primary/30 hover:bg-primary/90 md:text-lg"
             >
-              <span className="text-primary">{t("hero.title")}</span>
-              <br />
-              <span className="text-primary">{t("hero.titleHighlight")}</span> {t("hero.titleEnd")}
-            </h1>
-
-            {/* Subtitle - CSS animation */}
-            <p
-              className="animate-hero-subtitle text-[15px] sm:text-lg md:text-xl lg:text-2xl text-white/90 font-medium max-w-xl leading-snug"
+              <a href={phoneHref}>
+                <Phone className="size-5" weight="fill" />
+                {t("common.callNow")}
+              </a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="gap-2 border-white bg-white px-8 py-6 text-base text-foreground hover:bg-white/90 md:text-lg"
             >
-              {t("hero.description")}
-            </p>
+              <a
+                href={CONTACT_INFO.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MapPin className="size-5" weight="fill" />
+                {t("common.location")}
+              </a>
+            </Button>
+          </div>
 
-            {/* Features - 3 diferenciadores */}
-            <div
-              className="animate-hero-features flex flex-wrap gap-x-4 sm:gap-x-5 gap-y-1.5 text-white/90"
+          {/* Secondary contact link */}
+          <div className="animate-hero-cta mb-8">
+            <a
+              href="#contact"
+              className="group inline-flex items-center gap-1.5 text-base text-white/90 underline decoration-white/40 underline-offset-4 transition-colors duration-200 hover:text-white hover:decoration-white"
             >
-              {[
-                t("hero.badge1"),
-                t("hero.badge2"),
-                t("hero.badge3"),
-              ].map((feature) => (
-                <div key={feature} className="flex items-center gap-1.5">
-                  <CheckCircle className="size-4 text-primary" weight="fill" aria-hidden="true" />
-                  <span className="text-xs sm:text-sm font-medium">{feature}</span>
-                </div>
-              ))}
-            </div>
+              {locale === "es"
+                ? "¿Tienes preguntas? Escríbenos"
+                : "Have questions? Message us"}
+              <ArrowRight
+                className="size-4 transition-transform duration-200 group-hover:translate-x-1"
+                weight="bold"
+              />
+            </a>
+          </div>
 
-            {/* CTAs */}
-            <div className="animate-hero-cta pt-1 sm:pt-2">
-              <div className="flex justify-center sm:justify-start gap-2 sm:gap-3">
-                <Button
-                  asChild
-                  size="lg"
-                  className="flex-1 sm:flex-none text-sm sm:text-base md:text-lg h-10 sm:h-12 md:h-14 px-4 sm:px-6 md:px-8 bg-primary hover:bg-primary/90 shadow-xl shadow-primary/30"
-                >
-                  <a href={CONTACT_INFO.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                    <MapPin className="size-4 sm:size-5 mr-1.5" aria-hidden="true" weight="fill" />
-                    {t("common.location")}
-                  </a>
-                </Button>
-                <Button
-                  asChild
-                  size="lg"
-                  className="flex-1 sm:flex-none text-sm sm:text-base md:text-lg h-10 sm:h-12 md:h-14 px-4 sm:px-6 md:px-8 bg-white text-foreground hover:bg-white/90 shadow-xl"
-                >
-                  <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
-                    <Phone className="size-4 sm:size-5 mr-1.5" aria-hidden="true" />
-                    {t("common.call")}
-                  </a>
-                </Button>
+          {/* Feature pills */}
+          <div className="animate-hero-badges hidden flex-wrap justify-center gap-x-4 gap-y-2 md:flex">
+            {features.map((feature) => (
+              <div
+                key={feature}
+                className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 backdrop-blur-sm"
+              >
+                <CheckCircle
+                  className="size-4 shrink-0 text-green-400"
+                  weight="fill"
+                />
+                <span className="text-sm text-white">{feature}</span>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <a
-        href="#services"
-        className="animate-hero-scroll group flex flex-col items-center gap-1.5 py-3 sm:py-4 cursor-pointer"
-      >
-        <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/80 group-hover:bg-white/20 group-hover:text-white transition-all">
-          <span className="text-[11px] sm:text-xs font-medium tracking-wide uppercase">
-            {t("common.viewServices")}
-          </span>
-          <span className="animate-hero-bounce">
-            <CaretDown className="size-3.5 sm:size-4" aria-hidden="true" />
-          </span>
-        </span>
-      </a>
+      {/* Bottom Bar */}
+      <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 bg-secondary/90 backdrop-blur-sm">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex flex-col items-center justify-center gap-3 text-white md:flex-row md:gap-8">
+            {/* Hours */}
+            <div className="flex items-center gap-2">
+              <Clock className="size-5 shrink-0" weight="fill" />
+              <span className="text-sm font-medium">{CONTACT_INFO.hours}</span>
+            </div>
 
-      {/* Trust Badges - Al final como social proof */}
-      <div className="container mx-auto px-4 pb-3 sm:pb-4">
-        <div
-          className="animate-hero-badges grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 lg:gap-4"
-        >
-          {trustBadges.map((badge) => {
-            const Icon = trustBadgeIconMap[badge.icon as keyof typeof trustBadgeIconMap];
-            const isRatingBadge = badge.id === "rating";
+            <div className="hidden h-5 w-px bg-white/30 md:block" />
 
-            return (
-              <div
-                key={badge.id}
-                className="flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 sm:p-3 lg:p-4 border border-white/10"
-              >
-                <div className="size-8 sm:size-10 lg:size-11 bg-primary/20 rounded-full flex items-center justify-center shrink-0">
-                  <Icon className="size-4 sm:size-5 text-primary" aria-hidden="true" />
-                </div>
-                <div className="min-w-0 flex-1">
-                  {isRatingBadge ? (
-                    <>
-                      {/* Rating dinámico con estrellas parciales */}
-                      <div className="flex items-center gap-1 sm:gap-1.5">
-                        <span className="font-bold text-white text-xs sm:text-sm lg:text-base leading-none">
-                          {googleRating.toFixed(1)}
-                        </span>
-                        <PartialStarsHero rating={googleRating} locale={locale} />
-                      </div>
-                      <p className="text-[9px] sm:text-[10px] lg:text-xs text-white/80 leading-tight mt-0.5">
-                        {googleReviewsCount} {reviewsLabel}
-                      </p>
-                    </>
-                  ) : (
-                    <>
-                      <p className="font-semibold text-white text-xs sm:text-sm leading-tight">
-                        {badge.title}
-                      </p>
-                      <p className="hidden sm:block text-[10px] lg:text-xs text-white/80 truncate">
-                        {badge.description}
-                      </p>
-                    </>
-                  )}
-                </div>
-              </div>
-            );
-          })}
+            {/* Address */}
+            <a
+              href={CONTACT_INFO.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 transition-colors hover:text-white/80"
+            >
+              <MapPin className="size-5 shrink-0" weight="fill" />
+              <span className="text-sm">{CONTACT_INFO.address}</span>
+            </a>
+
+            <div className="hidden h-5 w-px bg-white/30 md:block" />
+
+            {/* Phone */}
+            <a
+              href={phoneHref}
+              className="flex items-center gap-2 font-semibold transition-colors hover:text-white/80"
+            >
+              <Phone className="size-5 shrink-0" weight="fill" />
+              <span>{CONTACT_INFO.phone}</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
