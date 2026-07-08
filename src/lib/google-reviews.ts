@@ -39,7 +39,7 @@ async function fetchGoogleReviews(): Promise<GooglePlaceDetails | null> {
 
   try {
     const response = await fetch(url, {
-      next: { revalidate: 86400 }, // Cache for 24 hours
+      next: { revalidate: 604800 }, // Cache for 7 days
     });
 
     if (!response.ok) {
@@ -70,7 +70,7 @@ export const getGoogleReviews = unstable_cache(
   fetchGoogleReviews,
   ["google-reviews"],
   {
-    revalidate: 86400, // 24 hours
+    revalidate: 604800, // 7 days
     tags: ["google-reviews"],
   }
 );
