@@ -21,6 +21,10 @@
   --teal-primary: #0D9488;     /* Teal principal */
   --teal-light: #CCFBF1;       /* Teal claro */
 
+  /* WhatsApp (color oficial de la marca) */
+  --whatsapp: #25D366;
+  --whatsapp-dark: #1DA851;
+
   /* Alertas y Estados (rojo solo para errores/destructivo) */
   --error: #DC2626;
   --error-light: #FEE2E2;
@@ -109,6 +113,9 @@
   --color-teal-dark: var(--teal-dark);
   --color-teal-primary: var(--teal-primary);
   --color-teal-light: var(--teal-light);
+
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-dark: var(--whatsapp-dark);
 
   /* Estados */
   --color-error: var(--error);

@@ -9,6 +9,7 @@ import {
   Star,
   CheckCircle,
   ArrowRight,
+  WhatsappLogo,
 } from "@phosphor-icons/react/dist/ssr";
 
 import { Button } from "@/components/ui/button";
@@ -57,6 +58,9 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
   const locale = useLocale();
 
   const phoneHref = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
+  // WhatsApp usa su número exclusivo (CONTACT_INFO.whatsapp); el swap de
+  // CallRail solo aplica a los enlaces tel:.
+  const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(t("common.whatsappMessage"))}`;
   const reviewsLabel = locale === "es" ? "reseñas" : "reviews";
   const features = [t("hero.badge1"), t("hero.badge2"), t("hero.badge3")];
 
@@ -122,6 +126,21 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
               <a href={phoneHref}>
                 <Phone className="size-5" weight="fill" />
                 {t("common.callNow")}
+              </a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="gap-2 bg-whatsapp px-8 py-6 text-base text-white shadow-lg shadow-whatsapp/30 hover:bg-whatsapp-dark md:text-lg"
+            >
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t("common.whatsappCta")} ${CONTACT_INFO.whatsapp}`}
+              >
+                <WhatsappLogo className="size-5" weight="fill" />
+                {t("common.whatsapp")}
               </a>
             </Button>
             <Button

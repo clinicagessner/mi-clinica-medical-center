@@ -53,6 +53,7 @@ export interface Testimonial {
 export interface ContactInfo {
   address: string;
   phone: string;
+  whatsapp: string;
   hours: string;
   googleMapsUrl: string;
   googleReviewUrl: string;
