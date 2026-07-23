@@ -42,13 +42,13 @@ export async function BlogPreview({ locale }: Props) {
         </div>
 
         {/* Blog Cards Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {posts.map((post) => (
             <article
               key={post.slug}
               className={
                 posts.length === 1
-                  ? "md:col-span-2 lg:col-span-3 max-w-md mx-auto"
+                  ? "md:col-span-2 w-full max-w-md mx-auto"
                   : ""
               }
             >
@@ -62,7 +62,7 @@ export async function BlogPreview({ locale }: Props) {
                         alt={post.title}
                         fill
                         className="object-contain p-6 transition-transform duration-300 group-hover:scale-105"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     ) : (
                       <div className="absolute inset-0 bg-linear-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
