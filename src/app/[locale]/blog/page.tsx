@@ -82,8 +82,8 @@ export default async function BlogPage({ params }: Props) {
   const blogUrl = locale === "es" ? `${SITE_CONFIG.baseUrl}/blog` : `${SITE_CONFIG.baseUrl}/${locale}/blog`;
   const homeHref = locale === "es" ? "" : `/${locale}`;
 
-  // Get all posts from markdown files
-  const posts = getAllPosts();
+  // Get all posts from markdown files (localized, fallback to Spanish)
+  const posts = getAllPosts(locale);
 
   return (
     <>

@@ -89,7 +89,7 @@ src/lib/constants.ts       # Static data (SERVICES, PROMOTIONS, etc.)
 src/lib/validations.ts     # Zod schemas
 src/lib/google-reviews.ts  # Google Places API (24h cache)
 src/messages/{es,en}.json  # Translations
-content/blog/              # Markdown blog posts (gray-matter)
+content/blog/{es,en}/      # Markdown blog posts per locale (gray-matter)
 ```
 
 ### Section Anchor IDs
@@ -107,17 +107,18 @@ const t = useTranslations('namespace');
 ```
 
 ### Blog System
-Markdown files in `content/blog/` with gray-matter frontmatter:
+Bilingual markdown files in `content/blog/es/` and `content/blog/en/` — same filename (slug) in both directories. Slugs are read from `es/` (canonical); if the `en/` translation is missing, the Spanish content is served as fallback. Gray-matter frontmatter:
 ```yaml
 ---
 title: "Post Title"
 description: "Description"
 date: "2024-01-15"
 author: "Equipo Nueva Salud Gessner"
-image: "/images/blog/post.webp"
-featured: true
+image: "/images/services/existing-image.webp"
+featured: false
 ---
 ```
+The `featured` flag in frontmatter is ignored: `getAllPosts()` always marks the newest post (sorted by date desc) as featured. Internal links in `en/` posts must use the `/en/` prefix (e.g. `/en/services/slug`).
 
 ## Color Palette (Green Monochromatic)
 

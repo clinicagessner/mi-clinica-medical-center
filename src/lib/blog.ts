@@ -3,7 +3,8 @@ import path from "path";
 import matter from "gray-matter";
 import { cache } from "react";
 
-const postsDirectory = path.join(process.cwd(), "content/blog");
+const blogDirectory = path.join(process.cwd(), "content/blog");
+const DEFAULT_LOCALE = "es";
 
 export interface BlogPost {
   slug: string;
@@ -16,48 +17,13 @@ export interface BlogPost {
   content: string;
 }
 
-/**
- * Get all blog posts sorted by date (newest first)
- */
-export const getAllPosts = cache((): BlogPost[] => {
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
-  }
+function readPostFile(slug: string, locale: string): BlogPost | null {
+  // Fall back to Spanish (canonical) when the translation doesn't exist yet
+  const localePath = path.join(blogDirectory, locale, `${slug}.md`);
+  const fallbackPath = path.join(blogDirectory, DEFAULT_LOCALE, `${slug}.md`);
+  const fullPath = fs.existsSync(localePath) ? localePath : fallbackPath;
 
-  const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map((fileName) => {
-      const slug = fileName.replace(/\.md$/, "");
-      const fullPath = path.join(postsDirectory, fileName);
-      const fileContents = fs.readFileSync(fullPath, "utf8");
-      const { data, content } = matter(fileContents);
-
-      return {
-        slug,
-        title: data.title || "",
-        description: data.description || "",
-        date: data.date || "",
-        author: data.author || "Equipo Nueva Salud Gessner",
-        image: data.image || "",
-        featured: data.featured || false,
-        content,
-      };
-    });
-
-  // Sort by date (newest first)
-  return allPostsData.sort((a, b) => {
-    if (a.date < b.date) return 1;
-    return -1;
-  });
-});
-
-/**
- * Get a single post by slug
- */
-export const getPostBySlug = cache((slug: string): BlogPost | null => {
   try {
-    const fullPath = path.join(postsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);
 
@@ -68,23 +34,48 @@ export const getPostBySlug = cache((slug: string): BlogPost | null => {
       date: data.date || "",
       author: data.author || "Equipo Nueva Salud Gessner",
       image: data.image || "",
-      featured: data.featured || false,
+      featured: false,
       content,
     };
   } catch {
     return null;
   }
+}
+
+/**
+ * Get all blog posts sorted by date (newest first).
+ * The featured post is always the most recent one (posts[0]).
+ */
+export const getAllPosts = cache((locale: string = DEFAULT_LOCALE): BlogPost[] => {
+  const posts = getAllSlugs()
+    .map((slug) => readPostFile(slug, locale))
+    .filter((post): post is BlogPost => post !== null);
+
+  const sorted = posts.sort((a, b) => {
+    if (a.date < b.date) return 1;
+    return -1;
+  });
+
+  return sorted.map((post, index) => ({ ...post, featured: index === 0 }));
 });
 
 /**
- * Get all slugs for static generation
+ * Get a single post by slug
+ */
+export const getPostBySlug = cache((slug: string, locale: string = DEFAULT_LOCALE): BlogPost | null => {
+  return readPostFile(slug, locale);
+});
+
+/**
+ * Get all slugs for static generation (read from the canonical Spanish directory)
  */
 export const getAllSlugs = cache((): string[] => {
-  if (!fs.existsSync(postsDirectory)) {
+  const esDirectory = path.join(blogDirectory, DEFAULT_LOCALE);
+  if (!fs.existsSync(esDirectory)) {
     return [];
   }
 
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = fs.readdirSync(esDirectory);
   return fileNames
     .filter((fileName) => fileName.endsWith(".md"))
     .map((fileName) => fileName.replace(/\.md$/, ""));

@@ -4,7 +4,7 @@ description: "Estamos emocionados de presentar nuestra nueva página web, diseñ
 date: "2026-02-06"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/logo.webp"
-featured: true
+featured: false
 ---
 
 ## ¡Bienvenidos a la Nueva Página Web de Clínica Hispana Nueva Salud Gessner!
