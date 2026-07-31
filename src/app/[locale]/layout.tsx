@@ -79,6 +79,10 @@ export async function generateMetadata({
     keywords: [
       "clinica hispana",
       "clinica hispana cerca de mi",
+      "centro medico cerca de mi",
+      "clinica latina cerca de mi",
+      "medico primario cerca de mi",
+      "analisis de sangre houston",
       "ginecologos cerca de mi",
       "ginecologo que hablen español",
       "clinica hispana houston",

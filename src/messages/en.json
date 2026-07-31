@@ -2,8 +2,8 @@
   "metadata": {
     "title": "Hispanic Clinic Near You in Houston | Spanish-Speaking Doctors",
     "titleTemplate": "%s | Hispanic Clinic Houston",
-    "description": "Hispanic clinic near you in Houston. Spanish-speaking gynecologists, immigration medical exams, pregnancy ultrasounds. Family clinic. Call: +1 (346) 226-5820",
-    "ogDescription": "Hispanic clinic near you in Houston. Spanish-speaking gynecologists, immigration medical exams, pregnancy ultrasounds. Family clinic with affordable options. Open Sundays."
+    "description": "Hispanic clinic near you in Houston. Spanish-speaking gynecologists, immigration medical exams, pregnancy ultrasounds. Family medical center. Call: +1 (346) 226-5820",
+    "ogDescription": "Hispanic clinic near you in Houston. Spanish-speaking gynecologists, immigration medical exams, pregnancy ultrasounds. Family medical center with affordable options. Open Sundays."
   },
   "common": {
     "callNow": "Call Now",
@@ -34,7 +34,7 @@
     "title": "Hispanic Clinic",
     "titleHighlight": "Near You",
     "titleEnd": "in Houston",
-    "description": "Quality medical care 100% in Spanish. Immigration exams I-693, gynecology, ultrasounds and more. Doctors who speak your language."
+    "description": "Quality medical care 100% in Spanish. Immigration exams I-693, gynecology, primary care, ultrasounds and more. Doctors who speak your language."
   },
   "services": {
     "title": "Featured Services at Our",
@@ -45,8 +45,8 @@
     "seoText": "Clínica Hispana Nueva Salud Gessner offers a wide variety of medical services in Spanish. Ultrasounds, clinical laboratory, and affordable options for uninsured families. Open Sundays."
   },
   "servicesPage": {
-    "title": "Medical Services",
-    "titleHighlight": "in Spanish",
+    "title": "Medical Services at Our",
+    "titleHighlight": "Hispanic Clinic",
     "description": "We offer a wide range of medical services with 100% Spanish-speaking care. Find the service you need.",
     "badge": "{count} Services",
     "allServices": "All Services",
@@ -119,7 +119,7 @@
     "detailsBtn": "View details",
     "backToHome": "Back to home",
     "reviewsSuffix": "reviews",
-    "pageTitle": "Promotions",
+    "pageTitle": "Hispanic Clinic Promotions",
     "pageSubtitle": "Special prices on medical services for Houston's Hispanic community. Care 100% in Spanish, walk-ins welcome and no health insurance needed.",
     "faqTitle": "Frequently asked questions",
     "faq1Q": "How long are the promotions valid?",
@@ -168,7 +168,7 @@
   "location": {
     "title": "Hispanic Clinic Near You in",
     "titleHighlight": "Houston",
-    "description": "Visit our Hispanic clinic Clínica Hispana Nueva Salud Gessner in Houston, TX. We're conveniently located with easy access and free parking.",
+    "description": "Visit our medical center Clínica Hispana Nueva Salud Gessner in Houston, TX. We're conveniently located with easy access and free parking.",
     "addressTitle": "Address",
     "phoneTitle": "Phone",
     "hoursTitle": "Hours",
@@ -206,7 +206,11 @@
     "q7": "Does the Hispanic clinic accept medical insurance?",
     "a7": "Our Hispanic clinic works with various medical insurance plans. We recommend calling us at +1 (346) 226-5820 to verify if we accept your insurance. We also offer special prices for uninsured patients.",
     "q8": "Where is Clínica Hispana Nueva Salud Gessner located?",
-    "a8": "Our Hispanic clinic is located at 1914 Gessner Rd B, Houston, TX 77080. We are in a convenient location with ample free parking for our patients."
+    "a8": "Our Hispanic clinic is located at 1914 Gessner Rd B, Houston, TX 77080. We are in a convenient location with ample free parking for our patients.",
+    "q9": "I'm looking for a \"Hispanic clinic near me\" or a \"medical center near me\" — are you close?",
+    "a9": "If you're in Houston, TX — especially the west and northwest side of the city: Spring Branch, Memorial, Long Point or Spring Shadows — our medical center at 1914 Gessner Rd B is just minutes away. Walk-ins welcome Monday through Sunday, 9:00 AM to 9:00 PM.",
+    "q10": "Do you have a primary care doctor at this Latino clinic?",
+    "a10": "Yes. At Clínica Hispana Nueva Salud Gessner we have a primary care doctor near you for general consultations, checkups and chronic disease management for the whole family. We are a Latino clinic where all our staff speaks Spanish."
   },
   "testimonials": {
     "title": "What Our",
@@ -226,7 +230,7 @@
     "seoText": "Clínica Hispana Nueva Salud Gessner is the trusted Hispanic clinic for the Latino community in Houston. Our Hispanic clinic offers complete medical care with Spanish-speaking staff."
   },
   "footer": {
-    "description": "Clínica Hispana Nueva Salud Gessner is your trusted Hispanic clinic in Houston, TX. We offer professional medical care 100% in Spanish for the entire Hispanic community.",
+    "description": "Clínica Hispana Nueva Salud Gessner is your trusted Hispanic and Latino clinic in Houston, TX. We offer professional medical care 100% in Spanish for the entire Hispanic community.",
     "contactTitle": "Contact",
     "quickLinksTitle": "Quick Links",
     "followUsTitle": "Follow Us",
@@ -360,10 +364,10 @@
       ]
     },
     "ginecologia": {
-      "title": "Gynecology Care: Pap Smear & Cultures",
+      "title": "Gynecology: Pap Smear & Vaginal Cultures",
       "shortTitle": "Gynecology",
-      "description": "Gynecology care in Houston, TX: Pap smear, vaginal cultures and infection treatment. In Spanish, with affordable pricing.",
-      "longDescription": "Your health as a woman deserves a space of trust. At Clínica Hispana Nueva Salud Gessner we offer gynecology care in Spanish, with the privacy and respect you deserve.\n\n## What's included?\n\n- Pap smear and gynecological checkup\n- Vaginal cultures to identify infections\n- Treatment of vaginal infections (yeast, bacteria)\n- Evaluation of discomfort and abnormal discharge\n- Referrals when a specialist is needed\n\n## Don't stay in doubt\n\nItching, burning, unusual discharge or odor are signs that something needs attention. A culture allows an accurate diagnosis and treatment that truly resolves it.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
+      "description": "Gynecology in Houston, TX: Pap smear, vaginal cultures and infection treatment. In Spanish, with affordable pricing.",
+      "longDescription": "Your health as a woman deserves a space of trust. At Clínica Hispana Nueva Salud Gessner we offer gynecology care in Spanish, with the privacy and respect you deserve.\n\n## What's included?\n\n- Pap smear and gynecological checkup\n- Vaginal cultures to identify infections\n- Treatment of vaginal infections (yeast, bacteria)\n- Evaluation of discomfort and abnormal discharge\n- Referrals when a specialist is needed\n\n## Don't stay in doubt\n\nItching, burning, unusual discharge or odor are signs that something needs attention. A culture allows an accurate diagnosis and treatment that truly resolves it.\n\n## Gynecology at a Hispanic clinic near you\n\nIf you're looking for gynecology near you in Houston, our Hispanic clinic offers gynecology care with Spanish-speaking providers, no appointment needed and with complete privacy.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Pap smear and gynecological checkup",
         "Vaginal cultures",
@@ -420,10 +424,10 @@
       ]
     },
     "examenes-sangre": {
-      "title": "Blood Tests | Lab",
+      "title": "Blood Tests & Blood Work | Lab",
       "shortTitle": "Blood Work",
       "description": "Blood tests in Houston, TX: CBC, chemistry, glucose, cholesterol and more. Results in Spanish, with affordable pricing.",
-      "longDescription": "A good diagnosis starts with a good lab. At Clínica Hispana Nueva Salud Gessner we draw your samples on the spot and explain your results in Spanish, without the jargon.\n\n## What's included?\n\n- Complete blood count (CBC)\n- Blood chemistry (glucose, cholesterol, triglycerides)\n- Thyroid, liver and kidney tests\n- Panels for general checkups or follow-up\n- Fast results in most cases\n\n## Why they matter\n\nBlood tests help detect problems before symptoms appear, follow up on a chronic condition or complete a work or school exam.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
+      "longDescription": "A good diagnosis starts with a good lab. At Clínica Hispana Nueva Salud Gessner we draw your samples on the spot and explain your results in Spanish, without the jargon.\n\n## What's included?\n\n- Complete blood count (CBC)\n- Blood chemistry (glucose, cholesterol, triglycerides)\n- Thyroid, liver and kidney tests\n- Panels for general checkups or follow-up\n- Fast results in most cases\n\n## Why they matter\n\nBlood tests help detect problems before symptoms appear, follow up on a chronic condition or complete a work or school exam.\n\n## Blood work at a Hispanic clinic near you\n\nIf you're looking for blood work near you in Houston, our Hispanic clinic draws your sample without an appointment and delivers fast results, explained in your language.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "CBC and blood chemistry",
         "Glucose, cholesterol and triglycerides",
@@ -435,7 +439,7 @@
       "title": "Urinalysis & Urinary Infection Treatment",
       "shortTitle": "UTIs",
       "description": "Urinalysis and urinary infection treatment in Houston, TX, same day. In Spanish, with affordable pricing.",
-      "longDescription": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana Nueva Salud Gessner we run the test and, if there's an infection, we start treatment the same day.\n\n## What's included?\n\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Appropriate same-day treatment\n- Tips to prevent it from coming back\n\n## Common symptoms\n\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
+      "longDescription": "A urine test helps detect urinary infections and other conditions. At Clínica Hispana Nueva Salud Gessner we run the test and, if there's an infection, we start treatment the same day.\n\n## What's included?\n\n- General urinalysis\n- Symptom evaluation\n- Diagnosis of urinary infection\n- Appropriate same-day treatment\n- Tips to prevent it from coming back\n\n## Common symptoms\n\nBurning when urinating, a constant urge to go, cloudy or foul-smelling urine and lower-abdomen pain. Don't wait: an untreated infection can reach the kidneys.\n\n## Urinary infection treatment at a Hispanic clinic near you\n\nIf you have urinary infection symptoms, our Hispanic clinic in Houston runs your urinalysis and starts your treatment the same day — no appointment needed, in Spanish.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "In-clinic urinalysis",
         "Diagnosis of urinary infection",

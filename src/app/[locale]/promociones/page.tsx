@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale === "es" ? `${baseUrl}/promociones` : `${baseUrl}/${locale}/promociones`;
 
   return {
-    title: `${t("pageTitle")} | ${SITE_CONFIG.name}`,
+    title: `${t("pageTitle")} | ${SITE_CONFIG.shortName}`,
     description: t("pageSubtitle"),
     alternates: {
       canonical: canonicalUrl,
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: `${t("pageTitle")} | ${SITE_CONFIG.name}`,
+      title: `${t("pageTitle")} | ${SITE_CONFIG.shortName}`,
       description: t("pageSubtitle"),
       url: canonicalUrl,
       siteName: SITE_CONFIG.name,

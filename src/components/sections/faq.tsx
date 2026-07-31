@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO } from "@/lib/constants";
 
-const FAQ_KEYS = [1, 2, 3, 4, 5, 6, 7, 8] as const;
+const FAQ_KEYS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const;
 
 export function FAQ() {
   const t = useTranslations("faq");

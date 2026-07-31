@@ -147,7 +147,7 @@ export async function JsonLdFAQ() {
   const { getTranslations } = await import("next-intl/server");
   const t = await getTranslations("faq");
 
-  const faqKeys = [1, 2, 3, 4, 5, 6, 7, 8];
+  const faqKeys = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
