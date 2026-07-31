@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { SERVICES, CONTACT_INFO } from "@/lib/constants";
 
 // IDs de los 3 servicios destacados para el landing
-const FEATURED_SERVICE_IDS = ["examenes-inmigracion", "ginecologia", "ultrasonido"];
+const FEATURED_SERVICE_IDS = ["infecciones-urinarias", "ginecologia", "ultrasonido"];
 
 // Obtener los servicios destacados del array SERVICES
 const FEATURED_SERVICES = SERVICES.filter((service) =>
@@ -23,7 +23,7 @@ const FEATURED_SERVICES = SERVICES.filter((service) =>
 
 // Imágenes de fondo para los servicios destacados
 const serviceImages: Record<string, string> = {
-  "examenes-inmigracion": "/images/services/examenes-inmigracion.webp",
+  "infecciones-urinarias": "/images/services/infecciones-urinarias.webp",
   "ginecologia": "/images/services/ginecologia.webp",
   "ultrasonido": "/images/services/ultrasonido.webp",
 };
@@ -31,12 +31,12 @@ const serviceImages: Record<string, string> = {
 // Alt text para SEO
 const serviceAltText: Record<string, Record<string, string>> = {
   es: {
-    "examenes-inmigracion": "examen inmigracion i-693 clinica hispana houston",
+    "infecciones-urinarias": "examen de orina infeccion urinaria clinica hispana houston",
     "ginecologia": "consulta ginecologia clinica hispana houston",
     "ultrasonido": "ultrasonido embarazo clinica hispana houston",
   },
   en: {
-    "examenes-inmigracion": "immigration exam i-693 hispanic clinic houston",
+    "infecciones-urinarias": "urinalysis urinary infection hispanic clinic houston",
     "ginecologia": "gynecology consultation hispanic clinic houston",
     "ultrasonido": "pregnancy ultrasound hispanic clinic houston",
   },
@@ -45,14 +45,14 @@ const serviceAltText: Record<string, Record<string, string>> = {
 // Service translations
 const serviceTranslations: Record<string, Record<string, { title: string; description: string; features: string[] }>> = {
   es: {
-    "examenes-inmigracion": {
-      title: "Exámenes Médicos de Inmigración",
-      description: "Clínica hispana autorizada por USCIS para exámenes I-693 en Houston. Médico Civil Surgeon certificado. Todo el proceso en español.",
+    "infecciones-urinarias": {
+      title: "Tratamiento de Infecciones Urinarias",
+      description: "Examen de orina y tratamiento de infecciones urinarias el mismo día en nuestra clínica hispana de Houston.",
       features: [
-        "Médico Civil Surgeon certificado",
-        "Formulario I-693 sellado",
-        "100% en español",
-        "Resultados en 3-5 días",
+        "Examen de orina en la clínica",
+        "Diagnóstico el mismo día",
+        "Tratamiento inmediato",
+        "Atención sin cita en español",
       ],
     },
     "ginecologia": {
@@ -77,14 +77,14 @@ const serviceTranslations: Record<string, Record<string, { title: string; descri
     },
   },
   en: {
-    "examenes-inmigracion": {
-      title: "Immigration Medical Exams",
-      description: "USCIS authorized Hispanic clinic for I-693 exams in Houston. Certified Civil Surgeon. Entire process in Spanish.",
+    "infecciones-urinarias": {
+      title: "Urinary Infection Treatment",
+      description: "Urinalysis and same-day urinary infection treatment at our Hispanic clinic in Houston.",
       features: [
-        "Certified Civil Surgeon",
-        "Sealed I-693 form",
-        "100% in Spanish",
-        "Results in 3-5 days",
+        "In-clinic urinalysis",
+        "Same-day diagnosis",
+        "Immediate treatment",
+        "Walk-ins welcome, in Spanish",
       ],
     },
     "ginecologia": {
@@ -153,13 +153,7 @@ export function Services() {
                     : ""
                 }
               >
-                <Card
-                  className={`h-full relative overflow-hidden border-0 flex flex-col ${
-                    index === 0
-                      ? "ring-2 ring-primary shadow-2xl"
-                      : "hover:shadow-xl transition-shadow"
-                  }`}
-                >
+                <Card className="h-full relative overflow-hidden border-0 flex flex-col hover:shadow-xl transition-shadow">
                   {/* Background Image */}
                   {serviceImages[service.id] && (
                     <>
@@ -179,15 +173,9 @@ export function Services() {
                       <CardTitle className="text-xl text-white drop-shadow-md">
                         {serviceData.title}
                       </CardTitle>
-                      {index === 0 ? (
-                        <Badge className="bg-primary text-white shrink-0">
-                          {t("services.uscisAuthorized")}
-                        </Badge>
-                      ) : (
-                        <Badge className="bg-white/90 text-secondary shrink-0">
-                          {t("services.featured")}
-                        </Badge>
-                      )}
+                      <Badge className="bg-white/90 text-secondary shrink-0">
+                        {t("services.featured")}
+                      </Badge>
                     </div>
                     <p className="text-sm text-white/80 mt-2">
                       {serviceData.description}
@@ -205,29 +193,40 @@ export function Services() {
                       ))}
                     </ul>
 
-                    <div className="flex gap-2 mt-auto pt-4">
-                      <Button
-                        asChild
-                        className="flex-1 bg-white text-secondary hover:bg-white/90 font-semibold"
-                      >
-                        <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
-                          <Phone className="size-4 mr-1.5" weight="fill" />
-                          {t("common.call")}
-                        </a>
-                      </Button>
-                      <Button
-                        asChild
-                        variant="outline"
-                        className="flex-1 bg-transparent border-white text-white hover:bg-white/20 font-semibold"
-                      >
-                        <a
-                          href={CONTACT_INFO.googleMapsUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                    <div className="mt-auto pt-4 space-y-2">
+                      <div className="flex gap-2">
+                        <Button
+                          asChild
+                          className="flex-1 bg-white text-secondary hover:bg-white/90 font-semibold"
                         >
-                          <MapPin className="size-4 mr-1.5" weight="fill" />
-                          {t("common.location")}
-                        </a>
+                          <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
+                            <Phone className="size-4 mr-1.5" weight="fill" />
+                            {t("common.call")}
+                          </a>
+                        </Button>
+                        <Button
+                          asChild
+                          variant="outline"
+                          className="flex-1 bg-transparent border-white text-white hover:bg-white/20 font-semibold"
+                        >
+                          <a
+                            href={CONTACT_INFO.googleMapsUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <MapPin className="size-4 mr-1.5" weight="fill" />
+                            {t("common.location")}
+                          </a>
+                        </Button>
+                      </div>
+                      <Button
+                        asChild
+                        variant="ghost"
+                        className="w-full text-white font-semibold hover:bg-white/20 hover:text-white"
+                      >
+                        <Link href={`${servicesHref}/${service.slug}`}>
+                          {t("common.learnMore")} →
+                        </Link>
                       </Button>
                     </div>
                   </CardContent>
