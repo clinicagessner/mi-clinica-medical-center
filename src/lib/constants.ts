@@ -450,6 +450,18 @@ export const SERVICES: Service[] = [
 
 export const PROMOTIONS: Promotion[] = [
   {
+    slug: "chequeo-general",
+    title: "Chequeo General Completo",
+    titleEn: "Complete General Checkup",
+    price: "$99",
+    blurb: "Cuídate hoy, vive mejor mañana. Chequeo general completo con valor regular de $250, ahora por solo $99. Incluye examen general de sangre, A1C y examen de orina, con consulta médica gratis.",
+    blurbEn: "Take care of yourself today, live better tomorrow. Complete general checkup with a regular value of $250, now for only $99. Includes a complete blood panel, A1C and urinalysis, with a free medical consultation.",
+    includes: ["Examen general de sangre","A1C (hemoglobina glicosilada)","Examen general de orina","Consulta médica gratis"],
+    includesEn: ["Complete blood panel","A1C (glycated hemoglobin)","Complete urinalysis","Free medical consultation"],
+    alt: "Promoción Chequeo General Completo por $99 en Clínica Hispana Nueva Salud Gessner, Houston",
+    altEn: "Complete General Checkup promotion for $99 at Clínica Hispana Nueva Salud Gessner, Houston",
+  },
+  {
     slug: "chequeo-mujer",
     title: "Chequeo Completo de Mujer",
     titleEn: "Complete Women's Checkup",
