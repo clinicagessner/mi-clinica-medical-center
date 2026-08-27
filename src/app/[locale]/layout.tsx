@@ -52,6 +52,10 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+// Solo se sirven los locales de generateStaticParams; cualquier otro segmento
+// (/.env, /foo.php — rutas que saltan el middleware) responde 404 sin renderizar.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
