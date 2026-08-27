@@ -62,6 +62,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+
+  // Rutas con punto (/.env, /foo.php) saltan el middleware y llegan aquí con un
+  // locale inválido; el import dinámico fallaba con 500 antes de que el layout
+  // pudiera responder 404.
+  if (!locales.includes(locale as Locale)) notFound();
+
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const t = messages.metadata;
 
