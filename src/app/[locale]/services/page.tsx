@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: locale === "es"
-      ? "Servicios Médicos en Español | Clínica Hispana Nueva Salud Gessner Houston"
-      : "Medical Services in Spanish | Hispanic Clinic Nueva Salud Gessner Houston",
+      ? "Servicios Médicos en Español en Houston"
+      : "Medical Services in Spanish in Houston",
     description: locale === "es"
       ? "29 servicios médicos en español en Houston TX. Exámenes I-693 inmigración, ginecología, ultrasonido, laboratorio. Abiertos 7 días. Sin cita previa. +1 (346) 226-5820"
       : "29 medical services in Spanish in Houston TX. I-693 immigration exams, gynecology, ultrasound, laboratory. Open 7 days. Walk-ins welcome. +1 (346) 226-5820",

@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: locale === "es"
-      ? "Blog | Noticias de la Clínica Hispana Nueva Salud Gessner Houston"
-      : "Blog | News from Hispanic Clinic Nueva Salud Gessner Houston",
+      ? "Blog de Salud en Español"
+      : "Health Blog",
     description: locale === "es"
       ? "Noticias, consejos de salud y actualizaciones de la Clínica Hispana Nueva Salud Gessner en Houston, TX. Información médica en español para la comunidad hispana."
       : "News, health tips and updates from Clínica Hispana Nueva Salud Gessner in Houston, TX. Medical information in Spanish for the Hispanic community.",

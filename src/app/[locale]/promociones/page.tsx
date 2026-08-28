@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale === "es" ? `${baseUrl}/promociones` : `${baseUrl}/${locale}/promociones`;
 
   return {
-    title: `${t("pageTitle")} | ${SITE_CONFIG.shortName}`,
+    title: t("pageTitle"),
     description: t("pageSubtitle"),
     alternates: {
       canonical: canonicalUrl,

@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${baseUrl}/${locale}/blog/${slug}`;
 
   return {
-    title: `${post.title} | ${locale === "es" ? "Clínica Hispana Nueva Salud Gessner" : "Hispanic Clinic Nueva Salud Gessner"}`,
+    title: post.title,
     description: post.description,
     openGraph: {
       title: post.title,

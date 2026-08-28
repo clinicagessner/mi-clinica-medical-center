@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title:
       locale === "es"
-        ? "Política de Privacidad HIPAA | Clínica Hispana Nueva Salud Gessner"
-        : "HIPAA Privacy Policy | Hispanic Clinic Nueva Salud Gessner",
+        ? "Política de Privacidad HIPAA"
+        : "HIPAA Privacy Policy",
     description:
       locale === "es"
         ? "Política de privacidad HIPAA de Clínica Hispana Nueva Salud Gessner en Houston, TX. Protección de información médica protegida (PHI)."

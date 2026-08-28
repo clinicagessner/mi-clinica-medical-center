@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${baseUrl}/${locale}/services/${slug}`;
 
   return {
-    title: `${title} | Clínica Hispana Houston`,
+    title,
     description,
     keywords: service.keywords,
     openGraph: {
