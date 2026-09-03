@@ -61,7 +61,9 @@
   "serviceDetail": {
     "aboutService": "Sobre este servicio",
     "includes": "¿Qué incluye?",
-    "additionalInfo": "Atención 100% en español • Sin cita previa • Abierto 7 días"
+    "additionalInfo": "Atención 100% en español • Sin cita previa • Abierto 7 días",
+    "relatedServices": "Otros servicios que te pueden interesar",
+    "viewAllServices": "Ver todos los servicios →"
   },
   "chronicCare": {
     "badge": "Cuidado Continuo",
@@ -233,6 +235,8 @@
     "description": "Clínica Hispana Nueva Salud Gessner es tu clínica hispana y latina de confianza en Houston, TX. Ofrecemos atención médica profesional 100% en español para toda la comunidad hispana.",
     "contactTitle": "Contacto",
     "quickLinksTitle": "Enlaces Rápidos",
+    "servicesTitle": "Servicios Principales",
+    "allServices": "Ver todos los servicios",
     "followUsTitle": "Síguenos",
     "copyright": "Todos los derechos reservados.",
     "tagline": "Clínica Hispana en Houston, TX | Atención Médica en Español",

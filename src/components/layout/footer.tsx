@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo } from "@phosphor-icons/react/dist/ssr";
-import { CONTACT_INFO, SITE_CONFIG, SOCIAL_LINKS } from "@/lib/constants";
+import { CONTACT_INFO, SITE_CONFIG, SOCIAL_LINKS, FOOTER_SERVICE_SLUGS } from "@/lib/constants";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,7 +26,7 @@ export function Footer() {
   return (
     <footer className="bg-teal-dark text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
             <Link href={homeHref} className="group flex items-center gap-3">
@@ -74,6 +74,31 @@ export function Footer() {
               <li className="flex items-start gap-3 text-white/90">
                 <Clock className="size-5 mt-0.5 shrink-0" weight="fill" />
                 <span>{CONTACT_INFO.hours}</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Main Services */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold">{t("footer.servicesTitle")}</h3>
+            <ul className="space-y-2">
+              {FOOTER_SERVICE_SLUGS.map((slug) => (
+                <li key={slug}>
+                  <Link
+                    href={`${localePrefix}/services/${slug}`}
+                    className="inline-flex items-center text-white/90 hover:text-white transition-all duration-300 hover:translate-x-1"
+                  >
+                    {t(`serviceData.${slug}.shortTitle`)}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href={`${localePrefix}/services`}
+                  className="inline-flex items-center text-white font-medium hover:text-primary transition-all duration-300 hover:translate-x-1"
+                >
+                  {t("footer.allServices")}
+                </Link>
               </li>
             </ul>
           </div>

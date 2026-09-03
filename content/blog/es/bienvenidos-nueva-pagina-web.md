@@ -13,7 +13,7 @@ Estamos muy emocionados de presentar nuestra nueva página web a toda la comunid
 
 ### ¿Qué Encontrarás en Nuestra Nueva Página?
 
-- **Información detallada de todos nuestros servicios**: Desde exámenes médicos de inmigración (I-693) hasta ginecología, ultrasonidos, laboratorio clínico y mucho más.
+- **Información detallada de [todos nuestros servicios](/services)**: Desde [exámenes médicos de inmigración (I-693)](/services/examenes-inmigracion) hasta [ginecología](/services/ginecologia), [ultrasonidos](/services/ultrasonido), [laboratorio clínico](/services/examenes-sangre) y mucho más.
 - **Formulario de contacto fácil de usar**: Ahora puedes solicitar tu cita directamente desde la página web.
 - **Información de horarios y ubicación**: Estamos abiertos los 7 días de la semana, de 9:00 AM a 9:00 PM.
 - **Contenido 100% en español**: Porque sabemos que es importante comunicarte en tu idioma.

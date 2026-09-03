@@ -28,16 +28,16 @@ No esperes a sentirte mal para visitar al médico. Los chequeos preventivos pued
 **Recomendamos:**
 - Chequeo general una vez al año
 - Control de presión arterial cada 6 meses
-- Análisis de sangre anuales (glucosa, colesterol)
+- [Análisis de sangre](/services/examenes-sangre) anuales (glucosa, colesterol)
 - Exámenes específicos según tu edad y género
 
 ### 3. Controla tus Condiciones Crónicas
 
-Si tienes diabetes, hipertensión o colesterol alto, es fundamental mantener un seguimiento constante. En nuestra clínica hispana ofrecemos programas de manejo de condiciones crónicas con atención personalizada en español.
+Si tienes diabetes, hipertensión o colesterol alto, es fundamental mantener un seguimiento constante. En nuestra clínica hispana ofrecemos [programas de manejo de condiciones crónicas](/services/condiciones-cronicas) con atención personalizada en español.
 
 ### 4. Mantén tus Vacunas al Día
 
-Las vacunas no son solo para niños. Los adultos también necesitan vacunarse contra la gripe, el tétanos y otras enfermedades. Pregunta en tu próxima visita qué vacunas necesitas.
+Las vacunas no son solo para niños. Los adultos también necesitan [vacunarse contra la gripe, el tétanos](/services/vacunas) y otras enfermedades. Pregunta en tu próxima visita qué vacunas necesitas.
 
 ### 5. Cuida tu Salud Mental
 
@@ -51,10 +51,10 @@ En **Clínica Hispana Nueva Salud Gessner** ofrecemos atención médica completa
 
 **Nuestros servicios incluyen:**
 - Medicina familiar
-- Laboratorio clínico
-- Ultrasonidos
-- Manejo de enfermedades crónicas
-- Exámenes de inmigración I-693
+- [Laboratorio clínico](/services/examenes-sangre)
+- [Ultrasonidos](/services/ultrasonido)
+- [Manejo de enfermedades crónicas](/services/condiciones-cronicas)
+- [Exámenes de inmigración I-693](/services/examenes-inmigracion)
 
 📞 Llámanos: [+1 (346) 226-5820](tel:13462265820)
 

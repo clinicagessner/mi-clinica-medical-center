@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { Phone, MapPin, CheckCircle, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, CheckCircle, ArrowLeft, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Badge } from "@/components/ui/badge";
@@ -115,6 +115,20 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   const servicesHref = locale === "es" ? "/services" : `/${locale}/services`;
   const phoneUrl = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
+
+  // Enlazado interno: primero los servicios de la misma categoría y, si no
+  // llegan a 4, se completa con destacados para que ninguna página quede sin
+  // enlaces a servicios hermanos.
+  const RELATED_COUNT = 4;
+  const sameCategory = SERVICES.filter(
+    (s) => s.category === service.category && s.slug !== slug
+  );
+  const fallback = SERVICES.filter(
+    (s) => s.highlighted && s.slug !== slug && !sameCategory.includes(s)
+  );
+  const relatedServices = [...sameCategory, ...fallback]
+    .sort((a, b) => a.order - b.order)
+    .slice(0, RELATED_COUNT);
 
   return (
     <>
@@ -286,6 +300,43 @@ export default async function ServiceDetailPage({ params }: Props) {
                       </AccordionItem>
                     ))}
                   </Accordion>
+                </div>
+              )}
+
+              {/* Related Services */}
+              {relatedServices.length > 0 && (
+                <div className="mb-12">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                    {tDetail("relatedServices")}
+                  </h2>
+                  <ul className="grid sm:grid-cols-2 gap-4">
+                    {relatedServices.map((related) => (
+                      <li key={related.slug}>
+                        <Link
+                          href={`${servicesHref}/${related.slug}`}
+                          className="group flex items-start gap-4 h-full p-5 bg-muted/50 rounded-xl border border-border/50 hover:border-primary/40 hover:bg-primary/5 transition-colors"
+                        >
+                          <span className="size-11 shrink-0 rounded-xl bg-primary/10 flex items-center justify-center">
+                            <ServiceIcon name={related.icon} className="size-6 text-primary" />
+                          </span>
+                          <span className="flex-1 min-w-0">
+                            <span className="flex items-center gap-2 font-semibold text-foreground group-hover:text-primary transition-colors">
+                              {t(`${related.slug}.shortTitle`)}
+                              <ArrowRight className="size-4 shrink-0 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
+                            </span>
+                            <span className="block mt-1 text-sm text-muted-foreground line-clamp-2">
+                              {t(`${related.slug}.description`)}
+                            </span>
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-4 text-sm">
+                    <Link href={servicesHref} className="text-primary font-medium hover:underline">
+                      {tDetail("viewAllServices")}
+                    </Link>
+                  </p>
                 </div>
               )}
 

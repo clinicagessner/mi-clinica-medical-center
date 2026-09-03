@@ -61,7 +61,9 @@
   "serviceDetail": {
     "aboutService": "About this service",
     "includes": "What's included?",
-    "additionalInfo": "100% Spanish care • Walk-ins welcome • Open 7 days"
+    "additionalInfo": "100% Spanish care • Walk-ins welcome • Open 7 days",
+    "relatedServices": "Related services you may need",
+    "viewAllServices": "View all services →"
   },
   "chronicCare": {
     "badge": "Ongoing Care",
@@ -233,6 +235,8 @@
     "description": "Clínica Hispana Nueva Salud Gessner is your trusted Hispanic and Latino clinic in Houston, TX. We offer professional medical care 100% in Spanish for the entire Hispanic community.",
     "contactTitle": "Contact",
     "quickLinksTitle": "Quick Links",
+    "servicesTitle": "Main Services",
+    "allServices": "View all services",
     "followUsTitle": "Follow Us",
     "copyright": "All rights reserved.",
     "tagline": "Hispanic Clinic in Houston, TX | Medical Care in Spanish",

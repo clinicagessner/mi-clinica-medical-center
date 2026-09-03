@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_CONFIG, SERVICES } from "@/lib/constants";
+import { SITE_CONFIG, SERVICES, CONTENT_LAST_MODIFIED } from "@/lib/constants";
 import { getAllPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 
@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Homepage
     routes.push({
       url: `${baseUrl}${prefix}`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_MODIFIED.home,
       changeFrequency: "weekly",
       priority: 1,
       alternates: {
@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Services page
     routes.push({
       url: `${baseUrl}${prefix}/services`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_MODIFIED.services,
       changeFrequency: "weekly",
       priority: 0.9,
       alternates: {
@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     SERVICES.forEach((service) => {
       routes.push({
         url: `${baseUrl}${prefix}/services/${service.slug}`,
-        lastModified: new Date(),
+        lastModified: CONTENT_LAST_MODIFIED.services,
         changeFrequency: "monthly",
         priority: 0.8,
         alternates: {
@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Promotions page
     routes.push({
       url: `${baseUrl}${prefix}/promociones`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_MODIFIED.promotions,
       changeFrequency: "monthly",
       priority: 0.8,
       alternates: {
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Privacy policy
     routes.push({
       url: `${baseUrl}${prefix}/privacy`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_MODIFIED.privacy,
       changeFrequency: "yearly",
       priority: 0.3,
       alternates: {
@@ -88,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog page
     routes.push({
       url: `${baseUrl}${prefix}/blog`,
-      lastModified: new Date(),
+      lastModified: blogPosts[0] ? new Date(blogPosts[0].date) : CONTENT_LAST_MODIFIED.blogIndex,
       changeFrequency: "weekly",
       priority: 0.8,
       alternates: {

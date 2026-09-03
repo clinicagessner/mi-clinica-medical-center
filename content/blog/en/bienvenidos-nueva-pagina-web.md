@@ -13,7 +13,7 @@ We are very excited to introduce our new website to Houston's entire Hispanic co
 
 ### What Will You Find on Our New Website?
 
-- **Detailed information about all our services**: From immigration medical exams (I-693) to gynecology, ultrasounds, clinical laboratory and much more.
+- **Detailed information about [all our services](/en/services)**: From [immigration medical exams (I-693)](/en/services/examenes-inmigracion) to [gynecology](/en/services/ginecologia), [ultrasounds](/en/services/ultrasonido), [clinical laboratory](/en/services/examenes-sangre) and much more.
 - **An easy-to-use contact form**: You can now request your visit directly from the website.
 - **Hours and location information**: We are open 7 days a week, from 9:00 AM to 9:00 PM.
 - **Content 100% in Spanish**: Because we know how important it is to communicate in your language.

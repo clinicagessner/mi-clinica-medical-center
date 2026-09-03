@@ -15,6 +15,30 @@ export const SITE_CONFIG = {
   locale: "es-MX",
 } as const;
 
+// Fechas de última revisión real del contenido para el sitemap. Google ignora
+// un lastModified que siempre dice "hoy"; actualiza estas fechas solo cuando
+// cambies de verdad el contenido de ese grupo de páginas.
+export const CONTENT_LAST_MODIFIED = {
+  home: new Date("2026-09-02"),
+  services: new Date("2026-09-02"),
+  promotions: new Date("2026-08-28"),
+  blogIndex: new Date("2026-08-20"),
+  privacy: new Date("2026-02-06"),
+} as const;
+
+// Servicios con más demanda en Search Console. Se enlazan desde el footer para
+// que cada uno reciba un enlace interno desde todas las páginas del sitio.
+export const FOOTER_SERVICE_SLUGS = [
+  "ginecologia",
+  "ultrasonido",
+  "examenes-inmigracion",
+  "sueros-vitaminados",
+  "vacunas",
+  "unas-encarnadas",
+  "examenes-sangre",
+  "prueba-tuberculosis",
+] as const;
+
 export const CONTACT_INFO: ContactInfo = {
   address: "1914 Gessner Rd B, Houston, TX 77080",
   phone: "+1 (346) 226-5820",

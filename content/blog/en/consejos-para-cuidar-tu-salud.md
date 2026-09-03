@@ -28,16 +28,16 @@ Don't wait until you feel sick to see a doctor. Preventive checkups can detect h
 **We recommend:**
 - A general checkup once a year
 - Blood pressure check every 6 months
-- Annual blood tests (glucose, cholesterol)
+- Annual [blood tests](/en/services/examenes-sangre) (glucose, cholesterol)
 - Specific exams based on your age and gender
 
 ### 3. Manage Your Chronic Conditions
 
-If you have diabetes, high blood pressure or high cholesterol, consistent follow-up is essential. At our Hispanic clinic we offer chronic condition management programs with personalized care in Spanish.
+If you have diabetes, high blood pressure or high cholesterol, consistent follow-up is essential. At our Hispanic clinic we offer [chronic condition management programs](/en/services/condiciones-cronicas) with personalized care in Spanish.
 
 ### 4. Keep Your Vaccines Up to Date
 
-Vaccines aren't just for children. Adults also need protection against the flu, tetanus and other diseases. Ask at your next visit which vaccines you need.
+Vaccines aren't just for children. Adults also need [protection against the flu, tetanus](/en/services/vacunas) and other diseases. Ask at your next visit which vaccines you need.
 
 ### 5. Take Care of Your Mental Health
 
@@ -51,10 +51,10 @@ At **Clínica Hispana Nueva Salud Gessner** we offer complete medical care for t
 
 **Our services include:**
 - Family medicine
-- Clinical laboratory
-- Ultrasounds
-- Chronic disease management
-- Immigration exams (I-693)
+- [Clinical laboratory](/en/services/examenes-sangre)
+- [Ultrasounds](/en/services/ultrasonido)
+- [Chronic disease management](/en/services/condiciones-cronicas)
+- [Immigration exams (I-693)](/en/services/examenes-inmigracion)
 
 📞 Call us: [+1 (346) 226-5820](tel:13462265820)
 
