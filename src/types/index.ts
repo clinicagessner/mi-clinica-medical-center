@@ -12,6 +12,8 @@ export interface Service {
   features: string[];
   highlighted?: boolean;
   order: number;
+  /** Slugs de servicios relacionados elegidos a mano; si falta, se usa la categoría. */
+  related?: string[];
 }
 
 export type ServiceCategory =

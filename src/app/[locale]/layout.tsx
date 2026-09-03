@@ -154,6 +154,7 @@ export async function generateMetadata({
       languages: {
         es: baseUrl,
         en: `${baseUrl}/en`,
+        "x-default": baseUrl,
       },
     },
     verification: {

@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           es: baseUrl,
           en: `${baseUrl}/en`,
+          "x-default": baseUrl,
         },
       },
     });
@@ -37,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           es: `${baseUrl}/services`,
           en: `${baseUrl}/en/services`,
+          "x-default": `${baseUrl}/services`,
         },
       },
     });
@@ -52,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             es: `${baseUrl}/services/${service.slug}`,
             en: `${baseUrl}/en/services/${service.slug}`,
+            "x-default": `${baseUrl}/services/${service.slug}`,
           },
         },
       });
@@ -67,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           es: `${baseUrl}/promociones`,
           en: `${baseUrl}/en/promociones`,
+          "x-default": `${baseUrl}/promociones`,
         },
       },
     });
@@ -81,6 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           es: `${baseUrl}/privacy`,
           en: `${baseUrl}/en/privacy`,
+          "x-default": `${baseUrl}/privacy`,
         },
       },
     });
@@ -95,6 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           es: `${baseUrl}/blog`,
           en: `${baseUrl}/en/blog`,
+          "x-default": `${baseUrl}/blog`,
         },
       },
     });
@@ -110,6 +116,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             es: `${baseUrl}/blog/${post.slug}`,
             en: `${baseUrl}/en/blog/${post.slug}`,
+            "x-default": `${baseUrl}/blog/${post.slug}`,
           },
         },
       });

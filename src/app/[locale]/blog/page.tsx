@@ -71,6 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `${baseUrl}/blog`,
         en: `${baseUrl}/en/blog`,
+        "x-default": `${baseUrl}/blog`,
       },
     },
   };

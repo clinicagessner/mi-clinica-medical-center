@@ -84,6 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `${baseUrl}/services/${slug}`,
         en: `${baseUrl}/en/services/${slug}`,
+        "x-default": `${baseUrl}/services/${slug}`,
       },
     },
   };
@@ -126,9 +127,13 @@ export default async function ServiceDetailPage({ params }: Props) {
   const fallback = SERVICES.filter(
     (s) => s.highlighted && s.slug !== slug && !sameCategory.includes(s)
   );
-  const relatedServices = [...sameCategory, ...fallback]
-    .sort((a, b) => a.order - b.order)
-    .slice(0, RELATED_COUNT);
+  const manual = (service.related ?? [])
+    .map((relatedSlug) => SERVICES.find((s) => s.slug === relatedSlug))
+    .filter((s): s is (typeof SERVICES)[number] => Boolean(s));
+  const automatic = [...sameCategory, ...fallback]
+    .filter((s) => !manual.includes(s))
+    .sort((a, b) => a.order - b.order);
+  const relatedServices = [...manual, ...automatic].slice(0, RELATED_COUNT);
 
   return (
     <>
