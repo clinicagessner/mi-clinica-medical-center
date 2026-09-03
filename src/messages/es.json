@@ -228,6 +228,10 @@
     "goToGroup": "Ir a grupo {index}",
     "seoText": "Lee las reseñas de pacientes satisfechos de la clínica hispana Clínica Hispana Nueva Salud Gessner en Houston. Nuestra comunidad hispana confía en nosotros para su atención médica."
   },
+  "aboutEntity": {
+    "title": "¿Qué es Clínica Hispana Nueva Salud Gessner?",
+    "text": "Clínica Hispana Nueva Salud Gessner es una clínica médica de atención primaria ubicada en 1914 Gessner Rd Ste B, Houston, TX 77080, en la zona de Spring Branch, cerca de Memorial. Atiende de lunes a domingo de 9:00 AM a 9:00 PM, sin cita previa y sin necesidad de seguro médico; acepta efectivo, tarjetas de débito y crédito y pagos móviles. La atención es en español y también en inglés. Ofrece medicina general y control de diabetes, hipertensión y colesterol; ginecología con papanicolaou, prueba de embarazo y anticonceptivos; laboratorio y análisis de sangre; ultrasonido; examen médico de inmigración I-693 con médico autorizado por USCIS; pruebas de STD, flu, COVID y tuberculosis; examen físico DOT y escolar; vacunas; sueros vitaminados; cirugías menores; y farmacia dentro de la clínica. Teléfono: +1 (346) 226-5820. WhatsApp: +1 (832) 831-4016. Cuenta con estacionamiento gratuito y acceso para silla de ruedas."
+  },
   "trustBadges": {
     "seoText": "Clínica Hispana Nueva Salud Gessner es la clínica hispana de confianza para la comunidad latina en Houston. Nuestra clínica hispana ofrece atención médica completa con personal que habla español."
   },

@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/hero";
 import { BlogPreview } from "@/components/sections/blog-preview";
+import { AboutEntity } from "@/components/sections/about-entity";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 
 // Dynamic imports para secciones below-the-fold (mejor performance)
@@ -53,6 +54,7 @@ export default async function Home({ params }: Props) {
       {/* Secciones below-the-fold - Carga diferida */}
       <Promotions />
       <Services />
+      <AboutEntity />
       <Testimonials reviewsData={reviewsData} />
       <ChronicCare />
       <Location />
