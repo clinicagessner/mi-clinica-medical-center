@@ -41,7 +41,7 @@ const SERVICE_AREAS = [
 function lastUpdated(): string {
   const dates = [
     ...Object.values(CONTENT_LAST_MODIFIED).map((d) => d.getTime()),
-    ...getAllPosts("en").map((p) => new Date(p.date).getTime()),
+    ...getAllPosts("en").map((p) => new Date(p.updated ?? p.date).getTime()),
   ];
   return new Date(Math.max(...dates)).toISOString().slice(0, 10);
 }
@@ -172,7 +172,7 @@ function blog(full: boolean): string {
   const posts = getAllPosts("en");
   const items = posts.map((p) => {
     const base = `### ${p.title}
-Published: ${p.date} | Author: ${p.author}
+Published: ${p.date}${p.updated ? ` | Updated: ${p.updated}` : ""} | Author: ${p.author}
 URL: ${BASE}/blog/${p.slug} (Spanish) | ${BASE}/en/blog/${p.slug} (English)
 ${p.description}`;
     return full ? `${base}\n\n${p.content.trim()}` : base;

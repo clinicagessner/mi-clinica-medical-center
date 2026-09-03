@@ -2,6 +2,7 @@
 title: "Salud del Hombre en Houston: los Chequeos Preventivos que Pueden Salvarte la Vida"
 description: "Chequeos preventivos para hombres en Houston, TX: PSA, testosterona, presión arterial, glucosa y más. Atención 100% en español y sin cita previa en Spring Branch."
 date: "2026-07-22"
+updated: "2026-09-02"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/salud-hombre.webp"
 featured: true

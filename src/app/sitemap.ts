@@ -93,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog page
     routes.push({
       url: `${baseUrl}${prefix}/blog`,
-      lastModified: blogPosts[0] ? new Date(blogPosts[0].date) : CONTENT_LAST_MODIFIED.blogIndex,
+      lastModified: blogPosts[0] ? new Date(blogPosts[0].updated ?? blogPosts[0].date) : CONTENT_LAST_MODIFIED.blogIndex,
       changeFrequency: "weekly",
       priority: 0.8,
       alternates: {
@@ -109,7 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     blogPosts.forEach((post) => {
       routes.push({
         url: `${baseUrl}${prefix}/blog/${post.slug}`,
-        lastModified: new Date(post.date),
+        lastModified: new Date(post.updated ?? post.date),
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: {

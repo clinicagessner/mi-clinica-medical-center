@@ -11,6 +11,8 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  /** Fecha de la última revisión real del contenido (frontmatter `updated`). */
+  updated?: string;
   author: string;
   image?: string;
   featured?: boolean;
@@ -32,6 +34,7 @@ function readPostFile(slug: string, locale: string): BlogPost | null {
       title: data.title || "",
       description: data.description || "",
       date: data.date || "",
+      updated: data.updated || undefined,
       author: data.author || "Equipo Nueva Salud Gessner",
       image: data.image || "",
       featured: false,

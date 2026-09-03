@@ -2,6 +2,7 @@
 title: "5 Tips to Take Care of Your Health This Season"
 description: "Discover practical tips to stay healthy and learn when it's important to see your doctor. Prevention and care for the whole family."
 date: "2026-02-16"
+updated: "2026-09-02"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/family-medicine.webp"
 featured: false

@@ -259,13 +259,14 @@ interface JsonLdBlogPostProps {
   url: string;
   image: string;
   publishedAt: string;
+  updatedAt?: string;
   author: {
     name: string;
     role: string;
   };
 }
 
-export function JsonLdBlogPost({ title, description, url, image, publishedAt, author }: JsonLdBlogPostProps) {
+export function JsonLdBlogPost({ title, description, url, image, publishedAt, updatedAt, author }: JsonLdBlogPostProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -274,15 +275,21 @@ export function JsonLdBlogPost({ title, description, url, image, publishedAt, au
     image,
     url,
     datePublished: publishedAt,
-    dateModified: publishedAt,
+    dateModified: updatedAt ?? publishedAt,
+    inLanguage: url.includes("/en/") ? "en-US" : "es-MX",
+    // Los artículos los firma el equipo de la clínica: el autor es la misma
+    // entidad Organization del @graph principal (mismo @id), no una persona.
     author: {
-      "@type": "Person",
+      "@type": "Organization",
+      "@id": `${SITE_CONFIG.baseUrl}/#organization`,
       name: author.name,
-      jobTitle: author.role,
+      url: SITE_CONFIG.baseUrl,
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${SITE_CONFIG.baseUrl}/#organization`,
       name: SITE_CONFIG.name,
+      url: SITE_CONFIG.baseUrl,
       logo: {
         "@type": "ImageObject",
         url: `${SITE_CONFIG.baseUrl}/images/logo.webp`,

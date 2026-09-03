@@ -2,6 +2,7 @@
 title: "Vitamin B12 in Houston: Benefits, Deficiency & Injections"
 description: "Vitamin B12 injection in Houston, TX: benefits, deficiency symptoms, who is most at risk and when the injection is the right choice. Care in Spanish, walk-ins welcome, no insurance needed."
 date: "2026-08-18"
+updated: "2026-09-02"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/sueros-vitaminados.webp"
 featured: true

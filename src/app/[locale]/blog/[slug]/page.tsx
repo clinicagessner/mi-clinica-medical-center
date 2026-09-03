@@ -54,6 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale === "es" ? "es_MX" : "en_US",
       type: "article",
       publishedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
       authors: [post.author],
       images: [
         {
@@ -112,7 +113,8 @@ export default async function BlogPostPage({ params }: Props) {
         url={postUrl}
         image={post.image ? `${baseUrl}${post.image}` : `${baseUrl}/images/og-image.jpg`}
         publishedAt={post.date}
-        author={{ name: post.author, role: "Administración" }}
+        updatedAt={post.updated}
+        author={{ name: post.author, role: t("authorRole") }}
       />
 
       <main className="min-h-screen">
@@ -159,6 +161,14 @@ export default async function BlogPostPage({ params }: Props) {
                     {t("publishedOn")} {formatDate(post.date, locale)}
                   </time>
                 </div>
+                {post.updated && post.updated !== post.date && (
+                  <div className="flex items-center gap-2">
+                    <Clock className="size-4" aria-hidden="true" />
+                    <time dateTime={post.updated}>
+                      {t("updatedOn")} {formatDate(post.updated, locale)}
+                    </time>
+                  </div>
+                )}
                 <div className="flex items-center gap-2">
                   <User className="size-4" aria-hidden="true" />
                   <span>{t("by")} {post.author}</span>
@@ -191,7 +201,11 @@ export default async function BlogPostPage({ params }: Props) {
                   </div>
                   <div>
                     <p className="font-bold text-foreground">{post.author}</p>
-                    <p className="text-sm text-muted-foreground">Administración</p>
+                    <p className="text-sm text-muted-foreground">
+                      <Link href={locale === "es" ? "/#about" : `/${locale}/#about`} className="hover:text-primary transition-colors">
+                        {t("authorRole")}
+                      </Link>
+                    </p>
                   </div>
                 </div>
               </div>

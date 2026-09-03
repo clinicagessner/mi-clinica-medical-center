@@ -2,6 +2,7 @@
 title: "5 Consejos para Cuidar tu Salud esta Temporada"
 description: "Descubre consejos prácticos para mantenerte saludable y cuándo es importante visitar a tu médico. Prevención y cuidado para toda la familia."
 date: "2026-02-16"
+updated: "2026-09-02"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/family-medicine.webp"
 featured: false

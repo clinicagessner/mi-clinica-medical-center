@@ -2,6 +2,7 @@
 title: "¡Bienvenidos a Nuestra Nueva Página Web!"
 description: "Estamos emocionados de presentar nuestra nueva página web, diseñada para brindarte una mejor experiencia y acceso más fácil a nuestros servicios médicos."
 date: "2026-02-06"
+updated: "2026-09-02"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/logo.webp"
 featured: false
