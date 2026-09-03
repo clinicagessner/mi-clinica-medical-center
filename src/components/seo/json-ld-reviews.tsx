@@ -8,8 +8,10 @@ interface JsonLdReviewsProps {
 export function JsonLdAggregateRating({ reviews }: JsonLdReviewsProps) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${SITE_CONFIG.baseUrl}/#localbusiness`,
+    // Mismo @id que el nodo MedicalClinic del @graph principal para que la
+    // calificación se asocie a la entidad y no a un negocio aparte.
+    "@type": "MedicalClinic",
+    "@id": `${SITE_CONFIG.baseUrl}/#medicalclinic`,
     name: SITE_CONFIG.name,
     aggregateRating: {
       "@type": "AggregateRating",

@@ -58,6 +58,6 @@ At **Clínica Hispana Nueva Salud Gessner** we offer complete medical care for t
 
 📞 Call us: [+1 (346) 226-5820](tel:13462265820)
 
-📍 Visit us: [1914 Gessner Rd B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
+📍 Visit us: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
 
 **Your health is our priority!**

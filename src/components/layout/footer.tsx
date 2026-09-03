@@ -133,7 +133,7 @@ export function Footer() {
                 <span className="flex items-center justify-center size-10 rounded-full bg-white/15 group-hover:bg-linear-to-br group-hover:from-purple-500 group-hover:via-pink-500 group-hover:to-orange-400 transition-all duration-300 group-hover:scale-110" aria-hidden="true">
                   <InstagramLogo className="size-5 text-white" weight="fill" />
                 </span>
-                <span className="group-hover:translate-x-1 transition-transform duration-300">@miclinicamedicalcenter</span>
+                <span className="group-hover:translate-x-1 transition-transform duration-300">@clinicanuevasaludgessner</span>
               </a>
               <a
                 href={SOCIAL_LINKS.facebook}

@@ -125,7 +125,7 @@ Aprovecha nuestra promoción de **Examen General de Sangre + Inyección de Vitam
 
 📞 Llámanos: [+1 (346) 226-5820](tel:13462265820)
 
-📍 Visítanos: [1914 Gessner Rd B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
+📍 Visítanos: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
 
 🕐 Horario: Lunes a Domingo, 9:00 AM - 9:00 PM
 

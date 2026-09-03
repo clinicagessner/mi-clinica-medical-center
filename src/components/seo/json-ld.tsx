@@ -1,5 +1,31 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS } from "@/lib/constants";
 
+// Perfiles externos de la entidad (mismos que el perfil de Google Business)
+const SAME_AS = [
+  SOCIAL_LINKS.instagram,
+  SOCIAL_LINKS.facebook,
+  CONTACT_INFO.googleMapsUrl,
+];
+
+const CONTACT_POINTS = [
+  {
+    "@type": "ContactPoint",
+    telephone: CONTACT_INFO.phone,
+    contactType: "customer service",
+    availableLanguage: ["Spanish", "English"],
+    areaServed: "US",
+  },
+  {
+    "@type": "ContactPoint",
+    telephone: CONTACT_INFO.whatsapp,
+    contactType: "customer service",
+    contactOption: "WhatsApp",
+    url: `https://wa.me/${CONTACT_INFO.whatsapp.replace(/\D/g, "")}`,
+    availableLanguage: ["Spanish", "English"],
+    areaServed: "US",
+  },
+];
+
 // Schema principal unificado con @graph para la homepage
 export function JsonLdMedicalClinic() {
   const jsonLd = {
@@ -25,14 +51,8 @@ export function JsonLdMedicalClinic() {
           caption: SITE_CONFIG.name,
         },
         image: { "@id": `${SITE_CONFIG.baseUrl}/#logo` },
-        sameAs: [SOCIAL_LINKS.instagram, SOCIAL_LINKS.facebook],
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: CONTACT_INFO.phone,
-          contactType: "customer service",
-          availableLanguage: ["Spanish", "English"],
-          areaServed: "US",
-        },
+        sameAs: SAME_AS,
+        contactPoint: CONTACT_POINTS,
       },
       // WebSite - para search box en Google
       {
@@ -57,10 +77,12 @@ export function JsonLdMedicalClinic() {
         description: SITE_CONFIG.description,
         url: SITE_CONFIG.baseUrl,
         telephone: CONTACT_INFO.phone,
+        contactPoint: CONTACT_POINTS,
+        hasMap: CONTACT_INFO.googleMapsUrl,
         parentOrganization: { "@id": `${SITE_CONFIG.baseUrl}/#organization` },
         address: {
           "@type": "PostalAddress",
-          streetAddress: "1914 Gessner Rd B",
+          streetAddress: "1914 Gessner Rd Ste B",
           addressLocality: "Houston",
           addressRegion: "TX",
           postalCode: "77080",
@@ -91,7 +113,7 @@ export function JsonLdMedicalClinic() {
         logo: { "@id": `${SITE_CONFIG.baseUrl}/#logo` },
         priceRange: "$$",
         currenciesAccepted: "USD",
-        paymentAccepted: "Cash, Credit Card",
+        paymentAccepted: "Cash, Debit Card, Credit Card (Visa, MasterCard, American Express, Discover), NFC Mobile Payments",
         areaServed: {
           "@type": "City",
           name: "Houston",
@@ -128,9 +150,10 @@ export function JsonLdMedicalClinic() {
           "Cardiovascular",
           "Pulmonary",
           "Musculoskeletal",
+          "Occupational",
         ],
         isAcceptingNewPatients: true,
-        sameAs: [SOCIAL_LINKS.instagram, SOCIAL_LINKS.facebook],
+        sameAs: SAME_AS,
       },
     ],
   };
@@ -300,7 +323,7 @@ export function JsonLdService({ name, description, provider }: JsonLdServiceProp
       url: provider.url,
       address: {
         "@type": "PostalAddress",
-        streetAddress: "1914 Gessner Rd B",
+        streetAddress: "1914 Gessner Rd Ste B",
         addressLocality: "Houston",
         addressRegion: "TX",
         postalCode: "77080",

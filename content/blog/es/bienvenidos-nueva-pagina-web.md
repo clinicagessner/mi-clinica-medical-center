@@ -20,7 +20,7 @@ Estamos muy emocionados de presentar nuestra nueva página web a toda la comunid
 
 ### Te Invitamos a Visitarnos
 
-Estamos ubicados en **1914 Gessner Rd B, Houston, TX 77080**. Nuestro equipo de profesionales de la salud está listo para atenderte con la calidez y profesionalismo que nos caracteriza.
+Estamos ubicados en **1914 Gessner Rd Ste B, Houston, TX 77080**. Nuestro equipo de profesionales de la salud está listo para atenderte con la calidez y profesionalismo que nos caracteriza.
 
 No necesitas cita previa - aceptamos pacientes walk-in todos los días.
 
@@ -32,4 +32,4 @@ En Clínica Hispana Nueva Salud Gessner, nuestro compromiso es brindarte atenci�
 
 📞 Llámanos: [+1 (346) 226-5820](tel:13462265820)
 
-📍 Visítanos: [1914 Gessner Rd B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
+📍 Visítanos: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)

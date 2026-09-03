@@ -20,7 +20,7 @@ We are very excited to introduce our new website to Houston's entire Hispanic co
 
 ### We Invite You to Visit Us
 
-We are located at **1914 Gessner Rd B, Houston, TX 77080**. Our team of healthcare professionals is ready to serve you with the warmth and professionalism that defines us.
+We are located at **1914 Gessner Rd Ste B, Houston, TX 77080**. Our team of healthcare professionals is ready to serve you with the warmth and professionalism that defines us.
 
 No appointment needed — we welcome walk-in patients every day.
 
@@ -32,4 +32,4 @@ At Clínica Hispana Nueva Salud Gessner, our commitment is to provide quality me
 
 📞 Call us: [+1 (346) 226-5820](tel:13462265820)
 
-📍 Visit us: [1914 Gessner Rd B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
+📍 Visit us: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)

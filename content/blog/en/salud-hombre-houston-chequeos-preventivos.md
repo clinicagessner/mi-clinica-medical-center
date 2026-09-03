@@ -122,7 +122,7 @@ Don't wait until you feel sick to get checked. We serve men across west and nort
 
 📞 Call us: [+1 (346) 226-5820](tel:13462265820)
 
-📍 Visit us: [1914 Gessner Rd B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
+📍 Visit us: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
 
 🕐 Hours: Monday to Sunday, 9:00 AM - 9:00 PM
 
