@@ -113,6 +113,12 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
       "answerEn": "It's not required, we welcome walk-ins; but you can call us to reserve a convenient time."
     },
     {
+      "question": "¿Cuánto cuesta una consulta ginecológica?",
+      "answer": "No necesitas seguro médico y los precios son accesibles y transparentes. En nuestra página de Promociones encuentras paquetes vigentes como el Chequeo Completo de la Mujer por $179 (ultrasonido pélvico, papanicolaou y examen de orina, con consulta médica gratis) y la revisión de Salud Íntima Femenina por $69. Las promociones pueden cambiar; llámanos para confirmar el precio antes de tu visita.",
+      "questionEn": "How much does a gynecology visit cost?",
+      "answerEn": "No insurance is needed and our pricing is affordable and transparent. On our Promotions page you will find current packages such as the Complete Women's Checkup for $179 (pelvic ultrasound, Pap smear and urinalysis, with a free medical consultation) and the Women's Intimate Health visit for $69. Promotions may change; call us to confirm the price before your visit."
+    },
+    {
       "question": "¿Necesito cita previa?",
       "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario.",
       "questionEn": "Do I need an appointment?",
@@ -453,6 +459,12 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
       "answerEn": "It's administered and monitored by medical staff, after a brief evaluation to choose the right drip for you."
     },
     {
+      "question": "¿Cuánto cuesta un suero vitaminado?",
+      "answer": "El precio depende del tipo de suero y de las vitaminas que se agregan (por ejemplo vitamina C, complejo B o B12). No necesitas seguro médico y el costo incluye la valoración médica, la aplicación por personal de salud y el tiempo de monitoreo. Llámanos para conocer el precio del suero que necesitas y revisa nuestra página de Promociones, donde publicamos ofertas de vitamina B12.",
+      "questionEn": "How much does a vitamin IV drip cost?",
+      "answerEn": "The price depends on the type of drip and the vitamins added (for example vitamin C, B complex or B12). No insurance is needed, and the cost includes the medical assessment, administration by healthcare staff and monitoring time. Call us for the price of the drip you need and check our Promotions page, where we publish vitamin B12 offers."
+    },
+    {
       "question": "¿Necesito cita previa?",
       "answer": "No. Atendemos sin cita de lunes a domingo de 9 AM a 9 PM. También puedes llamarnos para reservar un horario.",
       "questionEn": "Do I need an appointment?",
@@ -551,6 +563,12 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
       "answer": "Con un procedimiento sencillo y anestesia local retiramos la porción encarnada para aliviar el dolor el mismo día.",
       "questionEn": "How do you treat an ingrown toenail?",
       "answerEn": "With a simple procedure and local anesthesia we remove the ingrown portion to relieve pain the same day."
+    },
+    {
+      "question": "¿Cuánto cuesta la extracción de una uña encarnada?",
+      "answer": "Manejamos un precio fijo y accesible por el procedimiento, sin necesidad de seguro médico. El costo incluye la consulta, la anestesia local, la extracción de la porción encarnada y las indicaciones de cuidado posterior; no hay cargos ocultos. Llámanos y te confirmamos el precio exacto antes de tu visita.",
+      "questionEn": "How much does ingrown toenail removal cost?",
+      "answerEn": "We offer a fixed, affordable self-pay price for the procedure, no insurance needed. The cost covers the consultation, local anesthesia, removal of the ingrown portion and aftercare instructions, with no hidden fees. Call us and we will confirm the exact price before your visit."
     },
     {
       "question": "¿Necesito cita previa?",
