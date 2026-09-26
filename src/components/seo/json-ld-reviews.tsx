@@ -20,6 +20,8 @@ export function JsonLdAggregateRating({ reviews }: JsonLdReviewsProps) {
       bestRating: "5",
       worstRating: "1",
     },
+    // Sin reseñas reales se omite `review` en vez de publicar un array vacío.
+    ...(reviews.reviews.length > 0 && {
     review: reviews.reviews.slice(0, 5).map((review) => ({
       "@type": "Review",
       author: {
@@ -35,6 +37,7 @@ export function JsonLdAggregateRating({ reviews }: JsonLdReviewsProps) {
       reviewBody: review.text,
       datePublished: new Date(review.time * 1000).toISOString().split("T")[0],
     })),
+    }),
   };
 
   return (

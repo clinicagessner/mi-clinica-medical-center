@@ -10,6 +10,12 @@ interface TestimonialsProps {
 export async function Testimonials({ reviewsData }: TestimonialsProps) {
   const t = await getTranslations("testimonials");
 
+  // Sin reseñas reales solo va la calificación en el schema; el carrusel vacío
+  // no se pinta.
+  if (reviewsData.reviews.length === 0) {
+    return <JsonLdAggregateRating reviews={reviewsData} />;
+  }
+
   return (
     <>
       {/* Schema markup for SEO */}
