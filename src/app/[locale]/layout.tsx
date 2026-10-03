@@ -8,6 +8,7 @@ import { locales, type Locale } from "@/i18n/config";
 import dynamic from "next/dynamic";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { ConversionEvents } from "@/components/tracking/conversion-events";
 import {
   JsonLdMedicalClinic,
   JsonLdFAQ,
@@ -25,7 +26,7 @@ const ScrollToTop = dynamic(() =>
 // IDs de tracking — se leen de variables de entorno (con fallback al valor actual
 // para no romper si la env aún no está configurada en algún entorno).
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-K5R8SDQV";
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-B79QJ132DF";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-VB3TG5G62M";
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? "AW-17854586021";
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID ?? "1470050858204955";
 const CALLRAIL_SCRIPT =
@@ -266,6 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <Footer />
           <FloatingButtons />
           <ScrollToTop />
+          <ConversionEvents />
         </NextIntlClientProvider>
         {CALLRAIL_SCRIPT && (
           <Script

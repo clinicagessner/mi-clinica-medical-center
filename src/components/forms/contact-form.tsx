@@ -23,6 +23,7 @@ import {
   serviceOptions,
 } from "@/lib/validations";
 import { sendContactEmail } from "@/app/actions/send-contact-email";
+import { trackEvent } from "@/components/tracking/conversion-events";
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,6 +60,7 @@ export function ContactForm() {
 
       if (response.success) {
         setSubmitStatus("success");
+        trackEvent("formulario", { form_name: "contacto" });
         reset();
       } else {
         setError("root", {
