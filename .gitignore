@@ -46,3 +46,6 @@ next-env.d.ts
 # claude code (skills/agents tooling)
 .agents/
 .claude/skills/
+
+# datos crudos de Search Console
+seo-data/
