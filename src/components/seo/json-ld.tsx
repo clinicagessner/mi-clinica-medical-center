@@ -27,7 +27,7 @@ const CONTACT_POINTS = [
 ];
 
 // Schema principal unificado con @graph para la homepage
-export function JsonLdMedicalClinic() {
+export function JsonLdMedicalClinic({ locale }: { locale: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -114,6 +114,9 @@ export function JsonLdMedicalClinic() {
         priceRange: "$$",
         currenciesAccepted: "USD",
         paymentAccepted: "Cash, Debit Card, Credit Card (Visa, MasterCard, American Express, Discover), NFC Mobile Payments",
+        amenityFeature: [
+          { "@type": "LocationFeatureSpecification", name: locale === "en" ? "Free parking" : "Estacionamiento gratuito", value: true },
+        ],
         areaServed: {
           "@type": "City",
           name: "Houston",

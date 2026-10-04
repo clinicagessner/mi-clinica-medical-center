@@ -259,7 +259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         <NextIntlClientProvider messages={messages}>
-          <JsonLdMedicalClinic />
+          <JsonLdMedicalClinic locale={locale} />
           <JsonLdFAQ />
           <JsonLdBreadcrumb />
           <Header />
