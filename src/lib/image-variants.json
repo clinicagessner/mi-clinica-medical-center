@@ -1,0 +1,626 @@
+{
+  "/images/contact/contact-bg.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1376
+  },
+  "/images/green-card-bg.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/hero.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1376
+  },
+  "/images/logo.webp": {
+    "widths": [
+      256,
+      384
+    ],
+    "original": 424
+  },
+  "/images/promotions/chequeo-general.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/chequeo-mujer.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/examen-hombres.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/examen-testosterona.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/gynecology-promo.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640
+    ],
+    "original": 768
+  },
+  "/images/promotions/immigration-promo.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640
+    ],
+    "original": 768
+  },
+  "/images/promotions/perfil-hormonal-hombres.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/salud-intima-femenina.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/sangre-b12.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1080
+  },
+  "/images/promotions/ultrasound-promo.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640
+    ],
+    "original": 768
+  },
+  "/images/services/alergias.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/anticonceptivos.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/chronic-conditions.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/cirugias-menores.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/condiciones-cronicas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/contraceptive-injection.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/curacion-heridas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/dot-exam.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/drenaje-abscesos.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/electrocardiogram.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/electrocardiograma.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/enfermedades-respiratorias.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/enfermedades-transmision-sexual.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examen-alcohol-drogas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examen-dot.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examen-fisico-escolar.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examen-heces.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examenes-inmigracion.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/examenes-sangre.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/extraccion-implantes.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/family-medicine.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/family-planning.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/farmacia.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/general-exams.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/ginecologia.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/gynecology.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/immigration-exam.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/implant-removal.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/infecciones-urinarias.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/laboratorio.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/muscle-pain.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/prueba-embarazo.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/prueba-strep.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/prueba-tuberculosis.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/respiratory.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/salud-hombre.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/services-cta.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1376
+  },
+  "/images/services/services-hero.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1376
+  },
+  "/images/services/std-testing.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/sueros-vitaminados.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/suturas-heridas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/tiroides.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/ultrasonido.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/ultrasound.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/unas-encarnadas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/urinary-infections.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/urology.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/vacunas.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  },
+  "/images/services/vaginal-infections.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
+  }
+}

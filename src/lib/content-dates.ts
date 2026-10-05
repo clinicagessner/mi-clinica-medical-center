@@ -10,8 +10,8 @@
 export const PAGE_DATES: Record<string, string> = {
   "": "2026-10-05", // B1: entidad, FAQ de la home
   "/services": "2026-10-05", // catálogo /en en inglés, metas
-  "/promociones": "2026-09-02",
-  "/blog": "2026-09-02",
+  "/promociones": "2026-10-05", // textos propios de 2 promociones
+  "/blog": "2026-10-05", // post de salud del hombre reescrito
   "/privacy": "2026-08-27",
 };
 

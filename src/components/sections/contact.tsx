@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Phone, Clock, MapPin, CheckCircle } from "@phosphor-icons/react/dist/ssr";
-import { ContactForm } from "@/components/forms/contact-form";
+import { LazyContactForm as ContactForm } from "@/components/forms/lazy-contact-form";
 import { CONTACT_INFO } from "@/lib/constants";
 
 export function Contact() {

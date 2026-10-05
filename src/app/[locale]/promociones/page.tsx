@@ -3,7 +3,7 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { ArrowLeft, Star } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
-import { ContactForm } from "@/components/forms/contact-form";
+import { LazyContactForm as ContactForm } from "@/components/forms/lazy-contact-form";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import { JsonLdBreadcrumb, JsonLdServiceFAQ, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
