@@ -4,8 +4,8 @@ import {
   SOCIAL_LINKS,
   SERVICES,
   PROMOTIONS,
-  CONTENT_LAST_MODIFIED,
 } from "@/lib/constants";
+import { PAGE_DATES, SERVICE_DATES, SERVICES_LAST_REVIEWED } from "@/lib/content-dates";
 import { SERVICE_FAQS } from "@/lib/service-faqs";
 import { getAllPosts } from "@/lib/blog";
 import en from "@/messages/en.json";
@@ -40,7 +40,7 @@ const SERVICE_AREAS = [
 
 function lastUpdated(): string {
   const dates = [
-    ...Object.values(CONTENT_LAST_MODIFIED).map((d) => d.getTime()),
+    ...[...Object.values(PAGE_DATES), ...Object.values(SERVICE_DATES), SERVICES_LAST_REVIEWED].map((d) => new Date(d).getTime()),
     ...getAllPosts("en").map((p) => new Date(p.updated ?? p.date).getTime()),
   ];
   return new Date(Math.max(...dates)).toISOString().slice(0, 10);
