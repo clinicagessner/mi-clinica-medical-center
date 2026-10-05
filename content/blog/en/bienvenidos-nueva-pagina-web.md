@@ -1,4 +1,5 @@
 ---
+services: ["examenes-inmigracion", "ginecologia", "condiciones-cronicas"]
 title: "Welcome to Our New Website!"
 description: "We are excited to introduce our new website, designed to give you a better experience and easier access to our medical services."
 date: "2026-02-06"

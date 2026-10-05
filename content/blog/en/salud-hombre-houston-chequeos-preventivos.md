@@ -1,4 +1,5 @@
 ---
+services: ["salud-hombre", "condiciones-cronicas", "examenes-sangre"]
 title: "Men's Health in Houston: Preventive Checkups That Can Save Your Life"
 description: "Preventive health checkups for men in Houston, TX: PSA, testosterone, blood pressure, glucose and more. Care 100% in Spanish, walk-ins welcome in Spring Branch."
 date: "2026-07-22"

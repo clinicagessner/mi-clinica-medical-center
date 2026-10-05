@@ -18,6 +18,7 @@ import { ServiceIcon } from "@/components/services/service-icon";
 import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SERVICES, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { getServiceFaqs } from "@/lib/service-faqs";
+import { getAllPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 import { seoTitle, seoDescription, buildSocial, buildAlternates, ADS_LANDING_SLUGS, adsLegacyTitle } from "@/lib/seo";
 
@@ -96,23 +97,26 @@ export default async function ServiceDetailPage({ params }: Props) {
   const servicesHref = locale === "es" ? "/services" : `/${locale}/services`;
   const phoneUrl = `tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`;
 
-  // Enlazado interno: primero los servicios de la misma categoría y, si no
-  // llegan a 4, se completa con destacados para que ninguna página quede sin
-  // enlaces a servicios hermanos.
-  const RELATED_COUNT = 4;
-  const sameCategory = SERVICES.filter(
-    (s) => s.category === service.category && s.slug !== slug
+  // Enlazado interno (§12 B1): los 3 servicios siguientes de su categoría en
+  // orden circular, así cada servicio recibe al menos 3 enlaces de contenido
+  // de sus hermanos de categoría (todas tienen 4 o más). Después, hasta 2 de
+  // los `related` elegidos a mano.
+  const sameCategory = SERVICES.filter((s) => s.category === service.category).sort(
+    (a, b) => a.order - b.order
   );
-  const fallback = SERVICES.filter(
-    (s) => s.highlighted && s.slug !== slug && !sameCategory.includes(s)
-  );
+  const at = sameCategory.findIndex((s) => s.slug === slug);
+  const cyclic = [1, 2, 3]
+    .map((k) => sameCategory[(at + k) % sameCategory.length])
+    .filter((s) => s.slug !== slug);
   const manual = (service.related ?? [])
     .map((relatedSlug) => SERVICES.find((s) => s.slug === relatedSlug))
-    .filter((s): s is (typeof SERVICES)[number] => Boolean(s));
-  const automatic = [...sameCategory, ...fallback]
-    .filter((s) => !manual.includes(s))
-    .sort((a, b) => a.order - b.order);
-  const relatedServices = [...manual, ...automatic].slice(0, RELATED_COUNT);
+    .filter((s): s is (typeof SERVICES)[number] => Boolean(s) && !cyclic.includes(s!))
+    .slice(0, 2);
+  const relatedServices = [...cyclic, ...manual];
+
+  // Artículos del blog que tratan este servicio (frontmatter `services`).
+  const relatedPosts = getAllPosts(locale).filter((p) => p.services?.includes(slug));
+  const blogHref = locale === "es" ? "/blog" : `/${locale}/blog`;
 
   return (
     <>
@@ -322,6 +326,24 @@ export default async function ServiceDetailPage({ params }: Props) {
                       {tDetail("viewAllServices")}
                     </Link>
                   </p>
+                </div>
+              )}
+
+              {/* Artículos sobre este servicio */}
+              {relatedPosts.length > 0 && (
+                <div className="mb-12">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                    {locale === "es" ? "Artículos sobre este servicio" : "Articles about this service"}
+                  </h2>
+                  <ul className="space-y-3">
+                    {relatedPosts.map((p) => (
+                      <li key={p.slug}>
+                        <Link href={`${blogHref}/${p.slug}`} className="text-primary font-medium hover:underline">
+                          {p.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
 

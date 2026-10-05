@@ -1,4 +1,5 @@
 ---
+services: ["sueros-vitaminados", "examenes-sangre", "condiciones-cronicas"]
 title: "Vitamina B12: Beneficios, Deficiencia e Inyección en Houston"
 description: "Inyección de vitamina B12 en Houston, TX: beneficios, síntomas de deficiencia, quiénes tienen más riesgo y cuándo conviene la inyección. Atención en español, sin cita y sin seguro."
 date: "2026-08-18"

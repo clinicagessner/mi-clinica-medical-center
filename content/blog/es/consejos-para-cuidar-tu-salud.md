@@ -1,4 +1,5 @@
 ---
+services: ["vacunas", "examenes-sangre", "enfermedades-respiratorias"]
 title: "5 Consejos para Cuidar tu Salud esta Temporada"
 description: "Descubre consejos prácticos para mantenerte saludable y cuándo es importante visitar a tu médico. Prevención y cuidado para toda la familia."
 date: "2026-02-16"
