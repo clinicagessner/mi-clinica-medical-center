@@ -150,7 +150,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
       <div className="min-h-screen">
         {/* Hero Section with Background Image */}
-        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
+        <section className="relative isolate bg-teal-dark text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           {/* Background Image */}
           {service.image && (
             <>

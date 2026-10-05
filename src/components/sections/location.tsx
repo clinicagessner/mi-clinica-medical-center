@@ -110,7 +110,7 @@ export function Location() {
                   <div>
                     <h3 className="font-bold text-foreground mb-1">{t("hoursTitle")}</h3>
                     <p className="text-muted-foreground">{CONTACT_INFO.hours}</p>
-                    <p className="text-sm text-success font-medium mt-1">
+                    <p className="text-sm text-green-dark font-medium mt-1">
                       {t("openNow")}
                     </p>
                   </div>

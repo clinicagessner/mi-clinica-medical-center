@@ -45,7 +45,7 @@ export function ChronicCare() {
   return (
     <section
       id="chronic-care"
-      className="py-20 text-white relative overflow-hidden"
+      className="py-20 isolate bg-teal-dark text-white relative overflow-hidden"
     >
       {/* Background Image */}
       <Image

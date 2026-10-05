@@ -67,7 +67,7 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
   return (
     <section
       id="home"
-      className="relative flex min-h-svh items-center overflow-hidden"
+      className="relative flex min-h-svh items-center overflow-hidden isolate bg-teal-dark"
     >
       {/* Background Image */}
       <Image

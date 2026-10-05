@@ -57,7 +57,7 @@ export default async function PromocionesPage({ params }: Props) {
 
       <div className="min-h-screen">
         {/* Hero header (consistente con blog / servicios) */}
-        <section className="relative overflow-hidden pt-28 pb-20 text-white sm:pt-32 lg:pt-40">
+        <section className="relative overflow-hidden isolate bg-teal-dark pt-28 pb-20 text-white sm:pt-32 lg:pt-40">
           {/* Background Image */}
           <Image
             src="/images/services/services-cta.webp"

@@ -49,7 +49,7 @@ export default async function ServiciosPage({ params }: Props) {
       />
       <div className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
+        <section className="relative isolate bg-teal-dark text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           <Image
             src="/images/services/services-hero.webp"
             alt={locale === "es" ? "servicios medicos clinica hispana houston" : "medical services hispanic clinic houston"}

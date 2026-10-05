@@ -48,7 +48,7 @@ export default async function BlogPage({ params }: Props) {
       <JsonLdBreadcrumb locale={locale} items={[{ name: "Blog", url: blogUrl }]} />
       <div className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
+        <section className="relative isolate bg-teal-dark text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           {/* Background Image */}
           <Image
             src="/images/services/services-hero.webp"

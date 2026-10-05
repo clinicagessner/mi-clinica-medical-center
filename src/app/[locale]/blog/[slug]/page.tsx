@@ -101,7 +101,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <div className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-16 overflow-hidden">
+        <section className="relative isolate bg-teal-dark text-white pt-28 sm:pt-32 lg:pt-40 pb-16 overflow-hidden">
           {post.image ? (
             <>
               <Image

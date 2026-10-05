@@ -22,8 +22,8 @@
   --teal-light: #CCFBF1;       /* Teal claro */
 
   /* WhatsApp (color oficial de la marca) */
-  --whatsapp: #25D366;
-  --whatsapp-dark: #1DA851;
+  --whatsapp: #15803D;        /* AA con texto blanco (5,0:1); #25D366 daba 1,98:1 */
+  --whatsapp-dark: #166534;
 
   /* Alertas y Estados (rojo solo para errores/destructivo) */
   --error: #DC2626;

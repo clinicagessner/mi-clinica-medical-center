@@ -32,7 +32,7 @@ export function GreenCard() {
   return (
     <section
       id="green-card"
-      className="py-20 text-white relative overflow-hidden"
+      className="py-20 isolate bg-teal-dark text-white relative overflow-hidden"
     >
       {/* Background Image */}
       <Image
