@@ -9,6 +9,7 @@ import dynamic from "next/dynamic";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { ConversionEvents } from "@/components/tracking/conversion-events";
+import { GoogleTags } from "@/components/tracking/google-tags";
 import {
   JsonLdMedicalClinic,
   JsonLdFAQ,
@@ -182,54 +183,6 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${poppins.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
-        <Script
-          id="ga4-src"
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        />
-        <Script
-          id="ga4-init"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_ID}');
-gtag('config', '${GOOGLE_ADS_ID}');`,
-          }}
-        />
-        <Script
-          id="meta-pixel"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '${META_PIXEL_ID}');
-fbq('track', 'PageView');`,
-          }}
-        />
-        <link rel="dns-prefetch" href="https://connect.facebook.net" />
-        <Script
-          id="gtm-script"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTM_ID}');`,
-          }}
-        />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://cdn.callrail.com" />
-        <link rel="preconnect" href="https://cdn.callrail.com" crossOrigin="anonymous" />
         <meta name="theme-color" content="#F7FDF9" />
         <meta name="msapplication-TileColor" content="#16A34A" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -269,6 +222,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <ScrollToTop />
           <ConversionEvents />
         </NextIntlClientProvider>
+        {/* GTM tras window.load; GA4, Google Ads y Meta Pixel con la primera interacción */}
+        <GoogleTags gaId={GA_ID} adsId={GOOGLE_ADS_ID} pixelId={META_PIXEL_ID} gtmId={GTM_ID} />
         {CALLRAIL_SCRIPT && (
           <Script
             id="callrail-swap"
