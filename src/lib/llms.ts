@@ -49,47 +49,37 @@ function lastUpdated(): string {
 function header(): string {
   return `# ${SITE_CONFIG.name}
 
-> Hispanic primary care medical clinic in Houston, Texas (Spring Branch area) providing healthcare 100% in Spanish, also in English. USCIS-authorized Civil Surgeon for I-693 immigration medical exams. Open 7 days a week, 9 AM to 9 PM, walk-ins welcome, no health insurance required, affordable self-pay pricing starting at $50.
+> Hispanic primary care walk-in clinic at 1914 Gessner Rd Ste B, Houston, TX 77080 (Spring Branch, west Houston), with care in Spanish and English. Civil Surgeon for I-693 immigration medical exams. Open 7 days a week, 9 AM to 9 PM, walk-ins welcome, no health insurance required.
 
 Last updated: ${lastUpdated()}
 
 ## Business Information
 
 - Official Name: ${SITE_CONFIG.name}
-- Also Known As: ${SITE_CONFIG.shortName}, Clínica Hispana Houston, Clínica Gessner
+- Also Known As: ${SITE_CONFIG.shortName}, Clínica Gessner
 - Type: Hispanic Medical Clinic / Primary Care / Walk-in Clinic
 - Address: ${CONTACT_INFO.address}
 - Phone: ${CONTACT_INFO.phone}
-- WhatsApp: ${CONTACT_INFO.whatsapp} (https://wa.me/${WHATSAPP_DIGITS})
-- Website: ${BASE} (Spanish) / ${BASE}/en (English)
+- WhatsApp: [${CONTACT_INFO.whatsapp}](https://wa.me/${WHATSAPP_DIGITS})
+- Website: [Spanish](${BASE}) / [English](${BASE}/en)
 - Hours: Monday through Sunday, 9:00 AM to 9:00 PM (open 7 days a week)
-- Appointments: Not required, walk-ins welcome; call to reserve a time
-- Insurance: Not required; self-pay clinic with transparent pricing
+- Appointments: Not required, walk-ins welcome; you can also call to reserve a time
+- Insurance: Not required; self-pay clinic
 - Payments: Cash, debit and credit cards (Visa, MasterCard, American Express, Discover), NFC mobile payments; no checks
-- Languages: Spanish (primary), English
+- Languages: Spanish, English
 - Parking: Free on-site parking
 - Accessibility: Wheelchair-accessible entrance, parking and restroom
-- Google Maps: ${CONTACT_INFO.googleMapsUrl}
+- [Google Maps](${CONTACT_INFO.googleMapsUrl})
 
-## Certifications & Authorizations
+## Key Facts
 
-- USCIS Authorized Clinic for Immigration Medical Exams
-- Certified Civil Surgeon on staff for I-693 forms
-- DOT Certified Medical Examiner for CDL physicals
-- HIPAA Compliant facility
-- Licensed medical professionals
-
-## Key Differentiators
-
-- 100% Spanish-speaking staff - entire process in your language
-- Walk-ins welcome - no appointment required
-- Open 7 days a week including Sundays, 9 AM to 9 PM
-- Affordable pricing - general consultations starting at $50
-- Payment plans available for qualifying patients
-- Uninsured patients welcome with special pricing
-- Results in 3-5 business days for I-693 exams
-- In-clinic pharmacy: prescriptions filled right after the visit
-- Free parking and wheelchair accessible facility
+- Civil Surgeon for USCIS I-693 immigration medical exams
+- DOT physicals for CDL drivers
+- Staff that speaks Spanish through the whole visit
+- Walk-ins welcome, open 7 days a week including Sundays, 9 AM to 9 PM
+- No insurance needed; ask for the price of your service before your visit
+- Medicines indicated during the consultation are handed out at the clinic, plus over-the-counter products
+- Free parking and wheelchair-accessible facility
 `;
 }
 
@@ -101,7 +91,7 @@ function servicesShort(): string {
       const esTitle = esServices[s.slug]?.title ?? s.title;
       return `### ${c?.title ?? s.title} (${esTitle})
 ${c?.description ?? s.description}
-URL: ${BASE}/services/${s.slug} (Spanish) | ${BASE}/en/services/${s.slug} (English)`;
+URL: [Spanish](${BASE}/services/${s.slug}) | [English](${BASE}/en/services/${s.slug})`;
     });
   return `## Medical Services Offered (${SERVICES.length})\n\n${items.join("\n\n")}\n`;
 }
@@ -117,7 +107,7 @@ function servicesFull(): string {
         .join("\n\n");
       return `### ${c?.title ?? s.title} (${esTitle})
 
-URL: ${BASE}/services/${s.slug} (Spanish) | ${BASE}/en/services/${s.slug} (English)
+URL: [Spanish](${BASE}/services/${s.slug}) | [English](${BASE}/en/services/${s.slug})
 Category: ${s.category}
 
 ${c?.description ?? s.description}
@@ -140,7 +130,7 @@ function promotions(full: boolean): string {
   });
   return `## Current Promotions
 
-Limited-time packages published at ${BASE}/promociones (prices subject to change; call to confirm before your visit).
+Limited-time packages published on the [promotions page](${BASE}/promociones) (prices subject to change; call to confirm before your visit).
 
 ${items.join("\n")}
 `;
@@ -149,14 +139,13 @@ ${items.join("\n")}
 function immigrationProcess(): string {
   return `## Immigration Exam I-693 Process
 
-Step 1: Schedule or Walk In - Call ${CONTACT_INFO.phone} or visit without appointment
-Step 2: Medical Examination - Complete physical exam with certified Civil Surgeon
-Step 3: Vaccinations - Verification and administration of USCIS-required vaccines
-Step 4: Laboratory Tests - Required blood work and screening tests
-Step 5: Documentation - Receive sealed and signed I-693 form in 3-5 business days
+Step 1: Walk in or call ${CONTACT_INFO.phone} to reserve a time
+Step 2: Medical examination with the Civil Surgeon
+Step 3: Vaccination record review and the vaccines USCIS requires
+Step 4: Required laboratory tests
+Step 5: Signed I-693 form in a sealed envelope once the results are in
 
-What's included: Certified Civil Surgeon evaluation, completed I-693 form, physical examination, required blood tests, vaccine history review, all documentation in Spanish.
-Details: ${BASE}/services/examenes-inmigracion
+Details: [I-693 immigration medical exam](${BASE}/services/examenes-inmigracion)
 `;
 }
 
@@ -173,7 +162,7 @@ function blog(full: boolean): string {
   const items = posts.map((p) => {
     const base = `### ${p.title}
 Published: ${p.date}${p.updated ? ` | Updated: ${p.updated}` : ""} | Author: ${p.author}
-URL: ${BASE}/blog/${p.slug} (Spanish) | ${BASE}/en/blog/${p.slug} (English)
+URL: [Spanish](${BASE}/blog/${p.slug}) | [English](${BASE}/en/blog/${p.slug})
 ${p.description}`;
     return full ? `${base}\n\n${p.content.trim()}` : base;
   });
@@ -184,17 +173,17 @@ function footer(): string {
   return `## Contact Information
 
 - Phone: ${CONTACT_INFO.phone}
-- WhatsApp: https://wa.me/${WHATSAPP_DIGITS}
+- [WhatsApp](https://wa.me/${WHATSAPP_DIGITS})
 - Address: ${CONTACT_INFO.address}
-- Website: ${BASE}
-- Online Appointment Request: ${BASE}/#contact
-- Google Maps: ${CONTACT_INFO.googleMapsUrl}
-- Leave a Google Review: ${CONTACT_INFO.googleReviewUrl}
+- [Website](${BASE})
+- [Online contact form](${BASE}/#contact)
+- [Google Maps](${CONTACT_INFO.googleMapsUrl})
+- [Leave a Google review](${CONTACT_INFO.googleReviewUrl})
 
 ## Social Media
 
-- Instagram: ${SOCIAL_LINKS.instagram}
-- Facebook: ${SOCIAL_LINKS.facebook}
+- [Instagram](${SOCIAL_LINKS.instagram})
+- [Facebook](${SOCIAL_LINKS.facebook})
 
 ## Service Area
 
@@ -202,12 +191,12 @@ Houston, TX, mainly the west and northwest side of the city: ${SERVICE_AREAS.joi
 
 ## Additional Resources
 
-- All Services: ${BASE}/services
-- Promotions: ${BASE}/promociones
-- Blog & Health Articles: ${BASE}/blog
-- Privacy Policy (HIPAA): ${BASE}/privacy
-- Sitemap: ${BASE}/sitemap.xml
-- Full version of this file: ${BASE}/llms-full.txt
+- [All services](${BASE}/services)
+- [Promotions](${BASE}/promociones)
+- [Blog and health articles](${BASE}/blog)
+- [Privacy policy](${BASE}/privacy)
+- [Sitemap](${BASE}/sitemap.xml)
+- [Full version of this file](${BASE}/llms-full.txt)
 `;
 }
 
