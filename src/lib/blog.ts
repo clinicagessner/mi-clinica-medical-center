@@ -9,7 +9,11 @@ const DEFAULT_LOCALE = "es";
 export interface BlogPost {
   slug: string;
   title: string;
+  /** Título de la pestaña si el H1 pasa de 60 caracteres. */
+  metaTitle?: string;
   description: string;
+  /** Meta descripción si `description` pasa de 155. */
+  metaDescription?: string;
   date: string;
   /** Fecha de la última revisión real del contenido (frontmatter `updated`). */
   updated?: string;
@@ -32,7 +36,9 @@ function readPostFile(slug: string, locale: string): BlogPost | null {
     return {
       slug,
       title: data.title || "",
+      metaTitle: data.metaTitle || undefined,
       description: data.description || "",
+      metaDescription: data.metaDescription || undefined,
       date: data.date || "",
       updated: data.updated || undefined,
       author: data.author || "Equipo Nueva Salud Gessner",

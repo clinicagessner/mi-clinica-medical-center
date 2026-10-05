@@ -9,6 +9,7 @@ import { JsonLdBreadcrumb, JsonLdServiceFAQ, JsonLdClinicLight } from "@/compone
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 import { SITE_CONFIG } from "@/lib/constants";
 import { locales } from "@/i18n/config";
+import { seoTitle, seoDescription, buildSocial, buildAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -21,29 +22,14 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "promotions" });
-  const baseUrl = SITE_CONFIG.baseUrl;
-  const canonicalUrl =
-    locale === "es" ? `${baseUrl}/promociones` : `${baseUrl}/${locale}/promociones`;
-
+  const title = seoTitle(t("pageTitle"));
+  const description = seoDescription(t("pageSubtitle"));
+  const alternates = buildAlternates("/promociones", locale);
   return {
-    title: t("pageTitle"),
-    description: t("pageSubtitle"),
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        es: `${baseUrl}/promociones`,
-        en: `${baseUrl}/en/promociones`,
-        "x-default": `${baseUrl}/promociones`,
-      },
-    },
-    openGraph: {
-      title: `${t("pageTitle")} | ${SITE_CONFIG.shortName}`,
-      description: t("pageSubtitle"),
-      url: canonicalUrl,
-      siteName: SITE_CONFIG.name,
-      locale: locale === "es" ? "es_MX" : "en_US",
-      type: "website",
-    },
+    title: { absolute: title },
+    description,
+    alternates,
+    ...buildSocial({ title, description, url: alternates.canonical, locale }),
   };
 }
 

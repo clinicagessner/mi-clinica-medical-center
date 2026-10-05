@@ -7,6 +7,7 @@ import { JsonLdBreadcrumb, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SITE_CONFIG } from "@/lib/constants";
 import { getAllPosts, formatDate } from "@/lib/blog";
 import { locales } from "@/i18n/config";
+import { seoTitle, buildSocial, buildAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -18,62 +19,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = SITE_CONFIG.baseUrl;
-  const canonicalUrl = locale === "es" ? `${baseUrl}/blog` : `${baseUrl}/${locale}/blog`;
-
+  const isEs = locale === "es";
+  const title = seoTitle(isEs ? "Blog de Salud en Español" : "Health Blog in Spanish and English");
+  const description = isEs
+    ? "Consejos de salud en español del equipo médico de Clínica Hispana Nueva Salud Gessner, en Spring Branch, Houston."
+    : "Health tips in Spanish and English from the medical team at Clínica Hispana Nueva Salud Gessner in Spring Branch, Houston.";
+  const alternates = buildAlternates("/blog", locale);
   return {
-    title: locale === "es"
-      ? "Blog de Salud en Español"
-      : "Health Blog",
-    description: locale === "es"
-      ? "Noticias, consejos de salud y actualizaciones de la Clínica Hispana Nueva Salud Gessner en Houston, TX. Información médica en español para la comunidad hispana."
-      : "News, health tips and updates from Clínica Hispana Nueva Salud Gessner in Houston, TX. Medical information in Spanish for the Hispanic community.",
-    keywords: [
-      "blog clínica hispana Houston",
-      "noticias salud Houston",
-      "consejos médicos español",
-      "Nueva Salud Gessner blog",
-    ],
-    openGraph: {
-      title: locale === "es"
-        ? "Blog | Clínica Hispana Nueva Salud Gessner"
-        : "Blog | Hispanic Clinic Nueva Salud Gessner",
-      description: locale === "es"
-        ? "Noticias, consejos de salud y actualizaciones para la comunidad hispana de Houston."
-        : "News, health tips and updates for Houston's Hispanic community.",
-      url: canonicalUrl,
-      siteName: "Clínica Hispana Nueva Salud Gessner",
-      locale: locale === "es" ? "es_MX" : "en_US",
-      type: "website",
-      images: [
-        {
-          url: `${baseUrl}/images/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: locale === "es"
-            ? "Blog - Clínica Hispana Nueva Salud Gessner Houston"
-            : "Blog - Hispanic Clinic Nueva Salud Gessner Houston",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: locale === "es"
-        ? "Blog | Clínica Hispana Nueva Salud Gessner"
-        : "Blog | Hispanic Clinic Nueva Salud Gessner",
-      description: locale === "es"
-        ? "Noticias, consejos de salud y actualizaciones para la comunidad hispana de Houston."
-        : "News, health tips and updates for Houston's Hispanic community.",
-      images: [`${baseUrl}/images/og-image.jpg`],
-    },
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        es: `${baseUrl}/blog`,
-        en: `${baseUrl}/en/blog`,
-        "x-default": `${baseUrl}/blog`,
-      },
-    },
+    title: { absolute: title },
+    description,
+    alternates,
+    ...buildSocial({ title, description, url: alternates.canonical, locale }),
   };
 }
 

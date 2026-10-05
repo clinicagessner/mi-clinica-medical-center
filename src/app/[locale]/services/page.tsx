@@ -7,6 +7,7 @@ import { ServicesPageContent } from "@/components/services/services-page-content
 import { JsonLdBreadcrumb, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SITE_CONFIG, SERVICES } from "@/lib/constants";
 import { locales } from "@/i18n/config";
+import { seoTitle, buildSocial, buildAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -18,64 +19,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = SITE_CONFIG.baseUrl;
-  const canonicalUrl = locale === "es" ? `${baseUrl}/services` : `${baseUrl}/${locale}/services`;
-
+  const isEs = locale === "es";
+  const title = seoTitle(isEs ? "Servicios Médicos en Español en Houston" : "Medical Services in Spanish in Houston");
+  const description = isEs
+    ? "29 servicios médicos en español en Spring Branch, Houston: examen I-693, ginecología, ultrasonido y laboratorio. Sin cita y abiertos los 7 días."
+    : "29 medical services in Spanish in Spring Branch, Houston: I-693 exam, women's health, ultrasound and lab tests. Walk-ins welcome, open 7 days.";
+  const alternates = buildAlternates("/services", locale);
   return {
-    title: locale === "es"
-      ? "Servicios Médicos en Español en Houston"
-      : "Medical Services in Spanish in Houston",
-    description: locale === "es"
-      ? "29 servicios médicos en español en Houston TX. Exámenes I-693 inmigración, ginecología, ultrasonido, laboratorio. Abiertos 7 días. Sin cita previa. +1 (346) 226-5820"
-      : "29 medical services in Spanish in Houston TX. I-693 immigration exams, gynecology, ultrasound, laboratory. Open 7 days. Walk-ins welcome. +1 (346) 226-5820",
-    keywords: [
-      "servicios medicos houston",
-      "clinica hispana servicios",
-      "examen inmigracion houston",
-      "ginecologia en español houston",
-      "ultrasonido houston",
-      "laboratorio clinico houston",
-    ],
-    openGraph: {
-      title: locale === "es"
-        ? "Servicios Médicos | Clínica Hispana Nueva Salud Gessner"
-        : "Medical Services | Hispanic Clinic Nueva Salud Gessner",
-      description: locale === "es"
-        ? "29 servicios médicos en español. Exámenes I-693, ginecología, ultrasonido, laboratorio. Abiertos 7 días."
-        : "29 medical services in Spanish. I-693 exams, gynecology, ultrasound, laboratory. Open 7 days.",
-      url: canonicalUrl,
-      siteName: "Clínica Hispana Nueva Salud Gessner",
-      locale: locale === "es" ? "es_MX" : "en_US",
-      type: "website",
-      images: [
-        {
-          url: `${baseUrl}/images/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: locale === "es"
-            ? "Servicios Médicos - Clínica Hispana Nueva Salud Gessner Houston"
-            : "Medical Services - Hispanic Clinic Nueva Salud Gessner Houston",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: locale === "es"
-        ? "Servicios Médicos | Clínica Hispana Nueva Salud Gessner"
-        : "Medical Services | Hispanic Clinic Nueva Salud Gessner",
-      description: locale === "es"
-        ? "29 servicios médicos en español en Houston. Exámenes I-693, ginecología, ultrasonido, laboratorio."
-        : "29 medical services in Spanish in Houston. I-693 exams, gynecology, ultrasound, laboratory.",
-      images: [`${baseUrl}/images/og-image.jpg`],
-    },
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        es: `${baseUrl}/services`,
-        en: `${baseUrl}/en/services`,
-        "x-default": `${baseUrl}/services`,
-      },
-    },
+    title: { absolute: title },
+    description,
+    alternates,
+    ...buildSocial({ title, description, url: alternates.canonical, locale }),
   };
 }
 

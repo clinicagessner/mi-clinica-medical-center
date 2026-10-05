@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { locales } from "@/i18n/config";
+import { seoTitle, buildSocial, buildAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -15,26 +16,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = SITE_CONFIG.baseUrl;
-  const canonicalUrl =
-    locale === "es" ? `${baseUrl}/privacy` : `${baseUrl}/${locale}/privacy`;
-
+  const isEs = locale === "es";
+  const title = seoTitle(isEs ? "Política de Privacidad HIPAA" : "HIPAA Privacy Policy");
+  const description = isEs
+    ? "Política de privacidad HIPAA de Clínica Hispana Nueva Salud Gessner en Houston, TX: cómo protegemos tu información médica."
+    : "HIPAA privacy policy of Clínica Hispana Nueva Salud Gessner in Houston, TX: how we protect your health information.";
+  const alternates = buildAlternates("/privacy", locale);
   return {
-    title:
-      locale === "es"
-        ? "Política de Privacidad HIPAA"
-        : "HIPAA Privacy Policy",
-    description:
-      locale === "es"
-        ? "Política de privacidad HIPAA de Clínica Hispana Nueva Salud Gessner en Houston, TX. Protección de información médica protegida (PHI)."
-        : "HIPAA privacy policy of Clínica Hispana Nueva Salud Gessner in Houston, TX. Protection of Protected Health Information (PHI).",
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    title: { absolute: title },
+    description,
+    alternates,
+    ...buildSocial({ title, description, url: alternates.canonical, locale }),
   };
 }
 

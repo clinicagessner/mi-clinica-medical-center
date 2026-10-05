@@ -19,6 +19,7 @@ import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ, JsonLdClinicLight } 
 import { SERVICES, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { getServiceFaqs } from "@/lib/service-faqs";
 import { locales } from "@/i18n/config";
+import { seoTitle, seoDescription, buildSocial, buildAlternates, ADS_LANDING_SLUGS, adsLegacyTitle } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -39,54 +40,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = SERVICES.find((s) => s.slug === slug);
 
   if (!service) {
-    return {
-      title: "Service Not Found",
-    };
+    return { title: "Service Not Found" };
   }
 
   const t = await getTranslations({ locale, namespace: "serviceData" });
-  const title = t(`${slug}.title`);
-  const description = t(`${slug}.description`);
-
-  const baseUrl = SITE_CONFIG.baseUrl;
-  const canonicalUrl = locale === "es"
-    ? `${baseUrl}/services/${slug}`
-    : `${baseUrl}/${locale}/services/${slug}`;
+  const pageTitle = t(`${slug}.title`);
+  const isAds = ADS_LANDING_SLUGS.includes(slug);
+  // Landings de Ads: título y meta tal cual hasta que el usuario apruebe los nuevos.
+  const title = isAds ? adsLegacyTitle(pageTitle, locale) : seoTitle(pageTitle);
+  const rawDescription = t(`${slug}.description`);
+  const description = isAds ? rawDescription : seoDescription(rawDescription);
+  const alternates = buildAlternates(`/services/${slug}`, locale);
 
   return {
-    title,
+    title: { absolute: title },
     description,
-    keywords: service.keywords,
-    openGraph: {
-      title: `${title} | Clínica Hispana Nueva Salud Gessner`,
+    // Sin `keywords` en servicios: Google no las usa y en salud del hombre
+    // arrastraban términos de receta (§9).
+    alternates,
+    ...buildSocial({
+      title,
       description,
-      url: canonicalUrl,
-      siteName: "Clínica Hispana Nueva Salud Gessner",
-      locale: locale === "es" ? "es_MX" : "en_US",
-      type: "website",
-      images: service.image ? [
-        {
-          url: `${baseUrl}${service.image}`,
-          width: 1200,
-          height: 630,
-          alt: `${title} - Clínica Hispana Houston`,
-        },
-      ] : undefined,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${title} | Clínica Hispana Houston`,
-      description,
-      images: service.image ? [`${baseUrl}${service.image}`] : undefined,
-    },
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        es: `${baseUrl}/services/${slug}`,
-        en: `${baseUrl}/en/services/${slug}`,
-        "x-default": `${baseUrl}/services/${slug}`,
-      },
-    },
+      url: alternates.canonical,
+      image: service.image,
+      imageAlt: pageTitle,
+      locale,
+    }),
   };
 }
 

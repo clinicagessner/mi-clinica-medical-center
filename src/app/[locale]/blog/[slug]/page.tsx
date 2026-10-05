@@ -10,6 +10,7 @@ import { JsonLdBreadcrumb, JsonLdBlogPost, JsonLdClinicLight } from "@/component
 import { SITE_CONFIG } from "@/lib/constants";
 import { getPostBySlug, getAllSlugs, formatDate, calculateReadTime } from "@/lib/blog";
 import { locales } from "@/i18n/config";
+import { seoTitle, seoDescription, buildSocial, buildAlternates } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -31,54 +32,32 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const post = getPostBySlug(slug, locale);
-  const baseUrl = SITE_CONFIG.baseUrl;
 
   if (!post) {
-    return {
-      title: "Post Not Found",
-    };
+    return { title: "Post Not Found" };
   }
 
-  const canonicalUrl = locale === "es"
-    ? `${baseUrl}/blog/${slug}`
-    : `${baseUrl}/${locale}/blog/${slug}`;
+  // `metaTitle`/`metaDescription` opcionales en el frontmatter: el H1 puede ser
+  // más largo que el título de la pestaña.
+  const title = seoTitle(post.metaTitle ?? post.title);
+  const description = seoDescription(post.metaDescription ?? post.description);
+  const alternates = buildAlternates(`/blog/${slug}`, locale);
 
   return {
-    title: post.title,
-    description: post.description,
-    openGraph: {
-      title: post.title,
-      description: post.description,
-      url: canonicalUrl,
-      siteName: "Clínica Hispana Nueva Salud Gessner",
-      locale: locale === "es" ? "es_MX" : "en_US",
+    title: { absolute: title },
+    description,
+    alternates,
+    ...buildSocial({
+      title,
+      description,
+      url: alternates.canonical,
+      image: post.image || undefined,
+      imageAlt: post.title,
       type: "article",
+      locale,
       publishedTime: post.date,
       modifiedTime: post.updated ?? post.date,
-      authors: [post.author],
-      images: [
-        {
-          url: post.image ? `${baseUrl}${post.image}` : `${baseUrl}/images/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: post.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.description,
-      images: [post.image ? `${baseUrl}${post.image}` : `${baseUrl}/images/og-image.jpg`],
-    },
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        es: `${baseUrl}/blog/${slug}`,
-        en: `${baseUrl}/en/blog/${slug}`,
-        "x-default": `${baseUrl}/blog/${slug}`,
-      },
-    },
+    }),
   };
 }
 
