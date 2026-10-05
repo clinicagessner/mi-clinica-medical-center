@@ -1,131 +1,65 @@
 ---
 services: ["salud-hombre", "condiciones-cronicas", "examenes-sangre"]
-title: "Men's Health in Houston: Preventive Checkups That Can Save Your Life"
-description: "Preventive health checkups for men in Houston, TX: PSA, testosterone, blood pressure, glucose and more. Care 100% in Spanish, walk-ins welcome in Spring Branch."
+title: "Men's Health in Houston: Which Preventive Checkups You Need and When"
+metaTitle: "Preventive Checkups for Men in Houston"
+description: "What to check at each age: blood pressure, glucose, cholesterol, urine and the PSA conversation. Walk-in, no insurance needed in Spring Branch."
 date: "2026-07-22"
-updated: "2026-09-02"
+updated: "2026-10-05"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/salud-hombre.webp"
 featured: true
 ---
 
-## Why Should Men Get Regular Checkups?
+Plenty of men in Houston put off a checkup until the pain keeps them from working. The trouble is that high blood pressure, diabetes, high cholesterol and several prostate problems can build for years without any discomfort. That's exactly what a preventive checkup is for: catching what you can't feel yet, while it's still easier to manage. Here's what to check, when to bring up each test, and what a visit to our Spring Branch clinic looks like.
 
-Let's be honest: many Hispanic men in Houston only see a doctor when the pain won't let them work anymore. And the conditions that take the most lives — high blood pressure, diabetes, high cholesterol and prostate problems — give no warning. They progress silently for years, and by the time you finally feel them, the damage is already done.
+## Why get checked if I feel fine?
 
-The good news is that a routine preventive checkup catches these conditions early, while they are still easy to control. An annual checkup lets you:
+Feeling fine doesn't mean everything is in order. High blood pressure rarely hurts, and blood sugar can sit a little high for years before thirst or fatigue show up. The Centers for Disease Control and Prevention ([CDC](https://www.cdc.gov/)) stresses that many chronic diseases can be prevented or delayed when they're found early and a few habits change.
 
-- Find high blood pressure, diabetes or high cholesterol before they damage your heart and kidneys
-- Watch for prostate changes at early, treatable stages
-- Know your testosterone level if you feel fatigued or low on energy
-- Detect infections that show no symptoms
-- Build a year-over-year baseline so any change stands out
+A yearly checkup also leaves you with something useful: your own numbers, saved year after year. With that baseline, a small shift in glucose, cholesterol or kidney function stands out early, long before symptoms do.
 
-A blood test and a general exam take less than an hour. That hour can add years to your life. At **Clínica Hispana Nueva Salud Gessner** we do it 100% in Spanish, with no appointment and no insurance needed.
+## What does a preventive exam for men include?
 
-## Our Men's Health Services
+Not everyone needs the same tests, but a typical [men's health](/en/services/salud-hombre) visit usually brings together:
 
-### Prostate Exam (PSA)
+- **Blood pressure and weight**, measured during the visit.
+- **[Blood work](/en/services/examenes-sangre)** with glucose or A1C, cholesterol, triglycerides and, depending on your case, liver and kidney function.
+- **A urinalysis**, which helps flag infections, sugar in the urine or early signs of kidney trouble.
+- **A prostate conversation**: urinary symptoms and whether a PSA test makes sense for you.
+- **Questions about your energy, sleep and sex life**, since constant tiredness or low desire sometimes has a measurable cause, such as testosterone.
 
-The prostate-specific antigen (PSA) is a simple blood test that helps monitor prostate health and detect problems, including cancer, at early stages. It's generally recommended to discuss this test starting at age 50 — or from 40-45 if prostate cancer runs in your family. Our [men's health](/en/services/salud-hombre) team explains your results clearly, in your language.
+If a bundle sounds good, ask about the Complete Exam for Men promotion, which combines a urinalysis, prostate screening and a testosterone test with the consultation included; please confirm it by phone before you come.
 
-### Testosterone Testing
+## At what age should I talk about prostate screening?
 
-Feeling tired all the time, low on energy, moody or with low libido? After 40, low testosterone is more common than people think. A blood test measures your level and tells us whether you need treatment or further studies.
+PSA is a blood test that can point to changes in the prostate, but it isn't perfect: it sometimes comes back high without cancer and leads to more testing. That's why the U.S. Preventive Services Task Force ([USPSTF](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening)) recommends that men aged 55 to 69 decide about screening after weighing the benefits and harms with their care team, and it advises against routine screening from age 70 on.
 
-### Complete Blood Work
+The same recommendation notes that men whose father or brother had prostate cancer, and African American men, face a higher risk. If that applies to you, it's worth starting the conversation earlier. At your visit we go over your family history and decide with you, without pressure, whether to check your PSA now or later.
 
-Our [blood testing lab](/en/services/examenes-sangre) measures glucose, cholesterol, triglycerides, and kidney and liver function, among other key values. It's the most direct way to know how your body is doing on the inside — and everything is drawn right here, no extra trips.
+## Which symptoms shouldn't wait?
 
-### Electrocardiogram
+Some signs call for a visit soon, even if your yearly checkup is months away:
 
-Heart disease is the number one cause of death among men. An [electrocardiogram](/en/services/electrocardiograma) evaluates your heart's rhythm and electrical activity in minutes, painlessly.
+- Burning when you pee, frequent urges or blood in your urine, which can mean a [urinary tract infection](/en/services/infecciones-urinarias) or an inflamed prostate.
+- A weak stream, trouble getting started, or getting up several times a night to urinate.
+- Intense thirst, weight loss without dieting, or fatigue that won't lift.
+- Frequent headaches with blurry vision.
+- Swelling in your ankles or legs.
+- A lump or pain in a testicle.
+- Erection problems, which are sometimes the first clue to a circulation issue.
 
-### Chronic Condition Management
+If you have severe chest pain, shortness of breath or a cold sweat, call 911.
 
-If you've already been diagnosed with diabetes, high blood pressure or high cholesterol, consistent follow-up is what prevents complications. Our [chronic condition management](/en/services/condiciones-cronicas) program includes monitoring, medication adjustments and a clear plan, explained in Spanish.
+## What if I already have diabetes or high blood pressure?
 
-## Conditions We Commonly Treat
+Then the checkup stops being a once-a-year event and becomes follow-up care. The goal is to keep your numbers in range and make sure your treatment is still working. In our [chronic conditions](/en/services/condiciones-cronicas) program we review your values, adjust medication when needed and leave you with a clear plan for the months ahead. If a result calls for it, we help you with a referral to a specialist.
 
-### High Blood Pressure
+Some habits help as much as any pill: walking every day, swapping soda for water, getting good sleep and, if you smoke, asking for support to quit.
 
-Hypertension doesn't hurt, but it damages the heart, brain and kidneys. Nearly 1 in 2 adults has it — and many don't even know. Checking it takes one minute.
+## What is a visit to the clinic like?
 
-### Type 2 Diabetes
+You walk in to 1914 Gessner Rd Ste B in Spring Branch any day between 9 AM and 9 PM, no appointment needed. You don't need health insurance, and we see you in English or Spanish. The medical team first listens to what's on your mind, checks your blood pressure and weight, and decides with you which labs to order. Blood and urine samples are collected during the same visit, and we let you know when your results are in so we can walk you through them calmly.
 
-Our Hispanic community has a higher risk of developing diabetes. Excessive thirst, fatigue and frequent urination are late signs — early detection comes from a simple glucose test.
+If you live in Spring Branch, Memorial, Hedwig Village, Spring Shadows, Long Point, Carverdale or Fairbanks, you're just minutes away. Your next checkup could happen this week.
 
-### Urinary and Prostate Infections
-
-Burning when urinating, frequent urges or trouble getting started can point to a [urinary tract infection](/en/services/infecciones-urinarias) or an inflamed prostate. Both respond well to treatment when caught early.
-
-### Sexually Transmitted Infections
-
-Many STDs cause no symptoms in men but still do damage and spread to partners. We offer [confidential STD testing](/en/services/enfermedades-transmision-sexual) with fast results and respectful, judgment-free care.
-
-## Recommended Exams by Age
-
-| Age | Recommended exams |
-|------|----------------------|
-| 18-39 | Blood pressure every year, cholesterol every 4-6 years, glucose if overweight, STD testing if sexually active |
-| 40-49 | All of the above + glucose every 3 years, PSA if there's family history, testosterone check if symptoms appear |
-| 50-64 | Full annual checkup, PSA conversation with your doctor, electrocardiogram if you have risk factors |
-| 65+ | Full annual checkup, PSA as medically indicated, yearly heart and kidney evaluation |
-
-These ages are a general guide — your family history and lifestyle may move some exams earlier. During your visit we'll define together what applies to you.
-
-## Warning Signs: Don't Ignore Them
-
-Come to the clinic as soon as possible if you experience:
-
-- Chest pain or pressure, or shortness of breath with exertion
-- Difficulty urinating, burning, or blood in your urine
-- Excessive thirst, unexplained weight loss or constant fatigue
-- Frequent headaches with blurry vision
-- Swelling in your legs or ankles
-- Changes in libido or erectile dysfunction (it can signal a circulation problem)
-- A lump or pain in the testicles
-
-None of these signs go away on their own. Finding the cause early makes all the difference.
-
-## Care in Spanish, Without Barriers
-
-We know many men put off the doctor because of language, cost or lack of time. At Clínica Hispana Nueva Salud Gessner we remove those barriers:
-
-- Care 100% in Spanish, from start to finish
-- No appointment needed — walk in when you can, every day
-- No insurance needed — affordable, transparent pricing, cash and cards accepted
-- Open 7 days a week, 9:00 AM to 9:00 PM
-- Results explained clearly, without jargon
-
-## Practical Tips to Protect Your Health
-
-- Get a general checkup once a year, even if you feel fine
-- Walk at least 30 minutes a day — no gym required
-- Cut back on soda and fried food; drink more water
-- If you smoke, get help quitting: it's the single highest-impact change
-- Sleep 7-8 hours — poor sleep raises blood pressure and blood sugar
-- Don't ignore stress: it affects your heart as much as diet does
-
-## Why Choose Clínica Hispana Nueva Salud Gessner
-
-- A medical team that speaks your language and understands your culture
-- On-site lab — samples are drawn during the same visit
-- Walk-ins welcome with extended hours every day
-- Affordable self-pay pricing, no insurance needed
-- Convenient location in Spring Branch, west Houston
-- Respectful care, with time and clear explanations
-
-## Get Your Checkup Today
-
-Don't wait until you feel sick to get checked. We serve men across west and northwest Houston: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale, Fairbanks and nearby communities.
-
-**Clínica Hispana Nueva Salud Gessner**
-
-📞 Call us: [+1 (346) 226-5820](tel:13462265820)
-
-📍 Visit us: [1914 Gessner Rd Ste B, Houston, TX 77080](https://www.google.com/maps/place/CLINICA+HISPANA+NUEVA+SALUD+GESSNER/)
-
-🕐 Hours: Monday to Sunday, 9:00 AM - 9:00 PM
-
-*This article is informational and does not replace a medical consultation. Visit us for a personalized evaluation.*
+*This article is for information only and does not replace a medical visit. For a personal evaluation, stop by or call [+1 (346) 226-5820](tel:13462265820).*
