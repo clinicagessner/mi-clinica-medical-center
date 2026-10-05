@@ -3,13 +3,9 @@ export interface Service {
   slug: string;
   title: string;
   shortTitle: string;
-  description: string;
-  longDescription: string;
   icon: string;
   image?: string;
   category: ServiceCategory;
-  keywords: string[];
-  features: string[];
   highlighted?: boolean;
   order: number;
   /** Slugs de servicios relacionados elegidos a mano; si falta, se usa la categoría. */

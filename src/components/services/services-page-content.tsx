@@ -57,13 +57,19 @@ export function ServicesPageContent() {
     return locale === "es" ? `/services/${slug}` : `/${locale}/services/${slug}`;
   };
 
+  // Textos del idioma de la página (antes salían de constants.ts, solo en
+  // español, también en /en/services).
+  const copy = (slug: string) => ({
+    title: t(`serviceData.${slug}.title`),
+    description: t(`serviceData.${slug}.description`),
+    features: t.raw(`serviceData.${slug}.features`) as string[],
+  });
+
   const filteredServices = SERVICES.filter((service) => {
+    const c = copy(service.slug);
+    const q = searchTerm.toLowerCase();
     const matchesSearch =
-      service.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      service.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      service.keywords.some((keyword) =>
-        keyword.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+      c.title.toLowerCase().includes(q) || c.description.toLowerCase().includes(q);
     const matchesCategory =
       selectedCategory === "all" || service.category === selectedCategory;
     return matchesSearch && matchesCategory;
@@ -216,7 +222,7 @@ export function ServicesPageContent() {
                           <>
                             <Image
                               src={service.image}
-                              alt={`${service.title} - Clínica Hispana Nueva Salud Gessner, Houston TX`}
+                              alt={`${copy(service.slug).title} - Clínica Hispana Nueva Salud Gessner, Houston TX`}
                               fill
                               className="object-cover object-center z-0"
                               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
@@ -251,18 +257,18 @@ export function ServicesPageContent() {
                             <ServiceIcon name={service.icon} className="size-7" />
                           </div>
                           <CardTitle className="text-lg mt-4 group-hover:text-primary transition-colors leading-snug">
-                            {service.title}
+                            {copy(service.slug).title}
                           </CardTitle>
                         </CardHeader>
 
                         <CardContent className="pt-0 relative z-10 flex-1 flex flex-col">
                           <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2 mb-4">
-                            {service.description}
+                            {copy(service.slug).description}
                           </p>
 
                           {/* Features */}
                           <div className="flex flex-wrap gap-1.5 mb-4">
-                            {service.features.slice(0, 3).map((feature) => (
+                            {copy(service.slug).features.slice(0, 3).map((feature) => (
                               <span
                                 key={feature}
                                 className="text-xs bg-muted text-muted-foreground px-2.5 py-1 rounded-full border border-border"
@@ -270,9 +276,9 @@ export function ServicesPageContent() {
                                 {feature}
                               </span>
                             ))}
-                            {service.features.length > 3 && (
+                            {copy(service.slug).features.length > 3 && (
                               <span className="text-xs text-primary font-medium px-2.5 py-1">
-                                +{service.features.length - 3} {locale === "es" ? "más" : "more"}
+                                +{copy(service.slug).features.length - 3} {locale === "es" ? "más" : "more"}
                               </span>
                             )}
                           </div>

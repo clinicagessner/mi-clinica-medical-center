@@ -90,7 +90,7 @@ function servicesShort(): string {
       const c = enServices[s.slug];
       const esTitle = esServices[s.slug]?.title ?? s.title;
       return `### ${c?.title ?? s.title} (${esTitle})
-${c?.description ?? s.description}
+${c?.description ?? ""}
 URL: [Spanish](${BASE}/services/${s.slug}) | [English](${BASE}/en/services/${s.slug})`;
     });
   return `## Medical Services Offered (${SERVICES.length})\n\n${items.join("\n\n")}\n`;
@@ -110,12 +110,12 @@ function servicesFull(): string {
 URL: [Spanish](${BASE}/services/${s.slug}) | [English](${BASE}/en/services/${s.slug})
 Category: ${s.category}
 
-${c?.description ?? s.description}
+${c?.description ?? ""}
 
-${c?.longDescription ?? s.longDescription}
+${c?.longDescription ?? ""}
 
 What's included:
-${(c?.features ?? s.features).map((f) => `- ${f}`).join("\n")}
+${(c?.features ?? []).map((f) => `- ${f}`).join("\n")}
 
 ${faqs ? `Frequently asked questions:\n\n${faqs}` : ""}`;
     });
