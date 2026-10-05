@@ -50,7 +50,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pageTitle = t(`${slug}.title`);
   const isAds = ADS_LANDING_SLUGS.includes(slug);
   // Landings de Ads: título y meta tal cual hasta que el usuario apruebe los nuevos.
-  const title = isAds ? adsLegacyTitle(pageTitle, locale) : seoTitle(pageTitle);
+  // `seoTitle` opcional: el <title> puede ser distinto del H1.
+  const metaTitle = t.has(`${slug}.seoTitle`) ? t(`${slug}.seoTitle`) : pageTitle;
+  const title = isAds ? adsLegacyTitle(pageTitle, locale) : seoTitle(metaTitle);
   const rawDescription = t(`${slug}.description`);
   const description = isAds ? rawDescription : seoDescription(rawDescription);
   const alternates = buildAlternates(`/services/${slug}`, locale);

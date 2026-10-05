@@ -11,7 +11,7 @@ export const DESCRIPTION_MAX = 155;
  * aprobación del usuario (HERMES.md regla 5): conservan el formato anterior,
  * "<título> | Clínica Hispana Houston", hasta que se aprueben los nuevos.
  */
-export const ADS_LANDING_SLUGS: readonly string[] = ["ginecologia", "infecciones-urinarias"];
+export const ADS_LANDING_SLUGS: readonly string[] = []; // ginecología y urinarias: aprobados 2026-10-05
 
 export function adsLegacyTitle(title: string, locale: string): string {
   return `${title} | ${locale === "en" ? "Hispanic Clinic Houston" : "Clínica Hispana Houston"}`;

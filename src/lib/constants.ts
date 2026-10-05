@@ -106,7 +106,7 @@ export const SERVICES: Service[] = [
     id: "ginecologia",
     slug: "ginecologia",
     related: ["ultrasonido", "prueba-embarazo", "anticonceptivos", "enfermedades-transmision-sexual"],
-    title: "Ginecólogo en Español Cerca de Ti en Houston",
+    title: "Ginecología en Español Cerca de Ti en Houston",
     shortTitle: "Ginecología",
     icon: "Flower2",
     image: "/images/services/ginecologia.webp",
