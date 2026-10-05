@@ -12,7 +12,7 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 1
+## Tanda 1 — 📨 ENVIADA 05/10/2026
 
 - [ ] https://www.clinicagessner.com  — cambiada 2026-10-05 · rastreada 2026-10-05 · indexada · 8376 impr.
 - [ ] https://www.clinicagessner.com/services  — cambiada 2026-10-05 · rastreada 2026-09-15 · indexada · 192 impr.
