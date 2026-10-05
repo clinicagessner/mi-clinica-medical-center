@@ -86,12 +86,13 @@ export async function getGoogleReviews(): Promise<GooglePlaceDetails | null> {
 }
 
 // Respaldo si la API no responde: solo la nota y el total de la ficha,
-// comprobados contra Places el 2026-09-26. Sin reseñas: las que había aquí
-// estaban escritas a mano y se habrían mostrado como reseñas de Google
-// (playbook §9). Sin reseñas reales, la sección no pinta el carrusel.
+// comprobados contra el sitio en vivo (Places) el 2026-10-05: 4.8 · 381.
+// Sin reseñas: las que había aquí estaban escritas a mano y se habrían
+// mostrado como reseñas de Google (playbook §9). Sin reseñas reales, la
+// sección no pinta el carrusel.
 export const FALLBACK_REVIEWS: GooglePlaceDetails = {
   name: "Clínica Hispana Nueva Salud Gessner",
   rating: 4.8,
-  user_ratings_total: 358,
+  user_ratings_total: 381,
   reviews: [],
 };
