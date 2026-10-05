@@ -15,7 +15,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { ServiceIcon } from "@/components/services/service-icon";
-import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ, JsonLdClinicLight } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ, JsonLdClinicLight, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/seo/medical-review";
+import { serviceDate, SERVICES_PUBLISHED } from "@/lib/content-dates";
 import { SERVICES, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { getServiceFaqs } from "@/lib/service-faqs";
 import { getAllPosts } from "@/lib/blog";
@@ -136,6 +138,15 @@ export default async function ServiceDetailPage({ params }: Props) {
         image={service.image}
       />
       {faqs.length > 0 && <JsonLdServiceFAQ faqs={faqs} />}
+      <JsonLdMedicalWebPage
+        url={`${SITE_CONFIG.baseUrl}${servicesHref}/${slug}`}
+        slug={slug}
+        name={title}
+        description={description}
+        lastReviewed={serviceDate(slug)}
+        datePublished={SERVICES_PUBLISHED}
+        locale={locale}
+      />
 
       <div className="min-h-screen">
         {/* Hero Section with Background Image */}
@@ -346,6 +357,11 @@ export default async function ServiceDetailPage({ params }: Props) {
                   </ul>
                 </div>
               )}
+
+              {/* Revisión médica (§12 B2) */}
+              <div className="mb-12">
+                <MedicalReview published={SERVICES_PUBLISHED} reviewed={serviceDate(slug)} locale={locale} />
+              </div>
 
               {/* Additional Info */}
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 text-center">

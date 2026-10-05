@@ -7,6 +7,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { CalendarBlank, ArrowLeft, User, Clock } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBreadcrumb, JsonLdBlogPost, JsonLdClinicLight } from "@/components/seo/json-ld";
+import { MedicalReview } from "@/components/seo/medical-review";
 import { SITE_CONFIG } from "@/lib/constants";
 import { getPostBySlug, getAllSlugs, formatDate, calculateReadTime } from "@/lib/blog";
 import { locales } from "@/i18n/config";
@@ -152,7 +153,7 @@ export default async function BlogPostPage({ params }: Props) {
                 )}
                 <div className="flex items-center gap-2">
                   <User className="size-4" aria-hidden="true" />
-                  <span>{t("by")} {post.author}</span>
+                  <span>{t("by")} {locale === "es" ? `el equipo médico de ${SITE_CONFIG.name}` : `the ${SITE_CONFIG.name} medical team`}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="size-4" aria-hidden="true" />
@@ -174,21 +175,9 @@ export default async function BlogPostPage({ params }: Props) {
                 </ReactMarkdown>
               </div>
 
-              {/* Author Card */}
-              <div className="mt-12 p-6 bg-muted rounded-2xl">
-                <div className="flex items-center gap-4">
-                  <div className="size-16 rounded-full bg-primary/10 flex items-center justify-center">
-                    <User className="size-8 text-primary" aria-hidden="true" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-foreground">{post.author}</p>
-                    <p className="text-sm text-muted-foreground">
-                      <Link href={locale === "es" ? "/#about" : `/${locale}/#about`} className="hover:text-primary transition-colors">
-                        {t("authorRole")}
-                      </Link>
-                    </p>
-                  </div>
-                </div>
+              {/* Revisión médica (§12 B2): firma el equipo médico de la clínica (§9) */}
+              <div className="mt-12">
+                <MedicalReview published={post.date} reviewed={post.updated ?? post.date} locale={locale} />
               </div>
 
               {/* Back to blog */}

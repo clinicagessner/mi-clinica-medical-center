@@ -412,3 +412,50 @@ export function JsonLdService({
     />
   );
 }
+
+/**
+ * MedicalWebPage de un servicio (§12 B2): revisor = la clínica, sin médico
+ * nombrado (§9). `mainEntity` apunta al MedicalProcedure con @id estable.
+ */
+export function JsonLdMedicalWebPage({
+  url,
+  slug,
+  name,
+  description,
+  lastReviewed,
+  datePublished,
+  locale,
+}: {
+  url: string;
+  slug: string;
+  name: string;
+  description: string;
+  lastReviewed: string;
+  datePublished: string;
+  locale: string;
+}) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    description,
+    inLanguage: locale === "en" ? "en-US" : "es-MX",
+    datePublished,
+    lastReviewed,
+    dateModified: lastReviewed,
+    reviewedBy: { "@id": CLINIC_ID },
+    publisher: { "@id": ORG_ID },
+    isPartOf: { "@id": WEBSITE_ID },
+    about: { "@id": procedureId(slug) },
+    mainEntity: { "@id": procedureId(slug) },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
