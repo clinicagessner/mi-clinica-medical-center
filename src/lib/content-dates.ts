@@ -8,15 +8,15 @@
 
 /** Páginas estáticas (ruta sin prefijo de idioma). */
 export const PAGE_DATES: Record<string, string> = {
-  "": "2026-10-04", // estacionamiento gratuito en el texto
-  "/services": "2026-09-02",
+  "": "2026-10-05", // B1: entidad, FAQ de la home
+  "/services": "2026-10-05", // catálogo /en en inglés, metas
   "/promociones": "2026-09-02",
   "/blog": "2026-09-02",
   "/privacy": "2026-08-27",
 };
 
-/** Fecha por defecto de las páginas de servicio (última revisión: 2-sep). */
-export const SERVICES_LAST_REVIEWED = "2026-09-02";
+/** Fecha por defecto de las páginas de servicio (B1 y B3 del playbook: 5-oct). */
+export const SERVICES_LAST_REVIEWED = "2026-10-05";
 
 /** Fecha de publicación de las páginas de servicio en este dominio. */
 export const SERVICES_PUBLISHED = "2026-02-13";
