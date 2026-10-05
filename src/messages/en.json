@@ -10,7 +10,7 @@
     "location": "Location",
     "whatsapp": "WhatsApp",
     "whatsappCta": "Message us on WhatsApp",
-    "whatsappMessage": "Hello, I would like more information about your services.",
+    "whatsappMessage": "Hello, I'm writing to Clínica Hispana Nueva Salud Gessner (1914 Gessner Rd). I would like more information.",
     "call": "Call",
     "schedule": "Schedule Appointment",
     "viewServices": "View Services",
@@ -34,7 +34,7 @@
     "title": "Hispanic Clinic",
     "titleHighlight": "Near You",
     "titleEnd": "in Houston",
-    "description": "Quality medical care 100% in Spanish. Immigration exams I-693, gynecology, primary care, ultrasounds and more. Doctors who speak your language."
+    "description": "Medical care in Spanish in Spring Branch: I-693 immigration exams, women's health, primary care, ultrasounds and more, with staff who speak your language."
   },
   "services": {
     "title": "Featured Services at Our",
@@ -182,8 +182,8 @@
     "mapTitle": "Location of Clínica Hispana Nueva Salud Gessner - Hispanic Clinic in Houston TX",
     "feature1": "Free parking",
     "feature2": "Wheelchair accessible",
-    "feature3": "Near public transit",
-    "feature4": "Safe and well-lit area",
+    "feature3": "Accessible restrooms",
+    "feature4": "Walk-ins, 7 days a week",
     "seoText": "Clínica Hispana Nueva Salud Gessner is located at 1914 Gessner Rd Ste B, Houston, TX 77080. Our Hispanic clinic is easy to find and has ample free parking for all our patients from Houston's Hispanic community."
   },
   "faq": {
@@ -196,23 +196,23 @@
     "q1": "Is Clínica Hispana Nueva Salud Gessner a Hispanic clinic with Spanish-speaking care?",
     "a1": "Yes, Clínica Hispana Nueva Salud Gessner is a Hispanic clinic located in Houston, TX. All our staff speaks Spanish and we offer medical care completely in your language so you feel comfortable and understood during your visit.",
     "q2": "What services does this Hispanic clinic in Houston offer?",
-    "a2": "Our Hispanic clinic offers general medicine and diabetes, blood pressure and cholesterol management; gynecology (Pap smear, pregnancy test, birth control); lab and blood work; ultrasound; I-693 immigration medical exam; STD, flu, COVID and TB testing; DOT and school physicals; vaccines; vitamin IV drips; minor surgery and an in-clinic pharmacy. All services are available in Spanish.",
+    "a2": "Our Hispanic clinic offers general medicine and diabetes, blood pressure and cholesterol management; gynecology (Pap smear, pregnancy test, birth control); lab and blood work; ultrasound; I-693 immigration medical exam; STD, flu, COVID and TB testing; DOT and school physicals; vaccines; vitamin IV drips; minor surgery, and the medicines prescribed during your visit are handed out here. All services are available in Spanish.",
     "q3": "Do I need an appointment to visit Clínica Hispana Nueva Salud Gessner?",
     "a3": "We accept patients with and without appointments at our Hispanic clinic. However, we recommend scheduling an appointment to reduce wait time. You can call +1 (346) 226-5820.",
     "q4": "What are the Hispanic clinic's hours of operation?",
     "a4": "Our Hispanic clinic in Houston is open Monday through Sunday from 9:00 AM to 9:00 PM. We offer extended hours so you can visit us after work or on weekends.",
     "q5": "Is the Hispanic clinic authorized for Green Card I-693 exams?",
-    "a5": "Yes, Clínica Hispana Nueva Salud Gessner is a USCIS authorized Hispanic clinic for I-693 immigration medical exams. We have a certified Civil Surgeon who completes and seals the official form.",
-    "q6": "How much does a medical consultation cost at Clínica Hispana Nueva Salud Gessner?",
-    "a6": "General medical consultations at our Hispanic clinic start from $50. We offer affordable prices and payment plans so the entire Hispanic community in Houston has access to quality medical care.",
+    "a5": "Yes. Clínica Hispana Nueva Salud Gessner performs the I-693 immigration medical exam with a USCIS-authorized Civil Surgeon, who completes and signs the official form in a sealed envelope.",
+    "q6": "How much does a visit cost at Clínica Hispana Nueva Salud Gessner?",
+    "a6": "The price depends on the service: call +1 (346) 226-5820 and we will tell you before your visit. Current fixed-price packages are on the Promotions page.",
     "q7": "Does the Hispanic clinic accept medical insurance?",
-    "a7": "Our Hispanic clinic works with various medical insurance plans. We recommend calling us at +1 (346) 226-5820 to verify if we accept your insurance. We also offer special prices for uninsured patients.",
+    "a7": "You don't need health insurance to be seen: you can pay cash or by card. If you have insurance and want to know whether we take it, call +1 (346) 226-5820.",
     "q8": "Where is Clínica Hispana Nueva Salud Gessner located?",
     "a8": "Our Hispanic clinic is located at 1914 Gessner Rd Ste B, Houston, TX 77080. We are in a convenient location with ample free parking for our patients.",
     "q9": "I'm looking for a \"Hispanic clinic near me\" or a \"medical center near me\" — are you close?",
     "a9": "If you're in Houston, TX — especially the west and northwest side of the city: Spring Branch, Memorial, Long Point or Spring Shadows — our medical center at 1914 Gessner Rd Ste B is just minutes away. Walk-ins welcome Monday through Sunday, 9:00 AM to 9:00 PM.",
     "q10": "Do you have a primary care doctor at this Latino clinic?",
-    "a10": "Yes. At Clínica Hispana Nueva Salud Gessner we have a primary care doctor near you for general consultations, checkups and chronic disease management for the whole family. We are a Latino clinic where all our staff speaks Spanish."
+    "a10": "Yes. At Clínica Hispana Nueva Salud Gessner the medical team provides general visits, checkups and chronic disease care for the whole family. We are a Latino clinic where all staff speak Spanish."
   },
   "testimonials": {
     "title": "What Our",
@@ -230,7 +230,7 @@
   },
   "aboutEntity": {
     "title": "What is Clínica Hispana Nueva Salud Gessner?",
-    "text": "Clínica Hispana Nueva Salud Gessner is a primary care medical clinic located at 1914 Gessner Rd Ste B, Houston, TX 77080, in the Spring Branch area near Memorial. It is open Monday through Sunday from 9:00 AM to 9:00 PM, with no appointment and no health insurance required; it accepts cash, debit and credit cards and mobile payments. Care is provided in Spanish and also in English. Services include general medicine and management of diabetes, high blood pressure and cholesterol; gynecology with Pap smear, pregnancy test and birth control; lab and blood work; ultrasound; the I-693 immigration medical exam with a USCIS-authorized physician; STD, flu, COVID and TB testing; DOT and school physicals; vaccines; vitamin IV drips; minor surgery; and an in-clinic pharmacy. Phone: +1 (346) 226-5820. WhatsApp: +1 (832) 831-4016. Free parking and wheelchair access are available."
+    "text": "Clínica Hispana Nueva Salud Gessner is a walk-in primary care clinic at 1914 Gessner Rd Ste B, Houston, TX 77080, in Spring Branch, on the west side of the city near Memorial. It is open Monday through Sunday, 9:00 AM to 9:00 PM. No health insurance is needed: you can pay cash, with a debit or credit card, or with your phone. Staff speak Spanish and English. Services include <chronic>diabetes, blood pressure and cholesterol care</chronic>, <gyn>basic gynecology with Pap smears</gyn>, <lab>blood work</lab> and ultrasound, the <i693>I-693 immigration medical exam</i693> with a USCIS-authorized Civil Surgeon, the <dot>DOT physical</dot> for CDL drivers, STD, flu, COVID and TB testing, vaccines, vitamin IV drips and minor surgery. Medicines prescribed during the visit are handed out at the clinic. Phone: +1 (346) 226-5820. WhatsApp: +1 (832) 831-4016. Free parking and wheelchair access are available."
   },
   "trustBadges": {
     "seoText": "Clínica Hispana Nueva Salud Gessner is the trusted Hispanic clinic for the Latino community in Houston. Our Hispanic clinic offers complete medical care with Spanish-speaking staff."
@@ -316,7 +316,7 @@
     "condiciones-cronicas": {
       "title": "Diabetes, Hypertension & Cholesterol Care",
       "shortTitle": "Chronic Care",
-      "description": "Diabetes, high blood pressure and cholesterol management in Houston with in-clinic labs, medication adjustments and a nutrition plan. Spanish-speaking doctor.",
+      "description": "Diabetes, high blood pressure and cholesterol care in Houston: in-clinic labs, medication adjustments and a meal plan, in Spanish.",
       "longDescription": "Chronic conditions like diabetes, hypertension and dyslipidemia (high cholesterol and triglycerides) are best controlled with consistent follow-up. At Clínica Hispana Nueva Salud Gessner we design a clear plan and support you every step of the way, in Spanish.\n\n## What's included?\n\n- Initial evaluation and lab work\n- Monitoring of glucose, blood pressure, cholesterol and triglycerides\n- Medication adjustment based on your progress\n- Nutrition and physical-activity plan\n- Education about your condition in your language\n\n## Why control matters\n\nPoorly managed diabetes, blood pressure or cholesterol damage the heart, kidneys, eyes and nerves over time. Good follow-up prevents complications and improves your quality of life.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Diagnosis and lab monitoring",
@@ -340,7 +340,7 @@
     "alergias": {
       "title": "Allergy Testing & Treatment",
       "shortTitle": "Allergies",
-      "description": "Allergy treatment in Houston: rhinitis, congestion, skin and respiratory allergies. We find the triggers and get them under control, in Spanish, no appointment needed.",
+      "description": "Allergy care in Houston: rhinitis, congestion, skin and respiratory allergies. We look for the triggers and control them, in Spanish, no appointment.",
       "longDescription": "Allergies can affect your breathing, your skin and your rest. At Clínica Hispana Nueva Salud Gessner we identify what triggers them and help you control them so you feel well again.\n\n## What's included?\n\n- Evaluation of symptoms and possible triggers\n- Treatment of seasonal and respiratory allergies\n- Management of rhinitis, sneezing and congestion\n- Care for skin allergies (hives, itching)\n- Recommendations to avoid flare-ups\n\n## When to seek care\n\nFrequent sneezing, watery eyes, itching, hives or congestion that won't improve are signs of allergy. The right treatment makes the difference.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Evaluation of symptoms and triggers",
@@ -422,9 +422,9 @@
       ]
     },
     "salud-hombre": {
-      "title": "Men's Health Exams: PSA & Testosterone",
+      "title": "Men's Health Checkup: Prostate (PSA) Exam",
       "shortTitle": "Men's Health",
-      "description": "Prostate (PSA) and testosterone testing in Houston with results explained in Spanish. Complete men's checkup, walk-ins welcome, no insurance needed.",
+      "description": "Men's checkup in Houston: prostate (PSA) exam, lab tests and results explained in Spanish. Walk-ins welcome, no insurance needed.",
       "longDescription": "Men's health is often postponed. At Clínica Hispana Nueva Salud Gessner we make it easy to get the exams that help catch important changes early, with results explained in Spanish.\n\n## What's included?\n\n- Prostate antigen (PSA) test\n- Testosterone level measurement\n- General checkup and vital signs\n- Evaluation of urinary or energy symptoms\n- Referral to a specialist if needed\n\n## Why it matters\n\nPSA helps monitor prostate health, and testosterone influences energy, mood and overall health. A simple check gives you peace of mind.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Prostate antigen (PSA)",
@@ -436,7 +436,7 @@
     "examenes-sangre": {
       "title": "Blood Tests & Blood Work | Lab",
       "shortTitle": "Blood Work",
-      "description": "Complete blood work in Houston: CBC, chemistry panel, glucose, cholesterol, thyroid, liver and kidney. Walk-in sample collection and results explained in Spanish.",
+      "description": "Blood work in Houston: CBC, chemistry, glucose, cholesterol, thyroid, liver and kidney tests. Walk-in sample collection, results explained in Spanish.",
       "longDescription": "A good diagnosis starts with a good lab. At Clínica Hispana Nueva Salud Gessner we draw your samples on the spot and explain your results in Spanish, without the jargon.\n\n## What's included?\n\n- Complete blood count (CBC)\n- Blood chemistry (glucose, cholesterol, triglycerides)\n- Thyroid, liver and kidney tests\n- Panels for general checkups or follow-up\n- Fast results in most cases\n\n## Why they matter\n\nBlood tests help detect problems before symptoms appear, follow up on a chronic condition or complete a work or school exam.\n\n## Blood work at a Hispanic clinic near you\n\nIf you're looking for blood work near you in Houston, our Hispanic clinic draws your sample without an appointment and delivers fast results, explained in your language.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "CBC and blood chemistry",
@@ -520,7 +520,7 @@
     "electrocardiograma": {
       "title": "Electrocardiogram (EKG)",
       "shortTitle": "EKG",
-      "description": "Electrocardiogram (EKG) in Houston in minutes and painless, for checkups and medical exams. No appointment or insurance needed, results explained in Spanish.",
+      "description": "Electrocardiogram (EKG) in Houston, quick and painless, for checkups and medical exams. No appointment or insurance needed, result explained in Spanish.",
       "longDescription": "The electrocardiogram (EKG) records your heart's electrical activity in just a few minutes with no discomfort. At Clínica Hispana Nueva Salud Gessner we perform it as part of checkups and medical exams.\n\n## What's included?\n\n- Study of your heart's rhythm and activity\n- Interpretation by medical staff\n- Useful for work, sports or surgery exams\n- Results explained in Spanish\n\n## When it's recommended\n\nIf you have palpitations, high blood pressure, chest discomfort or need a complete medical exam, the EKG provides valuable information about your heart.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Fast and painless test",
@@ -556,7 +556,7 @@
     "examenes-inmigracion": {
       "title": "Immigration Medical Exam I-693",
       "shortTitle": "Immigration",
-      "description": "I-693 immigration medical exam in Houston with a USCIS-authorized civil surgeon. Vaccines and tests in the clinic, sealed form, everything explained in Spanish.",
+      "description": "I-693 immigration medical exam in Houston with a USCIS-authorized Civil Surgeon: vaccines and tests at the clinic and a sealed form.",
       "longDescription": "Clínica Hispana Nueva Salud Gessner performs the immigration medical exam (Form I-693) in Houston with a USCIS-authorized physician (civil surgeon), with the whole process explained in Spanish. No appointment and no health insurance required, Monday through Sunday from 9 AM to 9 PM, at 1914 Gessner Rd Ste B, Spring Branch.\n\n## What does the I-693 exam include?\n\n- Review of medical and vaccination history\n- Complete physical exam\n- USCIS-required tests, including tuberculosis\n- Administration of any missing vaccines\n- Form I-693 completed, signed and sealed in the official envelope\n\n## How does the process work?\n\n1. Walk in without an appointment or call +1 (346) 226-5820 to reserve a time.\n2. The civil surgeon reviews your history and performs the physical exam.\n3. Lab samples and the USCIS-required tuberculosis test are taken.\n4. Your vaccines are verified and any missing ones are administered.\n5. You receive the sealed Form I-693, ready to submit with your application.\n\n## What should I bring?\n\nA photo ID, your vaccination record if you have it and any relevant medical documents. If you have no vaccination record, we guide you on the options.\n\n## How long does it take?\n\nThe in-clinic exam takes 1 to 2 hours. The sealed Form I-693 is ready in 3 to 5 business days, once lab results are received.\n\n## How do I pay?\n\nNo health insurance is needed. We accept cash, debit and credit cards and mobile payments. Ask us for the price before your visit; current packages are published on our Promotions page.\n\n## Where are you and what are your hours?\n\n1914 Gessner Rd Ste B, Houston, TX 77080, with free parking and wheelchair access. Monday through Sunday, 9:00 AM to 9:00 PM. Phone +1 (346) 226-5820, WhatsApp +1 (832) 831-4016.\n\n## Which areas do you serve?\n\nHouston and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus nearby communities.",
       "features": [
         "Authorized civil surgeon",
@@ -592,7 +592,7 @@
     "suturas-heridas": {
       "title": "Wound Suturing",
       "shortTitle": "Sutures",
-      "description": "Stitches for cuts and wounds in Houston, no appointment, with cleaning, closure and aftercare instructions in Spanish. Open 9 AM to 9 PM, no insurance needed.",
+      "description": "Stitches for cuts and wounds in Houston, no appointment: cleaning, closure and aftercare instructions in Spanish. Open 9 AM to 9 PM, no insurance.",
       "longDescription": "A wound that doesn't close well can get infected or leave a scar. At Clínica Hispana Nueva Salud Gessner we close cuts and wounds with sutures safely, no appointment needed and with care in Spanish.\n\n## What's included?\n\n- Wound evaluation and cleaning\n- Closure with sutures (stitches)\n- Local anesthesia\n- Care instructions and warning signs\n- Suture removal when appropriate\n\n## When to come in\n\nDeep cuts, wounds that bleed or won't close on their own, or that have open edges. Treating them promptly reduces the risk of infection and improves healing.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
         "Wound closure with sutures",
@@ -652,10 +652,10 @@
     "farmacia": {
       "title": "Pharmacy",
       "shortTitle": "Pharmacy",
-      "description": "In-clinic pharmacy in Houston: we fill your prescription right after your visit, with generics, brand names and over-the-counter medicines. Advice in Spanish.",
+      "description": "Medicines prescribed during your visit, handed out at the same Houston clinic, plus over-the-counter products. We explain how to take them, in Spanish.",
       "longDescription": "After your visit at Clínica Hispana Nueva Salud Gessner you can pick up your medications at our own pharmacy, without going anywhere else. It's the convenience of getting everything done in a single visit, with service in Spanish.\n\n## What's included?\n\n- Your prescription filled right after your visit\n- Brand-name and generic medications\n- Over-the-counter (OTC) medications for colds, pain, allergies and more\n- Staff guidance on how to take your medications\n- Prescription refills\n\n## Why use our pharmacy?\n\nYou skip the second stop: the doctor sees you, writes your prescription, and you pick up your medication in the same place. We explain the dosage, schedule and precautions in Spanish.\n\n## Why choose Clínica Hispana Nueva Salud Gessner?\n\nAt Clínica Hispana Nueva Salud Gessner we care for you 100% in Spanish, with no appointment needed and with affordable pricing, no insurance required. We are located at 1914 Gessner Rd Ste B, Houston, TX 77080, open Monday through Sunday from 9 AM to 9 PM. Our team treats every patient with respect, time and clear explanations.\n\n## Payment\n\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n## Areas we serve\n\nWe care for patients across Houston, TX and the west and northwest side of the city: Spring Branch, Spring Branch West, Hedwig Village, Memorial, Spring Shadows, Long Point, Carverdale and Fairbanks, plus surrounding communities.",
       "features": [
-        "Prescriptions filled on the spot",
+        "Medicines prescribed in your visit, handed out here",
         "Brand-name and generic medications",
         "Over-the-counter (OTC) medications",
         "Guidance about your medications in Spanish"
