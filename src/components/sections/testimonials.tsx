@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import { TestimonialsCarousel } from "./testimonials-carousel";
-import { JsonLdAggregateRating } from "@/components/seo/json-ld-reviews";
 import type { GooglePlaceDetails } from "@/lib/google-reviews";
 
 interface TestimonialsProps {
@@ -10,17 +9,14 @@ interface TestimonialsProps {
 export async function Testimonials({ reviewsData }: TestimonialsProps) {
   const t = await getTranslations("testimonials");
 
-  // Sin reseñas reales solo va la calificación en el schema; el carrusel vacío
-  // no se pinta.
+  // Sin reseñas reales el carrusel vacío no se pinta (la calificación va en el
+  // nodo completo de la clínica, en la home).
   if (reviewsData.reviews.length === 0) {
-    return <JsonLdAggregateRating reviews={reviewsData} />;
+    return null;
   }
 
   return (
     <>
-      {/* Schema markup for SEO */}
-      <JsonLdAggregateRating reviews={reviewsData} />
-
       <section id="testimonials" className="py-16 bg-green-bg scroll-mt-20">
         <div className="container mx-auto px-4">
           {/* Header */}

@@ -15,7 +15,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { ServiceIcon } from "@/components/services/service-icon";
-import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdService, JsonLdServiceFAQ, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SERVICES, CONTACT_INFO, SITE_CONFIG } from "@/lib/constants";
 import { getServiceFaqs } from "@/lib/service-faqs";
 import { locales } from "@/i18n/config";
@@ -137,23 +137,24 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdClinicLight />
       <JsonLdBreadcrumb
+        locale={locale}
         items={[
           { name: locale === "es" ? "Servicios" : "Services", url: `${SITE_CONFIG.baseUrl}${servicesHref}` },
           { name: title, url: `${SITE_CONFIG.baseUrl}${servicesHref}/${slug}` },
         ]}
       />
       <JsonLdService
+        slug={slug}
         name={title}
         description={description}
-        provider={{
-          name: SITE_CONFIG.name,
-          url: SITE_CONFIG.baseUrl,
-        }}
+        url={`${SITE_CONFIG.baseUrl}${servicesHref}/${slug}`}
+        image={service.image}
       />
       {faqs.length > 0 && <JsonLdServiceFAQ faqs={faqs} />}
 
-      <main className="min-h-screen">
+      <div className="min-h-screen">
         {/* Hero Section with Background Image */}
         <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           {/* Background Image */}
@@ -385,7 +386,7 @@ export default async function ServiceDetailPage({ params }: Props) {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import { ArrowLeft, Star } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
 import { ContactForm } from "@/components/forms/contact-form";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
-import { JsonLdBreadcrumb, JsonLdServiceFAQ } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdServiceFAQ, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 import { SITE_CONFIG } from "@/lib/constants";
 import { locales } from "@/i18n/config";
@@ -65,10 +65,11 @@ export default async function PromocionesPage({ params }: Props) {
 
   return (
     <>
-      <JsonLdBreadcrumb items={[{ name: t("pageTitle"), url: promosUrl }]} />
+      <JsonLdClinicLight />
+      <JsonLdBreadcrumb locale={locale} items={[{ name: t("pageTitle"), url: promosUrl }]} />
       <JsonLdServiceFAQ faqs={faqs} />
 
-      <main className="min-h-screen">
+      <div className="min-h-screen">
         {/* Hero header (consistente con blog / servicios) */}
         <section className="relative overflow-hidden pt-28 pb-20 text-white sm:pt-32 lg:pt-40">
           {/* Background Image */}
@@ -173,7 +174,7 @@ export default async function PromocionesPage({ params }: Props) {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }

@@ -10,11 +10,6 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { ConversionEvents } from "@/components/tracking/conversion-events";
 import { GoogleTags } from "@/components/tracking/google-tags";
-import {
-  JsonLdMedicalClinic,
-  JsonLdFAQ,
-  JsonLdBreadcrumb,
-} from "@/components/seo/json-ld";
 
 const FloatingButtons = dynamic(() =>
   import("@/components/layout/floating-buttons").then((mod) => mod.FloatingButtons)
@@ -212,9 +207,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           />
         </noscript>
         <NextIntlClientProvider messages={messages}>
-          <JsonLdMedicalClinic locale={locale} />
-          <JsonLdFAQ />
-          <JsonLdBreadcrumb />
           <Header />
           <main>{children}</main>
           <Footer />

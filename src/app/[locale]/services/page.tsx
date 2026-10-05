@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/navigation";
 import { ServicesPageContent } from "@/components/services/services-page-content";
-import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SITE_CONFIG, SERVICES } from "@/lib/constants";
 import { locales } from "@/i18n/config";
 
@@ -86,12 +86,14 @@ export default async function ServiciosPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdClinicLight />
       <JsonLdBreadcrumb
+        locale={locale}
         items={[
           { name: locale === "es" ? "Servicios" : "Services", url: servicesUrl },
         ]}
       />
-      <main className="min-h-screen">
+      <div className="min-h-screen">
         {/* Hero Section */}
         <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           <Image
@@ -136,7 +138,7 @@ export default async function ServiciosPage({ params }: Props) {
         </section>
 
         <ServicesPageContent />
-      </main>
+      </div>
     </>
   );
 }

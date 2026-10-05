@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { CalendarBlank, ArrowRight } from "@phosphor-icons/react/dist/ssr";
-import { JsonLdBreadcrumb } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SITE_CONFIG } from "@/lib/constants";
 import { getAllPosts, formatDate } from "@/lib/blog";
 import { locales } from "@/i18n/config";
@@ -88,12 +88,9 @@ export default async function BlogPage({ params }: Props) {
 
   return (
     <>
-      <JsonLdBreadcrumb
-        items={[
-          { name: "Blog", url: blogUrl },
-        ]}
-      />
-      <main className="min-h-screen">
+      <JsonLdClinicLight />
+      <JsonLdBreadcrumb locale={locale} items={[{ name: "Blog", url: blogUrl }]} />
+      <div className="min-h-screen">
         {/* Hero Section */}
         <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-20 overflow-hidden">
           {/* Background Image */}
@@ -208,7 +205,7 @@ export default async function BlogPage({ params }: Props) {
             </div>
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }

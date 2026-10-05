@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import { Hero } from "@/components/sections/hero";
 import { BlogPreview } from "@/components/sections/blog-preview";
 import { AboutEntity } from "@/components/sections/about-entity";
+import { JsonLdMedicalClinic, JsonLdFAQ } from "@/components/seo/json-ld";
 import { getGoogleReviews, FALLBACK_REVIEWS } from "@/lib/google-reviews";
 
 // Dynamic imports para secciones below-the-fold (mejor performance)
@@ -45,6 +46,10 @@ export default async function Home({ params }: Props) {
 
   return (
     <>
+      {/* Schema completo de la clínica (solo aquí) y FAQ de la home */}
+      <JsonLdMedicalClinic locale={locale} reviews={reviewsData} />
+      <JsonLdFAQ locale={locale} />
+
       {/* Hero - Carga inmediata (above the fold) */}
       <Hero
         googleRating={reviewsData.rating}

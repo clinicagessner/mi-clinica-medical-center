@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { CalendarBlank, ArrowLeft, User, Clock } from "@phosphor-icons/react/dist/ssr";
-import { JsonLdBreadcrumb, JsonLdBlogPost } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdBlogPost, JsonLdClinicLight } from "@/components/seo/json-ld";
 import { SITE_CONFIG } from "@/lib/constants";
 import { getPostBySlug, getAllSlugs, formatDate, calculateReadTime } from "@/lib/blog";
 import { locales } from "@/i18n/config";
@@ -101,7 +101,9 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdClinicLight />
       <JsonLdBreadcrumb
+        locale={locale}
         items={[
           { name: "Blog", url: blogUrl },
           { name: post.title, url: postUrl },
@@ -114,10 +116,10 @@ export default async function BlogPostPage({ params }: Props) {
         image={post.image ? `${baseUrl}${post.image}` : `${baseUrl}/images/og-image.jpg`}
         publishedAt={post.date}
         updatedAt={post.updated}
-        author={{ name: post.author, role: t("authorRole") }}
+        locale={locale}
       />
 
-      <main className="min-h-screen">
+      <div className="min-h-screen">
         {/* Hero Section */}
         <section className="relative text-white pt-28 sm:pt-32 lg:pt-40 pb-16 overflow-hidden">
           {post.image ? (
@@ -223,7 +225,7 @@ export default async function BlogPostPage({ params }: Props) {
             </article>
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }
