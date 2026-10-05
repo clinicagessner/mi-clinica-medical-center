@@ -205,7 +205,7 @@ export function ChronicCare() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="flex-1 border-2 border-white/40 text-white hover:bg-white/20 hover:border-white/60 transition-all duration-300 hover:scale-[1.02] h-14 text-base font-semibold"
+                className="flex-1 bg-transparent border-2 border-white/40 text-white hover:bg-white/20 hover:border-white/60 transition-all duration-300 hover:scale-[1.02] h-14 text-base font-semibold"
               >
                 <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`}>
                   <Phone className="size-5 mr-2" weight="fill" />

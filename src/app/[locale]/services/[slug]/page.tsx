@@ -225,7 +225,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-2 border-white/50 text-white hover:bg-white hover:text-secondary backdrop-blur-sm h-14 px-8 text-base font-semibold"
+                  className="bg-transparent border-2 border-white/50 text-white hover:bg-white hover:text-secondary backdrop-blur-sm h-14 px-8 text-base font-semibold"
                 >
                   <a
                     href={CONTACT_INFO.googleMapsUrl}
