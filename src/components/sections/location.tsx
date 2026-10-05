@@ -18,8 +18,8 @@ export function Location() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-12"
         >
@@ -35,8 +35,8 @@ export function Location() {
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Map */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: -30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             className="relative h-[280px] sm:h-[350px] lg:h-full lg:min-h-[450px] rounded-xl overflow-hidden shadow-lg"
           >
@@ -55,8 +55,8 @@ export function Location() {
 
           {/* Contact Info */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: 30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             className="space-y-6"
           >
@@ -156,8 +156,7 @@ export function Location() {
 
         {/* SEO Text */}
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={false}
           viewport={{ once: true }}
           className="text-center text-sm text-muted-foreground mt-10 max-w-3xl mx-auto"
         >

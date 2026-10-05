@@ -149,14 +149,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
 }
 
-/* Hero LCP elements - CSS animation (no bloquea LCP como Framer Motion) */
+/* Hero LCP elements - solo transform: con opacity 0 el H1 y los botones no
+   cuentan para el primer pintado hasta que acaba la animación (B0.13). */
 @keyframes hero-fade-in-up {
   from {
-    opacity: 0;
     transform: translateY(20px);
   }
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }

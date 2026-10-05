@@ -22,8 +22,8 @@ export function FAQ() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-12"
         >
@@ -41,8 +41,8 @@ export function FAQ() {
 
         {/* FAQ Accordion */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="max-w-3xl mx-auto"
         >
@@ -66,8 +66,7 @@ export function FAQ() {
 
         {/* Additional SEO Content */}
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={false}
           viewport={{ once: true }}
           className="mt-12 text-center"
         >

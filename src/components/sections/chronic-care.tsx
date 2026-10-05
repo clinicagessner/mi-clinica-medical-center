@@ -64,8 +64,8 @@ export function ChronicCare() {
       <div className="container mx-auto px-4 relative">
         {/* Section Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-12"
         >
@@ -87,8 +87,8 @@ export function ChronicCare() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left: Conditions Grid */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: -30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
           >
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 overflow-hidden">
@@ -110,8 +110,8 @@ export function ChronicCare() {
                       return (
                         <motion.div
                           key={condition.key}
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
+                          initial={{ y: 20 }}
+                          whileInView={{ y: 0 }}
                           viewport={{ once: true }}
                           transition={{ delay: index * 0.1 }}
                           className="flex items-start gap-3 p-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/40 transition-all duration-300 group"
@@ -141,8 +141,8 @@ export function ChronicCare() {
 
           {/* Right: Features + CTA */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: 30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             className="space-y-6"
           >
@@ -156,8 +156,8 @@ export function ChronicCare() {
                   {features.map((featureKey, index) => (
                     <motion.div
                       key={featureKey}
-                      initial={{ opacity: 0, x: -10 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ x: -10 }}
+                      whileInView={{ x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.05 }}
                       className="flex items-center gap-2 group"
@@ -218,8 +218,7 @@ export function ChronicCare() {
 
         {/* Bottom SEO Text */}
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={false}
           viewport={{ once: true }}
           className="text-center text-sm text-white/70 mt-16 max-w-3xl mx-auto leading-relaxed"
         >

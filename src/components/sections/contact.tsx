@@ -37,8 +37,8 @@ export function Contact() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-12"
         >
@@ -54,8 +54,8 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Options - Left Side */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: -30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             className="space-y-6"
           >
@@ -141,8 +141,8 @@ export function Contact() {
 
           {/* Contact Form - Right Side */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: 30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
           >
             <ContactForm />
@@ -151,8 +151,7 @@ export function Contact() {
 
         {/* SEO Text */}
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={false}
           viewport={{ once: true }}
           className="text-center text-sm text-white/80 mt-12 max-w-3xl mx-auto"
         >

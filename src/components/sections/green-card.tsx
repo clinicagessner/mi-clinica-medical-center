@@ -51,8 +51,8 @@ export function GreenCard() {
       <div className="container mx-auto px-4 relative">
         {/* Section Header */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ y: 20 }}
+          whileInView={{ y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-12"
         >
@@ -74,8 +74,8 @@ export function GreenCard() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left: Process Steps */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: -30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
           >
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 overflow-hidden">
@@ -93,8 +93,8 @@ export function GreenCard() {
                     {processSteps.map((item, index) => (
                       <motion.li
                         key={item.step}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ x: -20 }}
+                        whileInView={{ x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
                         className="flex items-start gap-4 group"
@@ -125,8 +125,8 @@ export function GreenCard() {
 
           {/* Right: Features + Stats + CTA */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: 30 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             className="space-y-6"
           >
@@ -168,8 +168,8 @@ export function GreenCard() {
                   {GREEN_CARD_FEATURES.map((feature, index) => (
                     <motion.div
                       key={feature.id}
-                      initial={{ opacity: 0, x: -10 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ x: -10 }}
+                      whileInView={{ x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.05 }}
                       className="flex items-center gap-2 group"
@@ -218,8 +218,7 @@ export function GreenCard() {
 
         {/* Bottom SEO Text */}
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={false}
           viewport={{ once: true }}
           className="text-center text-sm text-white/70 mt-16 max-w-3xl mx-auto leading-relaxed"
         >

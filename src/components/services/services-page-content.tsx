@@ -84,8 +84,8 @@ export function ServicesPageContent() {
       <section className="py-8 bg-green-bg">
         <div className="container mx-auto px-4">
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 10 }}
+            animate={{ y: 0 }}
             transition={{ delay: 0.2 }}
             className="bg-card rounded-2xl shadow-sm border border-border p-4 md:p-6"
           >
@@ -170,8 +170,7 @@ export function ServicesPageContent() {
         <div className="container mx-auto px-4">
           {filteredServices.length === 0 ? (
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              initial={false}
               className="text-center py-16 bg-card rounded-2xl shadow-sm"
             >
               <div className="size-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -199,8 +198,8 @@ export function ServicesPageContent() {
                 return (
                   <motion.div
                     key={service.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ y: 20 }}
+                    whileInView={{ y: 0 }}
                     viewport={{ once: true, margin: "-50px" }}
                     transition={{ delay: Math.min(index * 0.03, 0.15) }}
                   >
@@ -318,15 +317,15 @@ export function ServicesPageContent() {
 
         <div className="container mx-auto px-4 relative">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ y: 20 }}
+            whileInView={{ y: 0 }}
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto"
           >
             {/* Badge */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ scale: 0.9 }}
+              whileInView={{ scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
               className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-6"
