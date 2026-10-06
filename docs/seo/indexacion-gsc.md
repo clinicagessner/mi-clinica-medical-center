@@ -12,18 +12,18 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 1 — 📨 ENVIADA 05/10/2026
+## Tanda 1  ✅ PEDIDA 05/10/2026
 
-- [ ] https://www.clinicagessner.com  — cambiada 2026-10-05 · rastreada 2026-10-05 · indexada · 8376 impr.
-- [ ] https://www.clinicagessner.com/services  — cambiada 2026-10-05 · rastreada 2026-09-15 · indexada · 192 impr.
-- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 184 impr.
-- [ ] https://www.clinicagessner.com/promociones  — cambiada 2026-10-05 · rastreada 2026-09-03 · indexada · 148 impr.
-- [ ] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 80 impr.
-- [ ] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 55 impr.
-- [ ] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 42 impr.
-- [ ] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-05 · rastreada 2026-09-29 · indexada · 42 impr.
-- [ ] https://www.clinicagessner.com/blog/vitamina-b12-houston-beneficios-sintomas-inyecciones  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 39 impr.
-- [ ] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 37 impr.
+- [x] https://www.clinicagessner.com  — cambiada 2026-10-05 · rastreada 2026-10-05 · indexada · 8376 impr.
+- [x] https://www.clinicagessner.com/services  — cambiada 2026-10-05 · rastreada 2026-09-15 · indexada · 192 impr.
+- [x] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 184 impr.
+- [x] https://www.clinicagessner.com/promociones  — cambiada 2026-10-05 · rastreada 2026-09-03 · indexada · 148 impr.
+- [x] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 80 impr.
+- [x] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 55 impr.
+- [x] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 42 impr.
+- [x] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-05 · rastreada 2026-09-29 · indexada · 42 impr.
+- [x] https://www.clinicagessner.com/blog/vitamina-b12-houston-beneficios-sintomas-inyecciones  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 39 impr.
+- [x] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 37 impr.
 
 ## Tanda 2 — landings de Ads aprobadas el 05/10 (procede gessner) primero
 
