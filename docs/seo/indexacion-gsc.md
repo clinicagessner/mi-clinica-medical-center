@@ -12,18 +12,18 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 2  📨 ENVIADA 06/10/2026
+## Tanda 2  ✅ PEDIDA 06/10/2026
 
-- [ ] https://www.clinicagessner.com/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 37 impr.
-- [ ] https://www.clinicagessner.com/blog  — cambiada 2026-10-05 · rastreada 2026-09-12 · indexada · 33 impr.
-- [ ] https://www.clinicagessner.com/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 28 impr.
-- [ ] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-05 · rastreada 2026-07-26 · indexada · 23 impr.
-- [ ] https://www.clinicagessner.com/services/examen-alcohol-drogas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 22 impr.
-- [ ] https://www.clinicagessner.com/services/suturas-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 19 impr.
-- [ ] https://www.clinicagessner.com/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 9 impr.
-- [ ] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-09-20 · indexada · 5 impr.
-- [ ] https://www.clinicagessner.com/blog/bienvenidos-nueva-pagina-web  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 37 impr.
+- [x] https://www.clinicagessner.com/blog  — cambiada 2026-10-05 · rastreada 2026-09-12 · indexada · 33 impr.
+- [x] https://www.clinicagessner.com/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 28 impr.
+- [x] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-05 · rastreada 2026-07-26 · indexada · 23 impr.
+- [x] https://www.clinicagessner.com/services/examen-alcohol-drogas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 22 impr.
+- [x] https://www.clinicagessner.com/services/suturas-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 19 impr.
+- [x] https://www.clinicagessner.com/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 9 impr.
+- [x] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-09-20 · indexada · 5 impr.
+- [x] https://www.clinicagessner.com/blog/bienvenidos-nueva-pagina-web  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
 
 ## Tanda 9 — cambios del 2026-10-05 (procede gessner: landings de Ads con título/meta nuevos)
 
