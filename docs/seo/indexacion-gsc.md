@@ -13,13 +13,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-20).
 <!-- /tandas:auto -->
 
-## Tanda 9 — cambios del 2026-10-05 (procede gessner: landings de Ads con título/meta nuevos)  📨 ENVIADA 10/10/2026
+## Tanda 9 — cambios del 2026-10-05 (procede gessner: landings de Ads con título/meta nuevos)  ✅ PEDIDA 11/10/2026
 
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-05
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-05
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-05
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-05
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05
 
 ## Tanda 10
 
