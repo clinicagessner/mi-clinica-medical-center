@@ -6,22 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 45 de 76 URLs del sitemap indexadas · 31 sin indexar (21 descubierta sin indexar · 8 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-11; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 45 de 76 URLs del sitemap indexadas · 31 sin indexar (21 descubierta sin indexar · 8 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 51 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-20).
+4 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-20).
 <!-- /tandas:auto -->
 
-## Tanda 9 — cambios del 2026-10-05 (procede gessner: landings de Ads con título/meta nuevos)  ✅ PEDIDA 11/10/2026
-
-- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-05
-- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-05
-- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-05
-- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-05
-- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05
-
-## Tanda 10
+## Tanda 10  📨 ENVIADA 11/10/2026
 
 - [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
@@ -117,3 +109,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-09-20 · indexada · 5 impr.
 - [x] https://www.clinicagessner.com/blog/bienvenidos-nueva-pagina-web  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [x] https://www.clinicagessner.com/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
+
+## Tanda 9 — cambios del 2026-10-05 (procede gessner: landings de Ads con título/meta nuevos)  ✅ PEDIDA 11/10/2026
+
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-05
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05
