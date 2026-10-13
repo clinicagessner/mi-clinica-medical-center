@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-12; URL Inspection API, datos de hoy 2026-10-12):** 49 de 76 URLs del sitemap indexadas · 27 sin indexar (21 desconocida · 6 descubierta sin indexar).
+**Estado (actualizado 2026-10-13; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 49 de 76 URLs del sitemap indexadas · 27 sin indexar (21 desconocida · 6 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 39 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 10  📨 ENVIADA 12/10/2026
+## Tanda 10  📨 ENVIADA 13/10/2026
 
 - [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
