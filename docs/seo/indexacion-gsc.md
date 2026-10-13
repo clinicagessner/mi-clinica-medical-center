@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
+## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)
+
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-10-13
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-13
+
 ## Tanda 10  ✅ PEDIDA 13/10/2026
 
 - [x] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
