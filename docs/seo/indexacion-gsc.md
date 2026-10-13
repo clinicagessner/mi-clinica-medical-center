@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 10  📨 ENVIADA 13/10/2026
+## Tanda 10  ✅ PEDIDA 13/10/2026
 
-- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/cirugias-menores  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/cirugias-menores  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 
 ## Tanda 11
 
