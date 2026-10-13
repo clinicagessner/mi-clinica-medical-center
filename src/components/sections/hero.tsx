@@ -116,6 +116,14 @@ export function Hero({ googleRating, googleReviewsCount }: HeroProps) {
             {t("hero.description")}
           </p>
 
+          {/* Consulta inicial gratis (confirmado por el usuario, 2026-10-13) */}
+          <p className="animate-hero-features -mt-3 mb-8 flex justify-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-gray-900 shadow-md md:text-base">
+              <CheckCircle className="size-5 shrink-0 text-green-600" weight="fill" />
+              {t("hero.freeConsultation")}
+            </span>
+          </p>
+
           {/* CTA Buttons */}
           <div className="animate-hero-cta mb-4 flex flex-col justify-center gap-3 sm:flex-row">
             <Button
