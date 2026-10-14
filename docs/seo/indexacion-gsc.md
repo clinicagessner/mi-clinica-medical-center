@@ -6,47 +6,33 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-13; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 49 de 78 URLs del sitemap indexadas · 29 sin indexar (21 desconocida · 6 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-14; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 49 de 78 URLs del sitemap indexadas · 29 sin indexar (21 desconocida · 6 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 41 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
+10 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)
+## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)  📨 ENVIADA 14/10/2026
 
 - [ ] https://www.clinicagessner.com/  — cambiada 2026-10-13
 - [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-13
-
-## Tanda 10  ✅ PEDIDA 13/10/2026
-
-- [x] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
-- [x] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/cirugias-menores  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 0 impr.
-- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-
-## Tanda 11
-
-- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · indexada · 9 impr.
+- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
+
+## Tanda 17
+
 - [ ] https://www.clinicagessner.com/en/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 73 impr.
-
-## Tanda 12
-
 - [ ] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 53 impr.
+
+## Tanda 18
+
 - [ ] https://www.clinicagessner.com/en/promociones  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 52 impr.
 - [ ] https://www.clinicagessner.com/en/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 51 impr.
 - [ ] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 45 impr.
@@ -56,10 +42,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 22 impr.
 - [ ] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-05 · rastreada 2026-07-30 · indexada · 18 impr.
 - [ ] https://www.clinicagessner.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 15 impr.
-
-## Tanda 13
-
 - [ ] https://www.clinicagessner.com/en/services/prueba-tuberculosis  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 15 impr.
+
+## Tanda 19
+
 - [ ] https://www.clinicagessner.com/en/services/suturas-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 12 impr.
 - [ ] https://www.clinicagessner.com/en/services/prueba-strep  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 10 impr.
 - [ ] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-05 · rastreada 2026-07-27 · indexada · 10 impr.
@@ -69,10 +55,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/blog/vitamina-b12-houston-beneficios-sintomas-inyecciones  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 4 impr.
 - [ ] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-07-25 · indexada · 2 impr.
 - [ ] https://www.clinicagessner.com/en/blog  — cambiada 2026-10-05 · desconocida · 0 impr.
-
-## Tanda 14
-
 - [ ] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+
+## Tanda 20
+
+- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/anticonceptivos  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · 0 impr.
@@ -83,7 +70,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · 0 impr.
 
-## Tanda 15
+## Tanda 21
 
 - [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 
@@ -122,3 +109,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/en  — cambiada 2026-10-05
 - [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-05
 - [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05
+
+## Tanda 10  ✅ PEDIDA 13/10/2026
+
+- [x] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-06 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/cirugias-menores  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 0 impr.
+- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
