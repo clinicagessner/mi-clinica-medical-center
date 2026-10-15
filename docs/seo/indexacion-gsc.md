@@ -13,10 +13,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 10 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)  📨 ENVIADA 15/10/2026
+## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)
 
-- [ ] https://www.clinicagessner.com/  — cambiada 2026-10-13
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-13
 - [ ] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · indexada · 9 impr.
 - [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
@@ -26,7 +24,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
-## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))
+## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  📨 ENVIADA 15/10/2026
 
 - [ ] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-15
 - [ ] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-15
@@ -36,6 +34,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-15
 - [ ] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-15
 - [ ] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-10-13
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-13
 
 ## Tanda 17
 
