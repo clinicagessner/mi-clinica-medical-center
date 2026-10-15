@@ -4,7 +4,7 @@ title: "Antibiotics for the Flu? When They Help and When They Don't"
 metaTitle: "Antibiotics and the Flu: When They Help, When Not"
 description: "The flu is a virus, and antibiotics won't cure it. When you do need one, the risks of taking them for nothing, and what helps. Spring Branch, Houston."
 date: "2026-10-06"
-updated: "2026-10-06"
+updated: "2026-10-15"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -87,7 +87,7 @@ If you come in hoping for an antibiotic, say so; that's what we're here for. The
 4. If I do need one, how do I take it, and why should I finish it even once I feel fine?
 5. Which signs should bring me back?
 
-When the medical team starts a treatment, the medications ordered during your visit are handed to you at the clinic before you leave, along with instructions on how to take them.
+When the medical team starts a treatment, we send the prescription electronically to the pharmacy you choose and, before you leave, explain how to take each medication.
 
 ## Find us on Gessner Rd
 

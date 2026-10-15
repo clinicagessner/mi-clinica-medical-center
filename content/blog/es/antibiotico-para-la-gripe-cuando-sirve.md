@@ -4,7 +4,7 @@ title: "¿Antibiótico para la gripe? Cuándo sirve y cuándo no"
 metaTitle: "Antibióticos y gripe: cuándo sirven y cuándo no"
 description: "La gripe es un virus y el antibiótico no la cura. Cuándo sí hace falta, qué riesgos tiene tomarlo de más y qué ayuda de verdad. Spring Branch, Houston."
 date: "2026-10-06"
-updated: "2026-10-06"
+updated: "2026-10-15"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -87,7 +87,7 @@ Si llegas pensando en un antibiótico, dilo con confianza; para eso estamos. Est
 4. Si sí lo necesito, ¿cómo lo tomo y por qué debo terminarlo aunque me sienta bien?
 5. ¿Qué señales deben hacerme volver?
 
-Cuando el equipo médico indica un tratamiento, los medicamentos indicados en la consulta se entregan en la clínica antes de que te vayas, con la explicación de cómo tomarlos.
+Cuando el equipo médico indica un tratamiento, enviamos la receta electrónica a la farmacia que elijas y, antes de que te vayas, te explicamos cómo tomar cada medicamento.
 
 ## Te esperamos en Gessner Rd
 

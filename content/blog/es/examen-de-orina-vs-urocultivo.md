@@ -4,7 +4,7 @@ title: "Examen de orina y urocultivo: qué mide cada uno"
 metaTitle: "Examen de orina vs urocultivo: diferencias y cuándo"
 description: "El examen de orina da pistas rápidas; el urocultivo nombra la bacteria y su antibiótico. Cuándo se piden los dos y cómo recoger bien la muestra. Houston."
 date: "2026-10-13"
-updated: "2026-10-13"
+updated: "2026-10-15"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -49,7 +49,7 @@ Como las bacterias necesitan tiempo para crecer, **el resultado del urocultivo t
 
 ## ¿Por qué a veces se piden los dos?
 
-En una infección sencilla, en una mujer adulta sana con síntomas típicos, muchas veces basta el examen general. Cuando los nitritos, los leucocitos y lo que cuentas encajan con una cistitis simple, el cultivo suele sobrar: haces el examen de orina en la clínica y, si hay infección, sales con tu tratamiento el mismo día, sin esperar a que nada crezca en una placa, y con la tira todavía sobre la mesa el equipo médico te explica qué cuadrito lo decidió.
+En una infección sencilla, en una mujer adulta sana con síntomas típicos, muchas veces basta el examen general. Cuando los nitritos, los leucocitos y lo que cuentas encajan con una cistitis simple, el cultivo suele sobrar: haces el examen de orina en la clínica y, si hay infección, sales el mismo día con tu receta enviada a tu farmacia, sin esperar a que nada crezca en una placa, y con la tira todavía sobre la mesa el equipo médico te explica qué cuadrito lo decidió.
 
 El cultivo se suma cuando hace falta más precisión. Las situaciones más comunes son:
 
@@ -92,6 +92,6 @@ A veces la orina da una pista que se termina de aclarar con sangre: glucosa en l
 
 ## Tu muestra, en Spring Branch
 
-En Clínica Hispana Nueva Salud Gessner, en Gessner Rd (77080), el estudio de [infecciones urinarias](/services/infecciones-urinarias) empieza con el vasito estéril y una explicación en español de cómo llenarlo bien. Puedes llegar sin cita o llamar al +1 (346) 226-5820 para apartar tu lugar, y el estacionamiento es gratuito. Si te piden un urocultivo, pregunta en el mostrador cómo te van a avisar del resultado y, si te van a dar tratamiento, cómo funciona la [farmacia](/services/farmacia) de la clínica.
+En Clínica Hispana Nueva Salud Gessner, en Gessner Rd (77080), el estudio de [infecciones urinarias](/services/infecciones-urinarias) empieza con el vasito estéril y una explicación en español de cómo llenarlo bien. Puedes llegar sin cita o llamar al +1 (346) 226-5820 para apartar tu lugar, y el estacionamiento es gratuito. Si te piden un urocultivo, pregunta en el mostrador cómo te van a avisar del resultado y, si te van a dar tratamiento, a qué farmacia quieres que enviemos tu [receta electrónica](/services/farmacia).
 
 Este artículo es de orientación general y no sustituye una evaluación en persona del equipo médico.

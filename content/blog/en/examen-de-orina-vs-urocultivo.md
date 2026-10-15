@@ -4,7 +4,7 @@ title: "Urinalysis vs. Urine Culture: What Each One Tells You"
 metaTitle: "Urinalysis vs. Urine Culture: Differences, When Needed"
 description: "A urinalysis gives quick clues; a urine culture names the germ and the antibiotic that works. When you need both and how to give a clean sample. Houston."
 date: "2026-10-13"
-updated: "2026-10-13"
+updated: "2026-10-15"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -49,7 +49,7 @@ Because bacteria need time to grow, **urine culture results take a few days**. T
 
 ## Why both are sometimes ordered
 
-For a straightforward bladder infection in a healthy adult woman with classic symptoms, a urinalysis is often enough. When the nitrite and leukocyte squares line up with what you describe and it looks like a simple cystitis, skipping the culture is reasonable: you get a urine test at the clinic and, if there is an infection, you leave with your treatment the same day, with the dipstick still on the counter while the medical team points out which square tipped the decision.
+For a straightforward bladder infection in a healthy adult woman with classic symptoms, a urinalysis is often enough. When the nitrite and leukocyte squares line up with what you describe and it looks like a simple cystitis, skipping the culture is reasonable: you get a urine test at the clinic and, if there is an infection, your prescription is sent to your pharmacy the same day, with the dipstick still on the counter while the medical team points out which square tipped the decision.
 
 A culture is added when more precision matters. The usual reasons:
 
@@ -92,6 +92,6 @@ Sometimes urine raises a question that blood answers: glucose on the dipstick, p
 
 ## Bringing your sample to Spring Branch
 
-At Clínica Hispana Nueva Salud Gessner on Gessner Rd (77080), our [urinary infection](/en/services/infecciones-urinarias) visit starts with a sterile cup and a clear explanation of how to fill it properly. You can walk in or call +1 (346) 226-5820 to book a time, and parking is free. If a culture is ordered, ask at the front desk how you'll be contacted with the result and, if you're getting treatment, how the clinic [pharmacy](/en/services/farmacia) works.
+At Clínica Hispana Nueva Salud Gessner on Gessner Rd (77080), our [urinary infection](/en/services/infecciones-urinarias) visit starts with a sterile cup and a clear explanation of how to fill it properly. You can walk in or call +1 (346) 226-5820 to book a time, and parking is free. If a culture is ordered, ask at the front desk how you'll be contacted with the result and, if you're getting treatment, which pharmacy you'd like your [e-prescription](/en/services/farmacia) sent to.
 
 This article is general guidance and does not replace an in-person evaluation by the clinic's medical team.
