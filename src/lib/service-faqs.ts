@@ -114,9 +114,9 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
     },
     {
       "question": "¿Qué pasa si el cultivo vaginal confirma una infección?",
-      "answer": "El equipo médico te indica el tratamiento según el tipo de infección que muestre el cultivo, ya sea por hongos o por bacterias, y te explica cómo usarlo. Si te indican óvulos, crema o pastillas, puedes recogerlos antes de salir en la farmacia de la clínica.",
+      "answer": "El equipo médico te indica el tratamiento según el tipo de infección que muestre el cultivo, ya sea por hongos o por bacterias, y te explica cómo usarlo. Si te indican óvulos, crema o pastillas, enviamos la receta electrónica a la farmacia que elijas.",
       "questionEn": "What happens if the vaginal culture confirms an infection?",
-      "answerEn": "The medical team prescribes treatment based on the type of infection the culture shows, whether yeast or bacteria, and explains how to use it. Whether it's suppositories, a cream or pills, you can pick up what was prescribed at the clinic pharmacy on your way out."
+      "answerEn": "The medical team prescribes treatment based on the type of infection the culture shows, whether yeast or bacteria, and explains how to use it. Whether it's suppositories, a cream or pills, we send the prescription electronically to the pharmacy you choose."
     },
     {
       "question": "¿Puedo hacerme el papanicolaou si estoy embarazada?",
@@ -528,9 +528,9 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
   "drenaje-abscesos": [
     {
       "question": "¿Siempre hace falta antibiótico después de drenar un absceso?",
-      "answer": "No siempre. En muchos abscesos pequeños basta con vaciar y limpiar bien; el equipo médico añade antibiótico si hay fiebre, la piel de alrededor está muy roja o tienes condiciones como diabetes, y te lo entregamos en la farmacia de la clínica.",
+      "answer": "No siempre. En muchos abscesos pequeños basta con vaciar y limpiar bien; el equipo médico añade antibiótico si hay fiebre, la piel de alrededor está muy roja o tienes condiciones como diabetes, y enviamos la receta a la farmacia que prefieras.",
       "questionEn": "Is an antibiotic always needed after an abscess is drained?",
-      "answerEn": "Not always. For many small abscesses, emptying and cleaning them well is enough; the medical team adds an antibiotic if there is fever, the surrounding skin is very red or you have a condition like diabetes, and we hand it to you at the clinic pharmacy."
+      "answerEn": "Not always. For many small abscesses, emptying and cleaning them well is enough; the medical team adds an antibiotic if there is fever, the surrounding skin is very red or you have a condition like diabetes, and we send the prescription to the pharmacy you prefer."
     },
     {
       "question": "¿Qué puede hacer que los abscesos se repitan?",
@@ -567,22 +567,22 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
   ],
   "farmacia": [
     {
-      "question": "¿Cómo sé cuánto cuestan los medicamentos que me indicaron?",
-      "answer": "El costo depende del medicamento indicado y de si existe una versión genérica. Antes de entregártelo te decimos el precio, y puedes pagar en efectivo, con tarjeta de débito o crédito, o con el celular.",
-      "questionEn": "How do I find out what my prescribed medications cost?",
-      "answerEn": "The cost depends on the medication prescribed and whether a generic version exists. We tell you the price before handing it over, and you can pay with cash, a debit or credit card, or your phone."
+      "question": "¿La clínica tiene farmacia?",
+      "answer": "No. Al terminar tu consulta enviamos la receta de forma electrónica a la farmacia que tú elijas, cerca de tu casa o de tu trabajo, y la recoges cuando te quede mejor. Así no cargas con un papel ni tienes que volver por él.",
+      "questionEn": "Does the clinic have a pharmacy?",
+      "answerEn": "No. After your visit we send your prescription electronically to the pharmacy you choose, near home or work, and you pick it up whenever it suits you. No paper to carry and no second trip to get it."
     },
     {
-      "question": "¿Puedo comprar algo de venta libre sin pasar a consulta?",
-      "answer": "Sí. Analgésicos, antigripales o antialérgicos de venta libre se compran directamente en el mostrador, y el personal te orienta sobre cuál se ajusta a lo que buscas. Los medicamentos que requieren indicación se entregan solo después de una evaluación.",
-      "questionEn": "Can I buy an over-the-counter product without a visit?",
-      "answerEn": "Yes. Over-the-counter pain relievers, cold medicines and antihistamines are sold right at the counter, and the staff can help you pick the right one. Medications that require a prescription are handed out only after an evaluation."
+      "question": "¿Qué necesito decirles para que la receta llegue a mi farmacia?",
+      "answer": "El nombre de la farmacia y la calle o la intersección donde está; si no la recuerdas, la buscamos contigo en el celular. Si ya compras ahí tus medicamentos de siempre, conviene elegir esa misma para que tengan tu lista completa.",
+      "questionEn": "What do I need to tell you so the prescription reaches my pharmacy?",
+      "answerEn": "The pharmacy's name and the street or intersection where it is; if you don't remember, we'll look it up with you on your phone. If you already fill your regular medications there, it's best to pick that one so they have your full list."
     },
     {
-      "question": "¿Me explican cómo tomar el medicamento que me entregan?",
-      "answer": "Sí. Al dártelo te decimos en español la dosis, a qué hora tomarlo, si va con comida y qué hacer si olvidas una toma. Menciona cualquier otro medicamento o suplemento que tomes para revisar que no se crucen.",
-      "questionEn": "Will someone explain how to take the medicine I receive?",
-      "answerEn": "Yes. When we hand it over, we go through the dose, what time to take it, whether to take it with food and what to do if you miss one. Mention any other medicine or supplement you use so we can check they do not interact."
+      "question": "¿Me explican cómo tomar el medicamento?",
+      "answer": "Sí. Antes de que te vayas te decimos en español la dosis, a qué hora tomarlo, si va con comida y qué hacer si olvidas una toma. Menciona cualquier otro medicamento o suplemento que tomes para revisar que no se crucen.",
+      "questionEn": "Will someone explain how to take the medicine?",
+      "answerEn": "Yes. Before you leave, we go through the dose, what time to take it, whether to take it with food and what to do if you miss one. Mention any other medicine or supplement you use so we can check they do not interact."
     }
   ]
 };

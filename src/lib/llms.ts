@@ -78,7 +78,7 @@ Last updated: ${lastUpdated()}
 - Staff that speaks Spanish through the whole visit
 - Walk-ins welcome, open 7 days a week including Sundays, 9 AM to 9 PM
 - No insurance needed; ask for the price of your service before your visit
-- Medicines indicated during the consultation are handed out at the clinic, plus over-the-counter products
+- E-prescriptions: after the visit, the prescription is sent electronically to the pharmacy the patient chooses (the clinic has no pharmacy of its own)
 - Free parking and wheelchair-accessible facility
 `;
 }

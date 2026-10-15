@@ -345,8 +345,8 @@ export const SERVICES: Service[] = [
   {
     id: "farmacia",
     slug: "farmacia",
-    title: "Farmacia",
-    shortTitle: "Farmacia",
+    title: "Receta Electrónica a tu Farmacia",
+    shortTitle: "Receta electrónica",
     icon: "Pill",
     image: "/images/services/farmacia.webp",
     category: "tratamientos",

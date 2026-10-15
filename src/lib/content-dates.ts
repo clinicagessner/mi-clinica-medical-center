@@ -8,7 +8,7 @@
 
 /** Páginas estáticas (ruta sin prefijo de idioma). */
 export const PAGE_DATES: Record<string, string> = {
-  "": "2026-10-05", // B1: entidad, FAQ de la home
+  "": "2026-10-15", // receta electrónica (sin farmacia) en entidad y FAQ
   "/services": "2026-10-05", // catálogo /en en inglés, metas
   "/promociones": "2026-10-05", // textos propios de 2 promociones
   "/blog": "2026-10-05", // post de salud del hombre reescrito
@@ -22,7 +22,15 @@ export const SERVICES_LAST_REVIEWED = "2026-10-05";
 export const SERVICES_PUBLISHED = "2026-02-13";
 
 /** Servicios revisados después de SERVICES_LAST_REVIEWED. */
-export const SERVICE_DATES: Record<string, string> = {};
+export const SERVICE_DATES: Record<string, string> = {
+  "farmacia": "2026-10-15",
+  "condiciones-cronicas": "2026-10-15",
+  "alergias": "2026-10-15",
+  "ginecologia": "2026-10-15",
+  "infecciones-urinarias": "2026-10-15",
+  "curacion-heridas": "2026-10-15",
+  "drenaje-abscesos": "2026-10-15",
+};
 
 export function serviceDate(slug: string): string {
   return SERVICE_DATES[slug] ?? SERVICES_LAST_REVIEWED;
