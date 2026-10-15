@@ -26,13 +26,22 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
+## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))
+
+- [ ] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-15
+- [ ] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-15
+
 ## Tanda 17
 
 - [ ] https://www.clinicagessner.com/en/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 73 impr.
-- [ ] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 53 impr.
 - [ ] https://www.clinicagessner.com/en/promociones  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 52 impr.
 - [ ] https://www.clinicagessner.com/en/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 51 impr.
-- [ ] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 45 impr.
 - [ ] https://www.clinicagessner.com/en/services/cirugias-menores  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 33 impr.
 - [ ] https://www.clinicagessner.com/en/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 32 impr.
 - [ ] https://www.clinicagessner.com/en/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 26 impr.
@@ -59,7 +68,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/anticonceptivos  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · 0 impr.
