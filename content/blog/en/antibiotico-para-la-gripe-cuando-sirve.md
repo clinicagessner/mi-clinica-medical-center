@@ -1,10 +1,10 @@
 ---
 services: ["enfermedades-respiratorias", "prueba-strep", "vacunas"]
 title: "Antibiotics for the Flu? When They Help and When They Don't"
-metaTitle: "Antibiotics and the Flu: When They Help, When Not"
-description: "The flu is a virus, and antibiotics won't cure it. When you do need one, the risks of taking them for nothing, and what helps. Spring Branch, Houston."
+metaTitle: "Antibiotics for the Flu: When They Help and When Not"
+description: "Do antibiotics work for the flu? No: the flu is a virus. When you do need one, the risks of overuse and what really helps. Spring Branch, Houston."
 date: "2026-10-06"
-updated: "2026-10-15"
+updated: "2026-10-17"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false

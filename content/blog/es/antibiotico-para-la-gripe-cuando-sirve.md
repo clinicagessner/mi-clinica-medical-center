@@ -1,10 +1,10 @@
 ---
 services: ["enfermedades-respiratorias", "prueba-strep", "vacunas"]
 title: "¿Antibiótico para la gripe? Cuándo sirve y cuándo no"
-metaTitle: "Antibióticos y gripe: cuándo sirven y cuándo no"
-description: "La gripe es un virus y el antibiótico no la cura. Cuándo sí hace falta, qué riesgos tiene tomarlo de más y qué ayuda de verdad. Spring Branch, Houston."
+metaTitle: "Antibiótico para la gripe: cuándo sirve y cuándo no"
+description: "¿Sirve el antibiótico para la gripe? No: la gripe es un virus. Cuándo sí hace falta, qué riesgos tiene y qué alivia de verdad. Spring Branch, Houston."
 date: "2026-10-06"
-updated: "2026-10-15"
+updated: "2026-10-17"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
