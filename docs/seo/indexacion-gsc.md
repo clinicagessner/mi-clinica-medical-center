@@ -15,14 +15,21 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)
 
+- [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
+
+## Tanda 26 — cambios del 2026-10-17 (análisis diario: títulos de exámenes de sangre y del post de la gripe)  📨 ENVIADA 17/10/2026
+
+- [ ] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-17
+- [ ] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-17
+- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
+- [ ] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
 - [ ] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · indexada · 9 impr.
 - [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
 ## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  ✅ PEDIDA 16/10/2026
 
@@ -40,7 +47,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 22
 
 - [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-09-21 · indexada · pedida 2026-10-11 · 57 impr.
-- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-15 · rastreada 2026-10-10 · indexada · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 73 impr.
 - [ ] https://www.clinicagessner.com/en/promociones  — cambiada 2026-10-05 · rastreada 2026-09-21 · indexada · 52 impr.
 - [ ] https://www.clinicagessner.com/en/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 51 impr.
@@ -48,7 +54,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/en/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 32 impr.
 - [ ] https://www.clinicagessner.com/en/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 26 impr.
 - [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 22 impr.
-- [ ] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-05 · rastreada 2026-07-30 · indexada · 18 impr.
 
 ## Tanda 23
 
@@ -67,7 +72,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-08-07 · indexada · pedida 2026-10-11 · 2 impr.
 - [ ] https://www.clinicagessner.com/en/blog  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-15 · rastreada 2026-10-11 · indexada · 0 impr.
 - [ ] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-15 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · desconocida · 0 impr.
