@@ -24,18 +24,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
-## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  📨 ENVIADA 16/10/2026
+## Tanda 21 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  ✅ PEDIDA 16/10/2026
 
-- [ ] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-15
-- [ ] https://www.clinicagessner.com/  — cambiada 2026-10-13
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-13
+- [x] https://www.clinicagessner.com/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/en/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/services/drenaje-abscesos  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/en/services/drenaje-abscesos  — cambiada 2026-10-15
+- [x] https://www.clinicagessner.com/  — cambiada 2026-10-13
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-13
 
 ## Tanda 22
 
