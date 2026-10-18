@@ -18,18 +18,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
-## Tanda 26 — cambios del 2026-10-17 (análisis diario: títulos de exámenes de sangre y del post de la gripe)  📨 ENVIADA 18/10/2026
+## Tanda 26 — cambios del 2026-10-17 (análisis diario: títulos de exámenes de sangre y del post de la gripe)  ✅ PEDIDA 18/10/2026
 
-- [ ] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-17
-- [ ] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-17
-- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
-- [ ] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
-- [ ] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · indexada · 9 impr.
-- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-17
+- [x] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-17
+- [x] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
+- [x] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-10-17
+- [x] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · indexada · 9 impr.
+- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-13 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · 0 impr.
 
 ## Tanda 27
 
