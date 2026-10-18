@@ -6,7 +6,7 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-17; URL Inspection API, datos de hoy 2026-10-17):** 53 de 78 URLs del sitemap indexadas · 25 sin indexar (13 desconocida · 12 descubierta sin indexar).
+**Estado (actualizado 2026-10-18; URL Inspection API, datos ANTIGUOS del 2026-10-17: antiguos (2026-10-17): --sin-fetch):** 53 de 78 URLs del sitemap indexadas · 25 sin indexar (13 desconocida · 12 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 31 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -18,7 +18,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
 
-## Tanda 26 — cambios del 2026-10-17 (análisis diario: títulos de exámenes de sangre y del post de la gripe)  📨 ENVIADA 17/10/2026
+## Tanda 26 — cambios del 2026-10-17 (análisis diario: títulos de exámenes de sangre y del post de la gripe)  📨 ENVIADA 18/10/2026
 
 - [ ] https://www.clinicagessner.com/services/examenes-sangre  — cambiada 2026-10-17
 - [ ] https://www.clinicagessner.com/en/services/examenes-sangre  — cambiada 2026-10-17
