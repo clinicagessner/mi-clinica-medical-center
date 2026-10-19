@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 14 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)  📨 ENVIADA 19/10/2026
+## Tanda 16 — cambios del 2026-10-13 (consulta inicial gratis en la home)  ✅ PEDIDA 19/10/2026
 
-- [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
-- [ ] https://www.clinicagessner.com  — cambiada 2026-10-17 · rastreada 2026-10-16 · indexada · pedida 2026-10-16 · 16089 impr.
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-09-21 · indexada · pedida 2026-10-11 · 133 impr.
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-17 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 4583 impr.
-- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-15 · rastreada 2026-10-13 · indexada · 329 impr.
-- [ ] https://www.clinicagessner.com/en/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 73 impr.
-- [ ] https://www.clinicagessner.com/en/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 51 impr.
-- [ ] https://www.clinicagessner.com/en/services/cirugias-menores  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 40 impr.
-- [ ] https://www.clinicagessner.com/en/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 34 impr.
+- [x] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 79 impr.
+- [x] https://www.clinicagessner.com  — cambiada 2026-10-17 · rastreada 2026-10-16 · indexada · pedida 2026-10-16 · 16089 impr.
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-09-21 · indexada · pedida 2026-10-11 · 133 impr.
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-17 · rastreada 2026-10-17 · indexada · pedida 2026-10-16 · 4583 impr.
+- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-15 · rastreada 2026-10-13 · indexada · 329 impr.
+- [x] https://www.clinicagessner.com/en/services/vacunas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 73 impr.
+- [x] https://www.clinicagessner.com/en/services/alergias  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 51 impr.
+- [x] https://www.clinicagessner.com/en/services/cirugias-menores  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 40 impr.
+- [x] https://www.clinicagessner.com/en/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 34 impr.
 
 ## Tanda 27
 
