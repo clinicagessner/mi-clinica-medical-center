@@ -13,18 +13,21 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 15 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 27  📨 ENVIADA 20/10/2026
+## Tanda 31 — pendientes de la tanda anterior
 
 - [ ] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — post nuevo 2026-10-20 (blog semanal)
 - [ ] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — post nuevo 2026-10-20 (blog semanal)
-- [ ] https://www.clinicagessner.com/en/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 27 impr.
-- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 23 impr.
-- [ ] https://www.clinicagessner.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 17 impr.
-- [ ] https://www.clinicagessner.com/en/services/prueba-tuberculosis  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 17 impr.
-- [ ] https://www.clinicagessner.com/en/services/suturas-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 15 impr.
-- [ ] https://www.clinicagessner.com/en/services/prueba-strep  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 13 impr.
-- [ ] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-05 · rastreada 2026-07-27 · indexada · 13 impr.
-- [ ] https://www.clinicagessner.com/en/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 10 impr.
+
+## Tanda 27  ✅ PEDIDA 20/10/2026
+
+- [x] https://www.clinicagessner.com/en/services/curacion-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 27 impr.
+- [x] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 23 impr.
+- [x] https://www.clinicagessner.com/en/services/examen-alcohol-drogas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 17 impr.
+- [x] https://www.clinicagessner.com/en/services/prueba-tuberculosis  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 17 impr.
+- [x] https://www.clinicagessner.com/en/services/suturas-heridas  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 15 impr.
+- [x] https://www.clinicagessner.com/en/services/prueba-strep  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 13 impr.
+- [x] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-05 · rastreada 2026-07-27 · indexada · 13 impr.
+- [x] https://www.clinicagessner.com/en/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 10 impr.
 
 ## Tanda 30 — cambios del 2026-10-20 (devueltas de la tanda enviada el 20/10 para dejar sitio al post nuevo)
 
