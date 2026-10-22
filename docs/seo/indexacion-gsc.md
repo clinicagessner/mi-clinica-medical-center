@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 15 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 30 — cambios del 2026-10-20 (devueltas de la tanda enviada el 20/10 para dejar sitio al post nuevo)  📨 ENVIADA 21/10/2026
+## Tanda 30 — cambios del 2026-10-20 (devueltas de la tanda enviada el 20/10 para dejar sitio al post nuevo)  ✅ PEDIDA 21/10/2026
 
-- [ ] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 9 impr.
-- [ ] https://www.clinicagessner.com/en/blog/vitamina-b12-houston-beneficios-sintomas-inyecciones  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 7 impr.
-- [ ] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-10-20 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 7 impr.
-- [ ] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-07-25 · indexada · 6 impr.
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-08-07 · indexada · pedida 2026-10-11 · 3 impr.
-- [ ] https://www.clinicagessner.com/en/blog  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-10-20 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 9 impr.
+- [x] https://www.clinicagessner.com/en/blog/vitamina-b12-houston-beneficios-sintomas-inyecciones  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 7 impr.
+- [x] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-10-20 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-05 · rastreada 2026-08-20 · indexada · 7 impr.
+- [x] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-05 · rastreada 2026-07-25 · indexada · 6 impr.
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-15 · rastreada 2026-08-07 · indexada · pedida 2026-10-11 · 3 impr.
+- [x] https://www.clinicagessner.com/en/blog  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-10-20 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 
 ## Tanda 31
 
