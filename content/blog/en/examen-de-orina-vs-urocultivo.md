@@ -4,7 +4,7 @@ title: "Urinalysis vs. Urine Culture: What Each One Tells You"
 metaTitle: "Urinalysis vs. Urine Culture: Differences, When Needed"
 description: "A urinalysis gives quick clues; a urine culture names the germ and the antibiotic that works. When you need both and how to give a clean sample. Houston."
 date: "2026-10-13"
-updated: "2026-10-15"
+updated: "2026-10-23"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -80,7 +80,7 @@ A few days of waiting doesn't mean doing nothing:
 - **Keep your phone close.** We reach out when the result comes back; if it shows the germ resists your medicine, the plan is adjusted.
 - **Keep simple notes**: whether the burning eases, whether a fever shows up, whether your urine changes color. Those details help in the follow-up conversation.
 
-Blood that keeps showing up in clean samples, or a germ that survives two rounds of treatment, is the kind of finding where your follow-up includes a referral to a urologist, set up from the clinic.
+Blood that keeps showing up in clean samples, or a germ that survives two rounds of treatment, is the kind of finding that calls for a more detailed evaluation as part of your follow-up.
 
 ## When not to wait for the culture
 

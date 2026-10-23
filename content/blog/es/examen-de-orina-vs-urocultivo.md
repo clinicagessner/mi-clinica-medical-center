@@ -4,7 +4,7 @@ title: "Examen de orina y urocultivo: qué mide cada uno"
 metaTitle: "Examen de orina vs urocultivo: diferencias y cuándo"
 description: "El examen de orina da pistas rápidas; el urocultivo nombra la bacteria y su antibiótico. Cuándo se piden los dos y cómo recoger bien la muestra. Houston."
 date: "2026-10-13"
-updated: "2026-10-15"
+updated: "2026-10-23"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -80,7 +80,7 @@ Esperar unos días no quiere decir quedarte sin hacer nada:
 - **Ten tu teléfono a mano.** Te avisamos cuando llegue el resultado; si muestra que la bacteria resiste el medicamento, se ajusta.
 - **Anota cómo vas**: si el ardor baja, si aparece fiebre, si la orina cambia de color. Esa información sirve en la siguiente conversación.
 
-Si un resultado lo requiere, por ejemplo sangre en la orina que persiste sin infección o infecciones que no ceden, se orienta la referencia a un urólogo como parte del seguimiento.
+Si un resultado lo requiere, por ejemplo sangre en la orina que persiste sin infección o infecciones que no ceden, conviene una valoración más detallada como parte del seguimiento.
 
 ## Señales para no esperar el cultivo
 

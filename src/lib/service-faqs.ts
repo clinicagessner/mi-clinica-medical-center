@@ -200,9 +200,9 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
     },
     {
       "question": "¿Qué significa tener el PSA alto?",
-      "answer": "Un PSA elevado no es un diagnóstico por sí solo: puede subir por inflamación, infección o crecimiento benigno de la próstata. El equipo médico revisa el valor junto con tu edad y tus síntomas y, si un resultado lo requiere, te orientamos con la referencia al especialista.",
+      "answer": "Un PSA elevado no es un diagnóstico por sí solo: puede subir por inflamación, infección o crecimiento benigno de la próstata. El equipo médico revisa el valor junto con tu edad y tus síntomas y te explica los siguientes pasos.",
       "questionEn": "What does a high PSA mean?",
-      "answerEn": "A raised PSA is not a diagnosis on its own: inflammation, infection or a benign enlarged prostate can all push it up. The medical team weighs the number against your age and symptoms and, if a result calls for it, helps you with a specialist referral."
+      "answerEn": "A raised PSA is not a diagnosis on its own: inflammation, infection or a benign enlarged prostate can all push it up. The medical team weighs the number against your age and symptoms and walks you through the next steps."
     }
   ],
   "examenes-sangre": [

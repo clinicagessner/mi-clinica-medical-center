@@ -4,7 +4,7 @@ title: "Men's Health in Houston: Which Preventive Checkups You Need and When"
 metaTitle: "Preventive Checkups for Men in Houston"
 description: "What to check at each age: blood pressure, glucose, cholesterol, urine and the PSA conversation. Walk-in, no insurance needed in Spring Branch."
 date: "2026-07-22"
-updated: "2026-10-05"
+updated: "2026-10-23"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/salud-hombre.webp"
 featured: true
@@ -52,7 +52,7 @@ If you have severe chest pain, shortness of breath or a cold sweat, call 911.
 
 ## What if I already have diabetes or high blood pressure?
 
-Then the checkup stops being a once-a-year event and becomes follow-up care. The goal is to keep your numbers in range and make sure your treatment is still working. In our [chronic conditions](/en/services/condiciones-cronicas) program we review your values, adjust medication when needed and leave you with a clear plan for the months ahead. If a result calls for it, we help you with a referral to a specialist.
+Then the checkup stops being a once-a-year event and becomes follow-up care. The goal is to keep your numbers in range and make sure your treatment is still working. In our [chronic conditions](/en/services/condiciones-cronicas) program we review your values, adjust medication when needed and leave you with a clear plan for the months ahead.
 
 Some habits help as much as any pill: walking every day, swapping soda for water, getting good sleep and, if you smoke, asking for support to quit.
 
