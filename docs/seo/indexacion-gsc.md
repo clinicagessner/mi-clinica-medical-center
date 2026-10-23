@@ -13,15 +13,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 20 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 31 📨 ENVIADA 22/10/2026
+## Tanda 31 ✅ PEDIDA 22/10/2026
 
-- [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 
 ## Historial (tandas pedidas)
 
