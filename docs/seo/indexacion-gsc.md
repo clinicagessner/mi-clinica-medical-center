@@ -6,22 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-22; URL Inspection API, datos ANTIGUOS del 2026-10-19: antiguos (2026-10-19): --sin-fetch):** 53 de 80 URLs del sitemap indexadas · 27 sin indexar (18 desconocida · 7 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-23; URL Inspection API, datos ANTIGUOS del 2026-10-19: antiguos (2026-10-19): --sin-fetch):** 53 de 80 URLs del sitemap indexadas · 27 sin indexar (18 desconocida · 7 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-20 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
+27 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
+Nada pendiente: todas las URLs están indexadas y Google ya rastreó los cambios.
 <!-- /tandas:auto -->
-
-## Tanda 31 ✅ PEDIDA 22/10/2026
-
-- [x] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
-- [x] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 
 ## Historial (tandas pedidas)
 
@@ -134,3 +125,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-10-20 · sin datos de inspección · 0 impr.
 - [x] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+
+## Tanda 31 ✅ PEDIDA 22/10/2026
+
+- [x] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [x] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
