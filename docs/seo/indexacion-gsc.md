@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 27 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 32 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 25/10/2026 (aplazada del 24/10 por el usuario)
+## Tanda 32 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
 
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
-- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
 
 ## Tanda 33
 
