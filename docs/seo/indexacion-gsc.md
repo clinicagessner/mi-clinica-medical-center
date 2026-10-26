@@ -6,30 +6,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-25; URL Inspection API, datos ANTIGUOS del 2026-10-19: antiguos (2026-10-19): --sin-fetch):** 53 de 80 URLs del sitemap indexadas · 27 sin indexar (18 desconocida · 7 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-26; URL Inspection API, datos de hoy 2026-10-26):** 59 de 80 URLs del sitemap indexadas · 21 sin indexar (12 descubierta sin indexar · 9 desconocida).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 2 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 1 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-27 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
+21 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 32 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
+## Tanda 33 📨 ENVIADA 26/10/2026
 
-- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
-- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
-
-## Tanda 33
-
-- [ ] https://www.clinicagessner.com  — cambiada 2026-10-23 · rastreada 2026-10-16 · indexada · pedida 2026-10-19 · 16089 impr.
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-23 · rastreada 2026-10-17 · indexada · pedida 2026-10-19 · 4583 impr.
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-23 · rastreada 2026-10-20 · indexada · pedida 2026-10-19 · 5087 impr.
 
 ## Historial (tandas pedidas)
 
@@ -152,3 +138,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · 0 impr.
 - [x] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
 - [x] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+
+## Tanda 32 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
+
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/services/prueba-embarazo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/services/prueba-embarazo  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/blog/salud-hombre-houston-chequeos-preventivos  — cambiada 2026-10-23
+- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-10-23
