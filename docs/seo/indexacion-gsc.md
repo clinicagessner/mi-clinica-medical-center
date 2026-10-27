@@ -13,9 +13,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 21 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 33 📨 ENVIADA 26/10/2026
+## Tanda 33 ✅ PEDIDA 26/10/2026
 
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-10-23 · rastreada 2026-10-20 · indexada · pedida 2026-10-19 · 5087 impr.
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-10-23 · rastreada 2026-10-20 · indexada · pedida 2026-10-19 · 5087 impr.
 
 ## Historial (tandas pedidas)
 
