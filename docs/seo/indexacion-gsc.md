@@ -6,14 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-27; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 59 de 80 URLs del sitemap indexadas · 21 sin indexar (12 descubierta sin indexar · 9 desconocida).
+**Estado (actualizado 2026-10-27; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 59 de 82 URLs del sitemap indexadas · 23 sin indexar (12 descubierta sin indexar · 9 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 5 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 16 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
 <!-- /tandas:auto -->
 
-## Tanda 34
+## Tanda 35 — cambios del 2026-10-27 (post del blog semanal)  📨 ENVIADA 27/10/2026
+
+- [ ] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+- [ ] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+
+## Tanda 36
 
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
