@@ -13,10 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 16 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
 <!-- /tandas:auto -->
 
-## Tanda 35 — cambios del 2026-10-27 (post del blog semanal)  📨 ENVIADA 27/10/2026
+## Tanda 35 — cambios del 2026-10-27 (post del blog semanal)  ✅ PEDIDA 28/10/2026
 
-- [ ] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
-- [ ] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+- [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+- [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
 
 ## Tanda 36
 
