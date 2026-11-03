@@ -284,7 +284,7 @@ export const SERVICES: Service[] = [
     id: "sueros-vitaminados",
     slug: "sueros-vitaminados",
     related: ["examenes-sangre", "tiroides", "condiciones-cronicas", "vacunas"],
-    title: "Sueros Vitaminados en Houston: Suero con Vitaminas IV",
+    title: "Sueros Vitaminados en Houston: Suero de Vitamina B12 IV",
     shortTitle: "Sueros",
     icon: "Droplets",
     image: "/images/services/sueros-vitaminados.webp",
