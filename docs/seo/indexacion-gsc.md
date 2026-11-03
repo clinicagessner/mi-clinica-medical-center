@@ -20,18 +20,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
 
-## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  📨 ENVIADA 03/11/2026
+## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  ✅ PEDIDA 03/11/2026
 
-- [ ] https://www.clinicagessner.com/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
-- [ ] https://www.clinicagessner.com/en/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
+- [x] https://www.clinicagessner.com/en/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
 
 ## Tanda 46 — cambios del 2026-11-03 (pendientes para otro día: devueltas de la Tanda 44 o sin sitio por el post del blog semanal)
 
