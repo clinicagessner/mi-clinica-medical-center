@@ -8,9 +8,9 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 <!-- tandas:auto -->
 **Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 82 URLs del sitemap indexadas · 20 sin indexar (11 desconocida · 9 descubierta sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 12 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 10 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
+5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
 
 ## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))
@@ -33,7 +33,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
-## Tanda 42
+## Tanda 45
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -43,9 +43,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-
-## Tanda 43
-
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
