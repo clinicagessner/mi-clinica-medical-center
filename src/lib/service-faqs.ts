@@ -123,6 +123,12 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
       "answer": "En general sí, la toma de muestra se puede hacer durante el embarazo con cuidado. Avísanos de cuántas semanas estás antes de la revisión, para que el personal médico decida si conviene hacerlo en esa visita o esperar.",
       "questionEn": "Can I get a Pap smear while pregnant?",
       "answerEn": "In general yes, the sample can be taken gently during pregnancy. Tell us how many weeks along you are before the exam so the medical staff can decide whether to do it at that visit or wait."
+    },
+    {
+      "question": "¿La consulta de ginecología es gratis?",
+      "answer": "La consulta inicial es gratis; los exámenes y el tratamiento se pagan aparte. En la misma clínica se hacen el papanicolaou y el ultrasonido, y si eliges la inyección anticonceptiva se aplica en el consultorio.",
+      "questionEn": "Is the gynecology visit free?",
+      "answerEn": "The initial consultation is free; tests and treatment are paid separately. The Pap smear and the ultrasound are done at the same clinic, and if you choose the birth control shot it is given in the exam room."
     }
   ],
   "prueba-embarazo": [
@@ -243,6 +249,12 @@ export const SERVICE_FAQS: Record<string, ServiceFaq[]> = {
       "answer": "Sí, pero dilo desde que llegues. En el embarazo la infección urinaria no debe dejarse pasar, y el equipo médico elige un medicamento seguro para ti y para el bebé. Si no sabes si estás embarazada, podemos hacerte una prueba rápida.",
       "questionEn": "Can you treat a UTI if I am pregnant?",
       "answerEn": "Yes, just mention it as soon as you arrive. A urinary infection during pregnancy should not be ignored, and the medical team chooses a medicine that is safe for you and the baby. If you are unsure whether you are pregnant, we can run a rapid test."
+    },
+    {
+      "question": "¿Tienen consulta de urología y tratan la vejiga hiperactiva?",
+      "answer": "Sí. En la consulta de urología, en español, revisamos los problemas urológicos como la vejiga hiperactiva, el ardor al orinar o las infecciones que se repiten; el examen de orina se hace en la clínica y la receta va a la farmacia que elijas. La consulta inicial es gratis y no necesitas seguro.",
+      "questionEn": "Do you offer urology visits and treat overactive bladder?",
+      "answerEn": "Yes. At the urology visit, in Spanish, we look at urological problems such as overactive bladder, burning when you urinate or recurring infections; the urine test is done at the clinic and the prescription goes to the pharmacy you choose. The initial consultation is free and you don't need insurance."
     }
   ],
   "examen-heces": [

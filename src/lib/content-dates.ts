@@ -26,8 +26,8 @@ export const SERVICE_DATES: Record<string, string> = {
   "farmacia": "2026-10-15",
   "condiciones-cronicas": "2026-10-15",
   "alergias": "2026-10-15",
-  "ginecologia": "2026-10-15",
-  "infecciones-urinarias": "2026-10-15",
+  "ginecologia": "2026-11-02",
+  "infecciones-urinarias": "2026-11-02",
   "curacion-heridas": "2026-10-15",
   "drenaje-abscesos": "2026-10-15",
 };
