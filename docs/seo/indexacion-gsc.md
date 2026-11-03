@@ -29,14 +29,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
 
+## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)
+
+- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
+- [ ] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
+
 ## Tanda 42
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
