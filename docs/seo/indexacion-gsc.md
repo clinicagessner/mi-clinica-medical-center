@@ -8,7 +8,7 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 <!-- tandas:auto -->
 **Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 82 URLs del sitemap indexadas · 20 sin indexar (11 desconocida · 9 descubierta sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 14 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 12 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
@@ -22,7 +22,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
 
-## Tanda 39
+## Tanda 41 — cambios del 2026-11-02 (anuncios = referencia (barrido completo))
+
+- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
+
+## Tanda 42
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -32,15 +39,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
-
-## Tanda 40
-
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+
+## Tanda 43
+
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
 ## Historial (tandas pedidas)
 
