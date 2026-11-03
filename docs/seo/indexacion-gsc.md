@@ -15,26 +15,23 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))
 
-- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/services  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
 
-## Tanda 41 — cambios del 2026-11-02 (anuncios = referencia (barrido completo))
+## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  📨 ENVIADA 03/11/2026
 
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
-
-## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)
-
+- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-03
+- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-03
 - [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
 - [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
 - [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
 - [ ] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
+- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
 ## Tanda 42
 
