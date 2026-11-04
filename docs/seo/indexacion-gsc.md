@@ -6,39 +6,23 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-03; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 82 URLs del sitemap indexadas · 20 sin indexar (11 desconocida · 9 descubierta sin indexar).
+**Estado (actualizado 2026-11-04; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 84 URLs del sitemap indexadas · 22 sin indexar (11 desconocida · 9 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 10 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
+12 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
 
-## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))
+## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026
 
 - [ ] https://www.clinicagessner.com/  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/services  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
-
-## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  ✅ PEDIDA 03/11/2026
-
-- [x] https://www.clinicagessner.com/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
-- [x] https://www.clinicagessner.com/en/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
-- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
-- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
-
-## Tanda 46 — cambios del 2026-11-03 (pendientes para otro día: devueltas de la Tanda 44 o sin sitio por el post del blog semanal)
-
 - [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
 - [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
-## Tanda 45
+## Tanda 47
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -194,3 +178,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
 - [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+
+## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  ✅ PEDIDA 03/11/2026
+
+- [x] https://www.clinicagessner.com/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
+- [x] https://www.clinicagessner.com/en/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · post del blog semanal
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/en/services/examen-heces  — cambiada 2026-11-03
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-02
