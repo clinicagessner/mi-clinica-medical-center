@@ -13,14 +13,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 12 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
 
-## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026
+## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
 
-- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/services  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/services  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
 ## Tanda 47
 
