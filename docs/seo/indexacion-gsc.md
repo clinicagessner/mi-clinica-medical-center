@@ -6,23 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-04; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 84 URLs del sitemap indexadas · 22 sin indexar (11 desconocida · 9 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-05; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 84 URLs del sitemap indexadas · 22 sin indexar (11 desconocida · 9 descubierta sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 10 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 15 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-12 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
+7 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
-
-- [x] https://www.clinicagessner.com/  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/services  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [x] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-
-## Tanda 47
+## Tanda 45
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -34,6 +25,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+
+## Tanda 46
+
+- [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 
 ## Historial (tandas pedidas)
 
@@ -178,6 +177,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
 - [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-10-27
+
+## Tanda 38 — cambios del 2026-11-02 (sueros: el suero es solo de vitamina B12 (orden de red))  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
+
+- [x] https://www.clinicagessner.com/  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/services  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
 
 ## Tanda 44 — cambios del 2026-11-03 (análisis diario: ginecología como los anuncios; flu/COVID y heces con receta a la farmacia)  ✅ PEDIDA 03/11/2026
 
