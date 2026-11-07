@@ -13,6 +13,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
+## Tanda 51 — cambios del 2026-11-06 (urinarias con título y H1 de urología y FAQ de clínica general, como los anuncios (Randy))
+
+- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-06
+
 ## Tanda 50 — cambios del 2026-11-06 (home para clínica de salud / médico cerca de mí y post de antibióticos con amoxicilina)  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
 
 - [x] https://www.clinicagessner.com/  — cambiada 2026-11-06
