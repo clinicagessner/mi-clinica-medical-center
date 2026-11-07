@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Clínica Hispana Cerca de Ti en Houston | Sin Cita ni Seguro",
+    "title": "Clínica de Salud Hispana Cerca de Ti en Houston | Sin Cita",
     "titleTemplate": "%s | Clínica Hispana Houston",
-    "description": "Clínica hispana en Spring Branch, Houston: atención en español sin cita, de 9 AM a 9 PM los 7 días. Ginecología, examen I-693 y laboratorio, sin seguro.",
-    "ogDescription": "Clínica hispana en Spring Branch, Houston: atención en español sin cita, de 9 AM a 9 PM los 7 días. Ginecología, examen I-693 y laboratorio, sin seguro."
+    "description": "Clínica de salud hispana en Spring Branch, Houston: equipo médico que habla español, sin cita, de 9 AM a 9 PM los 7 días. Ginecología, I-693 y laboratorio.",
+    "ogDescription": "Clínica de salud hispana en Spring Branch, Houston: equipo médico que habla español, sin cita, de 9 AM a 9 PM los 7 días. Ginecología, I-693 y laboratorio."
   },
   "common": {
     "callNow": "Llamar Ahora",
@@ -34,7 +34,7 @@
     "title": "Clínica Hispana",
     "titleHighlight": "Cerca de Ti",
     "titleEnd": "en Houston",
-    "description": "Atención médica 100% en español en Spring Branch: exámenes de inmigración I-693, ginecología, medicina general, ultrasonidos y más, con personal que habla tu idioma.",
+    "description": "Clínica de salud con atención médica 100% en español en Spring Branch: consulta médica general, ginecología, exámenes de inmigración I-693, ultrasonidos y más, con personal que habla tu idioma.",
     "freeConsultation": "Consulta inicial gratis"
   },
   "services": {
@@ -210,8 +210,8 @@
     "a7": "No necesitas seguro médico para atenderte: puedes pagar en efectivo o con tarjeta. Si tienes seguro y quieres saber si lo aceptamos, llama al +1 (346) 226-5820.",
     "q8": "¿Dónde está ubicada la clínica hispana Clínica Hispana Nueva Salud Gessner?",
     "a8": "Nuestra clínica hispana está ubicada en 1914 Gessner Rd Ste B, Houston, TX 77080. Estamos en una ubicación conveniente con amplio estacionamiento gratuito para nuestros pacientes.",
-    "q9": "Busco una \"clínica hispana cerca de mí\" o un \"centro médico cerca de mí\", ¿me quedan cerca?",
-    "a9": "Si estás en Houston, TX —especialmente en el oeste y noroeste de la ciudad: Spring Branch, Memorial, Long Point o Spring Shadows— nuestro centro médico en 1914 Gessner Rd Ste B te queda a pocos minutos. Atendemos sin cita de lunes a domingo de 9:00 AM a 9:00 PM.",
+    "q9": "Busco una «clínica de salud cerca de mí» o un «médico cerca de mí», ¿me quedan cerca?",
+    "a9": "Si estás en Houston, TX —especialmente en el oeste y noroeste de la ciudad: Spring Branch, Memorial, Long Point o Spring Shadows— nuestro centro médico en 1914 Gessner Rd Ste B te queda a pocos minutos. Atendemos sin cita de lunes a domingo de 9:00 AM a 9:00 PM. Es una clínica de salud de atención primaria: el equipo médico te atiende por orden de llegada, en español y sin seguro.",
     "q10": "¿Tienen médico primario en esta clínica latina?",
     "a10": "Sí. En Clínica Hispana Nueva Salud Gessner el equipo médico hace consultas generales, chequeos y control de enfermedades crónicas para toda la familia. Somos una clínica latina donde todo el personal habla español."
   },
