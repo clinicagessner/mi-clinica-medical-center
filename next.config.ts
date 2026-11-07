@@ -10,6 +10,8 @@ const withNextIntl = createNextIntlPlugin();
 const LEGACY_REDIRECTS: { from: string; to: string }[] = [
   { from: "/services/medicina-familiar", to: "/services" },
   { from: "/services/infecciones-vaginales", to: "/services/ginecologia" },
+  // Anuncio activo de Meta "Hombre Trafico" (2026-11) apunta aquí; la URL nunca existió.
+  { from: "/services/servicios-urologia", to: "/services/salud-hombre" },
 ];
 
 const nextConfig: NextConfig = {
