@@ -1,10 +1,10 @@
 ---
 services: ["enfermedades-respiratorias", "prueba-strep", "vacunas"]
 title: "¿Antibiótico para la gripe? Cuándo sirve y cuándo no"
-metaTitle: "Antibiótico para la gripe: cuándo sirve y cuándo no"
-description: "¿Sirve el antibiótico para la gripe? No: la gripe es un virus. Cuándo sí hace falta, qué riesgos tiene y qué alivia de verdad. Spring Branch, Houston."
+metaTitle: "Antibiótico para la gripe fuerte en adultos: ¿cuándo sirve?"
+description: "¿Sirve el antibiótico para la gripe fuerte, con tos o fiebre, en adultos? No: la gripe es un virus. Cuándo sí hace falta y qué alivia. Houston."
 date: "2026-10-06"
-updated: "2026-10-17"
+updated: "2026-11-06"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -53,6 +53,12 @@ Aquí van tres costumbres que vale la pena dejar atrás:
 3. **Comprarlo sin receta, aquí o en otro país.** Sin una evaluación nadie confirma que haya bacteria, y tampoco revisa si el medicamento choca con lo que ya tomas para la diabetes o la presión.
 
 Si tienes antibióticos viejos en casa, no los tires al fregadero; pregunta cómo desecharlos de forma segura.
+
+## ¿Sirve la amoxicilina para la gripe?
+
+Es de las preguntas que más escuchamos, porque la amoxicilina es el antibiótico que más se guarda en las casas. La respuesta es la misma que para cualquier otro antibiótico: no. La amoxicilina es de la familia de la penicilina y ataca bacterias; el virus de la influenza no le ofrece ningún blanco. Solo tiene sentido cuando el equipo médico confirma una infección por bacteria, como la de garganta por estreptococo, y entonces se toma completa, a la dosis y por los días que se indiquen.
+
+Tomarla por tu cuenta durante una gripe no acorta los síntomas y sí puede darte diarrea, malestar de estómago o una reacción alérgica, que en quien es alérgico a la penicilina puede ser seria. Los [CDC](https://www.cdc.gov/antibiotic-use/) recuerdan que cada antibiótico que no hacía falta suma riesgo de efectos secundarios y de resistencia. Si ya la tomaste y sigues igual, no es señal de que necesites "uno más fuerte": cuéntalo en la consulta.
 
 ## Entonces, ¿qué sí ayuda contra la gripe?
 

@@ -1,10 +1,10 @@
 ---
 services: ["enfermedades-respiratorias", "prueba-strep", "vacunas"]
 title: "Antibiotics for the Flu? When They Help and When They Don't"
-metaTitle: "Antibiotics for the Flu: When They Help and When Not"
-description: "Do antibiotics work for the flu? No: the flu is a virus. When you do need one, the risks of overuse and what really helps. Spring Branch, Houston."
+metaTitle: "Antibiotics for a Bad Flu in Adults: When Do They Help?"
+description: "Do antibiotics help a bad flu with cough or fever in adults? No: the flu is a virus. When you do need one and what really helps. Houston."
 date: "2026-10-06"
-updated: "2026-10-17"
+updated: "2026-11-06"
 author: "Equipo Nueva Salud Gessner"
 image: "/images/services/enfermedades-respiratorias.webp"
 featured: false
@@ -53,6 +53,12 @@ Three habits worth leaving behind:
 3. **Buying one without a prescription, here or abroad.** Without an exam, nobody confirms there's a bacterial infection or checks whether the drug clashes with what you already take for diabetes or blood pressure.
 
 If you have old antibiotics at home, don't pour them down the sink; ask how to dispose of them safely.
+
+## Does amoxicillin work for the flu?
+
+It's one of the questions we hear most, because amoxicillin is the antibiotic most families keep at home. The answer is the same as for any other antibiotic: no. Amoxicillin belongs to the penicillin family and targets bacteria; the influenza virus gives it nothing to act on. It only makes sense when the medical team confirms a bacterial infection, such as strep throat, and then you take the full course, at the dose and for the days you're told.
+
+Taking it on your own during the flu won't shorten your symptoms, and it can cause diarrhea, an upset stomach or an allergic reaction, which can be serious for anyone allergic to penicillin. The [CDC](https://www.cdc.gov/antibiotic-use/) notes that every antibiotic you didn't need adds risk of side effects and resistance. If you already took it and feel the same, that doesn't mean you need "a stronger one": tell us at your visit.
 
 ## So what does help with the flu?
 
