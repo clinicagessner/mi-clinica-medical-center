@@ -168,7 +168,7 @@ export const SERVICES: Service[] = [
   {
     id: "infecciones-urinarias",
     slug: "infecciones-urinarias",
-    title: "Examen de Orina y Tratamiento de Infecciones Urinarias",
+    title: "Consulta de Urología e Infecciones Urinarias en Español",
     shortTitle: "Urinarias",
     icon: "Droplet",
     image: "/images/services/infecciones-urinarias.webp",
