@@ -20,6 +20,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/  — cambiada 2026-11-06
 - [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-06
 
+## Tanda 52 — cambios del 2026-11-06 (textos de los anuncios activos de Meta: B12 6 dosis, paquete de la mujer $79, presión alta, gastritis)
+
+- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-11-06
+- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-11-06
+
 ## Tanda 50 — cambios del 2026-11-06 (home para clínica de salud / médico cerca de mí y post de antibióticos con amoxicilina)  📨 ENVIADA 06/11/2026  ✅ PEDIDA 06/11/2026
 
 - [x] https://www.clinicagessner.com/  — cambiada 2026-11-06
@@ -38,7 +47,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 48
 
-- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-10-16 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -47,7 +55,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
 ## Tanda 49
 
