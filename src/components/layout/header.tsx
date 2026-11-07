@@ -70,7 +70,9 @@ export function Header() {
             const id = entry.target.id;
             if (id === "home") {
               setActiveSection("");
-              window.history.replaceState(null, "", window.location.pathname);
+              // Conserva ?gclid/utm/fbclid: GA4 se carga con la primera interacción y
+              // necesita leerlos en la URL para atribuir la visita al anuncio.
+              window.history.replaceState(null, "", window.location.pathname + window.location.search);
             } else {
               setActiveSection(id);
               window.history.replaceState(null, "", `#${id}`);
