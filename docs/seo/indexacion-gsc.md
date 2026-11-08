@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 5 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 51 — cambios del 2026-11-06 (urinarias con título y H1 de urología y FAQ de clínica general, como los anuncios (Randy)) (+ Tanda 52: textos de los anuncios de Meta)  📨 ENVIADA 07/11/2026
+## Tanda 51 — cambios del 2026-11-06 (urinarias con título y H1 de urología y FAQ de clínica general, como los anuncios (Randy)) (+ Tanda 52: textos de los anuncios de Meta)  📨 ENVIADA 07/11/2026  ✅ PEDIDA 07/11/2026
 
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/services/sueros-vitaminados  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/services/sueros-vitaminados  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-11-06
 
 ## Tanda 55 — cambios del 2026-11-06 (promociones de los anuncios de Meta; no cupieron en la tanda del 07/11, pedir el 08/11)
 
