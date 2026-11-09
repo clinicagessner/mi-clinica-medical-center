@@ -13,10 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 9 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 55 — cambios del 2026-11-06 (promociones de los anuncios de Meta; no cupieron en la tanda del 07/11, pedir el 08/11)  📨 ENVIADA 08/11/2026
+## Tanda 55 — cambios del 2026-11-06 (promociones de los anuncios de Meta; no cupieron en la tanda del 07/11, pedir el 08/11)  📨 ENVIADA 08/11/2026  ✅ PEDIDA 08/11/2026
 
-- [ ] https://www.clinicagessner.com/promociones  — cambiada 2026-11-06
-- [ ] https://www.clinicagessner.com/en/promociones  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/promociones  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/promociones  — cambiada 2026-11-06
 
 ## Tanda 56
 
