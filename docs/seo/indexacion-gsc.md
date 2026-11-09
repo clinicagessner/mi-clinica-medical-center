@@ -6,37 +6,30 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-08; URL Inspection API, datos ANTIGUOS del 2026-11-02: antiguos (2026-11-02): --sin-fetch):** 62 de 84 URLs del sitemap indexadas · 22 sin indexar (11 desconocida · 9 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-09; URL Inspection API, datos de hoy 2026-11-09):** 64 de 84 URLs del sitemap indexadas · 20 sin indexar (10 desconocida · 10 descubierta sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 2 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-9 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
+7 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
-
-## Tanda 55 — cambios del 2026-11-06 (promociones de los anuncios de Meta; no cupieron en la tanda del 07/11, pedir el 08/11)  📨 ENVIADA 08/11/2026  ✅ PEDIDA 08/11/2026
-
-- [x] https://www.clinicagessner.com/promociones  — cambiada 2026-11-06
-- [x] https://www.clinicagessner.com/en/promociones  — cambiada 2026-11-06
 
 ## Tanda 56
 
-- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-11-07 · rastreada 2026-10-18 · indexada · pedida 2026-11-06 · 16911 impr.
-- [ ] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-11-07 · rastreada 2026-10-18 · indexada · pedida 2026-11-06 · 1415 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 
 ## Tanda 57
 
-- [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 
 ## Historial (tandas pedidas)
@@ -233,3 +226,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-06
 - [x] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-11-06
 - [x] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-11-06
+
+## Tanda 55 — cambios del 2026-11-06 (promociones de los anuncios de Meta; no cupieron en la tanda del 07/11, pedir el 08/11)  📨 ENVIADA 08/11/2026  ✅ PEDIDA 08/11/2026
+
+- [x] https://www.clinicagessner.com/promociones  — cambiada 2026-11-06
+- [x] https://www.clinicagessner.com/en/promociones  — cambiada 2026-11-06
