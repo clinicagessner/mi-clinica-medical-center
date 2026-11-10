@@ -13,6 +13,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 7 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
+## Tanda 58 — cambios del 2026-11-10 (post del blog semanal)  📨 ENVIADA 10/11/2026
+
+- [ ] https://www.clinicagessner.com/blog/pelo-encarnado-foliculitis-barba-axilas-piernas  — cambiada 2026-11-10
+- [ ] https://www.clinicagessner.com/en/blog/pelo-encarnado-foliculitis-barba-axilas-piernas  — cambiada 2026-11-10
+
 ## Tanda 56
 
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
