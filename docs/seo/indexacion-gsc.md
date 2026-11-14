@@ -6,18 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-13; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 64 de 86 URLs del sitemap indexadas · 22 sin indexar (10 desconocida · 10 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-14; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 64 de 86 URLs del sitemap indexadas · 22 sin indexar (10 desconocida · 10 descubierta sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 2 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 13 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 9 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 61 — cambios del 2026-11-14 (YouTube en el footer de toda la web)
+## Tanda 61 — cambios del 2026-11-14 (YouTube en el footer de toda la web)  📨 ENVIADA 14/11/2026
 
-- [ ] https://www.clinicagessner.com/es  — cambiada 2026-11-14
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-14 (YouTube en el footer; /es redirige a la home)
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-14 (YouTube en el footer)
 
-## Tanda 59
+## Tanda 62
 
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
@@ -27,11 +28,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
+
+## Tanda 63
+
 - [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
-
-## Tanda 60
-
 - [ ] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
