@@ -184,6 +184,7 @@ function footer(): string {
 
 - [Instagram](${SOCIAL_LINKS.instagram})
 - [Facebook](${SOCIAL_LINKS.facebook})
+- [YouTube](${SOCIAL_LINKS.youtube})
 
 ## Service Area
 

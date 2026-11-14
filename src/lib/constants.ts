@@ -44,6 +44,7 @@ export const CONTACT_INFO: ContactInfo = {
 export const SOCIAL_LINKS = {
   instagram: "https://www.instagram.com/clinicanuevasaludgessner/",
   facebook: "https://www.facebook.com/profile.php?id=61587230040182",
+  youtube: "https://www.youtube.com/@NuevaSaludGessner",
 } as const;
 
 // SERVICES - Servicios médicos de la clínica. Los textos (título visible,

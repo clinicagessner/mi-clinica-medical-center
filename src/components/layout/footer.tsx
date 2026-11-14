@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
-import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, YoutubeLogo } from "@phosphor-icons/react/dist/ssr";
 import { CONTACT_INFO, SITE_CONFIG, SOCIAL_LINKS, FOOTER_SERVICE_SLUGS } from "@/lib/constants";
 
 export function Footer() {
@@ -145,6 +145,17 @@ export function Footer() {
                   <FacebookLogo className="size-5 text-white" weight="fill" />
                 </span>
                 <span className="group-hover:translate-x-1 transition-transform duration-300">Nueva Salud Gessner</span>
+              </a>
+              <a
+                href={SOCIAL_LINKS.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 text-white/90 hover:text-white transition-all duration-300"
+              >
+                <span className="flex items-center justify-center size-10 rounded-full bg-white/15 group-hover:bg-red-600 transition-all duration-300 group-hover:scale-110" aria-hidden="true">
+                  <YoutubeLogo className="size-5 text-white" weight="fill" />
+                </span>
+                <span className="group-hover:translate-x-1 transition-transform duration-300">@NuevaSaludGessner</span>
               </a>
             </div>
 

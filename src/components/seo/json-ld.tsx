@@ -10,7 +10,7 @@ const WEBSITE_ID = `${BASE}/#website`;
 export const procedureId = (slug: string) => `${BASE}/services/${slug}#procedure`;
 
 // Perfiles externos de la entidad (los mismos de la ficha de Google).
-const SAME_AS = [SOCIAL_LINKS.instagram, SOCIAL_LINKS.facebook, CONTACT_INFO.googleMapsUrl];
+const SAME_AS = [SOCIAL_LINKS.instagram, SOCIAL_LINKS.facebook, SOCIAL_LINKS.youtube, CONTACT_INFO.googleMapsUrl];
 
 const ADDRESS = {
   "@type": "PostalAddress",
