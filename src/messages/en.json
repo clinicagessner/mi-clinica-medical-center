@@ -166,7 +166,48 @@
     "successTitle": "Request Sent!",
     "successMessage": "We'll contact you soon.",
     "errorTitle": "Error",
-    "errorMessage": "There was a problem submitting your request. Please try again."
+    "errorMessage": "There was a problem submitting your request. Please try again.",
+    "errors": {
+      "nameMin": "Your name must be at least 2 characters",
+      "nameMax": "Your name cannot be longer than 100 characters",
+      "phoneInvalid": "Please enter a valid phone number",
+      "phoneChars": "The phone number can only contain numbers, spaces, dashes and parentheses",
+      "emailInvalid": "Please enter a valid email address",
+      "serviceRequired": "Please select a service",
+      "messageMax": "Your message cannot be longer than 500 characters"
+    },
+    "services": {
+      "condiciones-cronicas": "Diabetes, high blood pressure & cholesterol",
+      "tiroides": "Thyroid",
+      "alergias": "Allergies",
+      "enfermedades-respiratorias": "Flu, COVID & respiratory illness",
+      "examen-fisico-escolar": "School or sports physical",
+      "ginecologia": "Gynecology",
+      "prueba-embarazo": "Pregnancy test",
+      "anticonceptivos": "Birth control",
+      "extraccion-implantes": "Birth control implant removal",
+      "salud-hombre": "Men's health (PSA)",
+      "examenes-sangre": "Blood work & lab tests",
+      "infecciones-urinarias": "Urology & urinary infections",
+      "examen-heces": "Stool test",
+      "prueba-strep": "Strep test",
+      "prueba-tuberculosis": "Tuberculosis (TB) test",
+      "enfermedades-transmision-sexual": "STD testing",
+      "examen-alcohol-drogas": "Alcohol & drug testing",
+      "electrocardiograma": "Electrocardiogram (EKG)",
+      "ultrasonido": "Ultrasound",
+      "examen-dot": "DOT physical (CDL)",
+      "examenes-inmigracion": "Immigration exam I-693",
+      "vacunas": "Vaccines",
+      "sueros-vitaminados": "Vitamin IV drips",
+      "suturas-heridas": "Wound stitches",
+      "curacion-heridas": "Wound care",
+      "cirugias-menores": "Minor surgery",
+      "drenaje-abscesos": "Abscess drainage",
+      "unas-encarnadas": "Ingrown toenail",
+      "farmacia": "E-prescription",
+      "otro": "Other service"
+    }
   },
   "location": {
     "title": "Hispanic Clinic Near You in",
@@ -384,7 +425,8 @@
         "Pap smear and gynecological checkup",
         "Vaginal cultures",
         "Treatment of vaginal infections",
-        "Private care in Spanish", "Ultrasound and birth control shot"
+        "Private care in Spanish",
+        "Ultrasound and birth control shot"
       ]
     },
     "prueba-embarazo": {
@@ -458,7 +500,8 @@
         "In-clinic urinalysis",
         "Diagnosis of urinary infection",
         "Same-day treatment",
-        "Walk-in care in Spanish", "Urology visits in Spanish"
+        "Walk-in care in Spanish",
+        "Urology visits in Spanish"
       ]
     },
     "examen-heces": {

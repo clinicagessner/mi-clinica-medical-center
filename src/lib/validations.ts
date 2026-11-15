@@ -1,33 +1,31 @@
 import { z } from "zod";
+
+// Los mensajes de error son claves de `contactForm` en src/messages/<lang>.json;
+// el formulario los traduce al pintarlos.
 import { SERVICES } from "@/lib/constants";
 
 export const contactFormSchema = z.object({
   nombre: z
     .string()
-    .min(2, "El nombre debe tener al menos 2 caracteres")
-    .max(100, "El nombre no puede exceder 100 caracteres"),
+    .min(2, "errors.nameMin")
+    .max(100, "errors.nameMax"),
   telefono: z
     .string()
-    .min(10, "Ingrese un número de teléfono válido")
+    .min(10, "errors.phoneInvalid")
     .regex(
       /^[\d\s\-\(\)]+$/,
-      "El teléfono solo puede contener números, espacios, guiones y paréntesis"
+      "errors.phoneChars"
     ),
-  email: z.string().email("Ingrese un correo electrónico válido").optional().or(z.literal("")),
-  servicio: z.string().min(1, "Seleccione un servicio"),
+  email: z.string().email("errors.emailInvalid").optional().or(z.literal("")),
+  servicio: z.string().min(1, "errors.serviceRequired"),
   mensaje: z
     .string()
-    .max(500, "El mensaje no puede exceder 500 caracteres")
+    .max(500, "errors.messageMax")
     .optional(),
 });
 
 export type ContactFormData = z.infer<typeof contactFormSchema>;
 
-// Generar opciones de servicios directamente desde SERVICES
-export const serviceOptions = [
-  ...SERVICES.map((service) => ({
-    value: service.id,
-    label: service.title,
-  })),
-  { value: "otro", label: "Otro Servicio" },
-];
+// Opciones del selector: el texto visible sale de `contactForm.services.<id>`
+// (nombres cortos por idioma, no los títulos SEO de cada página).
+export const serviceOptions = [...SERVICES.map((service) => service.id), "otro"];

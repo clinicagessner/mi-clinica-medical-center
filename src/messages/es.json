@@ -166,7 +166,48 @@
     "successTitle": "¡Solicitud Enviada!",
     "successMessage": "Nos pondremos en contacto contigo pronto.",
     "errorTitle": "Error",
-    "errorMessage": "Hubo un problema al enviar tu solicitud. Intenta de nuevo."
+    "errorMessage": "Hubo un problema al enviar tu solicitud. Intenta de nuevo.",
+    "errors": {
+      "nameMin": "El nombre debe tener al menos 2 caracteres",
+      "nameMax": "El nombre no puede exceder 100 caracteres",
+      "phoneInvalid": "Ingrese un número de teléfono válido",
+      "phoneChars": "El teléfono solo puede contener números, espacios, guiones y paréntesis",
+      "emailInvalid": "Ingrese un correo electrónico válido",
+      "serviceRequired": "Seleccione un servicio",
+      "messageMax": "El mensaje no puede exceder 500 caracteres"
+    },
+    "services": {
+      "condiciones-cronicas": "Diabetes, presión alta y colesterol",
+      "tiroides": "Tiroides",
+      "alergias": "Alergias",
+      "enfermedades-respiratorias": "Gripe, COVID y enfermedades respiratorias",
+      "examen-fisico-escolar": "Examen físico escolar o deportivo",
+      "ginecologia": "Ginecología",
+      "prueba-embarazo": "Prueba de embarazo",
+      "anticonceptivos": "Anticonceptivos",
+      "extraccion-implantes": "Extracción de implante subdérmico",
+      "salud-hombre": "Salud del hombre (PSA)",
+      "examenes-sangre": "Exámenes de sangre y laboratorio",
+      "infecciones-urinarias": "Urología e infección urinaria",
+      "examen-heces": "Examen de heces",
+      "prueba-strep": "Prueba de estreptococo (strep)",
+      "prueba-tuberculosis": "Prueba de tuberculosis (TB)",
+      "enfermedades-transmision-sexual": "Pruebas de ETS (STD)",
+      "examen-alcohol-drogas": "Examen de alcohol y drogas",
+      "electrocardiograma": "Electrocardiograma (EKG)",
+      "ultrasonido": "Ultrasonido",
+      "examen-dot": "Examen físico DOT (CDL)",
+      "examenes-inmigracion": "Examen de inmigración I-693",
+      "vacunas": "Vacunas",
+      "sueros-vitaminados": "Sueros vitaminados",
+      "suturas-heridas": "Suturas de heridas",
+      "curacion-heridas": "Curación de heridas",
+      "cirugias-menores": "Cirugías menores",
+      "drenaje-abscesos": "Drenaje de abscesos",
+      "unas-encarnadas": "Uña encarnada",
+      "farmacia": "Receta electrónica",
+      "otro": "Otro servicio"
+    }
   },
   "location": {
     "title": "Clínica Hispana Cerca de Ti en",
@@ -384,7 +425,8 @@
         "Papanicolaou y chequeo ginecológico",
         "Cultivos vaginales",
         "Tratamiento de infecciones vaginales",
-        "Atención privada en español", "Ultrasonido e inyección anticonceptiva"
+        "Atención privada en español",
+        "Ultrasonido e inyección anticonceptiva"
       ]
     },
     "prueba-embarazo": {
@@ -458,7 +500,8 @@
         "Examen de orina en la clínica",
         "Diagnóstico de infección urinaria",
         "Tratamiento el mismo día",
-        "Atención sin cita en español", "Consulta de urología en español"
+        "Atención sin cita en español",
+        "Consulta de urología en español"
       ]
     },
     "examen-heces": {

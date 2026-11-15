@@ -32,6 +32,7 @@ export function ContactForm() {
   );
   const shouldReduceMotion = useReducedMotion();
   const t = useTranslations("contactForm");
+  const errorText = (key?: string) => (key && t.has(key) ? t(key) : key);
 
   const {
     register,
@@ -65,7 +66,7 @@ export function ContactForm() {
       } else {
         setError("root", {
           type: "server",
-          message: response.message,
+          message: t("errorMessage"),
         });
         setSubmitStatus("error");
       }
@@ -110,7 +111,7 @@ export function ContactForm() {
             />
             {errors.nombre && (
               <p id="nombre-error" role="alert" className="text-sm text-destructive">
-                {errors.nombre.message}
+                {errorText(errors.nombre.message)}
               </p>
             )}
           </div>
@@ -131,7 +132,7 @@ export function ContactForm() {
             />
             {errors.telefono && (
               <p id="telefono-error" role="alert" className="text-sm text-destructive">
-                {errors.telefono.message}
+                {errorText(errors.telefono.message)}
               </p>
             )}
           </div>
@@ -152,7 +153,7 @@ export function ContactForm() {
             />
             {errors.email && (
               <p id="email-error" role="alert" className="text-sm text-destructive">
-                {errors.email.message}
+                {errorText(errors.email.message)}
               </p>
             )}
           </div>
@@ -172,16 +173,16 @@ export function ContactForm() {
                 <SelectValue placeholder={t("servicePlaceholder")} />
               </SelectTrigger>
               <SelectContent>
-                {serviceOptions.map((option) => (
-                  <SelectItem key={option.value} value={option.value}>
-                    {option.label}
+                {serviceOptions.map((id) => (
+                  <SelectItem key={id} value={id}>
+                    {t(`services.${id}`)}
                   </SelectItem>
                 ))}
               </SelectContent>
             </Select>
             {errors.servicio && (
               <p id="servicio-error" role="alert" className="text-sm text-destructive">
-                {errors.servicio.message}
+                {errorText(errors.servicio.message)}
               </p>
             )}
           </div>
@@ -202,7 +203,7 @@ export function ContactForm() {
             />
             {errors.mensaje && (
               <p id="mensaje-error" role="alert" className="text-sm text-destructive">
-                {errors.mensaje.message}
+                {errorText(errors.mensaje.message)}
               </p>
             )}
           </div>
