@@ -13,6 +13,19 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-21).
 <!-- /tandas:auto -->
 
+## Tanda 70 — cambios del 2026-11-20 (análisis diario: frases de los anuncios en home y ginecología; títulos de 3 posts)  📨 ENVIADA 20/11/2026
+
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+- [ ] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+
 ## Tanda 68
 
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
