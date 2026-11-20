@@ -1,8 +1,8 @@
 ---
 services: ["ultrasonido", "prueba-embarazo", "ginecologia"]
 title: "Ultrasound or X-Ray: How They Differ"
-metaTitle: "Ultrasound vs. X-Ray: Differences and Radiation"
-description: "Ultrasound builds images from sound echoes and uses no radiation; X-rays do, at a low dose. What each one shows best and when it's ordered. Spring Branch."
+metaTitle: "Ultrasound vs. X-Ray: Are They the Same? Key Differences"
+description: "They are not the same: ultrasound builds images from sound echoes and uses no radiation; X-rays do, at a low dose. What each one shows. Spring Branch."
 date: "2026-10-20"
 updated: "2026-10-20"
 author: "Equipo Nueva Salud Gessner"

@@ -1,8 +1,8 @@
 ---
 services: ["electrocardiograma", "tiroides", "examenes-sangre"]
 title: "Palpitaciones: por qué se acelera el corazón y qué hacer"
-metaTitle: "Palpitaciones y corazón acelerado: causas y cuándo revisar"
-description: "Café, estrés, poco sueño, tiroides o anemia: qué suele acelerar el corazón, qué anotar cuando pasa y cuándo las palpitaciones son para el 911. Houston."
+metaTitle: "¿Por qué se acelera el corazón de repente? Causas"
+description: "Café, estrés, poco sueño, tiroides o anemia: por qué el corazón se acelera de repente, qué anotar cuando pasa y cuándo es para el 911. Houston."
 date: "2026-10-27"
 updated: "2026-10-27"
 author: "Equipo Nueva Salud Gessner"

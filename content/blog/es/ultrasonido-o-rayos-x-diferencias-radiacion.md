@@ -1,8 +1,8 @@
 ---
 services: ["ultrasonido", "prueba-embarazo", "ginecologia"]
 title: "Ultrasonido o rayos X: en qué se diferencian"
-metaTitle: "Ultrasonido vs rayos X: diferencias y radiación"
-description: "El ultrasonido forma imágenes con ecos de sonido y no usa radiación; los rayos X sí, en dosis baja. Qué ve mejor cada uno y cuándo se pide. Spring Branch."
+metaTitle: "¿Ultrasonido y rayos X es lo mismo? Diferencias"
+description: "No son lo mismo: el ultrasonido forma imágenes con ecos de sonido y no usa radiación; los rayos X sí, en dosis baja. Qué ve cada uno. Spring Branch."
 date: "2026-10-20"
 updated: "2026-10-20"
 author: "Equipo Nueva Salud Gessner"

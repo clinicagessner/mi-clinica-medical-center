@@ -1,8 +1,8 @@
 ---
 services: ["electrocardiograma", "tiroides", "examenes-sangre"]
 title: "Heart Palpitations: Why Your Heart Races and What to Do"
-metaTitle: "Heart Palpitations: Common Causes, When to Get Checked"
-description: "Coffee, stress, short sleep, thyroid or anemia: what often makes the heart race, what to write down when it happens, and when it means calling 911."
+metaTitle: "Why Does My Heart Race Suddenly? Palpitation Causes"
+description: "Coffee, stress, short sleep, thyroid or anemia: why your heart suddenly races, what to write down when it happens, and when it means calling 911."
 date: "2026-10-27"
 updated: "2026-10-27"
 author: "Equipo Nueva Salud Gessner"

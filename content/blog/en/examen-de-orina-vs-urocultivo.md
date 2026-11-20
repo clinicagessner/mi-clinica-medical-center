@@ -1,8 +1,8 @@
 ---
 services: ["infecciones-urinarias", "examenes-sangre", "prueba-embarazo"]
 title: "Urinalysis vs. Urine Culture: What Each One Tells You"
-metaTitle: "Urinalysis vs. Urine Culture: Differences, When Needed"
-description: "A urinalysis gives quick clues; a urine culture names the germ and the antibiotic that works. When you need both and how to give a clean sample. Houston."
+metaTitle: "Urine Culture vs. Urinalysis: Are They the Same Test?"
+description: "They are not the same: a urinalysis gives quick clues; a urine culture names the germ and the antibiotic that works. When you need both. Houston."
 date: "2026-10-13"
 updated: "2026-10-23"
 author: "Equipo Nueva Salud Gessner"

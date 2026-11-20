@@ -1,8 +1,8 @@
 ---
 services: ["infecciones-urinarias", "examenes-sangre", "prueba-embarazo"]
 title: "Examen de orina y urocultivo: qué mide cada uno"
-metaTitle: "Examen de orina vs urocultivo: diferencias y cuándo"
-description: "El examen de orina da pistas rápidas; el urocultivo nombra la bacteria y su antibiótico. Cuándo se piden los dos y cómo recoger bien la muestra. Houston."
+metaTitle: "¿Urocultivo y examen de orina es lo mismo? Diferencias"
+description: "No son lo mismo: el examen general de orina da pistas rápidas y el urocultivo nombra la bacteria y su antibiótico. Cuándo se piden los dos. Houston."
 date: "2026-10-13"
 updated: "2026-10-23"
 author: "Equipo Nueva Salud Gessner"
