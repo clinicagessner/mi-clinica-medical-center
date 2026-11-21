@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-01).
 <!-- /tandas:auto -->
 
-## Tanda 70 — cambios del 2026-11-20 (análisis diario: frases de los anuncios en home y ginecología; títulos de 3 posts)  📨 ENVIADA 21/11/2026
+## Tanda 70 — cambios del 2026-11-20 (análisis diario: frases de los anuncios en home y ginecología; títulos de 3 posts)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
 
-- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
-- [ ] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
 
 ## Tanda 71
 
