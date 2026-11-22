@@ -6,32 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-21; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 66 de 88 URLs del sitemap indexadas · 22 sin indexar (15 desconocida · 5 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-22; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 66 de 88 URLs del sitemap indexadas · 22 sin indexar (15 desconocida · 5 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 20 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-01).
 <!-- /tandas:auto -->
 
-## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)
+## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 22/11/2026
 
 - [ ] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
 
-## Tanda 70 — cambios del 2026-11-20 (análisis diario: frases de los anuncios en home y ginecología; títulos de 3 posts)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
-
-- [x] https://www.clinicagessner.com/  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
-- [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
-
-## Tanda 71
+## Tanda 74
 
 - [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
@@ -44,7 +31,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-07 · desconocida · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 
-## Tanda 72
+## Tanda 75
 
 - [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
@@ -278,3 +265,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [x] https://www.clinicagessner.com/blog/retraso-de-la-regla-causas-embarazo-estres  — cambiada 2026-11-17
 - [x] https://www.clinicagessner.com/en/blog/retraso-de-la-regla-causas-embarazo-estres  — cambiada 2026-11-17
+
+## Tanda 70 — cambios del 2026-11-20 (análisis diario: frases de los anuncios en home y ginecología; títulos de 3 posts)  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
+
+- [x] https://www.clinicagessner.com/  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/services/ginecologia  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/services/ginecologia  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/examen-de-orina-vs-urocultivo  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+- [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
