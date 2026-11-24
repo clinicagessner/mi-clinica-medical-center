@@ -6,13 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-23; URL Inspection API, datos de hoy 2026-11-23):** 68 de 88 URLs del sitemap indexadas · 20 sin indexar (10 desconocida · 10 descubierta sin indexar).
+**Estado (actualizado 2026-11-24; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 68 de 88 URLs del sitemap indexadas · 20 sin indexar (10 desconocida · 10 descubierta sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 20 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 23/11/2026
+## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026
 
 - [ ] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
