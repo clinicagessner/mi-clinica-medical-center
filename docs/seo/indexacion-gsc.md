@@ -12,12 +12,12 @@ Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gm
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 <!-- /tandas:auto -->
 
-## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026
+## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
 
-- [ ] https://www.clinicagessner.com/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
-- [ ] https://www.clinicagessner.com/en/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
-- [ ] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
-- [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
+- [x] https://www.clinicagessner.com/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
+- [x] https://www.clinicagessner.com/en/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
+- [x] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
+- [x] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
 
 ## Tanda 74
 
