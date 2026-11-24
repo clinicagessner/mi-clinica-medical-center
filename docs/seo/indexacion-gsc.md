@@ -14,6 +14,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026
 
+- [ ] https://www.clinicagessner.com/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
+- [ ] https://www.clinicagessner.com/en/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
 - [ ] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
 - [ ] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
 
