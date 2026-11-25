@@ -6,18 +6,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-24; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 68 de 88 URLs del sitemap indexadas · 20 sin indexar (10 desconocida · 10 descubierta sin indexar).
+**Estado (actualizado 2026-11-25; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 68 de 90 URLs del sitemap indexadas · 22 sin indexar (10 desconocida · 10 descubierta sin indexar · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 20 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
 <!-- /tandas:auto -->
-
-## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
-
-- [x] https://www.clinicagessner.com/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
-- [x] https://www.clinicagessner.com/en/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
-- [x] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
-- [x] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
 
 ## Tanda 74
 
@@ -279,3 +273,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [x] https://www.clinicagessner.com/en/blog/ultrasonido-o-rayos-x-diferencias-radiacion  — cambiada 2026-11-20
 - [x] https://www.clinicagessner.com/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
 - [x] https://www.clinicagessner.com/en/blog/palpitaciones-corazon-acelerado-causas  — cambiada 2026-11-20
+
+## Tanda 73 — cambios del 2026-11-21 (limpieza §9: sin «precio fijo»)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
+
+- [x] https://www.clinicagessner.com/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
+- [x] https://www.clinicagessner.com/en/blog/analisis-de-sangre-hombre-psa-glucosa-colesterol  — cambiada 2026-11-24 (post del blog semanal)
+- [x] https://www.clinicagessner.com/services/unas-encarnadas  — cambiada 2026-11-21
+- [x] https://www.clinicagessner.com/en/services/unas-encarnadas  — cambiada 2026-11-21
