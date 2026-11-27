@@ -6,38 +6,67 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicagessner.com/`, cuenta **miclinicamedicalcenter@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-11-23: antiguos (2026-11-23): --sin-fetch):** 68 de 90 URLs del sitemap indexadas · 22 sin indexar (10 desconocida · 10 descubierta sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-10-02: antiguos (2026-10-02): --sin-fetch):** 42 de 90 URLs del sitemap indexadas · 48 sin indexar (22 descubierta sin indexar · 16 sin datos · 7 desconocida · 3 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 20 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 2 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 34 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-2 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-08).
+11 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-12-01).
 <!-- /tandas:auto -->
 
-## Tanda 74
+## Tanda 76 — cambios del 2026-11-27 (aviso I-693 pausado)
 
-- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicagessner.com/  — cambiada 2026-11-27
+- [ ] https://www.clinicagessner.com/en  — cambiada 2026-11-27
+
+## Tanda 77
+
+- [ ] https://www.clinicagessner.com/en/blog/bienvenidos-nueva-pagina-web  — cambiada 2026-10-05 · rastreada 2026-08-21 · indexada · 520 impr.
+- [ ] https://www.clinicagessner.com/en/services/anticonceptivos  — cambiada 2026-10-05 · descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicagessner.com/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-11-06 · sin datos de inspección · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.clinicagessner.com/blog/bienvenidos-nueva-pagina-web  — cambiada 2026-10-05 · desconocida · pedida 2026-10-06 · 0 impr.
+- [ ] https://www.clinicagessner.com/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-06 · 0 impr.
+- [ ] https://www.clinicagessner.com/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · sin datos de inspección · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicagessner.com/blog/pelo-encarnado-foliculitis-barba-axilas-piernas  — cambiada 2026-11-10 · sin datos de inspección · pedida 2026-11-11 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/anticonceptivos  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/cirugias-menores  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
+
+## Tanda 78
+
 - [ ] https://www.clinicagessner.com/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/enfermedades-respiratorias  — cambiada 2026-10-05 · desconocida · pedida 2026-11-03 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-13 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/examen-dot  — cambiada 2026-10-05 · desconocida · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · desconocida · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/examenes-inmigracion  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-07 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/examen-fisico-escolar  — cambiada 2026-10-05 · rastreada 2026-09-21 · rastreada sin indexar · pedida 2026-10-13 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/examen-heces  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/infecciones-urinarias  — cambiada 2026-11-06 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicagessner.com/services/prueba-strep  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · desconocida · pedida 2026-10-18 · 0 impr.
 
-## Tanda 75
+## Tanda 79
 
-- [ ] https://www.clinicagessner.com/services/prueba-tuberculosis  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/tiroides  — cambiada 2026-10-05 · rastreada 2026-09-30 · rastreada sin indexar · pedida 2026-10-18 · 0 impr.
+- [ ] https://www.clinicagessner.com/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/blog  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/blog/antibiotico-para-la-gripe-cuando-sirve  — cambiada 2026-11-06 · sin datos de inspección · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/blog/consejos-para-cuidar-tu-salud  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/blog/lombrices-en-ninos-comezon-examen-de-heces  — cambiada 2026-11-03 · sin datos de inspección · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/blog/pelo-encarnado-foliculitis-barba-axilas-piernas  — cambiada 2026-11-10 · sin datos de inspección · pedida 2026-11-11 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/condiciones-cronicas  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/electrocardiograma  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+
+## Tanda 80
+
+- [ ] https://www.clinicagessner.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-05 · desconocida · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 - [ ] https://www.clinicagessner.com/en/services/examen-dot  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/examenes-inmigracion  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-07 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · desconocida · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/extraccion-implantes  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/infecciones-urinarias  — cambiada 2026-11-06 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicagessner.com/en/services/ultrasonido  — cambiada 2026-10-05 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 
 ## Historial (tandas pedidas)
 
