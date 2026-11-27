@@ -15,6 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GREEN_CARD_FEATURES, CONTACT_INFO } from "@/lib/constants";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
 
 export function GreenCard() {
   const t = useTranslations("greenCard");
@@ -69,6 +70,7 @@ export function GreenCard() {
           <p className="text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
             {t("description")}
           </p>
+          <AvisoPausaI693 locale={locale} className="mt-6 max-w-2xl mx-auto text-left" />
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">

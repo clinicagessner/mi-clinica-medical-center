@@ -23,6 +23,8 @@ import { getServiceFaqs } from "@/lib/service-faqs";
 import { getAllPosts } from "@/lib/blog";
 import { locales } from "@/i18n/config";
 import { seoTitle, seoDescription, buildSocial, buildAlternates, ADS_LANDING_SLUGS, adsLegacyTitle } from "@/lib/seo";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
+import { I693_SERVICE_SLUGS } from "@/lib/pausas";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -247,6 +249,9 @@ export default async function ServiceDetailPage({ params }: Props) {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
+              {I693_SERVICE_SLUGS.includes(slug) && (
+                <AvisoPausaI693 locale={locale} className="mb-8" />
+              )}
               {/* About Section */}
               <div className="mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">

@@ -49,7 +49,7 @@ function lastUpdated(): string {
 function header(): string {
   return `# ${SITE_CONFIG.name}
 
-> Hispanic primary care walk-in clinic at 1914 Gessner Rd Ste B, Houston, TX 77080 (Spring Branch, west Houston), with care in Spanish and English. Civil Surgeon for I-693 immigration medical exams. Open 7 days a week, 9 AM to 9 PM, walk-ins welcome, no health insurance required.
+> Hispanic primary care walk-in clinic at 1914 Gessner Rd Ste B, Houston, TX 77080 (Spring Branch, west Houston), with care in Spanish and English. Civil Surgeon for I-693 immigration medical exams (temporarily paused until further notice). Open 7 days a week, 9 AM to 9 PM, walk-ins welcome, no health insurance required.
 
 Last updated: ${lastUpdated()}
 
@@ -73,7 +73,7 @@ Last updated: ${lastUpdated()}
 
 ## Key Facts
 
-- Civil Surgeon for USCIS I-693 immigration medical exams
+- Civil Surgeon for USCIS I-693 immigration medical exams (temporarily paused until further notice)
 - DOT physicals for CDL drivers
 - Staff that speaks Spanish through the whole visit
 - Walk-ins welcome, open 7 days a week including Sundays, 9 AM to 9 PM
@@ -138,6 +138,8 @@ ${items.join("\n")}
 
 function immigrationProcess(): string {
   return `## Immigration Exam I-693 Process
+
+Notice: the I-693 immigration medical exam is temporarily paused until further notice.
 
 Step 1: Walk in or call ${CONTACT_INFO.phone} to reserve a time
 Step 2: Medical examination with the Civil Surgeon
